@@ -1,0 +1,1602 @@
+# Guanzhi 官制 - ruler title flavorization (holder is addressed by office name)
+# Entry key = gzf_<title key> (loc: 官职名); the title's own loc is the 官署名.
+
+gzf_e_gz_t_taishi = { # 太师
+	type = character
+	titles = { e_gz_t_taishi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taishi = { # 太师
+	type = character
+	titles = { k_gz_t_taishi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taifu = { # 太傅
+	type = character
+	titles = { e_gz_t_taifu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taifu = { # 太傅
+	type = character
+	titles = { k_gz_t_taifu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taibao = { # 太保
+	type = character
+	titles = { e_gz_t_taibao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taibao = { # 太保
+	type = character
+	titles = { k_gz_t_taibao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taiwei = { # 太尉
+	type = character
+	titles = { e_gz_t_taiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taiwei = { # 太尉
+	type = character
+	titles = { k_gz_t_taiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_situ = { # 司徒
+	type = character
+	titles = { e_gz_t_situ }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_situ = { # 司徒
+	type = character
+	titles = { k_gz_t_situ }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_sikong = { # 司空
+	type = character
+	titles = { e_gz_t_sikong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_sikong = { # 司空
+	type = character
+	titles = { k_gz_t_sikong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_shangshuling = { # 尚书令
+	type = character
+	titles = { e_gz_t_shangshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_shangshuling = { # 尚书令
+	type = character
+	titles = { k_gz_t_shangshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuopuye = { # 尚书左仆射
+	type = character
+	titles = { e_gz_t_zuopuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuopuye = { # 尚书左仆射
+	type = character
+	titles = { k_gz_t_zuopuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youpuye = { # 尚书右仆射
+	type = character
+	titles = { e_gz_t_youpuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youpuye = { # 尚书右仆射
+	type = character
+	titles = { k_gz_t_youpuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zhongshuling = { # 中书令
+	type = character
+	titles = { e_gz_t_zhongshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zhongshuling = { # 中书令
+	type = character
+	titles = { k_gz_t_zhongshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_shizhong = { # 侍中
+	type = character
+	titles = { e_gz_t_shizhong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_shizhong = { # 侍中
+	type = character
+	titles = { k_gz_t_shizhong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_libu = { # 吏部侍郎
+	type = character
+	titles = { e_gz_t_libu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_libu = { # 吏部侍郎
+	type = character
+	titles = { k_gz_t_libu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_hubu = { # 户部侍郎
+	type = character
+	titles = { e_gz_t_hubu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_hubu = { # 户部侍郎
+	type = character
+	titles = { k_gz_t_hubu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_libu_rites = { # 礼部侍郎
+	type = character
+	titles = { e_gz_t_libu_rites }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_libu_rites = { # 礼部侍郎
+	type = character
+	titles = { k_gz_t_libu_rites }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_bingbu = { # 兵部侍郎
+	type = character
+	titles = { e_gz_t_bingbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_bingbu = { # 兵部侍郎
+	type = character
+	titles = { k_gz_t_bingbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_xingbu = { # 刑部侍郎
+	type = character
+	titles = { e_gz_t_xingbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_xingbu = { # 刑部侍郎
+	type = character
+	titles = { k_gz_t_xingbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_gongbu = { # 工部侍郎
+	type = character
+	titles = { e_gz_t_gongbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_gongbu = { # 工部侍郎
+	type = character
+	titles = { k_gz_t_gongbu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_yushidafu = { # 御史大夫
+	type = character
+	titles = { e_gz_t_yushidafu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_yushidafu = { # 御史大夫
+	type = character
+	titles = { k_gz_t_yushidafu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taichang = { # 太常寺卿
+	type = character
+	titles = { e_gz_t_taichang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taichang = { # 太常寺卿
+	type = character
+	titles = { k_gz_t_taichang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_guanglu = { # 光禄寺卿
+	type = character
+	titles = { e_gz_t_guanglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_guanglu = { # 光禄寺卿
+	type = character
+	titles = { k_gz_t_guanglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_weiwei_si = { # 卫尉寺卿
+	type = character
+	titles = { e_gz_t_weiwei_si }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_weiwei_si = { # 卫尉寺卿
+	type = character
+	titles = { k_gz_t_weiwei_si }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zongzheng = { # 宗正寺卿
+	type = character
+	titles = { e_gz_t_zongzheng }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zongzheng = { # 宗正寺卿
+	type = character
+	titles = { k_gz_t_zongzheng }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taipu = { # 太仆寺卿
+	type = character
+	titles = { e_gz_t_taipu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taipu = { # 太仆寺卿
+	type = character
+	titles = { k_gz_t_taipu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_dali = { # 大理寺卿
+	type = character
+	titles = { e_gz_t_dali }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_dali = { # 大理寺卿
+	type = character
+	titles = { k_gz_t_dali }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_honglu = { # 鸿胪寺卿
+	type = character
+	titles = { e_gz_t_honglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_honglu = { # 鸿胪寺卿
+	type = character
+	titles = { k_gz_t_honglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_sinong = { # 司农寺卿
+	type = character
+	titles = { e_gz_t_sinong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_sinong = { # 司农寺卿
+	type = character
+	titles = { k_gz_t_sinong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_taifu_si = { # 太府寺卿
+	type = character
+	titles = { e_gz_t_taifu_si }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_taifu_si = { # 太府寺卿
+	type = character
+	titles = { k_gz_t_taifu_si }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_guozi = { # 国子监祭酒
+	type = character
+	titles = { k_gz_t_guozi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_guozi = { # 国子监祭酒
+	type = character
+	titles = { d_gz_t_guozi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_shaofu_jian = { # 少府监
+	type = character
+	titles = { k_gz_t_shaofu_jian }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_shaofu_jian = { # 少府监
+	type = character
+	titles = { d_gz_t_shaofu_jian }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_jiangzuo = { # 将作大匠
+	type = character
+	titles = { k_gz_t_jiangzuo }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_jiangzuo = { # 将作大匠
+	type = character
+	titles = { d_gz_t_jiangzuo }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_junqi = { # 军器监
+	type = character
+	titles = { k_gz_t_junqi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_junqi = { # 军器监
+	type = character
+	titles = { d_gz_t_junqi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_dushui = { # 都水监
+	type = character
+	titles = { k_gz_t_dushui }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_dushui = { # 都水监
+	type = character
+	titles = { d_gz_t_dushui }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_mishu = { # 秘书监
+	type = character
+	titles = { k_gz_t_mishu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_mishu = { # 秘书监
+	type = character
+	titles = { d_gz_t_mishu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_dianzhong = { # 殿中监
+	type = character
+	titles = { k_gz_t_dianzhong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_dianzhong = { # 殿中监
+	type = character
+	titles = { d_gz_t_dianzhong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_neishi = { # 内侍监
+	type = character
+	titles = { k_gz_t_neishi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_t_neishi = { # 内侍监
+	type = character
+	titles = { d_gz_t_neishi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuowei = { # 左卫大将军
+	type = character
+	titles = { e_gz_t_zuowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuowei = { # 左卫大将军
+	type = character
+	titles = { k_gz_t_zuowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youwei = { # 右卫大将军
+	type = character
+	titles = { e_gz_t_youwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youwei = { # 右卫大将军
+	type = character
+	titles = { k_gz_t_youwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuoxiaowei = { # 左骁卫大将军
+	type = character
+	titles = { e_gz_t_zuoxiaowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuoxiaowei = { # 左骁卫大将军
+	type = character
+	titles = { k_gz_t_zuoxiaowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youxiaowei = { # 右骁卫大将军
+	type = character
+	titles = { e_gz_t_youxiaowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youxiaowei = { # 右骁卫大将军
+	type = character
+	titles = { k_gz_t_youxiaowei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuowuwei = { # 左武卫大将军
+	type = character
+	titles = { e_gz_t_zuowuwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuowuwei = { # 左武卫大将军
+	type = character
+	titles = { k_gz_t_zuowuwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youwuwei = { # 右武卫大将军
+	type = character
+	titles = { e_gz_t_youwuwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youwuwei = { # 右武卫大将军
+	type = character
+	titles = { k_gz_t_youwuwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuoweiwei = { # 左威卫大将军
+	type = character
+	titles = { e_gz_t_zuoweiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuoweiwei = { # 左威卫大将军
+	type = character
+	titles = { k_gz_t_zuoweiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youweiwei = { # 右威卫大将军
+	type = character
+	titles = { e_gz_t_youweiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youweiwei = { # 右威卫大将军
+	type = character
+	titles = { k_gz_t_youweiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuolingjun = { # 左领军卫大将军
+	type = character
+	titles = { e_gz_t_zuolingjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuolingjun = { # 左领军卫大将军
+	type = character
+	titles = { k_gz_t_zuolingjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youlingjun = { # 右领军卫大将军
+	type = character
+	titles = { e_gz_t_youlingjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youlingjun = { # 右领军卫大将军
+	type = character
+	titles = { k_gz_t_youlingjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuojinwu = { # 左金吾卫大将军
+	type = character
+	titles = { e_gz_t_zuojinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuojinwu = { # 左金吾卫大将军
+	type = character
+	titles = { k_gz_t_zuojinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youjinwu = { # 右金吾卫大将军
+	type = character
+	titles = { e_gz_t_youjinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youjinwu = { # 右金吾卫大将军
+	type = character
+	titles = { k_gz_t_youjinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuojianmen = { # 左监门卫大将军
+	type = character
+	titles = { e_gz_t_zuojianmen }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuojianmen = { # 左监门卫大将军
+	type = character
+	titles = { k_gz_t_zuojianmen }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youjianmen = { # 右监门卫大将军
+	type = character
+	titles = { e_gz_t_youjianmen }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youjianmen = { # 右监门卫大将军
+	type = character
+	titles = { k_gz_t_youjianmen }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_zuoqianniu = { # 左千牛卫大将军
+	type = character
+	titles = { e_gz_t_zuoqianniu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_zuoqianniu = { # 左千牛卫大将军
+	type = character
+	titles = { k_gz_t_zuoqianniu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_t_youqianniu = { # 右千牛卫大将军
+	type = character
+	titles = { e_gz_t_youqianniu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_t_youqianniu = { # 右千牛卫大将军
+	type = character
+	titles = { k_gz_t_youqianniu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_chengxiang = { # 丞相
+	type = character
+	titles = { e_gz_h_chengxiang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_chengxiang = { # 丞相
+	type = character
+	titles = { k_gz_h_chengxiang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_taiwei = { # 太尉
+	type = character
+	titles = { e_gz_h_taiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_taiwei = { # 太尉
+	type = character
+	titles = { k_gz_h_taiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_yushidafu = { # 御史大夫
+	type = character
+	titles = { e_gz_h_yushidafu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_yushidafu = { # 御史大夫
+	type = character
+	titles = { k_gz_h_yushidafu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_taichang = { # 太常
+	type = character
+	titles = { e_gz_h_taichang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_taichang = { # 太常
+	type = character
+	titles = { k_gz_h_taichang }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_guangluxun = { # 光禄勋
+	type = character
+	titles = { e_gz_h_guangluxun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_guangluxun = { # 光禄勋
+	type = character
+	titles = { k_gz_h_guangluxun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_weiwei = { # 卫尉
+	type = character
+	titles = { e_gz_h_weiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_weiwei = { # 卫尉
+	type = character
+	titles = { k_gz_h_weiwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_taipu = { # 太仆
+	type = character
+	titles = { e_gz_h_taipu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_taipu = { # 太仆
+	type = character
+	titles = { k_gz_h_taipu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_tingwei = { # 廷尉
+	type = character
+	titles = { e_gz_h_tingwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_tingwei = { # 廷尉
+	type = character
+	titles = { k_gz_h_tingwei }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_dahonglu = { # 大鸿胪
+	type = character
+	titles = { e_gz_h_dahonglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_dahonglu = { # 大鸿胪
+	type = character
+	titles = { k_gz_h_dahonglu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_zongzheng = { # 宗正
+	type = character
+	titles = { e_gz_h_zongzheng }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_zongzheng = { # 宗正
+	type = character
+	titles = { k_gz_h_zongzheng }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_dasinong = { # 大司农
+	type = character
+	titles = { e_gz_h_dasinong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_dasinong = { # 大司农
+	type = character
+	titles = { k_gz_h_dasinong }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_shaofu = { # 少府
+	type = character
+	titles = { e_gz_h_shaofu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_shaofu = { # 少府
+	type = character
+	titles = { k_gz_h_shaofu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_shangshuling = { # 尚书令
+	type = character
+	titles = { k_gz_h_shangshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_shangshuling = { # 尚书令
+	type = character
+	titles = { d_gz_h_shangshuling }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_shangshupuye = { # 尚书仆射
+	type = character
+	titles = { k_gz_h_shangshupuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_shangshupuye = { # 尚书仆射
+	type = character
+	titles = { d_gz_h_shangshupuye }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_licao = { # 吏曹尚书
+	type = character
+	titles = { k_gz_h_licao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_licao = { # 吏曹尚书
+	type = character
+	titles = { d_gz_h_licao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_erqianshi = { # 二千石曹尚书
+	type = character
+	titles = { k_gz_h_erqianshi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_erqianshi = { # 二千石曹尚书
+	type = character
+	titles = { d_gz_h_erqianshi }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_mincao = { # 民曹尚书
+	type = character
+	titles = { k_gz_h_mincao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_mincao = { # 民曹尚书
+	type = character
+	titles = { d_gz_h_mincao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_sangongcao = { # 三公曹尚书
+	type = character
+	titles = { k_gz_h_sangongcao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_sangongcao = { # 三公曹尚书
+	type = character
+	titles = { d_gz_h_sangongcao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_nankecao = { # 南主客曹尚书
+	type = character
+	titles = { k_gz_h_nankecao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_nankecao = { # 南主客曹尚书
+	type = character
+	titles = { d_gz_h_nankecao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_beikecao = { # 北主客曹尚书
+	type = character
+	titles = { k_gz_h_beikecao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_beikecao = { # 北主客曹尚书
+	type = character
+	titles = { d_gz_h_beikecao }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_dajiangjun = { # 大将军
+	type = character
+	titles = { e_gz_h_dajiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_dajiangjun = { # 大将军
+	type = character
+	titles = { k_gz_h_dajiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_piaoji = { # 骠骑将军
+	type = character
+	titles = { e_gz_h_piaoji }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_piaoji = { # 骠骑将军
+	type = character
+	titles = { k_gz_h_piaoji }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_cheji = { # 车骑将军
+	type = character
+	titles = { e_gz_h_cheji }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_cheji = { # 车骑将军
+	type = character
+	titles = { k_gz_h_cheji }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_weijiangjun = { # 卫将军
+	type = character
+	titles = { e_gz_h_weijiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_weijiangjun = { # 卫将军
+	type = character
+	titles = { k_gz_h_weijiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_qianjiangjun = { # 前将军
+	type = character
+	titles = { e_gz_h_qianjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_qianjiangjun = { # 前将军
+	type = character
+	titles = { k_gz_h_qianjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_houjiangjun = { # 后将军
+	type = character
+	titles = { e_gz_h_houjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_houjiangjun = { # 后将军
+	type = character
+	titles = { k_gz_h_houjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_zuojiangjun = { # 左将军
+	type = character
+	titles = { e_gz_h_zuojiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_zuojiangjun = { # 左将军
+	type = character
+	titles = { k_gz_h_zuojiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_e_gz_h_youjiangjun = { # 右将军
+	type = character
+	titles = { e_gz_h_youjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_youjiangjun = { # 右将军
+	type = character
+	titles = { k_gz_h_youjiangjun }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_k_gz_h_zhijinwu = { # 执金吾
+	type = character
+	titles = { k_gz_h_zhijinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
+
+gzf_d_gz_h_zhijinwu = { # 执金吾
+	type = character
+	titles = { d_gz_h_zhijinwu }
+	priority = 500
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}

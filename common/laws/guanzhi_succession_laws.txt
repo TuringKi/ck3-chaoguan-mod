@@ -1,0 +1,122 @@
+# Guanzhi 官制 - appointment succession laws for court offices
+# Modeled on celestial_ministry_appointment_succession_law (01_title_succession_laws.txt)
+
+########################################
+# 唐制文官任命
+########################################
+guanzhi_tang_civil_appointment_succession_law = {
+	can_have = {
+	}
+	can_pass = {
+	}
+	can_title_have = {
+		always = yes
+	}
+	can_realm_have = {
+		always = no
+	}
+	can_remove_from_title = {
+		custom_tooltip = {
+			text = celestial_ministry_appointment_cannot_remove_desc
+			always = no
+		}
+	}
+	succession = {
+		order_of_succession = appointment
+		appointment_type = guanzhi_civil_appointment
+	}
+	modifier = {
+		celestial_government_opinion = 5
+	}
+	flag = appointment_type_succession
+}
+
+########################################
+# 唐制武官任命
+########################################
+guanzhi_tang_military_appointment_succession_law = {
+	can_have = {
+	}
+	can_pass = {
+	}
+	can_title_have = {
+		always = yes
+	}
+	can_realm_have = {
+		always = no
+	}
+	can_remove_from_title = {
+		custom_tooltip = {
+			text = celestial_ministry_appointment_cannot_remove_desc
+			always = no
+		}
+	}
+	succession = {
+		order_of_succession = appointment
+		appointment_type = guanzhi_military_appointment
+	}
+	modifier = {
+		celestial_government_opinion = 5
+	}
+	flag = appointment_type_succession
+}
+
+########################################
+# 汉制文官任命
+########################################
+guanzhi_han_civil_appointment_succession_law = {
+	can_have = {
+	}
+	can_pass = {
+	}
+	can_title_have = {
+		always = yes
+	}
+	can_realm_have = {
+		always = no
+	}
+	can_remove_from_title = {
+		custom_tooltip = {
+			text = celestial_ministry_appointment_cannot_remove_desc
+			always = no
+		}
+	}
+	succession = {
+		order_of_succession = appointment
+		appointment_type = guanzhi_civil_appointment
+	}
+	modifier = {
+		celestial_government_opinion = 5
+	}
+	flag = appointment_type_succession
+}
+
+########################################
+# 汉制武官任命
+########################################
+guanzhi_han_military_appointment_succession_law = {
+	can_have = {
+	}
+	can_pass = {
+	}
+	can_title_have = {
+		always = yes
+	}
+	can_realm_have = {
+		always = no
+	}
+	can_remove_from_title = {
+		custom_tooltip = {
+			text = celestial_ministry_appointment_cannot_remove_desc
+			always = no
+		}
+	}
+	succession = {
+		order_of_succession = appointment
+		appointment_type = guanzhi_military_appointment
+	}
+	modifier = {
+		celestial_government_opinion = 5
+	}
+	flag = appointment_type_succession
+}

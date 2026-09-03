@@ -1,0 +1,329 @@
+# Guanzhi 官制 - office trait removal (generated)
+# trait-based: works regardless of how the office title was created/lost
+
+guanzhi_remove_office_trait_effect = {
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taishi }
+		remove_trait = guanzhi_zhiguan_t_taishi # 太师
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taifu }
+		remove_trait = guanzhi_zhiguan_t_taifu # 太傅
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taibao }
+		remove_trait = guanzhi_zhiguan_t_taibao # 太保
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taiwei }
+		remove_trait = guanzhi_zhiguan_t_taiwei # 太尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_situ }
+		remove_trait = guanzhi_zhiguan_t_situ # 司徒
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_sikong }
+		remove_trait = guanzhi_zhiguan_t_sikong # 司空
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shangshuling }
+		remove_trait = guanzhi_zhiguan_t_shangshuling # 尚书令
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuopuye }
+		remove_trait = guanzhi_zhiguan_t_zuopuye # 尚书左仆射
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youpuye }
+		remove_trait = guanzhi_zhiguan_t_youpuye # 尚书右仆射
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zhongshuling }
+		remove_trait = guanzhi_zhiguan_t_zhongshuling # 中书令
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shizhong }
+		remove_trait = guanzhi_zhiguan_t_shizhong # 侍中
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_libu }
+		remove_trait = guanzhi_zhiguan_t_libu # 吏部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_hubu }
+		remove_trait = guanzhi_zhiguan_t_hubu # 户部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_libu_rites }
+		remove_trait = guanzhi_zhiguan_t_libu_rites # 礼部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_bingbu }
+		remove_trait = guanzhi_zhiguan_t_bingbu # 兵部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_xingbu }
+		remove_trait = guanzhi_zhiguan_t_xingbu # 刑部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_gongbu }
+		remove_trait = guanzhi_zhiguan_t_gongbu # 工部侍郎
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_yushidafu }
+		remove_trait = guanzhi_zhiguan_t_yushidafu # 御史大夫
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taichang }
+		remove_trait = guanzhi_zhiguan_t_taichang # 太常寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_guanglu }
+		remove_trait = guanzhi_zhiguan_t_guanglu # 光禄寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_weiwei_si }
+		remove_trait = guanzhi_zhiguan_t_weiwei_si # 卫尉寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zongzheng }
+		remove_trait = guanzhi_zhiguan_t_zongzheng # 宗正寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taipu }
+		remove_trait = guanzhi_zhiguan_t_taipu # 太仆寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_dali }
+		remove_trait = guanzhi_zhiguan_t_dali # 大理寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_honglu }
+		remove_trait = guanzhi_zhiguan_t_honglu # 鸿胪寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_sinong }
+		remove_trait = guanzhi_zhiguan_t_sinong # 司农寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_taifu_si }
+		remove_trait = guanzhi_zhiguan_t_taifu_si # 太府寺卿
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_guozi }
+		remove_trait = guanzhi_zhiguan_t_guozi # 国子监祭酒
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shaofu_jian }
+		remove_trait = guanzhi_zhiguan_t_shaofu_jian # 少府监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_jiangzuo }
+		remove_trait = guanzhi_zhiguan_t_jiangzuo # 将作大匠
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_junqi }
+		remove_trait = guanzhi_zhiguan_t_junqi # 军器监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_dushui }
+		remove_trait = guanzhi_zhiguan_t_dushui # 都水监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_mishu }
+		remove_trait = guanzhi_zhiguan_t_mishu # 秘书监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_dianzhong }
+		remove_trait = guanzhi_zhiguan_t_dianzhong # 殿中监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_neishi }
+		remove_trait = guanzhi_zhiguan_t_neishi # 内侍监
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuowei }
+		remove_trait = guanzhi_zhiguan_t_zuowei # 左卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youwei }
+		remove_trait = guanzhi_zhiguan_t_youwei # 右卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuoxiaowei }
+		remove_trait = guanzhi_zhiguan_t_zuoxiaowei # 左骁卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youxiaowei }
+		remove_trait = guanzhi_zhiguan_t_youxiaowei # 右骁卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuowuwei }
+		remove_trait = guanzhi_zhiguan_t_zuowuwei # 左武卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youwuwei }
+		remove_trait = guanzhi_zhiguan_t_youwuwei # 右武卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuoweiwei }
+		remove_trait = guanzhi_zhiguan_t_zuoweiwei # 左威卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youweiwei }
+		remove_trait = guanzhi_zhiguan_t_youweiwei # 右威卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuolingjun }
+		remove_trait = guanzhi_zhiguan_t_zuolingjun # 左领军卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youlingjun }
+		remove_trait = guanzhi_zhiguan_t_youlingjun # 右领军卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuojinwu }
+		remove_trait = guanzhi_zhiguan_t_zuojinwu # 左金吾卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youjinwu }
+		remove_trait = guanzhi_zhiguan_t_youjinwu # 右金吾卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuojianmen }
+		remove_trait = guanzhi_zhiguan_t_zuojianmen # 左监门卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youjianmen }
+		remove_trait = guanzhi_zhiguan_t_youjianmen # 右监门卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuoqianniu }
+		remove_trait = guanzhi_zhiguan_t_zuoqianniu # 左千牛卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_youqianniu }
+		remove_trait = guanzhi_zhiguan_t_youqianniu # 右千牛卫大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_chengxiang }
+		remove_trait = guanzhi_zhiguan_h_chengxiang # 丞相
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_taiwei }
+		remove_trait = guanzhi_zhiguan_h_taiwei # 太尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_yushidafu }
+		remove_trait = guanzhi_zhiguan_h_yushidafu # 御史大夫
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_taichang }
+		remove_trait = guanzhi_zhiguan_h_taichang # 太常
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_guangluxun }
+		remove_trait = guanzhi_zhiguan_h_guangluxun # 光禄勋
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_weiwei }
+		remove_trait = guanzhi_zhiguan_h_weiwei # 卫尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_taipu }
+		remove_trait = guanzhi_zhiguan_h_taipu # 太仆
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_tingwei }
+		remove_trait = guanzhi_zhiguan_h_tingwei # 廷尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_dahonglu }
+		remove_trait = guanzhi_zhiguan_h_dahonglu # 大鸿胪
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_zongzheng }
+		remove_trait = guanzhi_zhiguan_h_zongzheng # 宗正
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_dasinong }
+		remove_trait = guanzhi_zhiguan_h_dasinong # 大司农
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_shaofu }
+		remove_trait = guanzhi_zhiguan_h_shaofu # 少府
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_shangshuling }
+		remove_trait = guanzhi_zhiguan_h_shangshuling # 尚书令
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_shangshupuye }
+		remove_trait = guanzhi_zhiguan_h_shangshupuye # 尚书仆射
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_licao }
+		remove_trait = guanzhi_zhiguan_h_licao # 吏曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_erqianshi }
+		remove_trait = guanzhi_zhiguan_h_erqianshi # 二千石曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_mincao }
+		remove_trait = guanzhi_zhiguan_h_mincao # 民曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_sangongcao }
+		remove_trait = guanzhi_zhiguan_h_sangongcao # 三公曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_nankecao }
+		remove_trait = guanzhi_zhiguan_h_nankecao # 南主客曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_beikecao }
+		remove_trait = guanzhi_zhiguan_h_beikecao # 北主客曹尚书
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_dajiangjun }
+		remove_trait = guanzhi_zhiguan_h_dajiangjun # 大将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_piaoji }
+		remove_trait = guanzhi_zhiguan_h_piaoji # 骠骑将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_cheji }
+		remove_trait = guanzhi_zhiguan_h_cheji # 车骑将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_weijiangjun }
+		remove_trait = guanzhi_zhiguan_h_weijiangjun # 卫将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_qianjiangjun }
+		remove_trait = guanzhi_zhiguan_h_qianjiangjun # 前将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_houjiangjun }
+		remove_trait = guanzhi_zhiguan_h_houjiangjun # 后将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_zuojiangjun }
+		remove_trait = guanzhi_zhiguan_h_zuojiangjun # 左将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_youjiangjun }
+		remove_trait = guanzhi_zhiguan_h_youjiangjun # 右将军
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_h_zhijinwu }
+		remove_trait = guanzhi_zhiguan_h_zhijinwu # 执金吾
+	}
+}
+
+# 授予时 trait 由授予效果直接添加, 此效果仅保留兼容(无操作)
+guanzhi_add_office_trait_effect = {
+}

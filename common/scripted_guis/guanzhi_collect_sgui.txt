@@ -1,0 +1,53 @@
+# Guanzhi 官制 - 朝堂列表收集 (供 GUI dynamicgridbox 显示)
+
+# 文官列表: 收集所有带朝官文官头衔的封臣
+guanzhi_collect_civil_sgui = {
+	scope = character
+	effect = {
+		clear_variable_list = guanzhi_officers_civil
+		every_vassal = {
+			limit = {
+				any_held_title = { has_variable = guanzhi_office_civil }
+			}
+			root = {
+				add_to_variable_list = {
+					name = guanzhi_officers_civil
+					target = prev
+				}
+			}
+		}
+	}
+}
+
+# 武官列表
+guanzhi_collect_military_sgui = {
+	scope = character
+	effect = {
+		clear_variable_list = guanzhi_officers_military
+		every_vassal = {
+			limit = {
+				any_held_title = { has_variable = guanzhi_office_military }
+			}
+			root = {
+				add_to_variable_list = {
+					name = guanzhi_officers_military
+					target = prev
+				}
+			}
+		}
+	}
+}
+
+# 官制判定: 供 GUI 判断玩家当前选定的官制
+guanzhi_uses_tang_sgui = {
+	scope = character
+	is_shown = {
+		has_character_flag = guanzhi_uses_tang_system
+	}
+}
+guanzhi_uses_han_sgui = {
+	scope = character
+	is_shown = {
+		has_character_flag = guanzhi_uses_han_system
+	}
+}

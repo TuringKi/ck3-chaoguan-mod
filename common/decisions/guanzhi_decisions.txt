@@ -1,0 +1,69 @@
+# Guanzhi 官制 - decisions
+
+# 厘定官制: pick the Tang or Han court office system (fires the choice event)
+guanzhi_choose_system_decision = {
+	title = guanzhi_choose_system_decision
+	desc = guanzhi_choose_system_decision_desc
+	selection_tooltip = guanzhi_choose_system_decision_desc
+	confirm_text = guanzhi_choose_system_decision_confirm
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_career.dds"
+	}
+	ai_check_interval = 1
+
+	is_shown = {
+		guanzhi_is_celestial_sovereign_trigger = yes
+	}
+	is_valid = {
+		always = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			trigger_event = { id = guanzhi.9001 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 100
+			NOR = {
+				has_character_flag = guanzhi_uses_tang_system
+				has_character_flag = guanzhi_uses_han_system
+			}
+		}
+	}
+}
+
+# 安排朝官: create/appoint every office of the chosen system at once.
+# Mainly for saves that were started before the mod was added.
+guanzhi_arrange_offices_decision = {
+	title = guanzhi_arrange_offices_decision
+	desc = guanzhi_arrange_offices_decision_desc
+	selection_tooltip = guanzhi_arrange_offices_decision_desc
+	confirm_text = guanzhi_arrange_offices_decision_confirm
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_career.dds"
+	}
+	ai_check_interval = 1
+
+	is_shown = {
+		guanzhi_is_celestial_sovereign_trigger = yes
+		guanzhi_has_chosen_system_trigger = yes
+	}
+	is_valid = {
+		always = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			debug_log = "GUANZHI arrange decision taken"
+			guanzhi_appoint_chosen_offices_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

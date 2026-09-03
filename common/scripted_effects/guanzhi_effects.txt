@@ -1,0 +1,67 @@
+# Guanzhi 官制 - setup and grant effects
+#
+# 架构(动态头衔版):
+#   官职头衔 = create_dynamic_title 现场创建的无地头衔(静态自定义无地头衔
+#   在 1.18.4 无法由脚本创建, 原版 e_minister_* 是代码写死的特例).
+#   授予逻辑全部在 guanzhi_office_grant_effects.txt (每官职一份字面效果).
+
+# ============================================================
+# 年度维护入口 (on_game_start + yearly_global_pulse)
+# ============================================================
+guanzhi_try_setup_offices_effect = {
+	debug_log = "GUANZHI try_setup called"
+	if = {
+		limit = { has_dlc_feature = all_under_heaven }
+		every_independent_ruler = {
+			limit = {
+				guanzhi_is_celestial_sovereign_trigger = yes
+				guanzhi_has_chosen_system_trigger = yes
+			}
+			debug_log = "GUANZHI sovereign with chosen system found"
+			# 朝官兼任地方头衔者, 夺回官职(头衔销毁, 出缺后可再授)
+			every_vassal = {
+				limit = {
+					is_landed = yes
+					guanzhi_holds_office_trigger = yes
+				}
+				guanzhi_revoke_offices_effect = yes
+			}
+			if = {
+				limit = { is_ai = yes }
+				guanzhi_appoint_chosen_offices_effect = yes
+			}
+		}
+	}
+}
+
+# 厘定官制事件选项调用: 设置官制变量 + 补齐全部官职
+guanzhi_setup_chosen_offices_effect = {
+	debug_log = "GUANZHI setup_chosen called"
+	if = {
+		limit = { has_character_flag = guanzhi_uses_tang_system }
+		debug_log = "GUANZHI tang branch"
+		remove_variable = guanzhi_chaotang_han
+		set_variable = { name = guanzhi_chaotang_tang value = yes }
+		guanzhi_setup_tang_offices_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = guanzhi_uses_han_system }
+		debug_log = "GUANZHI han branch"
+		remove_variable = guanzhi_chaotang_tang
+		set_variable = { name = guanzhi_chaotang_han value = yes }
+		guanzhi_setup_han_offices_effect = yes
+	}
+}
+
+# 安排朝官决议调用 (旧存档一键补齐)
+guanzhi_appoint_chosen_offices_effect = {
+	debug_log = "GUANZHI appoint_chosen called"
+	if = {
+		limit = { has_character_flag = guanzhi_uses_tang_system }
+		guanzhi_setup_tang_offices_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = guanzhi_uses_han_system }
+		guanzhi_setup_han_offices_effect = yes
+	}
+}

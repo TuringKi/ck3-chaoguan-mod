@@ -1,0 +1,1034 @@
+# Guanzhi 官制 - office traits (name tags; gained/lost with the office title)
+
+# 公共特质:朝官
+guanzhi_chaoguan = {
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_chaoguan.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_chaoguan_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.2
+}
+
+guanzhi_zhiguan_t_taishi = { # 太师
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taishi.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taishi_desc
+	learning = 3
+	diplomacy = 2
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_t_taifu = { # 太傅
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taifu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taifu_desc
+	learning = 3
+	diplomacy = 2
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_t_taibao = { # 太保
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taibao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taibao_desc
+	learning = 3
+	martial = 2
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_t_taiwei = { # 太尉
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taiwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taiwei_desc
+	martial = 3
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_situ = { # 司徒
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_situ.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_situ_desc
+	stewardship = 3
+	diplomacy = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_sikong = { # 司空
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_sikong.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_sikong_desc
+	stewardship = 3
+	learning = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_shangshuling = { # 尚书令
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_shangshuling.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_shangshuling_desc
+	stewardship = 3
+	learning = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_zuopuye = { # 尚书左仆射
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuopuye.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuopuye_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youpuye = { # 尚书右仆射
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youpuye.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youpuye_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zhongshuling = { # 中书令
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zhongshuling.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zhongshuling_desc
+	diplomacy = 3
+	intrigue = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_shizhong = { # 侍中
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_shizhong.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_shizhong_desc
+	diplomacy = 3
+	learning = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_libu = { # 吏部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_libu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_libu_desc
+	diplomacy = 2
+	learning = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_hubu = { # 户部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_hubu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_hubu_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_libu_rites = { # 礼部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_libu_rites.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_libu_rites_desc
+	learning = 2
+	diplomacy = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_bingbu = { # 兵部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_bingbu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_bingbu_desc
+	martial = 2
+	stewardship = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_xingbu = { # 刑部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_xingbu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_xingbu_desc
+	intrigue = 2
+	learning = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_gongbu = { # 工部侍郎
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_gongbu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_gongbu_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_t_yushidafu = { # 御史大夫
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_yushidafu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_yushidafu_desc
+	intrigue = 3
+	learning = 1
+	monthly_prestige = 0.8
+}
+
+guanzhi_zhiguan_t_taichang = { # 太常寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taichang.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taichang_desc
+	learning = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_guanglu = { # 光禄寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_guanglu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_guanglu_desc
+	diplomacy = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_weiwei_si = { # 卫尉寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_weiwei_si.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_weiwei_si_desc
+	martial = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_zongzheng = { # 宗正寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zongzheng.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zongzheng_desc
+	learning = 2
+	diplomacy = 1
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_taipu = { # 太仆寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taipu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taipu_desc
+	stewardship = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_dali = { # 大理寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_dali.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_dali_desc
+	intrigue = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_honglu = { # 鸿胪寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_honglu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_honglu_desc
+	diplomacy = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_sinong = { # 司农寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_sinong.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_sinong_desc
+	stewardship = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_taifu_si = { # 太府寺卿
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_taifu_si.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_taifu_si_desc
+	stewardship = 2
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_t_guozi = { # 国子监祭酒
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_guozi.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_guozi_desc
+	learning = 2
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_shaofu_jian = { # 少府监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_shaofu_jian.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_shaofu_jian_desc
+	stewardship = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_jiangzuo = { # 将作大匠
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_jiangzuo.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_jiangzuo_desc
+	stewardship = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_junqi = { # 军器监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_junqi.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_junqi_desc
+	martial = 1
+	stewardship = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_dushui = { # 都水监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_dushui.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_dushui_desc
+	stewardship = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_mishu = { # 秘书监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_mishu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_mishu_desc
+	learning = 2
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_dianzhong = { # 殿中监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_dianzhong.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_dianzhong_desc
+	diplomacy = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_neishi = { # 内侍监
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_neishi.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_neishi_desc
+	intrigue = 1
+	diplomacy = 1
+	monthly_prestige = 0.25
+}
+
+guanzhi_zhiguan_t_zuowei = { # 左卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuowei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuowei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youwei = { # 右卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youwei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuoxiaowei = { # 左骁卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuoxiaowei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuoxiaowei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youxiaowei = { # 右骁卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youxiaowei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youxiaowei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuowuwei = { # 左武卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuowuwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuowuwei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youwuwei = { # 右武卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youwuwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youwuwei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuoweiwei = { # 左威卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuoweiwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuoweiwei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youweiwei = { # 右威卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youweiwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youweiwei_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuolingjun = { # 左领军卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuolingjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuolingjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youlingjun = { # 右领军卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youlingjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youlingjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuojinwu = { # 左金吾卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuojinwu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuojinwu_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youjinwu = { # 右金吾卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youjinwu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youjinwu_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuojianmen = { # 左监门卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuojianmen.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuojianmen_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youjianmen = { # 右监门卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youjianmen.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youjianmen_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_zuoqianniu = { # 左千牛卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_zuoqianniu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_zuoqianniu_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_t_youqianniu = { # 右千牛卫大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_t_youqianniu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_t_youqianniu_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_chengxiang = { # 丞相
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_chengxiang.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_chengxiang_desc
+	stewardship = 3
+	diplomacy = 2
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_h_taiwei = { # 太尉
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_taiwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_taiwei_desc
+	martial = 3
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_h_yushidafu = { # 御史大夫
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_yushidafu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_yushidafu_desc
+	intrigue = 3
+	learning = 1
+	monthly_prestige = 1.0
+}
+
+guanzhi_zhiguan_h_taichang = { # 太常
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_taichang.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_taichang_desc
+	learning = 2
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_guangluxun = { # 光禄勋
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_guangluxun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_guangluxun_desc
+	diplomacy = 2
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_weiwei = { # 卫尉
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_weiwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_weiwei_desc
+	martial = 2
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_taipu = { # 太仆
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_taipu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_taipu_desc
+	martial = 1
+	stewardship = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_tingwei = { # 廷尉
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_tingwei.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_tingwei_desc
+	intrigue = 2
+	learning = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_dahonglu = { # 大鸿胪
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_dahonglu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_dahonglu_desc
+	diplomacy = 2
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_zongzheng = { # 宗正
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_zongzheng.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_zongzheng_desc
+	learning = 2
+	diplomacy = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_dasinong = { # 大司农
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_dasinong.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_dasinong_desc
+	stewardship = 2
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_shaofu = { # 少府
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_shaofu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_shaofu_desc
+	stewardship = 2
+	intrigue = 1
+	monthly_prestige = 0.5
+}
+
+guanzhi_zhiguan_h_shangshuling = { # 尚书令
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_shangshuling.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_shangshuling_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.4
+}
+
+guanzhi_zhiguan_h_shangshupuye = { # 尚书仆射
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_shangshupuye.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_shangshupuye_desc
+	stewardship = 2
+	learning = 1
+	monthly_prestige = 0.35
+}
+
+guanzhi_zhiguan_h_licao = { # 吏曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_licao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_licao_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_erqianshi = { # 二千石曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_erqianshi.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_erqianshi_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_mincao = { # 民曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_mincao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_mincao_desc
+	stewardship = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_sangongcao = { # 三公曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_sangongcao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_sangongcao_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_nankecao = { # 南主客曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_nankecao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_nankecao_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_beikecao = { # 北主客曹尚书
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_beikecao.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_beikecao_desc
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.3
+}
+
+guanzhi_zhiguan_h_dajiangjun = { # 大将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_dajiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_dajiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_piaoji = { # 骠骑将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_piaoji.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_piaoji_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_cheji = { # 车骑将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_cheji.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_cheji_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_weijiangjun = { # 卫将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_weijiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_weijiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_qianjiangjun = { # 前将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_qianjiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_qianjiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_houjiangjun = { # 后将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_houjiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_houjiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_zuojiangjun = { # 左将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_zuojiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_zuojiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_youjiangjun = { # 右将军
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_youjiangjun.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_youjiangjun_desc
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.6
+}
+
+guanzhi_zhiguan_h_zhijinwu = { # 执金吾
+	category = fame
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	icon = gz_h_zhijinwu.dds
+	shown_in_ruler_designer = no
+	desc = trait_guanzhi_zhiguan_h_zhijinwu_desc
+	martial = 2
+	prowess = 1
+	monthly_prestige = 0.35
+}

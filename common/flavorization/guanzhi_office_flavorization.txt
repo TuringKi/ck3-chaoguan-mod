@@ -1,0 +1,1761 @@
+﻿# Guanzhi 官制 - 官职名风味化 v3 (角色/头衔双 flavor, 优先2000)
+
+gzfv_t_taishi = { # 太师
+	type = character
+	flag = guanzhi_office_t_taishi
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taishi = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taishi
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taifu = { # 太傅
+	type = character
+	flag = guanzhi_office_t_taifu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taifu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taifu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taibao = { # 太保
+	type = character
+	flag = guanzhi_office_t_taibao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taibao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taibao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taiwei = { # 太尉
+	type = character
+	flag = guanzhi_office_t_taiwei
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taiwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_situ = { # 司徒
+	type = character
+	flag = guanzhi_office_t_situ
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_situ = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_situ
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_sikong = { # 司空
+	type = character
+	flag = guanzhi_office_t_sikong
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_sikong = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_sikong
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_shangshuling = { # 尚书令
+	type = character
+	flag = guanzhi_office_t_shangshuling
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_shangshuling = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_shangshuling
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuopuye = { # 尚书左仆射
+	type = character
+	flag = guanzhi_office_t_zuopuye
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuopuye = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuopuye
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youpuye = { # 尚书右仆射
+	type = character
+	flag = guanzhi_office_t_youpuye
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youpuye = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youpuye
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zhongshuling = { # 中书令
+	type = character
+	flag = guanzhi_office_t_zhongshuling
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zhongshuling = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zhongshuling
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_shizhong = { # 侍中
+	type = character
+	flag = guanzhi_office_t_shizhong
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_shizhong = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_shizhong
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_libu = { # 吏部侍郎
+	type = character
+	flag = guanzhi_office_t_libu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_libu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_libu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_hubu = { # 户部侍郎
+	type = character
+	flag = guanzhi_office_t_hubu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_hubu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_hubu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_libu_rites = { # 礼部侍郎
+	type = character
+	flag = guanzhi_office_t_libu_rites
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_libu_rites = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_libu_rites
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_bingbu = { # 兵部侍郎
+	type = character
+	flag = guanzhi_office_t_bingbu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_bingbu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_bingbu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_xingbu = { # 刑部侍郎
+	type = character
+	flag = guanzhi_office_t_xingbu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_xingbu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_xingbu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_gongbu = { # 工部侍郎
+	type = character
+	flag = guanzhi_office_t_gongbu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_gongbu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_gongbu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_yushidafu = { # 御史大夫
+	type = character
+	flag = guanzhi_office_t_yushidafu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_yushidafu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_yushidafu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taichang = { # 太常寺卿
+	type = character
+	flag = guanzhi_office_t_taichang
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taichang = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taichang
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_guanglu = { # 光禄寺卿
+	type = character
+	flag = guanzhi_office_t_guanglu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_guanglu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_guanglu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_weiwei_si = { # 卫尉寺卿
+	type = character
+	flag = guanzhi_office_t_weiwei_si
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_weiwei_si = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_weiwei_si
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zongzheng = { # 宗正寺卿
+	type = character
+	flag = guanzhi_office_t_zongzheng
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zongzheng = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zongzheng
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taipu = { # 太仆寺卿
+	type = character
+	flag = guanzhi_office_t_taipu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taipu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taipu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_dali = { # 大理寺卿
+	type = character
+	flag = guanzhi_office_t_dali
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_dali = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_dali
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_honglu = { # 鸿胪寺卿
+	type = character
+	flag = guanzhi_office_t_honglu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_honglu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_honglu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_sinong = { # 司农寺卿
+	type = character
+	flag = guanzhi_office_t_sinong
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_sinong = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_sinong
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_taifu_si = { # 太府寺卿
+	type = character
+	flag = guanzhi_office_t_taifu_si
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_taifu_si = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_taifu_si
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_guozi = { # 国子监祭酒
+	type = character
+	flag = guanzhi_office_t_guozi
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_guozi = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_guozi
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_shaofu_jian = { # 少府监
+	type = character
+	flag = guanzhi_office_t_shaofu_jian
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_shaofu_jian = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_shaofu_jian
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_jiangzuo = { # 将作大匠
+	type = character
+	flag = guanzhi_office_t_jiangzuo
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_jiangzuo = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_jiangzuo
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_junqi = { # 军器监
+	type = character
+	flag = guanzhi_office_t_junqi
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_junqi = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_junqi
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_dushui = { # 都水监
+	type = character
+	flag = guanzhi_office_t_dushui
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_dushui = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_dushui
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_mishu = { # 秘书监
+	type = character
+	flag = guanzhi_office_t_mishu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_mishu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_mishu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_dianzhong = { # 殿中监
+	type = character
+	flag = guanzhi_office_t_dianzhong
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_dianzhong = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_dianzhong
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_neishi = { # 内侍监
+	type = character
+	flag = guanzhi_office_t_neishi
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_neishi = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_neishi
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuowei = { # 左卫大将军
+	type = character
+	flag = guanzhi_office_t_zuowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuowei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youwei = { # 右卫大将军
+	type = character
+	flag = guanzhi_office_t_youwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuoxiaowei = { # 左骁卫大将军
+	type = character
+	flag = guanzhi_office_t_zuoxiaowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuoxiaowei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuoxiaowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youxiaowei = { # 右骁卫大将军
+	type = character
+	flag = guanzhi_office_t_youxiaowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youxiaowei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youxiaowei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuowuwei = { # 左武卫大将军
+	type = character
+	flag = guanzhi_office_t_zuowuwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuowuwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuowuwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youwuwei = { # 右武卫大将军
+	type = character
+	flag = guanzhi_office_t_youwuwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youwuwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youwuwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuoweiwei = { # 左威卫大将军
+	type = character
+	flag = guanzhi_office_t_zuoweiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuoweiwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuoweiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youweiwei = { # 右威卫大将军
+	type = character
+	flag = guanzhi_office_t_youweiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youweiwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youweiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuolingjun = { # 左领军卫大将军
+	type = character
+	flag = guanzhi_office_t_zuolingjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuolingjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuolingjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youlingjun = { # 右领军卫大将军
+	type = character
+	flag = guanzhi_office_t_youlingjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youlingjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youlingjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuojinwu = { # 左金吾卫大将军
+	type = character
+	flag = guanzhi_office_t_zuojinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuojinwu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuojinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youjinwu = { # 右金吾卫大将军
+	type = character
+	flag = guanzhi_office_t_youjinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youjinwu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youjinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuojianmen = { # 左监门卫大将军
+	type = character
+	flag = guanzhi_office_t_zuojianmen
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuojianmen = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuojianmen
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youjianmen = { # 右监门卫大将军
+	type = character
+	flag = guanzhi_office_t_youjianmen
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youjianmen = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youjianmen
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_zuoqianniu = { # 左千牛卫大将军
+	type = character
+	flag = guanzhi_office_t_zuoqianniu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_zuoqianniu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_zuoqianniu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_t_youqianniu = { # 右千牛卫大将军
+	type = character
+	flag = guanzhi_office_t_youqianniu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_t_youqianniu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_t_youqianniu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_chengxiang = { # 丞相
+	type = character
+	flag = guanzhi_office_h_chengxiang
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_chengxiang = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_chengxiang
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_taiwei = { # 太尉
+	type = character
+	flag = guanzhi_office_h_taiwei
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_taiwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_taiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_yushidafu = { # 御史大夫
+	type = character
+	flag = guanzhi_office_h_yushidafu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_yushidafu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_yushidafu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_taichang = { # 太常
+	type = character
+	flag = guanzhi_office_h_taichang
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_taichang = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_taichang
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_guangluxun = { # 光禄勋
+	type = character
+	flag = guanzhi_office_h_guangluxun
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_guangluxun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_guangluxun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_weiwei = { # 卫尉
+	type = character
+	flag = guanzhi_office_h_weiwei
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_weiwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_weiwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_taipu = { # 太仆
+	type = character
+	flag = guanzhi_office_h_taipu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_taipu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_taipu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_tingwei = { # 廷尉
+	type = character
+	flag = guanzhi_office_h_tingwei
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_tingwei = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_tingwei
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_dahonglu = { # 大鸿胪
+	type = character
+	flag = guanzhi_office_h_dahonglu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_dahonglu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_dahonglu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_zongzheng = { # 宗正
+	type = character
+	flag = guanzhi_office_h_zongzheng
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_zongzheng = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_zongzheng
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_dasinong = { # 大司农
+	type = character
+	flag = guanzhi_office_h_dasinong
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_dasinong = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_dasinong
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_shaofu = { # 少府
+	type = character
+	flag = guanzhi_office_h_shaofu
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_shaofu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_shaofu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_shangshuling = { # 尚书令
+	type = character
+	flag = guanzhi_office_h_shangshuling
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_shangshuling = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_shangshuling
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_shangshupuye = { # 尚书仆射
+	type = character
+	flag = guanzhi_office_h_shangshupuye
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_shangshupuye = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_shangshupuye
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_licao = { # 吏曹尚书
+	type = character
+	flag = guanzhi_office_h_licao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_licao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_licao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_erqianshi = { # 二千石曹尚书
+	type = character
+	flag = guanzhi_office_h_erqianshi
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_erqianshi = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_erqianshi
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_mincao = { # 民曹尚书
+	type = character
+	flag = guanzhi_office_h_mincao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_mincao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_mincao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_sangongcao = { # 三公曹尚书
+	type = character
+	flag = guanzhi_office_h_sangongcao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_sangongcao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_sangongcao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_nankecao = { # 南主客曹尚书
+	type = character
+	flag = guanzhi_office_h_nankecao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_nankecao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_nankecao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_beikecao = { # 北主客曹尚书
+	type = character
+	flag = guanzhi_office_h_beikecao
+	priority = 2200
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_beikecao = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_beikecao
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_dajiangjun = { # 大将军
+	type = character
+	flag = guanzhi_office_h_dajiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_dajiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_dajiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_piaoji = { # 骠骑将军
+	type = character
+	flag = guanzhi_office_h_piaoji
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_piaoji = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_piaoji
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_cheji = { # 车骑将军
+	type = character
+	flag = guanzhi_office_h_cheji
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_cheji = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_cheji
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_weijiangjun = { # 卫将军
+	type = character
+	flag = guanzhi_office_h_weijiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_weijiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_weijiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_qianjiangjun = { # 前将军
+	type = character
+	flag = guanzhi_office_h_qianjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_qianjiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_qianjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_houjiangjun = { # 后将军
+	type = character
+	flag = guanzhi_office_h_houjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_houjiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_houjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_zuojiangjun = { # 左将军
+	type = character
+	flag = guanzhi_office_h_zuojiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_zuojiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_zuojiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_youjiangjun = { # 右将军
+	type = character
+	flag = guanzhi_office_h_youjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_youjiangjun = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_youjiangjun
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_h_zhijinwu = { # 执金吾
+	type = character
+	flag = guanzhi_office_h_zhijinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzft_h_zhijinwu = { # 头衔显示: 只出头衔名(压掉大都督府)
+	type = title
+	flag = guanzhi_office_h_zhijinwu
+	priority = 2100
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}

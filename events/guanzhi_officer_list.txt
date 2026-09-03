@@ -1,0 +1,349 @@
+namespace = guanzhi
+
+# 朝官列表. root = 君主.
+guanzhi.9501 = {
+	type = character_event
+	title = guanzhi_officer_list.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_character_flag = guanzhi_uses_tang_system }
+				desc = guanzhi_officer_list_tang
+			}
+			triggered_desc = {
+				trigger = { has_character_flag = guanzhi_uses_han_system }
+				desc = guanzhi_officer_list_han
+			}
+			desc = guanzhi_officer_list_none
+		}
+	}
+	theme = court
+	left_portrait = { character = root }
+
+	immediate = {
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taishi } }
+			save_scope_as = holder_t_taishi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taifu } }
+			save_scope_as = holder_t_taifu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taibao } }
+			save_scope_as = holder_t_taibao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taiwei } }
+			save_scope_as = holder_t_taiwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_situ } }
+			save_scope_as = holder_t_situ
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_sikong } }
+			save_scope_as = holder_t_sikong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shangshuling } }
+			save_scope_as = holder_t_shangshuling
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuopuye } }
+			save_scope_as = holder_t_zuopuye
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youpuye } }
+			save_scope_as = holder_t_youpuye
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zhongshuling } }
+			save_scope_as = holder_t_zhongshuling
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shizhong } }
+			save_scope_as = holder_t_shizhong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_libu } }
+			save_scope_as = holder_t_libu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_hubu } }
+			save_scope_as = holder_t_hubu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_libu_rites } }
+			save_scope_as = holder_t_libu_rites
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_bingbu } }
+			save_scope_as = holder_t_bingbu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_xingbu } }
+			save_scope_as = holder_t_xingbu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_gongbu } }
+			save_scope_as = holder_t_gongbu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_yushidafu } }
+			save_scope_as = holder_t_yushidafu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taichang } }
+			save_scope_as = holder_t_taichang
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_guanglu } }
+			save_scope_as = holder_t_guanglu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_weiwei_si } }
+			save_scope_as = holder_t_weiwei_si
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zongzheng } }
+			save_scope_as = holder_t_zongzheng
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taipu } }
+			save_scope_as = holder_t_taipu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_dali } }
+			save_scope_as = holder_t_dali
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_honglu } }
+			save_scope_as = holder_t_honglu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_sinong } }
+			save_scope_as = holder_t_sinong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_taifu_si } }
+			save_scope_as = holder_t_taifu_si
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_guozi } }
+			save_scope_as = holder_t_guozi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shaofu_jian } }
+			save_scope_as = holder_t_shaofu_jian
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_jiangzuo } }
+			save_scope_as = holder_t_jiangzuo
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_junqi } }
+			save_scope_as = holder_t_junqi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_dushui } }
+			save_scope_as = holder_t_dushui
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_mishu } }
+			save_scope_as = holder_t_mishu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_dianzhong } }
+			save_scope_as = holder_t_dianzhong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_neishi } }
+			save_scope_as = holder_t_neishi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuowei } }
+			save_scope_as = holder_t_zuowei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youwei } }
+			save_scope_as = holder_t_youwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoxiaowei } }
+			save_scope_as = holder_t_zuoxiaowei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youxiaowei } }
+			save_scope_as = holder_t_youxiaowei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuowuwei } }
+			save_scope_as = holder_t_zuowuwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youwuwei } }
+			save_scope_as = holder_t_youwuwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoweiwei } }
+			save_scope_as = holder_t_zuoweiwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youweiwei } }
+			save_scope_as = holder_t_youweiwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuolingjun } }
+			save_scope_as = holder_t_zuolingjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youlingjun } }
+			save_scope_as = holder_t_youlingjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuojinwu } }
+			save_scope_as = holder_t_zuojinwu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youjinwu } }
+			save_scope_as = holder_t_youjinwu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuojianmen } }
+			save_scope_as = holder_t_zuojianmen
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youjianmen } }
+			save_scope_as = holder_t_youjianmen
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoqianniu } }
+			save_scope_as = holder_t_zuoqianniu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_youqianniu } }
+			save_scope_as = holder_t_youqianniu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_chengxiang } }
+			save_scope_as = holder_h_chengxiang
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_taiwei } }
+			save_scope_as = holder_h_taiwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_yushidafu } }
+			save_scope_as = holder_h_yushidafu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_taichang } }
+			save_scope_as = holder_h_taichang
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_guangluxun } }
+			save_scope_as = holder_h_guangluxun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_weiwei } }
+			save_scope_as = holder_h_weiwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_taipu } }
+			save_scope_as = holder_h_taipu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_tingwei } }
+			save_scope_as = holder_h_tingwei
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_dahonglu } }
+			save_scope_as = holder_h_dahonglu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_zongzheng } }
+			save_scope_as = holder_h_zongzheng
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_dasinong } }
+			save_scope_as = holder_h_dasinong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_shaofu } }
+			save_scope_as = holder_h_shaofu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_shangshuling } }
+			save_scope_as = holder_h_shangshuling
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_shangshupuye } }
+			save_scope_as = holder_h_shangshupuye
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_licao } }
+			save_scope_as = holder_h_licao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_erqianshi } }
+			save_scope_as = holder_h_erqianshi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_mincao } }
+			save_scope_as = holder_h_mincao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_sangongcao } }
+			save_scope_as = holder_h_sangongcao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_nankecao } }
+			save_scope_as = holder_h_nankecao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_beikecao } }
+			save_scope_as = holder_h_beikecao
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_dajiangjun } }
+			save_scope_as = holder_h_dajiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_piaoji } }
+			save_scope_as = holder_h_piaoji
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_cheji } }
+			save_scope_as = holder_h_cheji
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_weijiangjun } }
+			save_scope_as = holder_h_weijiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_qianjiangjun } }
+			save_scope_as = holder_h_qianjiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_houjiangjun } }
+			save_scope_as = holder_h_houjiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_zuojiangjun } }
+			save_scope_as = holder_h_zuojiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_youjiangjun } }
+			save_scope_as = holder_h_youjiangjun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_h_zhijinwu } }
+			save_scope_as = holder_h_zhijinwu
+		}
+	}
+
+	option = {
+		name = guanzhi.option.close
+	}
+}

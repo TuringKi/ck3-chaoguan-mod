@@ -1,0 +1,33 @@
+namespace = guanzhi
+
+# Fired by the 厘定官制 decision. root = the celestial ruler.
+guanzhi.9001 = {
+	type = character_event
+	title = guanzhi.9001.t
+	desc = guanzhi.9001.desc
+	theme = court
+	left_portrait = { character = root }
+
+	option = {
+		name = guanzhi.9001.tang
+		hidden_effect = {
+			debug_log = "GUANZHI 9001 tang option chosen"
+			remove_character_flag = guanzhi_uses_han_system
+			add_character_flag = guanzhi_uses_tang_system
+			remove_variable = guanzhi_chaotang_han
+			set_variable = { name = guanzhi_chaotang_tang value = yes }
+			# Offices are created+granted atomically when actually assigned
+			# (授予朝官 interaction / 安排朝官 decision), not pre-created here.
+		}
+	}
+	option = {
+		name = guanzhi.9001.han
+		hidden_effect = {
+			debug_log = "GUANZHI 9001 han option chosen"
+			remove_character_flag = guanzhi_uses_tang_system
+			add_character_flag = guanzhi_uses_han_system
+			remove_variable = guanzhi_chaotang_tang
+			set_variable = { name = guanzhi_chaotang_han value = yes }
+		}
+	}
+}

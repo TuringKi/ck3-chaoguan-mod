@@ -1,0 +1,788 @@
+# Guanzhi 官制 - 朝堂事件链年度脉冲 (朝官与天朝君主均为 playable)
+
+random_yearly_playable_pulse = {
+	on_actions = { guanzhi_court_pulse_on_action }
+}
+
+guanzhi_court_pulse_on_action = {
+	trigger = {
+		is_adult = yes
+		OR = {
+			guanzhi_holds_office_trigger = yes
+			AND = {
+				guanzhi_is_celestial_sovereign_trigger = yes
+				guanzhi_has_chosen_system_trigger = yes
+			}
+		}
+	}
+	random_on_actions = {
+		100 = 0
+		6 = guanzhi_chain_start_shangshu_fanyanzhijian
+		6 = guanzhi_chain_start_jiedang_pengdang
+		6 = guanzhi_chain_start_feibang_bangshu
+		6 = guanzhi_chain_start_shangshu_qingjianfushui
+		6 = guanzhi_chain_start_shangshu_jianzhifengshan
+		6 = guanzhi_chain_start_shangshu_zaiyishangshu
+		6 = guanzhi_chain_start_shangshu_jianzhiyoulie
+		6 = guanzhi_chain_start_shangshu_qinglichuojun
+		6 = guanzhi_chain_start_shangshu_qihaiigu
+		6 = guanzhi_chain_start_shangshu_jianyinggongshi
+		6 = guanzhi_chain_start_shangshu_jianxianjuhneng
+		6 = guanzhi_chain_start_shangshu_shangfengshi
+		6 = guanzhi_chain_start_shangshu_qingbabiangong
+		6 = guanzhi_chain_start_shangshu_kejuzuobi
+		6 = guanzhi_chain_start_shangshu_zuozhummusheng
+		6 = guanzhi_chain_start_shangshu_jujianbubiqin
+		6 = guanzhi_chain_start_shangshu_hanmenzhizheng
+		6 = guanzhi_chain_start_jiedang_tongnianjiedang
+		6 = guanzhi_chain_start_jiedang_menshengguli
+		6 = guanzhi_chain_start_jiedang_waiqijiena
+		6 = guanzhi_chain_start_jiedang_huanguanjiaojie
+		6 = guanzhi_chain_start_jiedang_fanzhentongchao
+		6 = guanzhi_chain_start_jiedang_donggongjiena
+		6 = guanzhi_chain_start_jiedang_qingliujieshe
+		6 = guanzhi_chain_start_feibang_gaojiezhongliang
+		6 = guanzhi_chain_start_feibang_yaoyanan
+		6 = guanzhi_chain_start_feibang_foufeizhizui
+		6 = guanzhi_chain_start_feibang_wenzihuozui
+		6 = guanzhi_chain_start_feibang_liuyanzhongshang
+		6 = guanzhi_chain_start_feibang_wuguanyifeng
+		6 = guanzhi_chain_start_feibang_jishanxinzheng
+		6 = guanzhi_chain_start_tingyi_qianzhiyi
+		6 = guanzhi_chain_start_tingyi_hezhanzhizheng
+		6 = guanzhi_chain_start_tingyi_yili
+		6 = guanzhi_chain_start_tingyi_gailizhizheng
+		6 = guanzhi_chain_start_tingyi_yantiezhiyi
+		6 = guanzhi_chain_start_tingyi_caoyungaidao
+		6 = guanzhi_chain_start_tingyi_bizhizhizheng
+		6 = guanzhi_chain_start_tanwu_tanwuuianfa
+		6 = guanzhi_chain_start_tanwu_yujueshiguan
+		6 = guanzhi_chain_start_tanwu_nuoyongjunfei
+		6 = guanzhi_chain_start_tanwu_zhenzaikuantun
+		6 = guanzhi_chain_start_xingfa_yuanqingpingfan
+		6 = guanzhi_chain_start_xingfa_tingzhangzhizheng
+		6 = guanzhi_chain_start_xingfa_dashezhiyi
+		6 = guanzhi_chain_start_gongwei_huanguanchuanming
+		6 = guanzhi_chain_start_gongwei_waiqiqingtuo
+		6 = guanzhi_chain_start_gongwei_hougonganzheng
+		6 = guanzhi_chain_start_quandou_taizijianguo
+		6 = guanzhi_chain_start_quandou_tanhequanchen
+		6 = guanzhi_chain_start_quandou_paijitongliao
+		6 = guanzhi_chain_start_quandou_xiangquantaixi
+		6 = guanzhi_chain_start_bianshi_bianjiangxubao
+		6 = guanzhi_chain_start_bianshi_bianjiangqiuxiang
+		6 = guanzhi_chain_start_bianshi_manbaibaiji
+		6 = guanzhi_chain_start_xiangrui_xianbailu
+		6 = guanzhi_chain_start_xiangrui_lingzhixiangrui
+		6 = guanzhi_chain_start_xiangrui_huixingshijing
+		6 = guanzhi_chain_start_xiangrui_dahanqiyu
+	}
+}
+
+guanzhi_chain_start_shangshu_fanyanzhijian = { # 犯颜直谏
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_fanyanzhijian"
+		trigger_event = { id = guanzhi_court.1001 }
+	}
+}
+
+guanzhi_chain_start_jiedang_pengdang = { # 朋党之迹
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_pengdang"
+		trigger_event = { id = guanzhi_court.1011 }
+	}
+}
+
+guanzhi_chain_start_feibang_bangshu = { # 谤书盈箧
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_bangshu"
+		trigger_event = { id = guanzhi_court.1021 }
+	}
+}
+
+guanzhi_chain_start_shangshu_qingjianfushui = { # 旱岁请蠲
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_qingjianfushui"
+		trigger_event = { id = guanzhi_court.1031 }
+	}
+}
+
+guanzhi_chain_start_shangshu_jianzhifengshan = { # 封禅之议
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_jianzhifengshan"
+		trigger_event = { id = guanzhi_court.1041 }
+	}
+}
+
+guanzhi_chain_start_shangshu_zaiyishangshu = { # 日食天戒
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_zaiyishangshu"
+		trigger_event = { id = guanzhi_court.1051 }
+	}
+}
+
+guanzhi_chain_start_shangshu_jianzhiyoulie = { # 谏止畋猎
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_jianzhiyoulie"
+		trigger_event = { id = guanzhi_court.1061 }
+	}
+}
+
+guanzhi_chain_start_shangshu_qinglichuojun = { # 国本之请
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_qinglichuojun"
+		trigger_event = { id = guanzhi_court.1071 }
+	}
+}
+
+guanzhi_chain_start_shangshu_qihaiigu = { # 乞骸骨
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_qihaiigu"
+		trigger_event = { id = guanzhi_court.1081 }
+	}
+}
+
+guanzhi_chain_start_shangshu_jianyinggongshi = { # 谏止营宫
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_jianyinggongshi"
+		trigger_event = { id = guanzhi_court.1091 }
+	}
+}
+
+guanzhi_chain_start_shangshu_jianxianjuhneng = { # 荐贤举能
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_jianxianjuhneng"
+		trigger_event = { id = guanzhi_court.1101 }
+	}
+}
+
+guanzhi_chain_start_shangshu_shangfengshi = { # 封事告讦
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_shangfengshi"
+		trigger_event = { id = guanzhi_court.1111 }
+	}
+}
+
+guanzhi_chain_start_shangshu_qingbabiangong = { # 请罢边功
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_qingbabiangong"
+		trigger_event = { id = guanzhi_court.1121 }
+	}
+}
+
+guanzhi_chain_start_shangshu_kejuzuobi = { # 贡院案发
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_kejuzuobi"
+		trigger_event = { id = guanzhi_court.1131 }
+	}
+}
+
+guanzhi_chain_start_shangshu_zuozhummusheng = { # 座主门生
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_zuozhummusheng"
+		trigger_event = { id = guanzhi_court.1141 }
+	}
+}
+
+guanzhi_chain_start_shangshu_jujianbubiqin = { # 举贤不避亲
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_jujianbubiqin"
+		trigger_event = { id = guanzhi_court.1151 }
+	}
+}
+
+guanzhi_chain_start_shangshu_hanmenzhizheng = { # 寒门之争
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start shangshu_hanmenzhizheng"
+		trigger_event = { id = guanzhi_court.1161 }
+	}
+}
+
+guanzhi_chain_start_jiedang_tongnianjiedang = { # 同年之谊
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_tongnianjiedang"
+		trigger_event = { id = guanzhi_court.1171 }
+	}
+}
+
+guanzhi_chain_start_jiedang_menshengguli = { # 门生故吏
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_menshengguli"
+		trigger_event = { id = guanzhi_court.1181 }
+	}
+}
+
+guanzhi_chain_start_jiedang_waiqijiena = { # 椒房之客
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_waiqijiena"
+		trigger_event = { id = guanzhi_court.1191 }
+	}
+}
+
+guanzhi_chain_start_jiedang_huanguanjiaojie = { # 夜传尺素
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_huanguanjiaojie"
+		trigger_event = { id = guanzhi_court.1201 }
+	}
+}
+
+guanzhi_chain_start_jiedang_fanzhentongchao = { # 方镇之馈
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_fanzhentongchao"
+		trigger_event = { id = guanzhi_court.1211 }
+	}
+}
+
+guanzhi_chain_start_jiedang_donggongjiena = { # 东宫之客
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_donggongjiena"
+		trigger_event = { id = guanzhi_court.1221 }
+	}
+}
+
+guanzhi_chain_start_jiedang_qingliujieshe = { # 文社风起
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start jiedang_qingliujieshe"
+		trigger_event = { id = guanzhi_court.1231 }
+	}
+}
+
+guanzhi_chain_start_feibang_gaojiezhongliang = { # 告讦忠良
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_gaojiezhongliang"
+		trigger_event = { id = guanzhi_court.1241 }
+	}
+}
+
+guanzhi_chain_start_feibang_yaoyanan = { # 妖言入禁
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_yaoyanan"
+		trigger_event = { id = guanzhi_court.1251 }
+	}
+}
+
+guanzhi_chain_start_feibang_foufeizhizui = { # 腹诽之劾
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_foufeizhizui"
+		trigger_event = { id = guanzhi_court.1261 }
+	}
+}
+
+guanzhi_chain_start_feibang_wenzihuozui = { # 诗案初起
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_wenzihuozui"
+		trigger_event = { id = guanzhi_court.1271 }
+	}
+}
+
+guanzhi_chain_start_feibang_liuyanzhongshang = { # 功高招谤
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_liuyanzhongshang"
+		trigger_event = { id = guanzhi_court.1281 }
+	}
+}
+
+guanzhi_chain_start_feibang_wuguanyifeng = { # 巫蛊之告
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_wuguanyifeng"
+		trigger_event = { id = guanzhi_court.1291 }
+	}
+}
+
+guanzhi_chain_start_feibang_jishanxinzheng = { # 谤议盈朝
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start feibang_jishanxinzheng"
+		trigger_event = { id = guanzhi_court.1301 }
+	}
+}
+
+guanzhi_chain_start_tingyi_qianzhiyi = { # 迁都之疏
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_qianzhiyi"
+		trigger_event = { id = guanzhi_court.1311 }
+	}
+}
+
+guanzhi_chain_start_tingyi_hezhanzhizheng = { # 和战廷辩
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_hezhanzhizheng"
+		trigger_event = { id = guanzhi_court.1321 }
+	}
+}
+
+guanzhi_chain_start_tingyi_yili = { # 尊崇之议
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_yili"
+		trigger_event = { id = guanzhi_court.1331 }
+	}
+}
+
+guanzhi_chain_start_tingyi_gailizhizheng = { # 交食不验
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_gailizhizheng"
+		trigger_event = { id = guanzhi_court.1341 }
+	}
+}
+
+guanzhi_chain_start_tingyi_yantiezhiyi = { # 盐铁大议
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_yantiezhiyi"
+		trigger_event = { id = guanzhi_court.1351 }
+	}
+}
+
+guanzhi_chain_start_tingyi_caoyungaidao = { # 漕渠壅塞
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_caoyungaidao"
+		trigger_event = { id = guanzhi_court.1361 }
+	}
+}
+
+guanzhi_chain_start_tingyi_bizhizhizheng = { # 钱荒日甚
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tingyi_bizhizhizheng"
+		trigger_event = { id = guanzhi_court.1371 }
+	}
+}
+
+guanzhi_chain_start_tanwu_tanwuuianfa = { # 贪墨案发
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tanwu_tanwuuianfa"
+		trigger_event = { id = guanzhi_court.1381 }
+	}
+}
+
+guanzhi_chain_start_tanwu_yujueshiguan = { # 鬻爵之闻
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tanwu_yujueshiguan"
+		trigger_event = { id = guanzhi_court.1391 }
+	}
+}
+
+guanzhi_chain_start_tanwu_nuoyongjunfei = { # 军帑亏空
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tanwu_nuoyongjunfei"
+		trigger_event = { id = guanzhi_court.1401 }
+	}
+}
+
+guanzhi_chain_start_tanwu_zhenzaikuantun = { # 赈粮不继
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start tanwu_zhenzaikuantun"
+		trigger_event = { id = guanzhi_court.1411 }
+	}
+}
+
+guanzhi_chain_start_xingfa_yuanqingpingfan = { # 旧案疑云
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xingfa_yuanqingpingfan"
+		trigger_event = { id = guanzhi_court.1421 }
+	}
+}
+
+guanzhi_chain_start_xingfa_tingzhangzhizheng = { # 雷霆之怒
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xingfa_tingzhangzhizheng"
+		trigger_event = { id = guanzhi_court.1431 }
+	}
+}
+
+guanzhi_chain_start_xingfa_dashezhiyi = { # 恩典之议
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xingfa_dashezhiyi"
+		trigger_event = { id = guanzhi_court.1441 }
+	}
+}
+
+guanzhi_chain_start_gongwei_huanguanchuanming = { # 中旨之疑
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start gongwei_huanguanchuanming"
+		trigger_event = { id = guanzhi_court.1451 }
+	}
+}
+
+guanzhi_chain_start_gongwei_waiqiqingtuo = { # 椒房之请
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start gongwei_waiqiqingtuo"
+		trigger_event = { id = guanzhi_court.1461 }
+	}
+}
+
+guanzhi_chain_start_gongwei_hougonganzheng = { # 枕畔之言
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start gongwei_hougonganzheng"
+		trigger_event = { id = guanzhi_court.1471 }
+	}
+}
+
+guanzhi_chain_start_quandou_taizijianguo = { # 监国更张
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start quandou_taizijianguo"
+		trigger_event = { id = guanzhi_court.1481 }
+	}
+}
+
+guanzhi_chain_start_quandou_tanhequanchen = { # 初生之犊
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start quandou_tanhequanchen"
+		trigger_event = { id = guanzhi_court.1491 }
+	}
+}
+
+guanzhi_chain_start_quandou_paijitongliao = { # 两虎相讦
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start quandou_paijitongliao"
+		trigger_event = { id = guanzhi_court.1501 }
+	}
+}
+
+guanzhi_chain_start_quandou_xiangquantaixi = { # 马首是瞻
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start quandou_xiangquantaixi"
+		trigger_event = { id = guanzhi_court.1511 }
+	}
+}
+
+guanzhi_chain_start_bianshi_bianjiangxubao = { # 捷报可疑
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start bianshi_bianjiangxubao"
+		trigger_event = { id = guanzhi_court.1521 }
+	}
+}
+
+guanzhi_chain_start_bianshi_bianjiangqiuxiang = { # 连章请饷
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start bianshi_bianjiangqiuxiang"
+		trigger_event = { id = guanzhi_court.1531 }
+	}
+}
+
+guanzhi_chain_start_bianshi_manbaibaiji = { # 败绩之劾
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start bianshi_manbaibaiji"
+		trigger_event = { id = guanzhi_court.1541 }
+	}
+}
+
+guanzhi_chain_start_xiangrui_xianbailu = { # 白鹿入献
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xiangrui_xianbailu"
+		trigger_event = { id = guanzhi_court.1551 }
+	}
+}
+
+guanzhi_chain_start_xiangrui_lingzhixiangrui = { # 芝草屡见
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xiangrui_lingzhixiangrui"
+		trigger_event = { id = guanzhi_court.1561 }
+	}
+}
+
+guanzhi_chain_start_xiangrui_huixingshijing = { # 彗星见西
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xiangrui_huixingshijing"
+		trigger_event = { id = guanzhi_court.1571 }
+	}
+}
+
+guanzhi_chain_start_xiangrui_dahanqiyu = { # 祈雨不雨
+	trigger = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+			any_vassal = { guanzhi_holds_office_trigger = yes }
+		}
+	effect = {
+		debug_log = "GUANZHI chain start xiangrui_dahanqiyu"
+		trigger_event = { id = guanzhi_court.1581 }
+	}
+}

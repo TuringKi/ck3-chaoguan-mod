@@ -1,0 +1,87 @@
+# Guanzhi 官制 - character interactions
+
+# 授予朝官: opens the office menu event (guanzhi.0001 Tang / guanzhi.0002 Han).
+# The title picker (target_type = title) cannot list landless office titles
+# (actor_domain_titles only covers the landed domain), so the grant flow uses
+# a scripted menu instead - the same pattern as the merged pack's 封爵 events.
+# root in the menu event = scope:actor (the sovereign); scope:recipient persists.
+guanzhi_grant_office_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_office_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			is_landed = no	# 朝官不得兼任地方头衔
+			NOT = { has_trait = incapable }
+			OR = {
+				is_courtier_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor	# 贵族府成员等间接臣属
+			}
+		}
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			guanzhi_has_chosen_system_trigger = yes
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			if = {
+				limit = { has_character_flag = guanzhi_uses_tang_system }
+				trigger_event = { id = guanzhi.0001 }
+			}
+			else_if = {
+				limit = { has_character_flag = guanzhi_uses_han_system }
+				trigger_event = { id = guanzhi.0002 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 罢免朝官: dismiss this character from all court offices;
+# the offices return to the sovereign and can be re-granted
+guanzhi_revoke_office_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_office_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_office_civil
+				has_character_flag = guanzhi_office_military
+				any_held_title = { has_variable = guanzhi_is_office }
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	on_accept = {
+		scope:recipient = {
+			debug_log = "GUANZHI revoke office interaction accepted"
+			guanzhi_revoke_offices_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

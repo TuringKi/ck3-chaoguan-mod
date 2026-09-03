@@ -1,0 +1,2563 @@
+# Guanzhi 官制 - coats of arms
+# Tang offices: yellow field, ink-dark glyph (Yan Zhenqing style regular script)
+# Han offices: red field, white glyph (small seal script, baiwen seal style)
+
+e_gz_t_taishi = { # 太师 - 太师
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taishi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taishi = { # 太师 - 太师
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taishi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taifu = { # 太傅 - 太傅
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taifu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taifu = { # 太傅 - 太傅
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taifu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taibao = { # 太保 - 太保
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taibao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taibao = { # 太保 - 太保
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taibao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taiwei = { # 太尉 - 太尉
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taiwei = { # 太尉 - 太尉
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_situ = { # 司徒 - 司徒
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_situ.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_situ = { # 司徒 - 司徒
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_situ.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_sikong = { # 司空 - 司空
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_sikong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_sikong = { # 司空 - 司空
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_sikong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_shangshuling = { # 尚书令 - 尚书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shangshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_shangshuling = { # 尚书令 - 尚书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shangshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuopuye = { # 尚书左仆射 - 左仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuopuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuopuye = { # 尚书左仆射 - 左仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuopuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youpuye = { # 尚书右仆射 - 右仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youpuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youpuye = { # 尚书右仆射 - 右仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youpuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zhongshuling = { # 中书令 - 中书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zhongshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zhongshuling = { # 中书令 - 中书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zhongshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_shizhong = { # 侍中 - 侍中
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shizhong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_shizhong = { # 侍中 - 侍中
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shizhong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_libu = { # 吏部侍郎 - 吏部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_libu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_libu = { # 吏部侍郎 - 吏部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_libu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_hubu = { # 户部侍郎 - 户部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_hubu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_hubu = { # 户部侍郎 - 户部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_hubu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_libu_rites = { # 礼部侍郎 - 礼部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_libu_rites.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_libu_rites = { # 礼部侍郎 - 礼部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_libu_rites.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_bingbu = { # 兵部侍郎 - 兵部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_bingbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_bingbu = { # 兵部侍郎 - 兵部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_bingbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_xingbu = { # 刑部侍郎 - 刑部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_xingbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_xingbu = { # 刑部侍郎 - 刑部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_xingbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_gongbu = { # 工部侍郎 - 工部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_gongbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_gongbu = { # 工部侍郎 - 工部
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_gongbu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_yushidafu = { # 御史大夫 - 御史
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_yushidafu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_yushidafu = { # 御史大夫 - 御史
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_yushidafu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taichang = { # 太常寺卿 - 太常
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taichang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taichang = { # 太常寺卿 - 太常
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taichang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_guanglu = { # 光禄寺卿 - 光禄
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_guanglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_guanglu = { # 光禄寺卿 - 光禄
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_guanglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_weiwei_si = { # 卫尉寺卿 - 卫尉
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_weiwei_si.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_weiwei_si = { # 卫尉寺卿 - 卫尉
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_weiwei_si.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zongzheng = { # 宗正寺卿 - 宗正
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zongzheng.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zongzheng = { # 宗正寺卿 - 宗正
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zongzheng.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taipu = { # 太仆寺卿 - 太仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taipu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taipu = { # 太仆寺卿 - 太仆
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taipu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_dali = { # 大理寺卿 - 大理
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dali.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_dali = { # 大理寺卿 - 大理
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dali.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_honglu = { # 鸿胪寺卿 - 鸿胪
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_honglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_honglu = { # 鸿胪寺卿 - 鸿胪
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_honglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_sinong = { # 司农寺卿 - 司农
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_sinong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_sinong = { # 司农寺卿 - 司农
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_sinong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_taifu_si = { # 太府寺卿 - 太府
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taifu_si.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_taifu_si = { # 太府寺卿 - 太府
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_taifu_si.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_guozi = { # 国子监祭酒 - 国子
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_guozi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_guozi = { # 国子监祭酒 - 国子
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_guozi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_shaofu_jian = { # 少府监 - 少府
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shaofu_jian.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_shaofu_jian = { # 少府监 - 少府
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_shaofu_jian.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_jiangzuo = { # 将作大匠 - 将作
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_jiangzuo.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_jiangzuo = { # 将作大匠 - 将作
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_jiangzuo.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_junqi = { # 军器监 - 军器
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_junqi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_junqi = { # 军器监 - 军器
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_junqi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_dushui = { # 都水监 - 都水
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dushui.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_dushui = { # 都水监 - 都水
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dushui.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_mishu = { # 秘书监 - 秘书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_mishu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_mishu = { # 秘书监 - 秘书
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_mishu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_dianzhong = { # 殿中监 - 殿中
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dianzhong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_dianzhong = { # 殿中监 - 殿中
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_dianzhong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_neishi = { # 内侍监 - 内侍
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_neishi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_t_neishi = { # 内侍监 - 内侍
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_neishi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuowei = { # 左卫大将军 - 左卫
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuowei = { # 左卫大将军 - 左卫
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youwei = { # 右卫大将军 - 右卫
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youwei = { # 右卫大将军 - 右卫
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuoxiaowei = { # 左骁卫大将军 - 左骁
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoxiaowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuoxiaowei = { # 左骁卫大将军 - 左骁
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoxiaowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youxiaowei = { # 右骁卫大将军 - 右骁
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youxiaowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youxiaowei = { # 右骁卫大将军 - 右骁
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youxiaowei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuowuwei = { # 左武卫大将军 - 左武
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuowuwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuowuwei = { # 左武卫大将军 - 左武
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuowuwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youwuwei = { # 右武卫大将军 - 右武
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youwuwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youwuwei = { # 右武卫大将军 - 右武
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youwuwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuoweiwei = { # 左威卫大将军 - 左威
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoweiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuoweiwei = { # 左威卫大将军 - 左威
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoweiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youweiwei = { # 右威卫大将军 - 右威
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youweiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youweiwei = { # 右威卫大将军 - 右威
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youweiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuolingjun = { # 左领军卫大将军 - 左领
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuolingjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuolingjun = { # 左领军卫大将军 - 左领
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuolingjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youlingjun = { # 右领军卫大将军 - 右领
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youlingjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youlingjun = { # 右领军卫大将军 - 右领
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youlingjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuojinwu = { # 左金吾卫大将军 - 左金
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuojinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuojinwu = { # 左金吾卫大将军 - 左金
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuojinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youjinwu = { # 右金吾卫大将军 - 右金
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youjinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youjinwu = { # 右金吾卫大将军 - 右金
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youjinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuojianmen = { # 左监门卫大将军 - 左监
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuojianmen.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuojianmen = { # 左监门卫大将军 - 左监
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuojianmen.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youjianmen = { # 右监门卫大将军 - 右监
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youjianmen.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youjianmen = { # 右监门卫大将军 - 右监
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youjianmen.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_zuoqianniu = { # 左千牛卫大将军 - 左千
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoqianniu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_zuoqianniu = { # 左千牛卫大将军 - 左千
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_zuoqianniu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_t_youqianniu = { # 右千牛卫大将军 - 右千
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youqianniu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_t_youqianniu = { # 右千牛卫大将军 - 右千
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_t_youqianniu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_chengxiang = { # 丞相 - 丞相
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_chengxiang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_chengxiang = { # 丞相 - 丞相
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_chengxiang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_taiwei = { # 太尉 - 太尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_taiwei = { # 太尉 - 太尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_yushidafu = { # 御史大夫 - 御史
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_yushidafu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_yushidafu = { # 御史大夫 - 御史
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_yushidafu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_taichang = { # 太常 - 太常
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taichang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_taichang = { # 太常 - 太常
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taichang.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_guangluxun = { # 光禄勋 - 光禄
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_guangluxun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_guangluxun = { # 光禄勋 - 光禄
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_guangluxun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_weiwei = { # 卫尉 - 卫尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_weiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_weiwei = { # 卫尉 - 卫尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_weiwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_taipu = { # 太仆 - 太仆
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taipu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_taipu = { # 太仆 - 太仆
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_taipu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_tingwei = { # 廷尉 - 廷尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_tingwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_tingwei = { # 廷尉 - 廷尉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_tingwei.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_dahonglu = { # 大鸿胪 - 鸿胪
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dahonglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_dahonglu = { # 大鸿胪 - 鸿胪
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dahonglu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_zongzheng = { # 宗正 - 宗正
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zongzheng.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_zongzheng = { # 宗正 - 宗正
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zongzheng.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_dasinong = { # 大司农 - 司农
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dasinong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_dasinong = { # 大司农 - 司农
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dasinong.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_shaofu = { # 少府 - 少府
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shaofu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_shaofu = { # 少府 - 少府
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shaofu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_shangshuling = { # 尚书令 - 尚书
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shangshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_shangshuling = { # 尚书令 - 尚书
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shangshuling.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_shangshupuye = { # 尚书仆射 - 仆射
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shangshupuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_shangshupuye = { # 尚书仆射 - 仆射
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_shangshupuye.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_licao = { # 吏曹尚书 - 吏曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_licao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_licao = { # 吏曹尚书 - 吏曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_licao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_erqianshi = { # 二千石曹尚书 - 二千
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_erqianshi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_erqianshi = { # 二千石曹尚书 - 二千
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_erqianshi.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_mincao = { # 民曹尚书 - 民曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_mincao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_mincao = { # 民曹尚书 - 民曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_mincao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_sangongcao = { # 三公曹尚书 - 公曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_sangongcao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_sangongcao = { # 三公曹尚书 - 公曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_sangongcao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_nankecao = { # 南主客曹尚书 - 南客
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_nankecao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_nankecao = { # 南主客曹尚书 - 南客
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_nankecao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_beikecao = { # 北主客曹尚书 - 北客
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_beikecao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_beikecao = { # 北主客曹尚书 - 北客
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_beikecao.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_dajiangjun = { # 大将军 - 大将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dajiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_dajiangjun = { # 大将军 - 大将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_dajiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_piaoji = { # 骠骑将军 - 骠骑
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_piaoji.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_piaoji = { # 骠骑将军 - 骠骑
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_piaoji.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_cheji = { # 车骑将军 - 车骑
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_cheji.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_cheji = { # 车骑将军 - 车骑
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_cheji.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_weijiangjun = { # 卫将军 - 卫将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_weijiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_weijiangjun = { # 卫将军 - 卫将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_weijiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_qianjiangjun = { # 前将军 - 前将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_qianjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_qianjiangjun = { # 前将军 - 前将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_qianjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_houjiangjun = { # 后将军 - 后将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_houjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_houjiangjun = { # 后将军 - 后将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_houjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_zuojiangjun = { # 左将军 - 左将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zuojiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_zuojiangjun = { # 左将军 - 左将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zuojiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+e_gz_h_youjiangjun = { # 右将军 - 右将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_youjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_youjiangjun = { # 右将军 - 右将
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_youjiangjun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+k_gz_h_zhijinwu = { # 执金吾 - 金吾
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zhijinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+d_gz_h_zhijinwu = { # 执金吾 - 金吾
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_h_zhijinwu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}

@@ -1,0 +1,33 @@
+# Guanzhi 官制 - office trait sync (appended to the vanilla title on_actions)
+on_title_gain = {
+	on_actions = { guanzhi_on_title_gain }
+}
+
+on_title_lost = {
+	on_actions = { guanzhi_on_title_lost }
+}
+
+# root = the character gaining the office title, scope:title = the office
+guanzhi_on_title_gain = {
+	effect = {
+		if = {
+			limit = { scope:title = { guanzhi_is_office_title_trigger = yes } }
+			add_trait = guanzhi_chaoguan
+			guanzhi_add_office_trait_effect = yes
+		}
+	}
+}
+
+# root = the character losing the office title, scope:title = the office
+guanzhi_on_title_lost = {
+	effect = {
+		if = {
+			limit = { scope:title = { guanzhi_is_office_title_trigger = yes } }
+			guanzhi_remove_office_trait_effect = yes
+			if = {
+				limit = { NOT = { guanzhi_holds_office_trigger = yes } }
+				remove_trait = guanzhi_chaoguan
+			}
+		}
+	}
+}

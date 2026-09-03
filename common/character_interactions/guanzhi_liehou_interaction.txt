@@ -1,0 +1,75 @@
+# Guanzhi 官制 - 授予列侯互动 (send_option 选等级, 事件链选封地)
+
+guanzhi_grant_liehou_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_liehou_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			debug_log = "GUANZHI liehou interaction accepted"
+			trigger_event = { id = guanzhi.9002 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺侯爵: 削夺全部列侯爵位与封号
+guanzhi_revoke_liehou_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_liehou_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			guanzhi_has_jue_trigger = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_jue_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

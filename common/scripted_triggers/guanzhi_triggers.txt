@@ -1,0 +1,96 @@
+# Guanzhi 官制 - scripted triggers
+
+# Does this character already hold one of the Guanzhi court offices?
+# (以角色旗标判定, 比头衔变量可靠)
+guanzhi_holds_office_trigger = {
+	OR = {
+		has_character_flag = guanzhi_office_civil
+		has_character_flag = guanzhi_office_military
+	}
+}
+
+# Is this TITLE one of the Guanzhi court office titles? (title scope)
+guanzhi_is_office_title_trigger = {
+	has_variable = guanzhi_is_office
+}
+
+# Does this character hold an official inner-court minister title
+# (原版 e_minister_* / 内阁: 中书令、御史大夫、枢密使等无地头衔)?
+# 内阁大臣不得再任朝官.
+guanzhi_holds_neige_office_trigger = {
+	OR = {
+		has_title = title:e_minister_chancellor
+		has_title = title:e_minister_censor
+		has_title = title:e_minister_grand_marshal
+		has_title = title:e_minister_of_personnel
+		has_title = title:e_minister_of_revenue
+		has_title = title:e_minister_of_rites
+		has_title = title:e_minister_of_war
+		has_title = title:e_minister_of_justice
+		has_title = title:e_minister_of_works
+	}
+}
+
+# Is this character a valid appointee for a Guanzhi office? (base: 成年/男性/无地)
+# Parameter: LIEGE - the celestial ruler the office belongs to.
+# Court officers must not hold landed titles (流官不兼地方),
+# nor inner-court minister titles (内阁不兼朝官).
+# 仅限成年男性(依汉唐宋旧制, 朝官不授女子).
+guanzhi_office_candidate_trigger = {
+	is_adult = yes
+	is_female = no
+	is_landed = no
+	NOT = { this = $LIEGE$ }
+	NOT = { guanzhi_holds_neige_office_trigger = yes }
+	NOT = { has_trait = incapable }
+}
+
+# 文官候选: 未任文朝官 (一人最多一个文官, 可兼一个武官)
+guanzhi_office_candidate_civil_trigger = {
+	guanzhi_office_candidate_trigger = { LIEGE = $LIEGE$ }
+	NOT = { guanzhi_holds_civil_office_trigger = yes }
+}
+
+# 武官候选: 未任武朝官 (一人最多一个武官, 可兼一个文官)
+guanzhi_office_candidate_military_trigger = {
+	guanzhi_office_candidate_trigger = { LIEGE = $LIEGE$ }
+	NOT = { guanzhi_holds_military_office_trigger = yes }
+}
+
+# 是否已任文朝官 (角色旗标判定)
+guanzhi_holds_civil_office_trigger = {
+	has_character_flag = guanzhi_office_civil
+}
+
+# 是否已任武朝官 (角色旗标判定)
+guanzhi_holds_military_office_trigger = {
+	has_character_flag = guanzhi_office_military
+}
+
+# Can this character run a Guanzhi court? (any independent celestial emperor or hegemon)
+guanzhi_is_celestial_sovereign_trigger = {
+	has_dlc_feature = all_under_heaven
+	is_independent_ruler = yes
+	government_has_flag = government_is_celestial
+	highest_held_title_tier >= tier_empire
+}
+
+# Has this character already chosen an official system (Tang or Han)?
+guanzhi_has_chosen_system_trigger = {
+	OR = {
+		has_character_flag = guanzhi_uses_tang_system
+		has_character_flag = guanzhi_uses_han_system
+	}
+}
+
+# Does this character hold a Guanzhi 列侯 rank (郡王/县侯/乡侯/亭侯)?
+# 新册封的封地 trait 都带 flag = guanzhi_jue; 旧版 4 个等级 trait 兼容旧存档.
+guanzhi_has_jue_trigger = {
+	OR = {
+		has_trait_flag = guanzhi_jue
+		has_trait = guanzhi_jue_wang
+		has_trait = guanzhi_jue_xianhou
+		has_trait = guanzhi_jue_xianghou
+		has_trait = guanzhi_jue_tinghou
+	}
+}

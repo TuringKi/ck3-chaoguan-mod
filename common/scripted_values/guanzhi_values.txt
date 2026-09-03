@@ -1,0 +1,44 @@
+# Guanzhi 官制 - 选官贤能评分 (order_by 用, 越高越优先)
+# 参考资治通鉴取士之意: 五维为本, 年长者加, 科举出身(进士/状元)加, 门第加, 年幼者减.
+
+guanzhi_appointment_score_value = {
+	value = {
+		add = {
+			value = diplomacy
+			add = stewardship
+			add = martial
+			add = intrigue
+			add = learning
+		}
+		# 年资: 四十以上加分, 三十以下减分(不致少年为太师)
+		if = {
+			limit = { age >= 40 }
+			add = 15
+		}
+		else_if = {
+			limit = { age >= 30 }
+			add = 5
+		}
+		else_if = {
+			limit = { age < 30 }
+			add = -10
+		}
+		# 科举出身
+		if = {
+			limit = { has_trait = jinshi }
+			add = 20
+		}
+		if = {
+			limit = { has_trait = zhuangyuan }
+			add = 50
+		}
+		# 门第
+		if = {
+			limit = { is_lowborn = no }
+			add = {
+				value = dynasty.dynasty_prestige_level
+				multiply = 5
+			}
+		}
+	}
+}

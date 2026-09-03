@@ -1,0 +1,21 @@
+# Guanzhi 官制 - on_actions
+# Appended via on_actions lists (the officially documented way to hook vanilla
+# on_actions without overriding their effect blocks, see _on_actions.info).
+#
+# on_game_start: set up offices when a new campaign begins.
+# yearly_global_pulse: maintenance pass - fills vacancies and makes the mod
+# compatible with saves that were started without it (offices appear within a year).
+
+on_game_start = {
+	on_actions = { guanzhi_setup_on_action }
+}
+
+yearly_global_pulse = {
+	on_actions = { guanzhi_setup_on_action }
+}
+
+guanzhi_setup_on_action = {
+	effect = {
+		guanzhi_try_setup_offices_effect = yes
+	}
+}

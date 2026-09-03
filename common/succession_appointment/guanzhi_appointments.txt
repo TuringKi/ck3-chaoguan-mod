@@ -1,0 +1,300 @@
+# Guanzhi 官制 - appointment types
+# Candidate scoring mirrors the merged pack's chinese_bureaucracy (贤能取士):
+# skills + examination traits (进士/状元) + council/court service + 门第 +
+# influence + age. No dependency on the merit currency.
+
+guanzhi_civil_appointment = {
+	default_candidates = { holder_councilor holder_court_position unlanded_noble_house_head unlanded_noble_house_member }
+
+	allow_same_tier_candidates = yes
+
+	candidate_score = {
+		value = {
+			# 贤能 - 才能总和
+			add = {
+				value = diplomacy
+				add = stewardship
+				add = learning
+				add = intrigue
+				add = martial
+				multiply = 2
+				desc = sum_of_skills_desc
+			}
+			add = {
+				value = diplomacy
+				add = stewardship
+				multiply = 2
+				desc = "[diplomacy|E] [stewardship|E]"
+			}
+
+			# 科举出身
+			if = {
+				limit = { has_trait = jinshi }
+				add = {
+					value = 20
+					desc = trait_jinshi
+				}
+			}
+			if = {
+				limit = { has_trait = zhuangyuan }
+				add = {
+					value = 50
+					desc = trait_zhuangyuan
+				}
+			}
+
+			# 任职中枢者加分
+			if = {
+				limit = {
+					scope:title.holder ?= { any_councillor ?= { this = root } }
+				}
+				add = {
+					value = 20
+					desc = councillor_position_governor_desc
+				}
+			}
+			if = {
+				limit = {
+					scope:title.holder ?= { any_court_position_holder ?= { this = root } }
+				}
+				add = {
+					value = 5
+					desc = court_position_succession_governor_desc
+				}
+			}
+
+			# 门第
+			if = {
+				limit = { is_lowborn = no }
+				add = {
+					value = dynasty.dynasty_prestige_level
+					multiply = 20
+					desc = "Bureaucrat_dynasty_prestige_level_value_desc"
+				}
+			}
+			else_if = {
+				limit = { is_lowborn = yes }
+				add = {
+					value = -25
+					desc = lowborn_desc_succession
+				}
+			}
+
+			# 影响力等级
+			if = {
+				limit = { influence_level >= 2 }
+				add = {
+					value = 10
+					multiply = {
+						value = influence_level
+						subtract = 1
+					}
+					desc = "[influence_level|E]"
+				}
+			}
+
+			# 年龄资历
+			if = {
+				limit = { age >= 40 }
+				add = {
+					value = 10
+					desc = old_age_desc
+				}
+			}
+			else_if = {
+				limit = { age < 30 }
+				add = {
+					value = -5
+					desc = young_age_desc
+				}
+			}
+
+			# 已任朝官者降权(官职分散)
+			if = {
+				limit = { guanzhi_holds_office_trigger = yes }
+				add = {
+					value = -1000
+					desc = guanzhi_already_officeholder_desc
+				}
+			}
+
+			# 君主本人不参选
+			if = {
+				limit = { is_independent_ruler = yes }
+				multiply = {
+					value = -1000
+					desc = appointment_is_top_liege
+				}
+			}
+
+			# 有地者不得为朝官
+			if = {
+				limit = { is_landed = yes }
+				multiply = {
+					value = 0
+					desc = guanzhi_no_landed_officer_desc
+				}
+			}
+
+			# 性别法
+			if = {
+				limit = {
+					scope:title.holder.top_liege ?= { has_realm_law = male_only_law }
+					is_female = yes
+				}
+				multiply = {
+					value = 0
+					desc = male_only_law
+				}
+			}
+			else_if = {
+				limit = {
+					scope:title.holder.top_liege ?= { has_realm_law = male_preference_law }
+					is_female = yes
+				}
+				multiply = {
+					value = 0.33
+					desc = male_preference_law
+				}
+			}
+		}
+	}
+}
+
+guanzhi_military_appointment = {
+	default_candidates = { holder_councilor holder_court_position unlanded_noble_house_head unlanded_noble_house_member }
+
+	allow_same_tier_candidates = yes
+
+	candidate_score = {
+		value = {
+			# 武官以军事为首要
+			add = {
+				value = martial
+				multiply = 3
+				desc = martial_concept
+			}
+			add = {
+				value = diplomacy
+				add = stewardship
+				add = learning
+				add = intrigue
+				desc = sum_of_skills_desc
+			}
+
+			if = {
+				limit = { has_trait = jinshi }
+				add = {
+					value = 20
+					desc = trait_jinshi
+				}
+			}
+			if = {
+				limit = { has_trait = zhuangyuan }
+				add = {
+					value = 50
+					desc = trait_zhuangyuan
+				}
+			}
+
+			if = {
+				limit = {
+					scope:title.holder ?= { any_councillor ?= { this = root } }
+				}
+				add = {
+					value = 20
+					desc = councillor_position_governor_desc
+				}
+			}
+
+			if = {
+				limit = { is_lowborn = no }
+				add = {
+					value = dynasty.dynasty_prestige_level
+					multiply = 20
+					desc = "Bureaucrat_dynasty_prestige_level_value_desc"
+				}
+			}
+			else_if = {
+				limit = { is_lowborn = yes }
+				add = {
+					value = -25
+					desc = lowborn_desc_succession
+				}
+			}
+
+			if = {
+				limit = { influence_level >= 2 }
+				add = {
+					value = 10
+					multiply = {
+						value = influence_level
+						subtract = 1
+					}
+					desc = "[influence_level|E]"
+				}
+			}
+
+			if = {
+				limit = { age >= 40 }
+				add = {
+					value = 10
+					desc = old_age_desc
+				}
+			}
+			else_if = {
+				limit = { age < 30 }
+				add = {
+					value = -5
+					desc = young_age_desc
+				}
+			}
+
+			if = {
+				limit = { guanzhi_holds_office_trigger = yes }
+				add = {
+					value = -1000
+					desc = guanzhi_already_officeholder_desc
+				}
+			}
+
+			if = {
+				limit = { is_independent_ruler = yes }
+				multiply = {
+					value = -1000
+					desc = appointment_is_top_liege
+				}
+			}
+
+			# 有地者不得为朝官
+			if = {
+				limit = { is_landed = yes }
+				multiply = {
+					value = 0
+					desc = guanzhi_no_landed_officer_desc
+				}
+			}
+
+			if = {
+				limit = {
+					scope:title.holder.top_liege ?= { has_realm_law = male_only_law }
+					is_female = yes
+				}
+				multiply = {
+					value = 0
+					desc = male_only_law
+				}
+			}
+			else_if = {
+				limit = {
+					scope:title.holder.top_liege ?= { has_realm_law = male_preference_law }
+					is_female = yes
+				}
+				multiply = {
+					value = 0.33
+					desc = male_preference_law
+				}
+			}
+		}
+	}
+}

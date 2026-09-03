@@ -1,0 +1,7 @@
+# Guanzhi 官制 - opinion modifiers used by the court event chains
+guanzhi_opinion_shangshi = {
+	opinion = 10
+}
+guanzhi_opinion_caiji = {
+	opinion = -10
+}
