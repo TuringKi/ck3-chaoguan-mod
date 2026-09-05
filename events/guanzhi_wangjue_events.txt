@@ -1,0 +1,1814 @@
+namespace = guanzhi
+
+# 册封王公爵. root = scope:actor (君主), scope:recipient = 受封者.
+# 9800 王/公选择 -> 9801 王(古国名)/9802 公(郡名) 地名菜单(变量翻页).
+# 授予效果直接在选项内调用(root=君主, 与朝官授予同构).
+
+guanzhi.9800 = {
+	type = character_event
+	title = guanzhi.9800.t
+	desc = guanzhi.9800.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzwj_rank_wang
+		# 进菜单前重置页码 (root=君主)
+		set_variable = { name = guanzhi_tj_page value = 0 }
+		trigger_event = { id = guanzhi.9801 }
+	}
+
+	option = {
+		name = gzwj_rank_gong
+		set_variable = { name = guanzhi_tj_page value = 0 }
+		trigger_event = { id = guanzhi.9802 }
+	}
+
+	option = {
+		name = guanzhi.option.cancel
+	}
+}
+
+guanzhi.9801 = {
+	type = character_event
+	title = gzwj_menu_wang
+	desc = gzwj_pick_place_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	immediate = {
+		if = {
+			limit = { NOT = { exists = var:guanzhi_tj_page } }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+	}
+
+	option = {
+		name = gzwj_place_wang_0000
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0000 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0001
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0001 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0002
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0002 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0003
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0003 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0004
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0004 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0005
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0005 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0006
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0006 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0007
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0007 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0008
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0008 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0009
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0009 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0010
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0010 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0011
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_wang_0011 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0012
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0012 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0013
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0013 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0014
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0014 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0015
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0015 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0016
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0016 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0017
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0017 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0018
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0018 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0019
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0019 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0020
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0020 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0021
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0021 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0022
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0022 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0023
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_wang_0023 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0024
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0024 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0025
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0025 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0026
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0026 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0027
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0027 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0028
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0028 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0029
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0029 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0030
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0030 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0031
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0031 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0032
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0032 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0033
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0033 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0034
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0034 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0035
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_wang_0035 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0036
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0036 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0037
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0037 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0038
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0038 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0039
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0039 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0040
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0040 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0041
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0041 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0042
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0042 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0043
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0043 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0044
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0044 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0045
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0045 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0046
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0046 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0047
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_wang_0047 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0048
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0048 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0049
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0049 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0050
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0050 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0051
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0051 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0052
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0052 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0053
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0053 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0054
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0054 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0055
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0055 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0056
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0056 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0057
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0057 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0058
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0058 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0059
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_wang_0059 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0060
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0060 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0061
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0061 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0062
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0062 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0063
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0063 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0064
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0064 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0065
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0065 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0066
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0066 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0067
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0067 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0068
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0068 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0069
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0069 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0070
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0070 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0071
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_wang_0071 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0072
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0072 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0073
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0073 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0074
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0074 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0075
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0075 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0076
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0076 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0077
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0077 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0078
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0078 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0079
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0079 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0080
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0080 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0081
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0081 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0082
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0082 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0083
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_wang_0083 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0084
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0084 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0085
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0085 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0086
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0086 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0087
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0087 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0088
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0088 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0089
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0089 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0090
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0090 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0091
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0091 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0092
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0092 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0093
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0093 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0094
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0094 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0095
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_wang_0095 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0096
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0096 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0097
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0097 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0098
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0098 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0099
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0099 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0100
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0100 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0101
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0101 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0102
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0102 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0103
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0103 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0104
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0104 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0105
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0105 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0106
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0106 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0107
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_wang_0107 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0108
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0108 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0109
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0109 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0110
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0110 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0111
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0111 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0112
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0112 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0113
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0113 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0114
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0114 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0115
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0115 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0116
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0116 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0117
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0117 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0118
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0118 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0119
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_wang_0119 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0120
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0120 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0121
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0121 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0122
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0122 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0123
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0123 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0124
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0124 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0125
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0125 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0126
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0126 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0127
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0127 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0128
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0128 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0129
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0129 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0130
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0130 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0131
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_wang_0131 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0132
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0132 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0133
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0133 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0134
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0134 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0135
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0135 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0136
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0136 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0137
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0137 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0138
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0138 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0139
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0139 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0140
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0140 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0141
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0141 = yes
+	}
+
+	option = {
+		name = gzwj_place_wang_0142
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_wang_0142 = yes
+	}
+
+	option = {
+		name = guanzhi.option.next
+		if = {
+			limit = { var:guanzhi_tj_page = 11 }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+		else = {
+			change_variable = { name = guanzhi_tj_page add = 1 }
+		}
+		trigger_event = { id = guanzhi.9801 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9800 }
+	}
+}
+
+guanzhi.9802 = {
+	type = character_event
+	title = gzwj_menu_gong
+	desc = gzwj_pick_place_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	immediate = {
+		if = {
+			limit = { NOT = { exists = var:guanzhi_tj_page } }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+	}
+
+	option = {
+		name = gzwj_place_gong_0000
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0000 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0001
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0001 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0002
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0002 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0003
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0003 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0004
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0004 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0005
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0005 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0006
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0006 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0007
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0007 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0008
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0008 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0009
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0009 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0010
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0010 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0011
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 0 } }
+		guanzhi_wj_grant_gong_0011 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0012
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0012 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0013
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0013 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0014
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0014 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0015
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0015 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0016
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0016 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0017
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0017 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0018
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0018 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0019
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0019 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0020
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0020 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0021
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0021 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0022
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0022 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0023
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 1 } }
+		guanzhi_wj_grant_gong_0023 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0024
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0024 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0025
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0025 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0026
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0026 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0027
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0027 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0028
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0028 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0029
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0029 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0030
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0030 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0031
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0031 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0032
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0032 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0033
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0033 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0034
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0034 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0035
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 2 } }
+		guanzhi_wj_grant_gong_0035 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0036
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0036 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0037
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0037 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0038
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0038 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0039
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0039 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0040
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0040 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0041
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0041 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0042
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0042 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0043
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0043 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0044
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0044 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0045
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0045 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0046
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0046 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0047
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 3 } }
+		guanzhi_wj_grant_gong_0047 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0048
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0048 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0049
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0049 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0050
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0050 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0051
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0051 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0052
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0052 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0053
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0053 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0054
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0054 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0055
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0055 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0056
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0056 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0057
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0057 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0058
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0058 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0059
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 4 } }
+		guanzhi_wj_grant_gong_0059 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0060
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0060 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0061
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0061 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0062
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0062 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0063
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0063 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0064
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0064 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0065
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0065 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0066
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0066 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0067
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0067 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0068
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0068 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0069
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0069 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0070
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0070 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0071
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 5 } }
+		guanzhi_wj_grant_gong_0071 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0072
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0072 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0073
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0073 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0074
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0074 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0075
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0075 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0076
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0076 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0077
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0077 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0078
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0078 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0079
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0079 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0080
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0080 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0081
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0081 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0082
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0082 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0083
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 6 } }
+		guanzhi_wj_grant_gong_0083 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0084
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0084 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0085
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0085 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0086
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0086 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0087
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0087 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0088
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0088 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0089
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0089 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0090
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0090 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0091
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0091 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0092
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0092 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0093
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0093 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0094
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0094 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0095
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 7 } }
+		guanzhi_wj_grant_gong_0095 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0096
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0096 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0097
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0097 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0098
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0098 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0099
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0099 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0100
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0100 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0101
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0101 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0102
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0102 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0103
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0103 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0104
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0104 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0105
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0105 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0106
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0106 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0107
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 8 } }
+		guanzhi_wj_grant_gong_0107 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0108
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0108 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0109
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0109 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0110
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0110 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0111
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0111 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0112
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0112 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0113
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0113 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0114
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0114 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0115
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0115 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0116
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0116 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0117
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0117 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0118
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0118 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0119
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 9 } }
+		guanzhi_wj_grant_gong_0119 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0120
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0120 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0121
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0121 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0122
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0122 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0123
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0123 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0124
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0124 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0125
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0125 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0126
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0126 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0127
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0127 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0128
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0128 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0129
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0129 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0130
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0130 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0131
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 10 } }
+		guanzhi_wj_grant_gong_0131 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0132
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0132 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0133
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0133 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0134
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0134 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0135
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0135 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0136
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0136 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0137
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0137 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0138
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0138 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0139
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0139 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0140
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0140 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0141
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0141 = yes
+	}
+
+	option = {
+		name = gzwj_place_gong_0142
+		trigger = { guanzhi_tj_page_trigger = { PAGE = 11 } }
+		guanzhi_wj_grant_gong_0142 = yes
+	}
+
+	option = {
+		name = guanzhi.option.next
+		if = {
+			limit = { var:guanzhi_tj_page = 11 }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+		else = {
+			change_variable = { name = guanzhi_tj_page add = 1 }
+		}
+		trigger_event = { id = guanzhi.9802 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9800 }
+	}
+}
+

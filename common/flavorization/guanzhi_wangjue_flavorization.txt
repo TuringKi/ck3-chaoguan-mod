@@ -1,0 +1,11 @@
+# Guanzhi 官制 - 王公爵风味化 (角色[封地+王/公+挂载], 优先2300 压朝官2200)
+gzfv_wj = {
+	type = character
+	flag = guanzhi_wjholder
+	priority = 2300
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}

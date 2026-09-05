@@ -1,0 +1,68 @@
+# Guanzhi 官制 - 封王/封公互动 (9800 事件内选王/公)
+
+guanzhi_grant_wangjue_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_wangjue_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			trigger_event = { id = guanzhi.9800 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺王公爵: 只按 trait 判定, 不限身份
+guanzhi_revoke_wangjue_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_wangjue_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			has_trait_with_flag = guanzhi_wangjue
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_wangjue_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

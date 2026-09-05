@@ -1,0 +1,2290 @@
+# Guanzhi 官制 - 王公爵头衔印章模板 (小篆字形, 红底黄字; 授予效果 set_coa 引用)
+# 王/公同封国名共用同一印章
+
+gzw_coa_0000 = { # 齐
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0000.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0001 = { # 楚
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0001.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0002 = { # 秦
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0002.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0003 = { # 晋
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0003.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0004 = { # 燕
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0004.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0005 = { # 赵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0005.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0006 = { # 魏
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0006.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0007 = { # 韩
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0007.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0008 = { # 宋
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0008.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0009 = { # 郑
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0009.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0010 = { # 卫
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0010.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0011 = { # 鲁
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0011.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0012 = { # 陈
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0012.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0013 = { # 蔡
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0013.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0014 = { # 曹
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0014.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0015 = { # 吴
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0015.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0016 = { # 越
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0016.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0017 = { # 徐
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0017.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0018 = { # 郯
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0018.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0019 = { # 莒
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0019.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0020 = { # 薛
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0020.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0021 = { # 滕
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0021.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0022 = { # 邢
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0022.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0023 = { # 虞
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0023.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0024 = { # 虢
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0024.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0025 = { # 杞
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0025.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0026 = { # 胡
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0026.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0027 = { # 梁
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0027.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0028 = { # 唐
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0028.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0029 = { # 鄂
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0029.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0030 = { # 褒
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0030.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0031 = { # 申
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0031.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0032 = { # 吕
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0032.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0033 = { # 随
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0033.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0034 = { # 邓
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0034.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0035 = { # 霍
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0035.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0036 = { # 耿
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0036.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0037 = { # 蒋
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0037.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0038 = { # 英
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0038.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0039 = { # 夔
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0039.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0040 = { # 莱
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0040.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0041 = { # 许
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0041.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0042 = { # 苏
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0042.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0043 = { # 钟
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0043.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0044 = { # 郢
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0044.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0045 = { # 沈
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0045.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0046 = { # 郧
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0046.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0047 = { # 谯
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0047.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0048 = { # 河内
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0048.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0049 = { # 河东
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0049.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0050 = { # 弘农
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0050.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0051 = { # 颍川
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0051.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0052 = { # 汝南
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0052.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0053 = { # 梁
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0053.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0054 = { # 沛
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0054.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0055 = { # 陈
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0055.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0056 = { # 鲁
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0056.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0057 = { # 魏
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0057.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0058 = { # 钜鹿
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0058.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0059 = { # 常山
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0059.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0060 = { # 中山
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0060.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0061 = { # 安平
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0061.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0062 = { # 河间
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0062.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0063 = { # 清河
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0063.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0064 = { # 赵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0064.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0065 = { # 勃海
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0065.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0066 = { # 陈留
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0066.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0067 = { # 东
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0067.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0068 = { # 东平
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0068.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0069 = { # 任城
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0069.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0070 = { # 泰山
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0070.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0071 = { # 济北
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0071.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0072 = { # 山阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0072.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0073 = { # 济阴
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0073.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0074 = { # 东海
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0074.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0075 = { # 琅邪
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0075.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0076 = { # 彭城
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0076.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0077 = { # 广陵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0077.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0078 = { # 下邳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0078.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0079 = { # 济南
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0079.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0080 = { # 平原
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0080.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0081 = { # 乐安
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0081.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0082 = { # 北海
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0082.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0083 = { # 东莱
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0083.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0084 = { # 齐
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0084.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0085 = { # 南阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0085.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0086 = { # 南
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0086.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0087 = { # 江夏
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0087.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0088 = { # 零陵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0088.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0089 = { # 桂阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0089.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0090 = { # 武陵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0090.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0091 = { # 长沙
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0091.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0092 = { # 九江
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0092.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0093 = { # 丹阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0093.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0094 = { # 庐江
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0094.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0095 = { # 会稽
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0095.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0096 = { # 吴
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0096.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0097 = { # 豫章
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0097.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0098 = { # 汉中
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0098.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0099 = { # 巴
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0099.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0100 = { # 广汉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0100.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0101 = { # 蜀
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0101.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0102 = { # 犍为
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0102.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0103 = { # 牂牁
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0103.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0104 = { # 越巂
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0104.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0105 = { # 益州
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0105.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0106 = { # 永昌
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0106.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0107 = { # 陇西
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0107.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0108 = { # 汉阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0108.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0109 = { # 武都
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0109.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0110 = { # 金城
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0110.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0111 = { # 安定
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0111.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0112 = { # 北地
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0112.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0113 = { # 武威
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0113.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0114 = { # 张掖
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0114.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0115 = { # 酒泉
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0115.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0116 = { # 敦煌
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0116.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0117 = { # 上党
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0117.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0118 = { # 太原
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0118.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0119 = { # 上
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0119.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0120 = { # 西河
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0120.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0121 = { # 五原
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0121.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0122 = { # 云中
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0122.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0123 = { # 定襄
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0123.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0124 = { # 雁门
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0124.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0125 = { # 朔方
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0125.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0126 = { # 涿
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0126.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0127 = { # 广阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0127.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0128 = { # 代
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0128.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0129 = { # 上谷
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0129.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0130 = { # 渔阳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0130.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0131 = { # 右北平
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0131.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0132 = { # 辽西
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0132.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0133 = { # 辽东
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0133.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0134 = { # 玄菟
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0134.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0135 = { # 乐浪
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0135.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0136 = { # 南海
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0136.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0137 = { # 苍梧
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0137.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0138 = { # 郁林
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0138.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0139 = { # 合浦
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0139.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0140 = { # 交趾
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0140.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0141 = { # 九真
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0141.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+gzw_coa_0142 = { # 日南
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = yellow
+	color3 = red
+
+	colored_emblem = {
+		color1 = yellow
+		texture = "ce_gz_wj_0142.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.8 0.8 }
+		}
+	}
+}

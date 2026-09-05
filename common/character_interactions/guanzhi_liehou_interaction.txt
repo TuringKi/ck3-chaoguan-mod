@@ -12,6 +12,8 @@ guanzhi_grant_liehou_interaction = {
 		scope:recipient = {
 			NOT = { this = scope:actor }
 			is_adult = yes
+			# 王公爵与侯爵不共存
+			NOT = { has_trait_with_flag = guanzhi_wangjue }
 			OR = {
 				is_courtier_of = scope:actor
 				is_vassal_of = scope:actor

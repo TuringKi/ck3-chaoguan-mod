@@ -1,0 +1,68 @@
+# Guanzhi 官制 - 封王/封公 traits
+# 品位trait(王/公, flag=guanzhi_wangjue) + 姓氏trait(同姓/异姓)
+
+gzw_wang = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_wang.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_wang_desc
+	monthly_prestige = 1.0
+	general_opinion = 15
+	vassal_opinion = 5
+	flag = guanzhi_wangjue
+}
+
+gzw_gong = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_gong.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_gong_desc
+	monthly_prestige = 0.6
+	general_opinion = 10
+	flag = guanzhi_wangjue
+}
+
+gzw_tong_wang = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_tong_wang.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_tong_wang_desc
+	monthly_prestige = 0.4
+	liege_opinion = 10
+	vassal_opinion = 5
+}
+
+gzw_yi_wang = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_yi_wang.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_yi_wang_desc
+	monthly_prestige = 0.4
+	liege_opinion = -15
+	courtier_opinion = 5
+}
+
+gzw_tong_gong = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_tong_gong.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_tong_gong_desc
+	monthly_prestige = 0.25
+	liege_opinion = 5
+}
+
+gzw_yi_gong = {
+	birth = 0
+	random_creation = 0
+	icon = gzw_yi_gong.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzw_yi_gong_desc
+	monthly_prestige = 0.25
+	liege_opinion = -5
+	courtier_opinion = 5
+}
