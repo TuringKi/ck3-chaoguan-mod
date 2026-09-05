@@ -1430,8 +1430,624 @@ k_gz_t_youqianniu = { # 右千牛卫大将军
 	capital = c_jingzhao
 }
 
+e_gz_t_hanlin = { # 翰林学士
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_hanlin = { # 翰林学士
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_shumi = { # 枢密使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_shumi = { # 枢密使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_xuanhui = { # 宣徽使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_xuanhui = { # 宣徽使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_yantie = { # 盐铁使
+	color = { 234 194 70 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_yantie = { # 盐铁使
+	color = { 234 194 70 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_duzhi = { # 度支使
+	color = { 242 202 78 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_duzhi = { # 度支使
+	color = { 242 202 78 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_hushi = { # 户部使
+	color = { 194 154 30 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_hushi = { # 户部使
+	color = { 194 154 30 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_zhuanyun = { # 转运使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_zhuanyun = { # 转运使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_zhuqian = { # 铸钱使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_zhuqian = { # 铸钱使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_quecha = { # 榷茶使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_quecha = { # 榷茶使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_zuyong = { # 租庸使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_zuyong = { # 租庸使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_shencezuo = { # 左神策军护军中尉
+	color = { 212 112 48 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_shencezuo = { # 左神策军护军中尉
+	color = { 212 112 48 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_shenceyou = { # 右神策军护军中尉
+	color = { 220 120 56 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_shenceyou = { # 右神策军护军中尉
+	color = { 220 120 56 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+e_gz_t_guanjunrong = { # 观军容使
+	color = { 172 72 8 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_guanjunrong = { # 观军容使
+	color = { 172 72 8 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_hemen = { # 閤门使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_hemen = { # 閤门使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_kesheng = { # 客省使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_kesheng = { # 客省使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_libin = { # 礼宾使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_libin = { # 礼宾使
+	color = { 218 178 54 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_neizhuangzhai = { # 内庄宅使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_neizhuangzhai = { # 内庄宅使
+	color = { 226 186 62 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_gongyuan = { # 宫苑使
+	color = { 234 194 70 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_gongyuan = { # 宫苑使
+	color = { 234 194 70 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_feilong = { # 飞龙使
+	color = { 220 120 56 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_feilong = { # 飞龙使
+	color = { 220 120 56 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_jiaofang = { # 教坊使
+	color = { 194 154 30 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_jiaofang = { # 教坊使
+	color = { 194 154 30 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_wufang = { # 五坊使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_wufang = { # 五坊使
+	color = { 202 162 38 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+k_gz_t_shangshi = { # 尚食使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
+d_gz_t_shangshi = { # 尚食使
+	color = { 210 170 46 }
+	landless = yes
+	allow_domicile = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+	can_use_nomadic_naming = no
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	capital = c_jingzhao
+}
+
 e_gz_h_chengxiang = { # 丞相
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1445,7 +2061,7 @@ e_gz_h_chengxiang = { # 丞相
 }
 
 k_gz_h_chengxiang = { # 丞相
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1459,7 +2075,7 @@ k_gz_h_chengxiang = { # 丞相
 }
 
 e_gz_h_taiwei = { # 太尉
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1473,7 +2089,7 @@ e_gz_h_taiwei = { # 太尉
 }
 
 k_gz_h_taiwei = { # 太尉
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1487,7 +2103,7 @@ k_gz_h_taiwei = { # 太尉
 }
 
 e_gz_h_yushidafu = { # 御史大夫
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1501,7 +2117,7 @@ e_gz_h_yushidafu = { # 御史大夫
 }
 
 k_gz_h_yushidafu = { # 御史大夫
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1515,7 +2131,7 @@ k_gz_h_yushidafu = { # 御史大夫
 }
 
 e_gz_h_taichang = { # 太常
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1529,7 +2145,7 @@ e_gz_h_taichang = { # 太常
 }
 
 k_gz_h_taichang = { # 太常
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1543,7 +2159,7 @@ k_gz_h_taichang = { # 太常
 }
 
 e_gz_h_guangluxun = { # 光禄勋
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1557,7 +2173,7 @@ e_gz_h_guangluxun = { # 光禄勋
 }
 
 k_gz_h_guangluxun = { # 光禄勋
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1571,7 +2187,7 @@ k_gz_h_guangluxun = { # 光禄勋
 }
 
 e_gz_h_weiwei = { # 卫尉
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1585,7 +2201,7 @@ e_gz_h_weiwei = { # 卫尉
 }
 
 k_gz_h_weiwei = { # 卫尉
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1599,7 +2215,7 @@ k_gz_h_weiwei = { # 卫尉
 }
 
 e_gz_h_taipu = { # 太仆
-	color = { 162 28 20 }
+	color = { 170 36 28 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1613,7 +2229,7 @@ e_gz_h_taipu = { # 太仆
 }
 
 k_gz_h_taipu = { # 太仆
-	color = { 162 28 20 }
+	color = { 170 36 28 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1627,7 +2243,7 @@ k_gz_h_taipu = { # 太仆
 }
 
 e_gz_h_tingwei = { # 廷尉
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1641,7 +2257,7 @@ e_gz_h_tingwei = { # 廷尉
 }
 
 k_gz_h_tingwei = { # 廷尉
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1655,7 +2271,7 @@ k_gz_h_tingwei = { # 廷尉
 }
 
 e_gz_h_dahonglu = { # 大鸿胪
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1669,7 +2285,7 @@ e_gz_h_dahonglu = { # 大鸿胪
 }
 
 k_gz_h_dahonglu = { # 大鸿胪
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1683,7 +2299,7 @@ k_gz_h_dahonglu = { # 大鸿胪
 }
 
 e_gz_h_zongzheng = { # 宗正
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1697,7 +2313,7 @@ e_gz_h_zongzheng = { # 宗正
 }
 
 k_gz_h_zongzheng = { # 宗正
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1711,7 +2327,7 @@ k_gz_h_zongzheng = { # 宗正
 }
 
 e_gz_h_dasinong = { # 大司农
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1725,7 +2341,7 @@ e_gz_h_dasinong = { # 大司农
 }
 
 k_gz_h_dasinong = { # 大司农
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1739,7 +2355,7 @@ k_gz_h_dasinong = { # 大司农
 }
 
 e_gz_h_shaofu = { # 少府
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1753,7 +2369,7 @@ e_gz_h_shaofu = { # 少府
 }
 
 k_gz_h_shaofu = { # 少府
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1767,7 +2383,7 @@ k_gz_h_shaofu = { # 少府
 }
 
 k_gz_h_shangshuling = { # 尚书令
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1781,7 +2397,7 @@ k_gz_h_shangshuling = { # 尚书令
 }
 
 d_gz_h_shangshuling = { # 尚书令
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1795,7 +2411,7 @@ d_gz_h_shangshuling = { # 尚书令
 }
 
 k_gz_h_shangshupuye = { # 尚书仆射
-	color = { 162 28 20 }
+	color = { 170 36 28 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1809,7 +2425,7 @@ k_gz_h_shangshupuye = { # 尚书仆射
 }
 
 d_gz_h_shangshupuye = { # 尚书仆射
-	color = { 162 28 20 }
+	color = { 170 36 28 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1823,7 +2439,7 @@ d_gz_h_shangshupuye = { # 尚书仆射
 }
 
 k_gz_h_licao = { # 吏曹尚书
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1837,7 +2453,7 @@ k_gz_h_licao = { # 吏曹尚书
 }
 
 d_gz_h_licao = { # 吏曹尚书
-	color = { 170 36 28 }
+	color = { 178 44 36 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1851,7 +2467,7 @@ d_gz_h_licao = { # 吏曹尚书
 }
 
 k_gz_h_erqianshi = { # 二千石曹尚书
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1865,7 +2481,7 @@ k_gz_h_erqianshi = { # 二千石曹尚书
 }
 
 d_gz_h_erqianshi = { # 二千石曹尚书
-	color = { 178 44 36 }
+	color = { 186 52 44 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1879,7 +2495,7 @@ d_gz_h_erqianshi = { # 二千石曹尚书
 }
 
 k_gz_h_mincao = { # 民曹尚书
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1893,7 +2509,7 @@ k_gz_h_mincao = { # 民曹尚书
 }
 
 d_gz_h_mincao = { # 民曹尚书
-	color = { 186 52 44 }
+	color = { 194 60 52 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1907,7 +2523,7 @@ d_gz_h_mincao = { # 民曹尚书
 }
 
 k_gz_h_sangongcao = { # 三公曹尚书
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1921,7 +2537,7 @@ k_gz_h_sangongcao = { # 三公曹尚书
 }
 
 d_gz_h_sangongcao = { # 三公曹尚书
-	color = { 194 60 52 }
+	color = { 202 68 60 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1935,7 +2551,7 @@ d_gz_h_sangongcao = { # 三公曹尚书
 }
 
 k_gz_h_nankecao = { # 南主客曹尚书
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1949,7 +2565,7 @@ k_gz_h_nankecao = { # 南主客曹尚书
 }
 
 d_gz_h_nankecao = { # 南主客曹尚书
-	color = { 202 68 60 }
+	color = { 154 20 12 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1963,7 +2579,7 @@ d_gz_h_nankecao = { # 南主客曹尚书
 }
 
 k_gz_h_beikecao = { # 北主客曹尚书
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1977,7 +2593,7 @@ k_gz_h_beikecao = { # 北主客曹尚书
 }
 
 d_gz_h_beikecao = { # 北主客曹尚书
-	color = { 154 20 12 }
+	color = { 162 28 20 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -1991,7 +2607,7 @@ d_gz_h_beikecao = { # 北主客曹尚书
 }
 
 e_gz_h_dajiangjun = { # 大将军
-	color = { 112 12 8 }
+	color = { 120 20 16 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2005,7 +2621,7 @@ e_gz_h_dajiangjun = { # 大将军
 }
 
 k_gz_h_dajiangjun = { # 大将军
-	color = { 112 12 8 }
+	color = { 120 20 16 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2019,7 +2635,7 @@ k_gz_h_dajiangjun = { # 大将军
 }
 
 e_gz_h_piaoji = { # 骠骑将军
-	color = { 120 20 16 }
+	color = { 128 28 24 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2033,7 +2649,7 @@ e_gz_h_piaoji = { # 骠骑将军
 }
 
 k_gz_h_piaoji = { # 骠骑将军
-	color = { 120 20 16 }
+	color = { 128 28 24 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2047,7 +2663,7 @@ k_gz_h_piaoji = { # 骠骑将军
 }
 
 e_gz_h_cheji = { # 车骑将军
-	color = { 128 28 24 }
+	color = { 136 36 32 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2061,7 +2677,7 @@ e_gz_h_cheji = { # 车骑将军
 }
 
 k_gz_h_cheji = { # 车骑将军
-	color = { 128 28 24 }
+	color = { 136 36 32 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2075,7 +2691,7 @@ k_gz_h_cheji = { # 车骑将军
 }
 
 e_gz_h_weijiangjun = { # 卫将军
-	color = { 136 36 32 }
+	color = { 144 44 40 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2089,7 +2705,7 @@ e_gz_h_weijiangjun = { # 卫将军
 }
 
 k_gz_h_weijiangjun = { # 卫将军
-	color = { 136 36 32 }
+	color = { 144 44 40 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2103,7 +2719,7 @@ k_gz_h_weijiangjun = { # 卫将军
 }
 
 e_gz_h_qianjiangjun = { # 前将军
-	color = { 144 44 40 }
+	color = { 152 52 48 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2117,7 +2733,7 @@ e_gz_h_qianjiangjun = { # 前将军
 }
 
 k_gz_h_qianjiangjun = { # 前将军
-	color = { 144 44 40 }
+	color = { 152 52 48 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2131,7 +2747,7 @@ k_gz_h_qianjiangjun = { # 前将军
 }
 
 e_gz_h_houjiangjun = { # 后将军
-	color = { 152 52 48 }
+	color = { 104 4 0 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2145,7 +2761,7 @@ e_gz_h_houjiangjun = { # 后将军
 }
 
 k_gz_h_houjiangjun = { # 后将军
-	color = { 152 52 48 }
+	color = { 104 4 0 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2159,7 +2775,7 @@ k_gz_h_houjiangjun = { # 后将军
 }
 
 e_gz_h_zuojiangjun = { # 左将军
-	color = { 104 4 0 }
+	color = { 112 12 8 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2173,7 +2789,7 @@ e_gz_h_zuojiangjun = { # 左将军
 }
 
 k_gz_h_zuojiangjun = { # 左将军
-	color = { 104 4 0 }
+	color = { 112 12 8 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2187,7 +2803,7 @@ k_gz_h_zuojiangjun = { # 左将军
 }
 
 e_gz_h_youjiangjun = { # 右将军
-	color = { 112 12 8 }
+	color = { 120 20 16 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2201,7 +2817,7 @@ e_gz_h_youjiangjun = { # 右将军
 }
 
 k_gz_h_youjiangjun = { # 右将军
-	color = { 112 12 8 }
+	color = { 120 20 16 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2215,7 +2831,7 @@ k_gz_h_youjiangjun = { # 右将军
 }
 
 k_gz_h_zhijinwu = { # 执金吾
-	color = { 120 20 16 }
+	color = { 128 28 24 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes
@@ -2229,7 +2845,7 @@ k_gz_h_zhijinwu = { # 执金吾
 }
 
 d_gz_h_zhijinwu = { # 执金吾
-	color = { 120 20 16 }
+	color = { 128 28 24 }
 	landless = yes
 	allow_domicile = no
 	no_automatic_claims = yes

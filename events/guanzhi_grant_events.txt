@@ -48,6 +48,21 @@ guanzhi.0001 = {
 	}
 
 	option = {
+		name = guanzhi.sg.T.shizhi_shu
+		trigger_event = { id = guanzhi.0108 }
+	}
+
+	option = {
+		name = guanzhi.sg.T.shizhi_cai
+		trigger_event = { id = guanzhi.0109 }
+	}
+
+	option = {
+		name = guanzhi.sg.T.shizhi_gong
+		trigger_event = { id = guanzhi.0110 }
+	}
+
+	option = {
 		name = guanzhi.option.cancel
 	}
 }
@@ -62,27 +77,27 @@ guanzhi.0002 = {
 
 	option = {
 		name = guanzhi.sg.H.sangong
-		trigger_event = { id = guanzhi.0108 }
-	}
-
-	option = {
-		name = guanzhi.sg.H.jiuqing
-		trigger_event = { id = guanzhi.0109 }
-	}
-
-	option = {
-		name = guanzhi.sg.H.shangshutai
-		trigger_event = { id = guanzhi.0110 }
-	}
-
-	option = {
-		name = guanzhi.sg.H.zhonghao
 		trigger_event = { id = guanzhi.0111 }
 	}
 
 	option = {
-		name = guanzhi.sg.H.sifang
+		name = guanzhi.sg.H.jiuqing
 		trigger_event = { id = guanzhi.0112 }
+	}
+
+	option = {
+		name = guanzhi.sg.H.shangshutai
+		trigger_event = { id = guanzhi.0113 }
+	}
+
+	option = {
+		name = guanzhi.sg.H.zhonghao
+		trigger_event = { id = guanzhi.0114 }
+	}
+
+	option = {
+		name = guanzhi.sg.H.sifang
+		trigger_event = { id = guanzhi.0115 }
 	}
 
 	option = {
@@ -802,6 +817,312 @@ guanzhi.0107 = {
 
 guanzhi.0108 = {
 	type = character_event
+	title = guanzhi.sg.T.shizhi_shu
+	desc = guanzhi.0001.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gz_office.t_hanlin
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hanlin
+				}
+			}
+		}
+		guanzhi_grant_office_t_hanlin_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shumi
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shumi
+				}
+			}
+		}
+		guanzhi_grant_office_t_shumi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_xuanhui
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_xuanhui
+				}
+			}
+		}
+		guanzhi_grant_office_t_xuanhui_effect = yes
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.0001 }
+	}
+}
+
+guanzhi.0109 = {
+	type = character_event
+	title = guanzhi.sg.T.shizhi_cai
+	desc = guanzhi.0001.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gz_office.t_yantie
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_yantie
+				}
+			}
+		}
+		guanzhi_grant_office_t_yantie_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_duzhi
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_duzhi
+				}
+			}
+		}
+		guanzhi_grant_office_t_duzhi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_hushi
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hushi
+				}
+			}
+		}
+		guanzhi_grant_office_t_hushi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zhuanyun
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuanyun
+				}
+			}
+		}
+		guanzhi_grant_office_t_zhuanyun_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zhuqian
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuqian
+				}
+			}
+		}
+		guanzhi_grant_office_t_zhuqian_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_quecha
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_quecha
+				}
+			}
+		}
+		guanzhi_grant_office_t_quecha_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zuyong
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zuyong
+				}
+			}
+		}
+		guanzhi_grant_office_t_zuyong_effect = yes
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.0001 }
+	}
+}
+
+guanzhi.0110 = {
+	type = character_event
+	title = guanzhi.sg.T.shizhi_gong
+	desc = guanzhi.0001.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gz_office.t_shencezuo
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shencezuo
+				}
+			}
+		}
+		guanzhi_grant_office_t_shencezuo_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shenceyou
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shenceyou
+				}
+			}
+		}
+		guanzhi_grant_office_t_shenceyou_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_guanjunrong
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_guanjunrong
+				}
+			}
+		}
+		guanzhi_grant_office_t_guanjunrong_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_hemen
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hemen
+				}
+			}
+		}
+		guanzhi_grant_office_t_hemen_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_kesheng
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_kesheng
+				}
+			}
+		}
+		guanzhi_grant_office_t_kesheng_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_libin
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_libin
+				}
+			}
+		}
+		guanzhi_grant_office_t_libin_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_neizhuangzhai
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_neizhuangzhai
+				}
+			}
+		}
+		guanzhi_grant_office_t_neizhuangzhai_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_gongyuan
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_gongyuan
+				}
+			}
+		}
+		guanzhi_grant_office_t_gongyuan_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_feilong
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_feilong
+				}
+			}
+		}
+		guanzhi_grant_office_t_feilong_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_jiaofang
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_jiaofang
+				}
+			}
+		}
+		guanzhi_grant_office_t_jiaofang_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_wufang
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_wufang
+				}
+			}
+		}
+		guanzhi_grant_office_t_wufang_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shangshi
+		trigger = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shangshi
+				}
+			}
+		}
+		guanzhi_grant_office_t_shangshi_effect = yes
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.0001 }
+	}
+}
+
+guanzhi.0111 = {
+	type = character_event
 	title = guanzhi.sg.H.sangong
 	desc = guanzhi.0001.desc
 	theme = court
@@ -850,7 +1171,7 @@ guanzhi.0108 = {
 	}
 }
 
-guanzhi.0109 = {
+guanzhi.0112 = {
 	type = character_event
 	title = guanzhi.sg.H.jiuqing
 	desc = guanzhi.0001.desc
@@ -972,7 +1293,7 @@ guanzhi.0109 = {
 	}
 }
 
-guanzhi.0110 = {
+guanzhi.0113 = {
 	type = character_event
 	title = guanzhi.sg.H.shangshutai
 	desc = guanzhi.0001.desc
@@ -1082,7 +1403,7 @@ guanzhi.0110 = {
 	}
 }
 
-guanzhi.0111 = {
+guanzhi.0114 = {
 	type = character_event
 	title = guanzhi.sg.H.zhonghao
 	desc = guanzhi.0001.desc
@@ -1144,7 +1465,7 @@ guanzhi.0111 = {
 	}
 }
 
-guanzhi.0112 = {
+guanzhi.0115 = {
 	type = character_event
 	title = guanzhi.sg.H.sifang
 	desc = guanzhi.0001.desc
@@ -1215,6 +1536,326 @@ guanzhi.0112 = {
 	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.0002 }
+	}
+}
+
+
+# 委任使职(对人翻页菜单; 变量翻页同唐爵9756)
+guanzhi.0120 = {
+	type = character_event
+	title = guanzhi.0120.t
+	desc = guanzhi.0120.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	immediate = {
+		if = {
+			limit = { NOT = { exists = var:guanzhi_tj_page } }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+	}
+
+	option = {
+		name = gz_office.t_hanlin
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hanlin
+				}
+			}
+		}
+		guanzhi_grant_office_t_hanlin_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shumi
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shumi
+				}
+			}
+		}
+		guanzhi_grant_office_t_shumi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_xuanhui
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_xuanhui
+				}
+			}
+		}
+		guanzhi_grant_office_t_xuanhui_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_yantie
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_yantie
+				}
+			}
+		}
+		guanzhi_grant_office_t_yantie_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_duzhi
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_duzhi
+				}
+			}
+		}
+		guanzhi_grant_office_t_duzhi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_hushi
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hushi
+				}
+			}
+		}
+		guanzhi_grant_office_t_hushi_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zhuanyun
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuanyun
+				}
+			}
+		}
+		guanzhi_grant_office_t_zhuanyun_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zhuqian
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuqian
+				}
+			}
+		}
+		guanzhi_grant_office_t_zhuqian_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_quecha
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_quecha
+				}
+			}
+		}
+		guanzhi_grant_office_t_quecha_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_zuyong
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zuyong
+				}
+			}
+		}
+		guanzhi_grant_office_t_zuyong_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shencezuo
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shencezuo
+				}
+			}
+		}
+		guanzhi_grant_office_t_shencezuo_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shenceyou
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 0 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shenceyou
+				}
+			}
+		}
+		guanzhi_grant_office_t_shenceyou_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_guanjunrong
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_guanjunrong
+				}
+			}
+		}
+		guanzhi_grant_office_t_guanjunrong_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_hemen
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hemen
+				}
+			}
+		}
+		guanzhi_grant_office_t_hemen_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_kesheng
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_kesheng
+				}
+			}
+		}
+		guanzhi_grant_office_t_kesheng_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_libin
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_libin
+				}
+			}
+		}
+		guanzhi_grant_office_t_libin_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_neizhuangzhai
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_neizhuangzhai
+				}
+			}
+		}
+		guanzhi_grant_office_t_neizhuangzhai_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_gongyuan
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_gongyuan
+				}
+			}
+		}
+		guanzhi_grant_office_t_gongyuan_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_feilong
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_feilong
+				}
+			}
+		}
+		guanzhi_grant_office_t_feilong_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_jiaofang
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_jiaofang
+				}
+			}
+		}
+		guanzhi_grant_office_t_jiaofang_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_wufang
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_wufang
+				}
+			}
+		}
+		guanzhi_grant_office_t_wufang_effect = yes
+	}
+
+	option = {
+		name = gz_office.t_shangshi
+		trigger = {
+			guanzhi_tj_page_trigger = { PAGE = 1 }
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shangshi
+				}
+			}
+		}
+		guanzhi_grant_office_t_shangshi_effect = yes
+	}
+
+	option = {
+		name = guanzhi.option.next
+		if = {
+			limit = { var:guanzhi_tj_page = 1 }
+			set_variable = { name = guanzhi_tj_page value = 0 }
+		}
+		else = {
+			change_variable = { name = guanzhi_tj_page add = 1 }
+		}
+		trigger_event = { id = guanzhi.0120 }
+	}
+
+	option = {
+		name = guanzhi.option.cancel
 	}
 }
 

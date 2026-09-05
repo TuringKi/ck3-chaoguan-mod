@@ -127,6 +127,24 @@ guanzhi_san_auto_grant_wen_10 = {
 	}
 }
 
+# 自动授朝请大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_12 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_12 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_12 for [root.GetShortUIName]"
+	}
+}
+
 # 自动授朝请郎 (root=受官者)
 guanzhi_san_auto_grant_wen_18 = {
 	if = {
@@ -178,6 +196,24 @@ guanzhi_san_auto_grant_wu_02 = {
 	}
 	else = {
 		debug_log = "GUANZHI san auto SKIP wu_02 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授镇军大将军 (root=受官者)
+guanzhi_san_auto_grant_wu_03 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_03 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_03 for [root.GetShortUIName]"
 	}
 }
 
@@ -362,6 +398,7 @@ guanzhi_san_sync_office_effect = {
 		limit = {
 			OR = {
 				scope:title = { has_variable = guanzhi_office_t_shangshuling }
+				scope:title = { has_variable = guanzhi_office_t_shumi }
 			}
 		}
 		guanzhi_san_auto_grant_wen_02 = yes
@@ -387,6 +424,10 @@ guanzhi_san_sync_office_effect = {
 				scope:title = { has_variable = guanzhi_office_t_xingbu }
 				scope:title = { has_variable = guanzhi_office_t_gongbu }
 				scope:title = { has_variable = guanzhi_office_t_neishi }
+				scope:title = { has_variable = guanzhi_office_t_xuanhui }
+				scope:title = { has_variable = guanzhi_office_t_yantie }
+				scope:title = { has_variable = guanzhi_office_t_duzhi }
+				scope:title = { has_variable = guanzhi_office_t_hushi }
 			}
 		}
 		guanzhi_san_auto_grant_wen_04 = yes
@@ -409,6 +450,7 @@ guanzhi_san_sync_office_effect = {
 				scope:title = { has_variable = guanzhi_office_t_dianzhong }
 				scope:title = { has_variable = guanzhi_office_t_shaofu_jian }
 				scope:title = { has_variable = guanzhi_office_t_jiangzuo }
+				scope:title = { has_variable = guanzhi_office_t_zhuanyun }
 			}
 		}
 		guanzhi_san_auto_grant_wen_05 = yes
@@ -417,6 +459,10 @@ guanzhi_san_sync_office_effect = {
 		limit = {
 			OR = {
 				scope:title = { has_variable = guanzhi_office_t_junqi }
+				scope:title = { has_variable = guanzhi_office_t_hanlin }
+				scope:title = { has_variable = guanzhi_office_t_zhuqian }
+				scope:title = { has_variable = guanzhi_office_t_quecha }
+				scope:title = { has_variable = guanzhi_office_t_zuyong }
 			}
 		}
 		guanzhi_san_auto_grant_wen_06 = yes
@@ -425,6 +471,9 @@ guanzhi_san_sync_office_effect = {
 		limit = {
 			OR = {
 				scope:title = { has_variable = guanzhi_office_t_dushui }
+				scope:title = { has_variable = guanzhi_office_t_hemen }
+				scope:title = { has_variable = guanzhi_office_t_kesheng }
+				scope:title = { has_variable = guanzhi_office_t_libin }
 			}
 		}
 		guanzhi_san_auto_grant_wen_10 = yes
@@ -448,9 +497,39 @@ guanzhi_san_sync_office_effect = {
 				scope:title = { has_variable = guanzhi_office_t_youjianmen }
 				scope:title = { has_variable = guanzhi_office_t_zuoqianniu }
 				scope:title = { has_variable = guanzhi_office_t_youqianniu }
+				scope:title = { has_variable = guanzhi_office_t_shencezuo }
+				scope:title = { has_variable = guanzhi_office_t_shenceyou }
 			}
 		}
 		guanzhi_san_auto_grant_wu_02 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_guanjunrong }
+			}
+		}
+		guanzhi_san_auto_grant_wu_03 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_neizhuangzhai }
+				scope:title = { has_variable = guanzhi_office_t_gongyuan }
+				scope:title = { has_variable = guanzhi_office_t_jiaofang }
+				scope:title = { has_variable = guanzhi_office_t_wufang }
+				scope:title = { has_variable = guanzhi_office_t_shangshi }
+			}
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_feilong }
+			}
+		}
+		guanzhi_san_auto_grant_wu_16 = yes
 	}
 }
 

@@ -9438,6 +9438,3984 @@ guanzhi_appoint_office_t_youqianniu_effect = {
 	}
 }
 
+# ---- 翰林学士 授予(菜单) ----
+guanzhi_grant_office_t_hanlin_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_hanlin
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hanlin
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hanlin
+		set_coa = k_gz_t_hanlin
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hanlin value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_hanlin
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hanlin
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 翰林学士 任命(自动选人) ----
+guanzhi_appoint_office_t_hanlin_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hanlin
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_hanlin: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_hanlin
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hanlin
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hanlin
+		set_coa = k_gz_t_hanlin
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hanlin value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_hanlin
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hanlin
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 枢密使 授予(菜单) ----
+guanzhi_grant_office_t_shumi_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shumi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shumi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shumi
+		set_coa = k_gz_t_shumi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_shumi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_shumi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shumi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_02 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 枢密使 任命(自动选人) ----
+guanzhi_appoint_office_t_shumi_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shumi
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_shumi: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shumi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shumi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shumi
+		set_coa = k_gz_t_shumi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_shumi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_shumi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shumi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_02 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 宣徽使 授予(菜单) ----
+guanzhi_grant_office_t_xuanhui_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_xuanhui
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_xuanhui
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_xuanhui
+		set_coa = k_gz_t_xuanhui
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_xuanhui value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_xuanhui
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_xuanhui
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 宣徽使 任命(自动选人) ----
+guanzhi_appoint_office_t_xuanhui_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_xuanhui
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_xuanhui: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_xuanhui
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_xuanhui
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_xuanhui
+		set_coa = k_gz_t_xuanhui
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_xuanhui value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_xuanhui
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_xuanhui
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 盐铁使 授予(菜单) ----
+guanzhi_grant_office_t_yantie_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_yantie
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_yantie
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_yantie
+		set_coa = k_gz_t_yantie
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_yantie value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_yantie
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_yantie
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 盐铁使 任命(自动选人) ----
+guanzhi_appoint_office_t_yantie_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_yantie
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_yantie: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_yantie
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_yantie
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_yantie
+		set_coa = k_gz_t_yantie
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_yantie value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_yantie
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_yantie
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 度支使 授予(菜单) ----
+guanzhi_grant_office_t_duzhi_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_duzhi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_duzhi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_duzhi
+		set_coa = k_gz_t_duzhi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_duzhi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_duzhi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_duzhi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 度支使 任命(自动选人) ----
+guanzhi_appoint_office_t_duzhi_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_duzhi
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_duzhi: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_duzhi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_duzhi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_duzhi
+		set_coa = k_gz_t_duzhi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_duzhi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_duzhi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_duzhi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 户部使 授予(菜单) ----
+guanzhi_grant_office_t_hushi_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_hushi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hushi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hushi
+		set_coa = k_gz_t_hushi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hushi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_hushi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hushi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 户部使 任命(自动选人) ----
+guanzhi_appoint_office_t_hushi_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hushi
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_hushi: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_hushi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hushi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hushi
+		set_coa = k_gz_t_hushi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hushi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_hushi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hushi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 转运使 授予(菜单) ----
+guanzhi_grant_office_t_zhuanyun_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zhuanyun
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zhuanyun
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zhuanyun
+		set_coa = d_gz_t_zhuanyun
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zhuanyun value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_zhuanyun
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zhuanyun
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_05 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 转运使 任命(自动选人) ----
+guanzhi_appoint_office_t_zhuanyun_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuanyun
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_zhuanyun: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zhuanyun
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zhuanyun
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zhuanyun
+		set_coa = d_gz_t_zhuanyun
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zhuanyun value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_zhuanyun
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zhuanyun
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_05 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 铸钱使 授予(菜单) ----
+guanzhi_grant_office_t_zhuqian_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zhuqian
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zhuqian
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zhuqian
+		set_coa = d_gz_t_zhuqian
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zhuqian value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_zhuqian
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zhuqian
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 铸钱使 任命(自动选人) ----
+guanzhi_appoint_office_t_zhuqian_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zhuqian
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_zhuqian: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zhuqian
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zhuqian
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zhuqian
+		set_coa = d_gz_t_zhuqian
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zhuqian value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_zhuqian
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zhuqian
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 榷茶使 授予(菜单) ----
+guanzhi_grant_office_t_quecha_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_quecha
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_quecha
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_quecha
+		set_coa = d_gz_t_quecha
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_quecha value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_quecha
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_quecha
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 榷茶使 任命(自动选人) ----
+guanzhi_appoint_office_t_quecha_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_quecha
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_quecha: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_quecha
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_quecha
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_quecha
+		set_coa = d_gz_t_quecha
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_quecha value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_quecha
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_quecha
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 租庸使 授予(菜单) ----
+guanzhi_grant_office_t_zuyong_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zuyong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zuyong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zuyong
+		set_coa = d_gz_t_zuyong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zuyong value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_zuyong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zuyong
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 租庸使 任命(自动选人) ----
+guanzhi_appoint_office_t_zuyong_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_zuyong
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_zuyong: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_zuyong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_zuyong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_zuyong
+		set_coa = d_gz_t_zuyong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_zuyong value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_zuyong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_zuyong
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 左神策军护军中尉 授予(菜单) ----
+guanzhi_grant_office_t_shencezuo_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_military_title }
+			destroy_title = this.var:guanzhi_office_military_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shencezuo
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shencezuo
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shencezuo
+		set_coa = k_gz_t_shencezuo
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_shencezuo value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_shencezuo
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shencezuo
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 左神策军护军中尉 任命(自动选人) ----
+guanzhi_appoint_office_t_shencezuo_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shencezuo
+				}
+			}
+		}
+		guanzhi_find_office_candidate_military_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_shencezuo: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shencezuo
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shencezuo
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shencezuo
+		set_coa = k_gz_t_shencezuo
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_shencezuo value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_shencezuo
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shencezuo
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 右神策军护军中尉 授予(菜单) ----
+guanzhi_grant_office_t_shenceyou_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_military_title }
+			destroy_title = this.var:guanzhi_office_military_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shenceyou
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shenceyou
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shenceyou
+		set_coa = k_gz_t_shenceyou
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_shenceyou value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_shenceyou
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shenceyou
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 右神策军护军中尉 任命(自动选人) ----
+guanzhi_appoint_office_t_shenceyou_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shenceyou
+				}
+			}
+		}
+		guanzhi_find_office_candidate_military_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_shenceyou: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_shenceyou
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shenceyou
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shenceyou
+		set_coa = k_gz_t_shenceyou
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_shenceyou value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_shenceyou
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shenceyou
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 观军容使 授予(菜单) ----
+guanzhi_grant_office_t_guanjunrong_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_military_title }
+			destroy_title = this.var:guanzhi_office_military_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_guanjunrong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_guanjunrong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_guanjunrong
+		set_coa = k_gz_t_guanjunrong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_guanjunrong value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_guanjunrong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_guanjunrong
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_03 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 观军容使 任命(自动选人) ----
+guanzhi_appoint_office_t_guanjunrong_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_guanjunrong
+				}
+			}
+		}
+		guanzhi_find_office_candidate_military_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_guanjunrong: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = empire
+			name = k_gz_t_guanjunrong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_guanjunrong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_guanjunrong
+		set_coa = k_gz_t_guanjunrong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_guanjunrong value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_guanjunrong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_guanjunrong
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_03 = yes
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 閤门使 授予(菜单) ----
+guanzhi_grant_office_t_hemen_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hemen
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_hemen
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hemen
+		set_coa = d_gz_t_hemen
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hemen value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_hemen
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hemen
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 閤门使 任命(自动选人) ----
+guanzhi_appoint_office_t_hemen_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_hemen
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_hemen: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_hemen
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_hemen
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_hemen
+		set_coa = d_gz_t_hemen
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_hemen value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_hemen
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_hemen
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 客省使 授予(菜单) ----
+guanzhi_grant_office_t_kesheng_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_kesheng
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_kesheng
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_kesheng
+		set_coa = d_gz_t_kesheng
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_kesheng value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_kesheng
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_kesheng
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 客省使 任命(自动选人) ----
+guanzhi_appoint_office_t_kesheng_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_kesheng
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_kesheng: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_kesheng
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_kesheng
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_kesheng
+		set_coa = d_gz_t_kesheng
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_kesheng value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_kesheng
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_kesheng
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 礼宾使 授予(菜单) ----
+guanzhi_grant_office_t_libin_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_libin
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_libin
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_libin
+		set_coa = d_gz_t_libin
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_libin value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_libin
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_libin
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 礼宾使 任命(自动选人) ----
+guanzhi_appoint_office_t_libin_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_libin
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_libin: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_libin
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_libin
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_libin
+		set_coa = d_gz_t_libin
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_libin value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_libin
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_libin
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 内庄宅使 授予(菜单) ----
+guanzhi_grant_office_t_neizhuangzhai_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_neizhuangzhai
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_neizhuangzhai
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_neizhuangzhai
+		set_coa = d_gz_t_neizhuangzhai
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_neizhuangzhai value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_neizhuangzhai
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_neizhuangzhai
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 内庄宅使 任命(自动选人) ----
+guanzhi_appoint_office_t_neizhuangzhai_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_neizhuangzhai
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_neizhuangzhai: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_neizhuangzhai
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_neizhuangzhai
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_neizhuangzhai
+		set_coa = d_gz_t_neizhuangzhai
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_neizhuangzhai value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_neizhuangzhai
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_neizhuangzhai
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 宫苑使 授予(菜单) ----
+guanzhi_grant_office_t_gongyuan_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_gongyuan
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_gongyuan
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_gongyuan
+		set_coa = d_gz_t_gongyuan
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_gongyuan value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_gongyuan
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_gongyuan
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 宫苑使 任命(自动选人) ----
+guanzhi_appoint_office_t_gongyuan_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_gongyuan
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_gongyuan: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_gongyuan
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_gongyuan
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_gongyuan
+		set_coa = d_gz_t_gongyuan
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_gongyuan value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_gongyuan
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_gongyuan
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 飞龙使 授予(菜单) ----
+guanzhi_grant_office_t_feilong_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_military_title }
+			destroy_title = this.var:guanzhi_office_military_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_feilong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_feilong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_feilong
+		set_coa = d_gz_t_feilong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_feilong value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_feilong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_feilong
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_16 = yes
+		guanzhi_xun_auto_grant_07 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 飞龙使 任命(自动选人) ----
+guanzhi_appoint_office_t_feilong_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_feilong
+				}
+			}
+		}
+		guanzhi_find_office_candidate_military_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_feilong: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_feilong
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_feilong
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_feilong
+		set_coa = d_gz_t_feilong
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_military value = yes }
+		set_variable = { name = guanzhi_office_t_feilong value = yes }
+		add_title_law = guanzhi_tang_military_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_military_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_feilong
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_feilong
+		add_character_flag = guanzhi_office_military
+
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			set_primary_title_to = this.var:guanzhi_office_civil_title
+		}
+		set_variable = {
+			name = guanzhi_office_military_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wu_16 = yes
+		guanzhi_xun_auto_grant_07 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 教坊使 授予(菜单) ----
+guanzhi_grant_office_t_jiaofang_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_jiaofang
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_jiaofang
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_jiaofang
+		set_coa = d_gz_t_jiaofang
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_jiaofang value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_jiaofang
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_jiaofang
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 教坊使 任命(自动选人) ----
+guanzhi_appoint_office_t_jiaofang_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_jiaofang
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_jiaofang: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_jiaofang
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_jiaofang
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_jiaofang
+		set_coa = d_gz_t_jiaofang
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_jiaofang value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_jiaofang
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_jiaofang
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 五坊使 授予(菜单) ----
+guanzhi_grant_office_t_wufang_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_wufang
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_wufang
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_wufang
+		set_coa = d_gz_t_wufang
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_wufang value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_wufang
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_wufang
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 五坊使 任命(自动选人) ----
+guanzhi_appoint_office_t_wufang_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_wufang
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_wufang: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_wufang
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_wufang
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_wufang
+		set_coa = d_gz_t_wufang
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_wufang value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_wufang
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_wufang
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
+# ---- 尚食使 授予(菜单) ----
+guanzhi_grant_office_t_shangshi_effect = {
+	save_scope_as = guanzhi_liege
+	scope:recipient = {
+		if = {
+			limit = { exists = this.var:guanzhi_office_civil_title }
+			destroy_title = this.var:guanzhi_office_civil_title
+		}
+	}
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shangshi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_shangshi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:recipient
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shangshi
+		set_coa = d_gz_t_shangshi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_shangshi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:recipient = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:recipient = {
+		add_trait = guanzhi_zhiguan_t_shangshi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shangshi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+}
+
+# ---- 尚食使 任命(自动选人) ----
+guanzhi_appoint_office_t_shangshi_effect = {
+	save_scope_as = guanzhi_liege
+	# 已有人在任则跳过
+	if = {
+		limit = {
+			NOT = {
+				any_vassal = {
+					has_character_flag = guanzhi_office_t_shangshi
+				}
+			}
+		}
+		guanzhi_find_office_candidate_civil_effect = yes
+		if = {
+			limit = { exists = scope:guanzhi_appointee }
+			debug_log = "GUANZHI pick t_shangshi: [guanzhi_appointee.GetShortUIName]"
+	if = {
+		limit = { highest_held_title_tier >= tier_hegemony }
+		create_dynamic_title = {
+			tier = kingdom
+			name = k_gz_t_shangshi
+		}
+	}
+	else = {
+		create_dynamic_title = {
+			tier = duchy
+			name = k_gz_t_shangshi
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = guanzhi_give_change
+		add_claim_on_loss = no
+	}
+	scope:new_title = {
+		set_no_automatic_claims = yes
+		set_can_be_named_after_dynasty = no
+		set_color_from_title = scope:guanzhi_liege.capital_county
+		set_capital_county = scope:guanzhi_liege.capital_county
+		set_de_jure_liege_title = scope:guanzhi_liege.primary_title
+		set_landless_title = yes
+		change_title_holder = {
+			holder = scope:guanzhi_appointee
+			change = scope:guanzhi_give_change
+		}
+		generate_coa = yes
+		set_title_name = k_gz_t_shangshi
+		set_coa = d_gz_t_shangshi
+		set_variable = { name = guanzhi_is_office value = yes }
+		set_variable = { name = guanzhi_office_civil value = yes }
+		set_variable = { name = guanzhi_office_t_shangshi value = yes }
+		add_title_law = guanzhi_tang_civil_appointment_succession_law
+	}
+	scope:guanzhi_appointee = {
+		change_liege = {
+			liege = scope:guanzhi_liege
+			change = scope:guanzhi_give_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:guanzhi_give_change
+	scope:new_title = {
+		if = {
+			limit = { has_variable = guanzhi_is_office }
+			debug_log = "GUANZHI diag: office var SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: office var MISSING"
+		}
+		if = {
+			limit = { has_title_law = guanzhi_tang_civil_appointment_succession_law }
+			debug_log = "GUANZHI diag: law SET"
+		}
+		else = {
+			debug_log = "GUANZHI diag: law MISSING"
+		}
+	}
+	# 官职名 trait + 朝官公共 trait + 角色旗标(供风味化顶掉黜陟使)
+	scope:guanzhi_appointee = {
+		add_trait = guanzhi_zhiguan_t_shangshi
+		add_trait = guanzhi_chaoguan
+		add_character_flag = guanzhi_office_t_shangshi
+		add_character_flag = guanzhi_office_civil
+		set_primary_title_to = scope:new_title
+		set_variable = {
+			name = guanzhi_office_civil_title
+			value = scope:new_title
+		}
+		guanzhi_san_auto_grant_wen_12 = yes
+	}
+	debug_log = "GUANZHI office granted"
+		}
+	}
+}
+
 # ---- 丞相 授予(菜单) ----
 guanzhi_grant_office_h_chengxiang_effect = {
 	save_scope_as = guanzhi_liege

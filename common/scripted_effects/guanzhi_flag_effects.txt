@@ -221,6 +221,94 @@ guanzhi_clear_office_flags_effect = {
 		remove_character_flag = guanzhi_office_t_youqianniu
 	}
 	if = {
+		limit = { has_character_flag = guanzhi_office_t_hanlin }
+		remove_character_flag = guanzhi_office_t_hanlin
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_shumi }
+		remove_character_flag = guanzhi_office_t_shumi
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_xuanhui }
+		remove_character_flag = guanzhi_office_t_xuanhui
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_yantie }
+		remove_character_flag = guanzhi_office_t_yantie
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_duzhi }
+		remove_character_flag = guanzhi_office_t_duzhi
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_hushi }
+		remove_character_flag = guanzhi_office_t_hushi
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_zhuanyun }
+		remove_character_flag = guanzhi_office_t_zhuanyun
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_zhuqian }
+		remove_character_flag = guanzhi_office_t_zhuqian
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_quecha }
+		remove_character_flag = guanzhi_office_t_quecha
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_zuyong }
+		remove_character_flag = guanzhi_office_t_zuyong
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_shencezuo }
+		remove_character_flag = guanzhi_office_t_shencezuo
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_shenceyou }
+		remove_character_flag = guanzhi_office_t_shenceyou
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_guanjunrong }
+		remove_character_flag = guanzhi_office_t_guanjunrong
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_hemen }
+		remove_character_flag = guanzhi_office_t_hemen
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_kesheng }
+		remove_character_flag = guanzhi_office_t_kesheng
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_libin }
+		remove_character_flag = guanzhi_office_t_libin
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_neizhuangzhai }
+		remove_character_flag = guanzhi_office_t_neizhuangzhai
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_gongyuan }
+		remove_character_flag = guanzhi_office_t_gongyuan
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_feilong }
+		remove_character_flag = guanzhi_office_t_feilong
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_jiaofang }
+		remove_character_flag = guanzhi_office_t_jiaofang
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_wufang }
+		remove_character_flag = guanzhi_office_t_wufang
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_office_t_shangshi }
+		remove_character_flag = guanzhi_office_t_shangshi
+	}
+	if = {
 		limit = { has_character_flag = guanzhi_office_h_chengxiang }
 		remove_character_flag = guanzhi_office_h_chengxiang
 	}

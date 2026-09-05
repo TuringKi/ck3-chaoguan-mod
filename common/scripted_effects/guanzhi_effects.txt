@@ -111,11 +111,27 @@ guanzhi_fix_titleless_nickname_effect = {
 			remove_nickname = yes
 		}
 		else_if = {
+			limit = { has_nickname = nick_gz_jj }
+			remove_nickname = yes
+		}
+		else_if = {
 			limit = { has_nickname = nick_gz_tj }
 			remove_nickname = yes
 		}
 		else_if = {
 			limit = { has_nickname = nick_gz_jue }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_zm }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_jie }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_zgj }
 			remove_nickname = yes
 		}
 	}
@@ -129,12 +145,32 @@ guanzhi_fix_titleless_nickname_effect = {
 			give_nickname = nick_gz_xun
 		}
 		else_if = {
+			limit = { has_character_flag = guanzhi_jjholder }
+			give_nickname = nick_gz_jj
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_xsholder }
+			give_nickname = nick_gz_xs
+		}
+		else_if = {
 			limit = { has_character_flag = guanzhi_tjholder }
 			give_nickname = nick_gz_tj
 		}
 		else_if = {
 			limit = { has_character_flag = guanzhi_jueholder }
 			give_nickname = nick_gz_jue
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_zmholder }
+			give_nickname = nick_gz_zm
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_jieholder }
+			give_nickname = nick_gz_jie
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_zgjholder }
+			give_nickname = nick_gz_zgj
 		}
 		else = {
 			if = {
@@ -146,11 +182,31 @@ guanzhi_fix_titleless_nickname_effect = {
 				remove_nickname = yes
 			}
 			else_if = {
+				limit = { has_nickname = nick_gz_jj }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_xs }
+				remove_nickname = yes
+			}
+			else_if = {
 				limit = { has_nickname = nick_gz_tj }
 				remove_nickname = yes
 			}
 			else_if = {
 				limit = { has_nickname = nick_gz_jue }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_zm }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_jie }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_zgj }
 				remove_nickname = yes
 			}
 		}

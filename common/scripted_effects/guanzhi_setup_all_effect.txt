@@ -56,6 +56,28 @@ guanzhi_setup_tang_offices_effect = {
 	guanzhi_appoint_office_t_youjianmen_effect = yes # 右监门卫大将军
 	guanzhi_appoint_office_t_zuoqianniu_effect = yes # 左千牛卫大将军
 	guanzhi_appoint_office_t_youqianniu_effect = yes # 右千牛卫大将军
+	guanzhi_appoint_office_t_hanlin_effect = yes # 翰林学士
+	guanzhi_appoint_office_t_shumi_effect = yes # 枢密使
+	guanzhi_appoint_office_t_xuanhui_effect = yes # 宣徽使
+	guanzhi_appoint_office_t_yantie_effect = yes # 盐铁使
+	guanzhi_appoint_office_t_duzhi_effect = yes # 度支使
+	guanzhi_appoint_office_t_hushi_effect = yes # 户部使
+	guanzhi_appoint_office_t_zhuanyun_effect = yes # 转运使
+	guanzhi_appoint_office_t_zhuqian_effect = yes # 铸钱使
+	guanzhi_appoint_office_t_quecha_effect = yes # 榷茶使
+	guanzhi_appoint_office_t_zuyong_effect = yes # 租庸使
+	guanzhi_appoint_office_t_shencezuo_effect = yes # 左神策军护军中尉
+	guanzhi_appoint_office_t_shenceyou_effect = yes # 右神策军护军中尉
+	guanzhi_appoint_office_t_guanjunrong_effect = yes # 观军容使
+	guanzhi_appoint_office_t_hemen_effect = yes # 閤门使
+	guanzhi_appoint_office_t_kesheng_effect = yes # 客省使
+	guanzhi_appoint_office_t_libin_effect = yes # 礼宾使
+	guanzhi_appoint_office_t_neizhuangzhai_effect = yes # 内庄宅使
+	guanzhi_appoint_office_t_gongyuan_effect = yes # 宫苑使
+	guanzhi_appoint_office_t_feilong_effect = yes # 飞龙使
+	guanzhi_appoint_office_t_jiaofang_effect = yes # 教坊使
+	guanzhi_appoint_office_t_wufang_effect = yes # 五坊使
+	guanzhi_appoint_office_t_shangshi_effect = yes # 尚食使
 }
 
 guanzhi_appoint_tang_offices_effect = {
@@ -110,6 +132,28 @@ guanzhi_appoint_tang_offices_effect = {
 	guanzhi_appoint_office_t_youjianmen_effect = yes # 右监门卫大将军
 	guanzhi_appoint_office_t_zuoqianniu_effect = yes # 左千牛卫大将军
 	guanzhi_appoint_office_t_youqianniu_effect = yes # 右千牛卫大将军
+	guanzhi_appoint_office_t_hanlin_effect = yes # 翰林学士
+	guanzhi_appoint_office_t_shumi_effect = yes # 枢密使
+	guanzhi_appoint_office_t_xuanhui_effect = yes # 宣徽使
+	guanzhi_appoint_office_t_yantie_effect = yes # 盐铁使
+	guanzhi_appoint_office_t_duzhi_effect = yes # 度支使
+	guanzhi_appoint_office_t_hushi_effect = yes # 户部使
+	guanzhi_appoint_office_t_zhuanyun_effect = yes # 转运使
+	guanzhi_appoint_office_t_zhuqian_effect = yes # 铸钱使
+	guanzhi_appoint_office_t_quecha_effect = yes # 榷茶使
+	guanzhi_appoint_office_t_zuyong_effect = yes # 租庸使
+	guanzhi_appoint_office_t_shencezuo_effect = yes # 左神策军护军中尉
+	guanzhi_appoint_office_t_shenceyou_effect = yes # 右神策军护军中尉
+	guanzhi_appoint_office_t_guanjunrong_effect = yes # 观军容使
+	guanzhi_appoint_office_t_hemen_effect = yes # 閤门使
+	guanzhi_appoint_office_t_kesheng_effect = yes # 客省使
+	guanzhi_appoint_office_t_libin_effect = yes # 礼宾使
+	guanzhi_appoint_office_t_neizhuangzhai_effect = yes # 内庄宅使
+	guanzhi_appoint_office_t_gongyuan_effect = yes # 宫苑使
+	guanzhi_appoint_office_t_feilong_effect = yes # 飞龙使
+	guanzhi_appoint_office_t_jiaofang_effect = yes # 教坊使
+	guanzhi_appoint_office_t_wufang_effect = yes # 五坊使
+	guanzhi_appoint_office_t_shangshi_effect = yes # 尚食使
 }
 
 # ==================== 汉制 ====================

@@ -2,5 +2,10 @@
 # 同整合包 WJ 将军号模式: give_nickname 授予, remove_nickname 移除
 nick_gz_san = { is_prefix = yes } # 散官名
 nick_gz_xun = { is_prefix = yes } # 勋官名
+nick_gz_jj = { is_prefix = yes }  # 检校官
 nick_gz_tj = { is_prefix = yes }  # 唐爵号(地名+爵称+户数)
 nick_gz_jue = { is_prefix = yes } # 汉列侯封号
+nick_gz_zm = { is_prefix = yes }  # 州牧
+nick_gz_xs = { is_prefix = yes }  # 文馆学士
+nick_gz_jie = { is_prefix = yes } # 使持节都督诸州军事
+nick_gz_zgj = { is_prefix = yes } # 行军大总管

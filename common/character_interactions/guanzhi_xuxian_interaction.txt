@@ -1,0 +1,211 @@
+# Guanzhi 官制 - 虚衔互动 (州牧/都督/大总管/检校; 9850 系统菜单)
+
+guanzhi_grant_xuxian_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_xuxian_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			# 领地下所有人皆可授予: 廷臣(无liege链接, 单独判)/封臣/封臣之封臣及其廷臣
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+			# 完全无头衔者不授(其显示走昵称通道会与整合包风味冲突双显);
+			# 王公/朝官/使职等无地头衔持有者可授(有命名头衔, 风味链正常)
+			exists = primary_title
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			trigger_event = { id = guanzhi.9850 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺州牧
+guanzhi_revoke_zm_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_zm_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_zmholder
+				has_trait_with_flag = guanzhi_zm
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_zm_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺使持节都督
+guanzhi_revoke_jie_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_jie_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_jieholder
+				has_trait_with_flag = guanzhi_jie
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_jie_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺行军大总管
+guanzhi_revoke_zgj_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_zgj_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_zgjholder
+				has_trait_with_flag = guanzhi_zgj
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_zgj_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺检校官
+guanzhi_revoke_jj_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_jj_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_jjholder
+				has_trait_with_flag = guanzhi_jj
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_jj_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺文馆学士
+guanzhi_revoke_xs_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_xs_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			OR = {
+				has_character_flag = guanzhi_xsholder
+				has_trait_with_flag = guanzhi_xs
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			guanzhi_clear_xs_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

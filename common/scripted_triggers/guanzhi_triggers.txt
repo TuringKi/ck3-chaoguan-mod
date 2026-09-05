@@ -71,7 +71,11 @@ guanzhi_holds_military_office_trigger = {
 guanzhi_is_celestial_sovereign_trigger = {
 	has_dlc_feature = all_under_heaven
 	is_independent_ruler = yes
-	government_has_flag = government_is_celestial
+	# 天朝制 或 贤能制(meritocratic) 的独立皇帝皆可
+	OR = {
+		government_has_flag = government_is_celestial
+		government_has_flag = government_is_meritocratic
+	}
 	highest_held_title_tier >= tier_empire
 }
 

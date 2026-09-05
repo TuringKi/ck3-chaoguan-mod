@@ -1,0 +1,39 @@
+# Guanzhi 官制 - 委任使职互动 (对人; 0120 翻页菜单直接授予)
+
+guanzhi_grant_shizhi_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_shizhi_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			has_character_flag = guanzhi_uses_tang_system
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			# 领地下所有人: 廷臣(无liege链接, 单独判)/封臣/封臣之封臣及其廷臣
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			trigger_event = { id = guanzhi.0120 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

@@ -30,6 +30,7 @@ guanzhi_wj_grant_wang_0000 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0000
 		set_coa = gzw_coa_0000
 	}
 	scope:recipient = {
@@ -58,7 +59,7 @@ guanzhi_wj_grant_wang_0000 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封楚王
@@ -90,6 +91,7 @@ guanzhi_wj_grant_wang_0001 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0001
 		set_coa = gzw_coa_0001
 	}
 	scope:recipient = {
@@ -118,7 +120,7 @@ guanzhi_wj_grant_wang_0001 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封秦王
@@ -150,6 +152,7 @@ guanzhi_wj_grant_wang_0002 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0002
 		set_coa = gzw_coa_0002
 	}
 	scope:recipient = {
@@ -178,7 +181,7 @@ guanzhi_wj_grant_wang_0002 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封晋王
@@ -210,6 +213,7 @@ guanzhi_wj_grant_wang_0003 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0003
 		set_coa = gzw_coa_0003
 	}
 	scope:recipient = {
@@ -238,7 +242,7 @@ guanzhi_wj_grant_wang_0003 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封燕王
@@ -270,6 +274,7 @@ guanzhi_wj_grant_wang_0004 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0004
 		set_coa = gzw_coa_0004
 	}
 	scope:recipient = {
@@ -298,7 +303,7 @@ guanzhi_wj_grant_wang_0004 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封赵王
@@ -330,6 +335,7 @@ guanzhi_wj_grant_wang_0005 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0005
 		set_coa = gzw_coa_0005
 	}
 	scope:recipient = {
@@ -358,7 +364,7 @@ guanzhi_wj_grant_wang_0005 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封魏王
@@ -390,6 +396,7 @@ guanzhi_wj_grant_wang_0006 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0006
 		set_coa = gzw_coa_0006
 	}
 	scope:recipient = {
@@ -418,7 +425,7 @@ guanzhi_wj_grant_wang_0006 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封韩王
@@ -450,6 +457,7 @@ guanzhi_wj_grant_wang_0007 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0007
 		set_coa = gzw_coa_0007
 	}
 	scope:recipient = {
@@ -478,7 +486,7 @@ guanzhi_wj_grant_wang_0007 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封宋王
@@ -510,6 +518,7 @@ guanzhi_wj_grant_wang_0008 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0008
 		set_coa = gzw_coa_0008
 	}
 	scope:recipient = {
@@ -538,7 +547,7 @@ guanzhi_wj_grant_wang_0008 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郑王
@@ -570,6 +579,7 @@ guanzhi_wj_grant_wang_0009 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0009
 		set_coa = gzw_coa_0009
 	}
 	scope:recipient = {
@@ -598,7 +608,7 @@ guanzhi_wj_grant_wang_0009 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封卫王
@@ -630,6 +640,7 @@ guanzhi_wj_grant_wang_0010 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0010
 		set_coa = gzw_coa_0010
 	}
 	scope:recipient = {
@@ -658,7 +669,7 @@ guanzhi_wj_grant_wang_0010 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鲁王
@@ -690,6 +701,7 @@ guanzhi_wj_grant_wang_0011 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0011
 		set_coa = gzw_coa_0011
 	}
 	scope:recipient = {
@@ -718,7 +730,7 @@ guanzhi_wj_grant_wang_0011 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈王
@@ -750,6 +762,7 @@ guanzhi_wj_grant_wang_0012 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0012
 		set_coa = gzw_coa_0012
 	}
 	scope:recipient = {
@@ -778,7 +791,7 @@ guanzhi_wj_grant_wang_0012 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蔡王
@@ -810,6 +823,7 @@ guanzhi_wj_grant_wang_0013 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0013
 		set_coa = gzw_coa_0013
 	}
 	scope:recipient = {
@@ -838,7 +852,7 @@ guanzhi_wj_grant_wang_0013 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封曹王
@@ -870,6 +884,7 @@ guanzhi_wj_grant_wang_0014 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0014
 		set_coa = gzw_coa_0014
 	}
 	scope:recipient = {
@@ -898,7 +913,7 @@ guanzhi_wj_grant_wang_0014 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吴王
@@ -930,6 +945,7 @@ guanzhi_wj_grant_wang_0015 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0015
 		set_coa = gzw_coa_0015
 	}
 	scope:recipient = {
@@ -958,7 +974,7 @@ guanzhi_wj_grant_wang_0015 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封越王
@@ -990,6 +1006,7 @@ guanzhi_wj_grant_wang_0016 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0016
 		set_coa = gzw_coa_0016
 	}
 	scope:recipient = {
@@ -1018,7 +1035,7 @@ guanzhi_wj_grant_wang_0016 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封徐王
@@ -1050,6 +1067,7 @@ guanzhi_wj_grant_wang_0017 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0017
 		set_coa = gzw_coa_0017
 	}
 	scope:recipient = {
@@ -1078,7 +1096,7 @@ guanzhi_wj_grant_wang_0017 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郯王
@@ -1110,6 +1128,7 @@ guanzhi_wj_grant_wang_0018 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0018
 		set_coa = gzw_coa_0018
 	}
 	scope:recipient = {
@@ -1138,7 +1157,7 @@ guanzhi_wj_grant_wang_0018 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封莒王
@@ -1170,6 +1189,7 @@ guanzhi_wj_grant_wang_0019 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0019
 		set_coa = gzw_coa_0019
 	}
 	scope:recipient = {
@@ -1198,7 +1218,7 @@ guanzhi_wj_grant_wang_0019 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封薛王
@@ -1230,6 +1250,7 @@ guanzhi_wj_grant_wang_0020 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0020
 		set_coa = gzw_coa_0020
 	}
 	scope:recipient = {
@@ -1258,7 +1279,7 @@ guanzhi_wj_grant_wang_0020 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封滕王
@@ -1290,6 +1311,7 @@ guanzhi_wj_grant_wang_0021 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0021
 		set_coa = gzw_coa_0021
 	}
 	scope:recipient = {
@@ -1318,7 +1340,7 @@ guanzhi_wj_grant_wang_0021 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封邢王
@@ -1350,6 +1372,7 @@ guanzhi_wj_grant_wang_0022 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0022
 		set_coa = gzw_coa_0022
 	}
 	scope:recipient = {
@@ -1378,7 +1401,7 @@ guanzhi_wj_grant_wang_0022 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封虞王
@@ -1410,6 +1433,7 @@ guanzhi_wj_grant_wang_0023 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0023
 		set_coa = gzw_coa_0023
 	}
 	scope:recipient = {
@@ -1438,7 +1462,7 @@ guanzhi_wj_grant_wang_0023 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封虢王
@@ -1470,6 +1494,7 @@ guanzhi_wj_grant_wang_0024 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0024
 		set_coa = gzw_coa_0024
 	}
 	scope:recipient = {
@@ -1498,7 +1523,7 @@ guanzhi_wj_grant_wang_0024 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封杞王
@@ -1530,6 +1555,7 @@ guanzhi_wj_grant_wang_0025 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0025
 		set_coa = gzw_coa_0025
 	}
 	scope:recipient = {
@@ -1558,7 +1584,7 @@ guanzhi_wj_grant_wang_0025 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封胡王
@@ -1590,6 +1616,7 @@ guanzhi_wj_grant_wang_0026 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0026
 		set_coa = gzw_coa_0026
 	}
 	scope:recipient = {
@@ -1618,7 +1645,7 @@ guanzhi_wj_grant_wang_0026 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封梁王
@@ -1650,6 +1677,7 @@ guanzhi_wj_grant_wang_0027 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0027
 		set_coa = gzw_coa_0027
 	}
 	scope:recipient = {
@@ -1678,7 +1706,7 @@ guanzhi_wj_grant_wang_0027 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封唐王
@@ -1710,6 +1738,7 @@ guanzhi_wj_grant_wang_0028 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0028
 		set_coa = gzw_coa_0028
 	}
 	scope:recipient = {
@@ -1738,7 +1767,7 @@ guanzhi_wj_grant_wang_0028 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鄂王
@@ -1770,6 +1799,7 @@ guanzhi_wj_grant_wang_0029 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0029
 		set_coa = gzw_coa_0029
 	}
 	scope:recipient = {
@@ -1798,7 +1828,7 @@ guanzhi_wj_grant_wang_0029 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封褒王
@@ -1830,6 +1860,7 @@ guanzhi_wj_grant_wang_0030 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0030
 		set_coa = gzw_coa_0030
 	}
 	scope:recipient = {
@@ -1858,7 +1889,7 @@ guanzhi_wj_grant_wang_0030 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封申王
@@ -1890,6 +1921,7 @@ guanzhi_wj_grant_wang_0031 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0031
 		set_coa = gzw_coa_0031
 	}
 	scope:recipient = {
@@ -1918,7 +1950,7 @@ guanzhi_wj_grant_wang_0031 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吕王
@@ -1950,6 +1982,7 @@ guanzhi_wj_grant_wang_0032 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0032
 		set_coa = gzw_coa_0032
 	}
 	scope:recipient = {
@@ -1978,7 +2011,7 @@ guanzhi_wj_grant_wang_0032 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封随王
@@ -2010,6 +2043,7 @@ guanzhi_wj_grant_wang_0033 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0033
 		set_coa = gzw_coa_0033
 	}
 	scope:recipient = {
@@ -2038,7 +2072,7 @@ guanzhi_wj_grant_wang_0033 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封邓王
@@ -2070,6 +2104,7 @@ guanzhi_wj_grant_wang_0034 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0034
 		set_coa = gzw_coa_0034
 	}
 	scope:recipient = {
@@ -2098,7 +2133,7 @@ guanzhi_wj_grant_wang_0034 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封霍王
@@ -2130,6 +2165,7 @@ guanzhi_wj_grant_wang_0035 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0035
 		set_coa = gzw_coa_0035
 	}
 	scope:recipient = {
@@ -2158,7 +2194,7 @@ guanzhi_wj_grant_wang_0035 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封耿王
@@ -2190,6 +2226,7 @@ guanzhi_wj_grant_wang_0036 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0036
 		set_coa = gzw_coa_0036
 	}
 	scope:recipient = {
@@ -2218,7 +2255,7 @@ guanzhi_wj_grant_wang_0036 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蒋王
@@ -2250,6 +2287,7 @@ guanzhi_wj_grant_wang_0037 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0037
 		set_coa = gzw_coa_0037
 	}
 	scope:recipient = {
@@ -2278,7 +2316,7 @@ guanzhi_wj_grant_wang_0037 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封英王
@@ -2310,6 +2348,7 @@ guanzhi_wj_grant_wang_0038 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0038
 		set_coa = gzw_coa_0038
 	}
 	scope:recipient = {
@@ -2338,7 +2377,7 @@ guanzhi_wj_grant_wang_0038 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封夔王
@@ -2370,6 +2409,7 @@ guanzhi_wj_grant_wang_0039 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0039
 		set_coa = gzw_coa_0039
 	}
 	scope:recipient = {
@@ -2398,7 +2438,7 @@ guanzhi_wj_grant_wang_0039 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封莱王
@@ -2430,6 +2470,7 @@ guanzhi_wj_grant_wang_0040 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0040
 		set_coa = gzw_coa_0040
 	}
 	scope:recipient = {
@@ -2458,7 +2499,7 @@ guanzhi_wj_grant_wang_0040 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封许王
@@ -2490,6 +2531,7 @@ guanzhi_wj_grant_wang_0041 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0041
 		set_coa = gzw_coa_0041
 	}
 	scope:recipient = {
@@ -2518,7 +2560,7 @@ guanzhi_wj_grant_wang_0041 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封苏王
@@ -2550,6 +2592,7 @@ guanzhi_wj_grant_wang_0042 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0042
 		set_coa = gzw_coa_0042
 	}
 	scope:recipient = {
@@ -2578,7 +2621,7 @@ guanzhi_wj_grant_wang_0042 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封钟王
@@ -2610,6 +2653,7 @@ guanzhi_wj_grant_wang_0043 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0043
 		set_coa = gzw_coa_0043
 	}
 	scope:recipient = {
@@ -2638,7 +2682,7 @@ guanzhi_wj_grant_wang_0043 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郢王
@@ -2670,6 +2714,7 @@ guanzhi_wj_grant_wang_0044 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0044
 		set_coa = gzw_coa_0044
 	}
 	scope:recipient = {
@@ -2698,7 +2743,7 @@ guanzhi_wj_grant_wang_0044 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封沈王
@@ -2730,6 +2775,7 @@ guanzhi_wj_grant_wang_0045 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0045
 		set_coa = gzw_coa_0045
 	}
 	scope:recipient = {
@@ -2758,7 +2804,7 @@ guanzhi_wj_grant_wang_0045 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郧王
@@ -2790,6 +2836,7 @@ guanzhi_wj_grant_wang_0046 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0046
 		set_coa = gzw_coa_0046
 	}
 	scope:recipient = {
@@ -2818,7 +2865,7 @@ guanzhi_wj_grant_wang_0046 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封谯王
@@ -2850,6 +2897,7 @@ guanzhi_wj_grant_wang_0047 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0047
 		set_coa = gzw_coa_0047
 	}
 	scope:recipient = {
@@ -2878,7 +2926,7 @@ guanzhi_wj_grant_wang_0047 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河内王
@@ -2910,6 +2958,7 @@ guanzhi_wj_grant_wang_0048 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0048
 		set_coa = gzw_coa_0048
 	}
 	scope:recipient = {
@@ -2938,7 +2987,7 @@ guanzhi_wj_grant_wang_0048 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河东王
@@ -2970,6 +3019,7 @@ guanzhi_wj_grant_wang_0049 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0049
 		set_coa = gzw_coa_0049
 	}
 	scope:recipient = {
@@ -2998,7 +3048,7 @@ guanzhi_wj_grant_wang_0049 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封弘农王
@@ -3030,6 +3080,7 @@ guanzhi_wj_grant_wang_0050 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0050
 		set_coa = gzw_coa_0050
 	}
 	scope:recipient = {
@@ -3058,7 +3109,7 @@ guanzhi_wj_grant_wang_0050 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封颍川王
@@ -3090,6 +3141,7 @@ guanzhi_wj_grant_wang_0051 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0051
 		set_coa = gzw_coa_0051
 	}
 	scope:recipient = {
@@ -3118,7 +3170,7 @@ guanzhi_wj_grant_wang_0051 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汝南王
@@ -3150,6 +3202,7 @@ guanzhi_wj_grant_wang_0052 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0052
 		set_coa = gzw_coa_0052
 	}
 	scope:recipient = {
@@ -3178,7 +3231,7 @@ guanzhi_wj_grant_wang_0052 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封梁王
@@ -3210,6 +3263,7 @@ guanzhi_wj_grant_wang_0053 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0053
 		set_coa = gzw_coa_0053
 	}
 	scope:recipient = {
@@ -3238,7 +3292,7 @@ guanzhi_wj_grant_wang_0053 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封沛王
@@ -3270,6 +3324,7 @@ guanzhi_wj_grant_wang_0054 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0054
 		set_coa = gzw_coa_0054
 	}
 	scope:recipient = {
@@ -3298,7 +3353,7 @@ guanzhi_wj_grant_wang_0054 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈王
@@ -3330,6 +3385,7 @@ guanzhi_wj_grant_wang_0055 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0055
 		set_coa = gzw_coa_0055
 	}
 	scope:recipient = {
@@ -3358,7 +3414,7 @@ guanzhi_wj_grant_wang_0055 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鲁王
@@ -3390,6 +3446,7 @@ guanzhi_wj_grant_wang_0056 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0056
 		set_coa = gzw_coa_0056
 	}
 	scope:recipient = {
@@ -3418,7 +3475,7 @@ guanzhi_wj_grant_wang_0056 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封魏王
@@ -3450,6 +3507,7 @@ guanzhi_wj_grant_wang_0057 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0057
 		set_coa = gzw_coa_0057
 	}
 	scope:recipient = {
@@ -3478,7 +3536,7 @@ guanzhi_wj_grant_wang_0057 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封钜鹿王
@@ -3510,6 +3568,7 @@ guanzhi_wj_grant_wang_0058 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0058
 		set_coa = gzw_coa_0058
 	}
 	scope:recipient = {
@@ -3538,7 +3597,7 @@ guanzhi_wj_grant_wang_0058 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封常山王
@@ -3570,6 +3629,7 @@ guanzhi_wj_grant_wang_0059 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0059
 		set_coa = gzw_coa_0059
 	}
 	scope:recipient = {
@@ -3598,7 +3658,7 @@ guanzhi_wj_grant_wang_0059 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封中山王
@@ -3630,6 +3690,7 @@ guanzhi_wj_grant_wang_0060 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0060
 		set_coa = gzw_coa_0060
 	}
 	scope:recipient = {
@@ -3658,7 +3719,7 @@ guanzhi_wj_grant_wang_0060 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封安平王
@@ -3690,6 +3751,7 @@ guanzhi_wj_grant_wang_0061 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0061
 		set_coa = gzw_coa_0061
 	}
 	scope:recipient = {
@@ -3718,7 +3780,7 @@ guanzhi_wj_grant_wang_0061 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河间王
@@ -3750,6 +3812,7 @@ guanzhi_wj_grant_wang_0062 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0062
 		set_coa = gzw_coa_0062
 	}
 	scope:recipient = {
@@ -3778,7 +3841,7 @@ guanzhi_wj_grant_wang_0062 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封清河王
@@ -3810,6 +3873,7 @@ guanzhi_wj_grant_wang_0063 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0063
 		set_coa = gzw_coa_0063
 	}
 	scope:recipient = {
@@ -3838,7 +3902,7 @@ guanzhi_wj_grant_wang_0063 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封赵王
@@ -3870,6 +3934,7 @@ guanzhi_wj_grant_wang_0064 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0064
 		set_coa = gzw_coa_0064
 	}
 	scope:recipient = {
@@ -3898,7 +3963,7 @@ guanzhi_wj_grant_wang_0064 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封勃海王
@@ -3930,6 +3995,7 @@ guanzhi_wj_grant_wang_0065 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0065
 		set_coa = gzw_coa_0065
 	}
 	scope:recipient = {
@@ -3958,7 +4024,7 @@ guanzhi_wj_grant_wang_0065 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈留王
@@ -3990,6 +4056,7 @@ guanzhi_wj_grant_wang_0066 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0066
 		set_coa = gzw_coa_0066
 	}
 	scope:recipient = {
@@ -4018,7 +4085,7 @@ guanzhi_wj_grant_wang_0066 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东王
@@ -4050,6 +4117,7 @@ guanzhi_wj_grant_wang_0067 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0067
 		set_coa = gzw_coa_0067
 	}
 	scope:recipient = {
@@ -4078,7 +4146,7 @@ guanzhi_wj_grant_wang_0067 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东平王
@@ -4110,6 +4178,7 @@ guanzhi_wj_grant_wang_0068 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0068
 		set_coa = gzw_coa_0068
 	}
 	scope:recipient = {
@@ -4138,7 +4207,7 @@ guanzhi_wj_grant_wang_0068 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封任城王
@@ -4170,6 +4239,7 @@ guanzhi_wj_grant_wang_0069 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0069
 		set_coa = gzw_coa_0069
 	}
 	scope:recipient = {
@@ -4198,7 +4268,7 @@ guanzhi_wj_grant_wang_0069 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封泰山王
@@ -4230,6 +4300,7 @@ guanzhi_wj_grant_wang_0070 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0070
 		set_coa = gzw_coa_0070
 	}
 	scope:recipient = {
@@ -4258,7 +4329,7 @@ guanzhi_wj_grant_wang_0070 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济北王
@@ -4290,6 +4361,7 @@ guanzhi_wj_grant_wang_0071 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0071
 		set_coa = gzw_coa_0071
 	}
 	scope:recipient = {
@@ -4318,7 +4390,7 @@ guanzhi_wj_grant_wang_0071 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封山阳王
@@ -4350,6 +4422,7 @@ guanzhi_wj_grant_wang_0072 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0072
 		set_coa = gzw_coa_0072
 	}
 	scope:recipient = {
@@ -4378,7 +4451,7 @@ guanzhi_wj_grant_wang_0072 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济阴王
@@ -4410,6 +4483,7 @@ guanzhi_wj_grant_wang_0073 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0073
 		set_coa = gzw_coa_0073
 	}
 	scope:recipient = {
@@ -4438,7 +4512,7 @@ guanzhi_wj_grant_wang_0073 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东海王
@@ -4470,6 +4544,7 @@ guanzhi_wj_grant_wang_0074 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0074
 		set_coa = gzw_coa_0074
 	}
 	scope:recipient = {
@@ -4498,7 +4573,7 @@ guanzhi_wj_grant_wang_0074 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封琅邪王
@@ -4530,6 +4605,7 @@ guanzhi_wj_grant_wang_0075 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0075
 		set_coa = gzw_coa_0075
 	}
 	scope:recipient = {
@@ -4558,7 +4634,7 @@ guanzhi_wj_grant_wang_0075 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封彭城王
@@ -4590,6 +4666,7 @@ guanzhi_wj_grant_wang_0076 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0076
 		set_coa = gzw_coa_0076
 	}
 	scope:recipient = {
@@ -4618,7 +4695,7 @@ guanzhi_wj_grant_wang_0076 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广陵王
@@ -4650,6 +4727,7 @@ guanzhi_wj_grant_wang_0077 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0077
 		set_coa = gzw_coa_0077
 	}
 	scope:recipient = {
@@ -4678,7 +4756,7 @@ guanzhi_wj_grant_wang_0077 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封下邳王
@@ -4710,6 +4788,7 @@ guanzhi_wj_grant_wang_0078 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0078
 		set_coa = gzw_coa_0078
 	}
 	scope:recipient = {
@@ -4738,7 +4817,7 @@ guanzhi_wj_grant_wang_0078 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济南王
@@ -4770,6 +4849,7 @@ guanzhi_wj_grant_wang_0079 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0079
 		set_coa = gzw_coa_0079
 	}
 	scope:recipient = {
@@ -4798,7 +4878,7 @@ guanzhi_wj_grant_wang_0079 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封平原王
@@ -4830,6 +4910,7 @@ guanzhi_wj_grant_wang_0080 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0080
 		set_coa = gzw_coa_0080
 	}
 	scope:recipient = {
@@ -4858,7 +4939,7 @@ guanzhi_wj_grant_wang_0080 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封乐安王
@@ -4890,6 +4971,7 @@ guanzhi_wj_grant_wang_0081 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0081
 		set_coa = gzw_coa_0081
 	}
 	scope:recipient = {
@@ -4918,7 +5000,7 @@ guanzhi_wj_grant_wang_0081 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封北海王
@@ -4950,6 +5032,7 @@ guanzhi_wj_grant_wang_0082 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0082
 		set_coa = gzw_coa_0082
 	}
 	scope:recipient = {
@@ -4978,7 +5061,7 @@ guanzhi_wj_grant_wang_0082 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东莱王
@@ -5010,6 +5093,7 @@ guanzhi_wj_grant_wang_0083 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0083
 		set_coa = gzw_coa_0083
 	}
 	scope:recipient = {
@@ -5038,7 +5122,7 @@ guanzhi_wj_grant_wang_0083 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封齐王
@@ -5070,6 +5154,7 @@ guanzhi_wj_grant_wang_0084 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0084
 		set_coa = gzw_coa_0084
 	}
 	scope:recipient = {
@@ -5098,7 +5183,7 @@ guanzhi_wj_grant_wang_0084 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南阳王
@@ -5130,6 +5215,7 @@ guanzhi_wj_grant_wang_0085 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0085
 		set_coa = gzw_coa_0085
 	}
 	scope:recipient = {
@@ -5158,7 +5244,7 @@ guanzhi_wj_grant_wang_0085 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南王
@@ -5190,6 +5276,7 @@ guanzhi_wj_grant_wang_0086 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0086
 		set_coa = gzw_coa_0086
 	}
 	scope:recipient = {
@@ -5218,7 +5305,7 @@ guanzhi_wj_grant_wang_0086 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封江夏王
@@ -5250,6 +5337,7 @@ guanzhi_wj_grant_wang_0087 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0087
 		set_coa = gzw_coa_0087
 	}
 	scope:recipient = {
@@ -5278,7 +5366,7 @@ guanzhi_wj_grant_wang_0087 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封零陵王
@@ -5310,6 +5398,7 @@ guanzhi_wj_grant_wang_0088 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0088
 		set_coa = gzw_coa_0088
 	}
 	scope:recipient = {
@@ -5338,7 +5427,7 @@ guanzhi_wj_grant_wang_0088 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封桂阳王
@@ -5370,6 +5459,7 @@ guanzhi_wj_grant_wang_0089 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0089
 		set_coa = gzw_coa_0089
 	}
 	scope:recipient = {
@@ -5398,7 +5488,7 @@ guanzhi_wj_grant_wang_0089 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武陵王
@@ -5430,6 +5520,7 @@ guanzhi_wj_grant_wang_0090 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0090
 		set_coa = gzw_coa_0090
 	}
 	scope:recipient = {
@@ -5458,7 +5549,7 @@ guanzhi_wj_grant_wang_0090 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封长沙王
@@ -5490,6 +5581,7 @@ guanzhi_wj_grant_wang_0091 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0091
 		set_coa = gzw_coa_0091
 	}
 	scope:recipient = {
@@ -5518,7 +5610,7 @@ guanzhi_wj_grant_wang_0091 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封九江王
@@ -5550,6 +5642,7 @@ guanzhi_wj_grant_wang_0092 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0092
 		set_coa = gzw_coa_0092
 	}
 	scope:recipient = {
@@ -5578,7 +5671,7 @@ guanzhi_wj_grant_wang_0092 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封丹阳王
@@ -5610,6 +5703,7 @@ guanzhi_wj_grant_wang_0093 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0093
 		set_coa = gzw_coa_0093
 	}
 	scope:recipient = {
@@ -5638,7 +5732,7 @@ guanzhi_wj_grant_wang_0093 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封庐江王
@@ -5670,6 +5764,7 @@ guanzhi_wj_grant_wang_0094 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0094
 		set_coa = gzw_coa_0094
 	}
 	scope:recipient = {
@@ -5698,7 +5793,7 @@ guanzhi_wj_grant_wang_0094 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封会稽王
@@ -5730,6 +5825,7 @@ guanzhi_wj_grant_wang_0095 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0095
 		set_coa = gzw_coa_0095
 	}
 	scope:recipient = {
@@ -5758,7 +5854,7 @@ guanzhi_wj_grant_wang_0095 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吴王
@@ -5790,6 +5886,7 @@ guanzhi_wj_grant_wang_0096 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0096
 		set_coa = gzw_coa_0096
 	}
 	scope:recipient = {
@@ -5818,7 +5915,7 @@ guanzhi_wj_grant_wang_0096 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封豫章王
@@ -5850,6 +5947,7 @@ guanzhi_wj_grant_wang_0097 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0097
 		set_coa = gzw_coa_0097
 	}
 	scope:recipient = {
@@ -5878,7 +5976,7 @@ guanzhi_wj_grant_wang_0097 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汉中王
@@ -5910,6 +6008,7 @@ guanzhi_wj_grant_wang_0098 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0098
 		set_coa = gzw_coa_0098
 	}
 	scope:recipient = {
@@ -5938,7 +6037,7 @@ guanzhi_wj_grant_wang_0098 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封巴王
@@ -5970,6 +6069,7 @@ guanzhi_wj_grant_wang_0099 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0099
 		set_coa = gzw_coa_0099
 	}
 	scope:recipient = {
@@ -5998,7 +6098,7 @@ guanzhi_wj_grant_wang_0099 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广汉王
@@ -6030,6 +6130,7 @@ guanzhi_wj_grant_wang_0100 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0100
 		set_coa = gzw_coa_0100
 	}
 	scope:recipient = {
@@ -6058,7 +6159,7 @@ guanzhi_wj_grant_wang_0100 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蜀王
@@ -6090,6 +6191,7 @@ guanzhi_wj_grant_wang_0101 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0101
 		set_coa = gzw_coa_0101
 	}
 	scope:recipient = {
@@ -6118,7 +6220,7 @@ guanzhi_wj_grant_wang_0101 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封犍为王
@@ -6150,6 +6252,7 @@ guanzhi_wj_grant_wang_0102 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0102
 		set_coa = gzw_coa_0102
 	}
 	scope:recipient = {
@@ -6178,7 +6281,7 @@ guanzhi_wj_grant_wang_0102 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封牂牁王
@@ -6210,6 +6313,7 @@ guanzhi_wj_grant_wang_0103 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0103
 		set_coa = gzw_coa_0103
 	}
 	scope:recipient = {
@@ -6238,7 +6342,7 @@ guanzhi_wj_grant_wang_0103 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封越巂王
@@ -6270,6 +6374,7 @@ guanzhi_wj_grant_wang_0104 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0104
 		set_coa = gzw_coa_0104
 	}
 	scope:recipient = {
@@ -6298,7 +6403,7 @@ guanzhi_wj_grant_wang_0104 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封益州王
@@ -6330,6 +6435,7 @@ guanzhi_wj_grant_wang_0105 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0105
 		set_coa = gzw_coa_0105
 	}
 	scope:recipient = {
@@ -6358,7 +6464,7 @@ guanzhi_wj_grant_wang_0105 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封永昌王
@@ -6390,6 +6496,7 @@ guanzhi_wj_grant_wang_0106 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0106
 		set_coa = gzw_coa_0106
 	}
 	scope:recipient = {
@@ -6418,7 +6525,7 @@ guanzhi_wj_grant_wang_0106 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陇西王
@@ -6450,6 +6557,7 @@ guanzhi_wj_grant_wang_0107 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0107
 		set_coa = gzw_coa_0107
 	}
 	scope:recipient = {
@@ -6478,7 +6586,7 @@ guanzhi_wj_grant_wang_0107 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汉阳王
@@ -6510,6 +6618,7 @@ guanzhi_wj_grant_wang_0108 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0108
 		set_coa = gzw_coa_0108
 	}
 	scope:recipient = {
@@ -6538,7 +6647,7 @@ guanzhi_wj_grant_wang_0108 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武都王
@@ -6570,6 +6679,7 @@ guanzhi_wj_grant_wang_0109 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0109
 		set_coa = gzw_coa_0109
 	}
 	scope:recipient = {
@@ -6598,7 +6708,7 @@ guanzhi_wj_grant_wang_0109 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封金城王
@@ -6630,6 +6740,7 @@ guanzhi_wj_grant_wang_0110 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0110
 		set_coa = gzw_coa_0110
 	}
 	scope:recipient = {
@@ -6658,7 +6769,7 @@ guanzhi_wj_grant_wang_0110 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封安定王
@@ -6690,6 +6801,7 @@ guanzhi_wj_grant_wang_0111 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0111
 		set_coa = gzw_coa_0111
 	}
 	scope:recipient = {
@@ -6718,7 +6830,7 @@ guanzhi_wj_grant_wang_0111 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封北地王
@@ -6750,6 +6862,7 @@ guanzhi_wj_grant_wang_0112 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0112
 		set_coa = gzw_coa_0112
 	}
 	scope:recipient = {
@@ -6778,7 +6891,7 @@ guanzhi_wj_grant_wang_0112 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武威王
@@ -6810,6 +6923,7 @@ guanzhi_wj_grant_wang_0113 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0113
 		set_coa = gzw_coa_0113
 	}
 	scope:recipient = {
@@ -6838,7 +6952,7 @@ guanzhi_wj_grant_wang_0113 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封张掖王
@@ -6870,6 +6984,7 @@ guanzhi_wj_grant_wang_0114 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0114
 		set_coa = gzw_coa_0114
 	}
 	scope:recipient = {
@@ -6898,7 +7013,7 @@ guanzhi_wj_grant_wang_0114 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封酒泉王
@@ -6930,6 +7045,7 @@ guanzhi_wj_grant_wang_0115 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0115
 		set_coa = gzw_coa_0115
 	}
 	scope:recipient = {
@@ -6958,7 +7074,7 @@ guanzhi_wj_grant_wang_0115 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封敦煌王
@@ -6990,6 +7106,7 @@ guanzhi_wj_grant_wang_0116 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0116
 		set_coa = gzw_coa_0116
 	}
 	scope:recipient = {
@@ -7018,7 +7135,7 @@ guanzhi_wj_grant_wang_0116 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上党王
@@ -7050,6 +7167,7 @@ guanzhi_wj_grant_wang_0117 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0117
 		set_coa = gzw_coa_0117
 	}
 	scope:recipient = {
@@ -7078,7 +7196,7 @@ guanzhi_wj_grant_wang_0117 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封太原王
@@ -7110,6 +7228,7 @@ guanzhi_wj_grant_wang_0118 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0118
 		set_coa = gzw_coa_0118
 	}
 	scope:recipient = {
@@ -7138,7 +7257,7 @@ guanzhi_wj_grant_wang_0118 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上王
@@ -7170,6 +7289,7 @@ guanzhi_wj_grant_wang_0119 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0119
 		set_coa = gzw_coa_0119
 	}
 	scope:recipient = {
@@ -7198,7 +7318,7 @@ guanzhi_wj_grant_wang_0119 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封西河王
@@ -7230,6 +7350,7 @@ guanzhi_wj_grant_wang_0120 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0120
 		set_coa = gzw_coa_0120
 	}
 	scope:recipient = {
@@ -7258,7 +7379,7 @@ guanzhi_wj_grant_wang_0120 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封五原王
@@ -7290,6 +7411,7 @@ guanzhi_wj_grant_wang_0121 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0121
 		set_coa = gzw_coa_0121
 	}
 	scope:recipient = {
@@ -7318,7 +7440,7 @@ guanzhi_wj_grant_wang_0121 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封云中王
@@ -7350,6 +7472,7 @@ guanzhi_wj_grant_wang_0122 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0122
 		set_coa = gzw_coa_0122
 	}
 	scope:recipient = {
@@ -7378,7 +7501,7 @@ guanzhi_wj_grant_wang_0122 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封定襄王
@@ -7410,6 +7533,7 @@ guanzhi_wj_grant_wang_0123 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0123
 		set_coa = gzw_coa_0123
 	}
 	scope:recipient = {
@@ -7438,7 +7562,7 @@ guanzhi_wj_grant_wang_0123 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封雁门王
@@ -7470,6 +7594,7 @@ guanzhi_wj_grant_wang_0124 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0124
 		set_coa = gzw_coa_0124
 	}
 	scope:recipient = {
@@ -7498,7 +7623,7 @@ guanzhi_wj_grant_wang_0124 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封朔方王
@@ -7530,6 +7655,7 @@ guanzhi_wj_grant_wang_0125 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0125
 		set_coa = gzw_coa_0125
 	}
 	scope:recipient = {
@@ -7558,7 +7684,7 @@ guanzhi_wj_grant_wang_0125 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封涿王
@@ -7590,6 +7716,7 @@ guanzhi_wj_grant_wang_0126 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0126
 		set_coa = gzw_coa_0126
 	}
 	scope:recipient = {
@@ -7618,7 +7745,7 @@ guanzhi_wj_grant_wang_0126 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广阳王
@@ -7650,6 +7777,7 @@ guanzhi_wj_grant_wang_0127 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0127
 		set_coa = gzw_coa_0127
 	}
 	scope:recipient = {
@@ -7678,7 +7806,7 @@ guanzhi_wj_grant_wang_0127 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封代王
@@ -7710,6 +7838,7 @@ guanzhi_wj_grant_wang_0128 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0128
 		set_coa = gzw_coa_0128
 	}
 	scope:recipient = {
@@ -7738,7 +7867,7 @@ guanzhi_wj_grant_wang_0128 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上谷王
@@ -7770,6 +7899,7 @@ guanzhi_wj_grant_wang_0129 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0129
 		set_coa = gzw_coa_0129
 	}
 	scope:recipient = {
@@ -7798,7 +7928,7 @@ guanzhi_wj_grant_wang_0129 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封渔阳王
@@ -7830,6 +7960,7 @@ guanzhi_wj_grant_wang_0130 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0130
 		set_coa = gzw_coa_0130
 	}
 	scope:recipient = {
@@ -7858,7 +7989,7 @@ guanzhi_wj_grant_wang_0130 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封右北平王
@@ -7890,6 +8021,7 @@ guanzhi_wj_grant_wang_0131 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0131
 		set_coa = gzw_coa_0131
 	}
 	scope:recipient = {
@@ -7918,7 +8050,7 @@ guanzhi_wj_grant_wang_0131 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封辽西王
@@ -7950,6 +8082,7 @@ guanzhi_wj_grant_wang_0132 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0132
 		set_coa = gzw_coa_0132
 	}
 	scope:recipient = {
@@ -7978,7 +8111,7 @@ guanzhi_wj_grant_wang_0132 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封辽东王
@@ -8010,6 +8143,7 @@ guanzhi_wj_grant_wang_0133 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0133
 		set_coa = gzw_coa_0133
 	}
 	scope:recipient = {
@@ -8038,7 +8172,7 @@ guanzhi_wj_grant_wang_0133 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封玄菟王
@@ -8070,6 +8204,7 @@ guanzhi_wj_grant_wang_0134 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0134
 		set_coa = gzw_coa_0134
 	}
 	scope:recipient = {
@@ -8098,7 +8233,7 @@ guanzhi_wj_grant_wang_0134 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封乐浪王
@@ -8130,6 +8265,7 @@ guanzhi_wj_grant_wang_0135 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0135
 		set_coa = gzw_coa_0135
 	}
 	scope:recipient = {
@@ -8158,7 +8294,7 @@ guanzhi_wj_grant_wang_0135 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南海王
@@ -8190,6 +8326,7 @@ guanzhi_wj_grant_wang_0136 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0136
 		set_coa = gzw_coa_0136
 	}
 	scope:recipient = {
@@ -8218,7 +8355,7 @@ guanzhi_wj_grant_wang_0136 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封苍梧王
@@ -8250,6 +8387,7 @@ guanzhi_wj_grant_wang_0137 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0137
 		set_coa = gzw_coa_0137
 	}
 	scope:recipient = {
@@ -8278,7 +8416,7 @@ guanzhi_wj_grant_wang_0137 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郁林王
@@ -8310,6 +8448,7 @@ guanzhi_wj_grant_wang_0138 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0138
 		set_coa = gzw_coa_0138
 	}
 	scope:recipient = {
@@ -8338,7 +8477,7 @@ guanzhi_wj_grant_wang_0138 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封合浦王
@@ -8370,6 +8509,7 @@ guanzhi_wj_grant_wang_0139 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0139
 		set_coa = gzw_coa_0139
 	}
 	scope:recipient = {
@@ -8398,7 +8538,7 @@ guanzhi_wj_grant_wang_0139 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封交趾王
@@ -8430,6 +8570,7 @@ guanzhi_wj_grant_wang_0140 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0140
 		set_coa = gzw_coa_0140
 	}
 	scope:recipient = {
@@ -8458,7 +8599,7 @@ guanzhi_wj_grant_wang_0140 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封九真王
@@ -8490,6 +8631,7 @@ guanzhi_wj_grant_wang_0141 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0141
 		set_coa = gzw_coa_0141
 	}
 	scope:recipient = {
@@ -8518,7 +8660,7 @@ guanzhi_wj_grant_wang_0141 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封日南王
@@ -8550,6 +8692,7 @@ guanzhi_wj_grant_wang_0142 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_wang_0142
 		set_coa = gzw_coa_0142
 	}
 	scope:recipient = {
@@ -8578,7 +8721,7 @@ guanzhi_wj_grant_wang_0142 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封齐公
@@ -8610,6 +8753,7 @@ guanzhi_wj_grant_gong_0000 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0000
 		set_coa = gzw_coa_0000
 	}
 	scope:recipient = {
@@ -8638,7 +8782,7 @@ guanzhi_wj_grant_gong_0000 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封楚公
@@ -8670,6 +8814,7 @@ guanzhi_wj_grant_gong_0001 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0001
 		set_coa = gzw_coa_0001
 	}
 	scope:recipient = {
@@ -8698,7 +8843,7 @@ guanzhi_wj_grant_gong_0001 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封秦公
@@ -8730,6 +8875,7 @@ guanzhi_wj_grant_gong_0002 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0002
 		set_coa = gzw_coa_0002
 	}
 	scope:recipient = {
@@ -8758,7 +8904,7 @@ guanzhi_wj_grant_gong_0002 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封晋公
@@ -8790,6 +8936,7 @@ guanzhi_wj_grant_gong_0003 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0003
 		set_coa = gzw_coa_0003
 	}
 	scope:recipient = {
@@ -8818,7 +8965,7 @@ guanzhi_wj_grant_gong_0003 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封燕公
@@ -8850,6 +8997,7 @@ guanzhi_wj_grant_gong_0004 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0004
 		set_coa = gzw_coa_0004
 	}
 	scope:recipient = {
@@ -8878,7 +9026,7 @@ guanzhi_wj_grant_gong_0004 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封赵公
@@ -8910,6 +9058,7 @@ guanzhi_wj_grant_gong_0005 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0005
 		set_coa = gzw_coa_0005
 	}
 	scope:recipient = {
@@ -8938,7 +9087,7 @@ guanzhi_wj_grant_gong_0005 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封魏公
@@ -8970,6 +9119,7 @@ guanzhi_wj_grant_gong_0006 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0006
 		set_coa = gzw_coa_0006
 	}
 	scope:recipient = {
@@ -8998,7 +9148,7 @@ guanzhi_wj_grant_gong_0006 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封韩公
@@ -9030,6 +9180,7 @@ guanzhi_wj_grant_gong_0007 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0007
 		set_coa = gzw_coa_0007
 	}
 	scope:recipient = {
@@ -9058,7 +9209,7 @@ guanzhi_wj_grant_gong_0007 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封宋公
@@ -9090,6 +9241,7 @@ guanzhi_wj_grant_gong_0008 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0008
 		set_coa = gzw_coa_0008
 	}
 	scope:recipient = {
@@ -9118,7 +9270,7 @@ guanzhi_wj_grant_gong_0008 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郑公
@@ -9150,6 +9302,7 @@ guanzhi_wj_grant_gong_0009 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0009
 		set_coa = gzw_coa_0009
 	}
 	scope:recipient = {
@@ -9178,7 +9331,7 @@ guanzhi_wj_grant_gong_0009 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封卫公
@@ -9210,6 +9363,7 @@ guanzhi_wj_grant_gong_0010 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0010
 		set_coa = gzw_coa_0010
 	}
 	scope:recipient = {
@@ -9238,7 +9392,7 @@ guanzhi_wj_grant_gong_0010 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鲁公
@@ -9270,6 +9424,7 @@ guanzhi_wj_grant_gong_0011 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0011
 		set_coa = gzw_coa_0011
 	}
 	scope:recipient = {
@@ -9298,7 +9453,7 @@ guanzhi_wj_grant_gong_0011 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈公
@@ -9330,6 +9485,7 @@ guanzhi_wj_grant_gong_0012 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0012
 		set_coa = gzw_coa_0012
 	}
 	scope:recipient = {
@@ -9358,7 +9514,7 @@ guanzhi_wj_grant_gong_0012 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蔡公
@@ -9390,6 +9546,7 @@ guanzhi_wj_grant_gong_0013 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0013
 		set_coa = gzw_coa_0013
 	}
 	scope:recipient = {
@@ -9418,7 +9575,7 @@ guanzhi_wj_grant_gong_0013 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封曹公
@@ -9450,6 +9607,7 @@ guanzhi_wj_grant_gong_0014 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0014
 		set_coa = gzw_coa_0014
 	}
 	scope:recipient = {
@@ -9478,7 +9636,7 @@ guanzhi_wj_grant_gong_0014 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吴公
@@ -9510,6 +9668,7 @@ guanzhi_wj_grant_gong_0015 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0015
 		set_coa = gzw_coa_0015
 	}
 	scope:recipient = {
@@ -9538,7 +9697,7 @@ guanzhi_wj_grant_gong_0015 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封越公
@@ -9570,6 +9729,7 @@ guanzhi_wj_grant_gong_0016 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0016
 		set_coa = gzw_coa_0016
 	}
 	scope:recipient = {
@@ -9598,7 +9758,7 @@ guanzhi_wj_grant_gong_0016 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封徐公
@@ -9630,6 +9790,7 @@ guanzhi_wj_grant_gong_0017 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0017
 		set_coa = gzw_coa_0017
 	}
 	scope:recipient = {
@@ -9658,7 +9819,7 @@ guanzhi_wj_grant_gong_0017 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郯公
@@ -9690,6 +9851,7 @@ guanzhi_wj_grant_gong_0018 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0018
 		set_coa = gzw_coa_0018
 	}
 	scope:recipient = {
@@ -9718,7 +9880,7 @@ guanzhi_wj_grant_gong_0018 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封莒公
@@ -9750,6 +9912,7 @@ guanzhi_wj_grant_gong_0019 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0019
 		set_coa = gzw_coa_0019
 	}
 	scope:recipient = {
@@ -9778,7 +9941,7 @@ guanzhi_wj_grant_gong_0019 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封薛公
@@ -9810,6 +9973,7 @@ guanzhi_wj_grant_gong_0020 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0020
 		set_coa = gzw_coa_0020
 	}
 	scope:recipient = {
@@ -9838,7 +10002,7 @@ guanzhi_wj_grant_gong_0020 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封滕公
@@ -9870,6 +10034,7 @@ guanzhi_wj_grant_gong_0021 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0021
 		set_coa = gzw_coa_0021
 	}
 	scope:recipient = {
@@ -9898,7 +10063,7 @@ guanzhi_wj_grant_gong_0021 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封邢公
@@ -9930,6 +10095,7 @@ guanzhi_wj_grant_gong_0022 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0022
 		set_coa = gzw_coa_0022
 	}
 	scope:recipient = {
@@ -9958,7 +10124,7 @@ guanzhi_wj_grant_gong_0022 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封虞公
@@ -9990,6 +10156,7 @@ guanzhi_wj_grant_gong_0023 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0023
 		set_coa = gzw_coa_0023
 	}
 	scope:recipient = {
@@ -10018,7 +10185,7 @@ guanzhi_wj_grant_gong_0023 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封虢公
@@ -10050,6 +10217,7 @@ guanzhi_wj_grant_gong_0024 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0024
 		set_coa = gzw_coa_0024
 	}
 	scope:recipient = {
@@ -10078,7 +10246,7 @@ guanzhi_wj_grant_gong_0024 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封杞公
@@ -10110,6 +10278,7 @@ guanzhi_wj_grant_gong_0025 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0025
 		set_coa = gzw_coa_0025
 	}
 	scope:recipient = {
@@ -10138,7 +10307,7 @@ guanzhi_wj_grant_gong_0025 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封胡公
@@ -10170,6 +10339,7 @@ guanzhi_wj_grant_gong_0026 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0026
 		set_coa = gzw_coa_0026
 	}
 	scope:recipient = {
@@ -10198,7 +10368,7 @@ guanzhi_wj_grant_gong_0026 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封梁公
@@ -10230,6 +10400,7 @@ guanzhi_wj_grant_gong_0027 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0027
 		set_coa = gzw_coa_0027
 	}
 	scope:recipient = {
@@ -10258,7 +10429,7 @@ guanzhi_wj_grant_gong_0027 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封唐公
@@ -10290,6 +10461,7 @@ guanzhi_wj_grant_gong_0028 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0028
 		set_coa = gzw_coa_0028
 	}
 	scope:recipient = {
@@ -10318,7 +10490,7 @@ guanzhi_wj_grant_gong_0028 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鄂公
@@ -10350,6 +10522,7 @@ guanzhi_wj_grant_gong_0029 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0029
 		set_coa = gzw_coa_0029
 	}
 	scope:recipient = {
@@ -10378,7 +10551,7 @@ guanzhi_wj_grant_gong_0029 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封褒公
@@ -10410,6 +10583,7 @@ guanzhi_wj_grant_gong_0030 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0030
 		set_coa = gzw_coa_0030
 	}
 	scope:recipient = {
@@ -10438,7 +10612,7 @@ guanzhi_wj_grant_gong_0030 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封申公
@@ -10470,6 +10644,7 @@ guanzhi_wj_grant_gong_0031 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0031
 		set_coa = gzw_coa_0031
 	}
 	scope:recipient = {
@@ -10498,7 +10673,7 @@ guanzhi_wj_grant_gong_0031 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吕公
@@ -10530,6 +10705,7 @@ guanzhi_wj_grant_gong_0032 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0032
 		set_coa = gzw_coa_0032
 	}
 	scope:recipient = {
@@ -10558,7 +10734,7 @@ guanzhi_wj_grant_gong_0032 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封随公
@@ -10590,6 +10766,7 @@ guanzhi_wj_grant_gong_0033 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0033
 		set_coa = gzw_coa_0033
 	}
 	scope:recipient = {
@@ -10618,7 +10795,7 @@ guanzhi_wj_grant_gong_0033 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封邓公
@@ -10650,6 +10827,7 @@ guanzhi_wj_grant_gong_0034 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0034
 		set_coa = gzw_coa_0034
 	}
 	scope:recipient = {
@@ -10678,7 +10856,7 @@ guanzhi_wj_grant_gong_0034 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封霍公
@@ -10710,6 +10888,7 @@ guanzhi_wj_grant_gong_0035 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0035
 		set_coa = gzw_coa_0035
 	}
 	scope:recipient = {
@@ -10738,7 +10917,7 @@ guanzhi_wj_grant_gong_0035 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封耿公
@@ -10770,6 +10949,7 @@ guanzhi_wj_grant_gong_0036 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0036
 		set_coa = gzw_coa_0036
 	}
 	scope:recipient = {
@@ -10798,7 +10978,7 @@ guanzhi_wj_grant_gong_0036 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蒋公
@@ -10830,6 +11010,7 @@ guanzhi_wj_grant_gong_0037 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0037
 		set_coa = gzw_coa_0037
 	}
 	scope:recipient = {
@@ -10858,7 +11039,7 @@ guanzhi_wj_grant_gong_0037 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封英公
@@ -10890,6 +11071,7 @@ guanzhi_wj_grant_gong_0038 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0038
 		set_coa = gzw_coa_0038
 	}
 	scope:recipient = {
@@ -10918,7 +11100,7 @@ guanzhi_wj_grant_gong_0038 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封夔公
@@ -10950,6 +11132,7 @@ guanzhi_wj_grant_gong_0039 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0039
 		set_coa = gzw_coa_0039
 	}
 	scope:recipient = {
@@ -10978,7 +11161,7 @@ guanzhi_wj_grant_gong_0039 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封莱公
@@ -11010,6 +11193,7 @@ guanzhi_wj_grant_gong_0040 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0040
 		set_coa = gzw_coa_0040
 	}
 	scope:recipient = {
@@ -11038,7 +11222,7 @@ guanzhi_wj_grant_gong_0040 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封许公
@@ -11070,6 +11254,7 @@ guanzhi_wj_grant_gong_0041 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0041
 		set_coa = gzw_coa_0041
 	}
 	scope:recipient = {
@@ -11098,7 +11283,7 @@ guanzhi_wj_grant_gong_0041 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封苏公
@@ -11130,6 +11315,7 @@ guanzhi_wj_grant_gong_0042 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0042
 		set_coa = gzw_coa_0042
 	}
 	scope:recipient = {
@@ -11158,7 +11344,7 @@ guanzhi_wj_grant_gong_0042 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封钟公
@@ -11190,6 +11376,7 @@ guanzhi_wj_grant_gong_0043 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0043
 		set_coa = gzw_coa_0043
 	}
 	scope:recipient = {
@@ -11218,7 +11405,7 @@ guanzhi_wj_grant_gong_0043 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郢公
@@ -11250,6 +11437,7 @@ guanzhi_wj_grant_gong_0044 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0044
 		set_coa = gzw_coa_0044
 	}
 	scope:recipient = {
@@ -11278,7 +11466,7 @@ guanzhi_wj_grant_gong_0044 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封沈公
@@ -11310,6 +11498,7 @@ guanzhi_wj_grant_gong_0045 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0045
 		set_coa = gzw_coa_0045
 	}
 	scope:recipient = {
@@ -11338,7 +11527,7 @@ guanzhi_wj_grant_gong_0045 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郧公
@@ -11370,6 +11559,7 @@ guanzhi_wj_grant_gong_0046 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0046
 		set_coa = gzw_coa_0046
 	}
 	scope:recipient = {
@@ -11398,7 +11588,7 @@ guanzhi_wj_grant_gong_0046 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封谯公
@@ -11430,6 +11620,7 @@ guanzhi_wj_grant_gong_0047 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0047
 		set_coa = gzw_coa_0047
 	}
 	scope:recipient = {
@@ -11458,7 +11649,7 @@ guanzhi_wj_grant_gong_0047 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河内公
@@ -11490,6 +11681,7 @@ guanzhi_wj_grant_gong_0048 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0048
 		set_coa = gzw_coa_0048
 	}
 	scope:recipient = {
@@ -11518,7 +11710,7 @@ guanzhi_wj_grant_gong_0048 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河东公
@@ -11550,6 +11742,7 @@ guanzhi_wj_grant_gong_0049 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0049
 		set_coa = gzw_coa_0049
 	}
 	scope:recipient = {
@@ -11578,7 +11771,7 @@ guanzhi_wj_grant_gong_0049 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封弘农公
@@ -11610,6 +11803,7 @@ guanzhi_wj_grant_gong_0050 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0050
 		set_coa = gzw_coa_0050
 	}
 	scope:recipient = {
@@ -11638,7 +11832,7 @@ guanzhi_wj_grant_gong_0050 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封颍川公
@@ -11670,6 +11864,7 @@ guanzhi_wj_grant_gong_0051 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0051
 		set_coa = gzw_coa_0051
 	}
 	scope:recipient = {
@@ -11698,7 +11893,7 @@ guanzhi_wj_grant_gong_0051 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汝南公
@@ -11730,6 +11925,7 @@ guanzhi_wj_grant_gong_0052 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0052
 		set_coa = gzw_coa_0052
 	}
 	scope:recipient = {
@@ -11758,7 +11954,7 @@ guanzhi_wj_grant_gong_0052 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封梁公
@@ -11790,6 +11986,7 @@ guanzhi_wj_grant_gong_0053 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0053
 		set_coa = gzw_coa_0053
 	}
 	scope:recipient = {
@@ -11818,7 +12015,7 @@ guanzhi_wj_grant_gong_0053 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封沛公
@@ -11850,6 +12047,7 @@ guanzhi_wj_grant_gong_0054 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0054
 		set_coa = gzw_coa_0054
 	}
 	scope:recipient = {
@@ -11878,7 +12076,7 @@ guanzhi_wj_grant_gong_0054 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈公
@@ -11910,6 +12108,7 @@ guanzhi_wj_grant_gong_0055 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0055
 		set_coa = gzw_coa_0055
 	}
 	scope:recipient = {
@@ -11938,7 +12137,7 @@ guanzhi_wj_grant_gong_0055 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封鲁公
@@ -11970,6 +12169,7 @@ guanzhi_wj_grant_gong_0056 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0056
 		set_coa = gzw_coa_0056
 	}
 	scope:recipient = {
@@ -11998,7 +12198,7 @@ guanzhi_wj_grant_gong_0056 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封魏公
@@ -12030,6 +12230,7 @@ guanzhi_wj_grant_gong_0057 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0057
 		set_coa = gzw_coa_0057
 	}
 	scope:recipient = {
@@ -12058,7 +12259,7 @@ guanzhi_wj_grant_gong_0057 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封钜鹿公
@@ -12090,6 +12291,7 @@ guanzhi_wj_grant_gong_0058 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0058
 		set_coa = gzw_coa_0058
 	}
 	scope:recipient = {
@@ -12118,7 +12320,7 @@ guanzhi_wj_grant_gong_0058 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封常山公
@@ -12150,6 +12352,7 @@ guanzhi_wj_grant_gong_0059 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0059
 		set_coa = gzw_coa_0059
 	}
 	scope:recipient = {
@@ -12178,7 +12381,7 @@ guanzhi_wj_grant_gong_0059 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封中山公
@@ -12210,6 +12413,7 @@ guanzhi_wj_grant_gong_0060 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0060
 		set_coa = gzw_coa_0060
 	}
 	scope:recipient = {
@@ -12238,7 +12442,7 @@ guanzhi_wj_grant_gong_0060 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封安平公
@@ -12270,6 +12474,7 @@ guanzhi_wj_grant_gong_0061 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0061
 		set_coa = gzw_coa_0061
 	}
 	scope:recipient = {
@@ -12298,7 +12503,7 @@ guanzhi_wj_grant_gong_0061 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封河间公
@@ -12330,6 +12535,7 @@ guanzhi_wj_grant_gong_0062 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0062
 		set_coa = gzw_coa_0062
 	}
 	scope:recipient = {
@@ -12358,7 +12564,7 @@ guanzhi_wj_grant_gong_0062 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封清河公
@@ -12390,6 +12596,7 @@ guanzhi_wj_grant_gong_0063 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0063
 		set_coa = gzw_coa_0063
 	}
 	scope:recipient = {
@@ -12418,7 +12625,7 @@ guanzhi_wj_grant_gong_0063 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封赵公
@@ -12450,6 +12657,7 @@ guanzhi_wj_grant_gong_0064 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0064
 		set_coa = gzw_coa_0064
 	}
 	scope:recipient = {
@@ -12478,7 +12686,7 @@ guanzhi_wj_grant_gong_0064 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封勃海公
@@ -12510,6 +12718,7 @@ guanzhi_wj_grant_gong_0065 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0065
 		set_coa = gzw_coa_0065
 	}
 	scope:recipient = {
@@ -12538,7 +12747,7 @@ guanzhi_wj_grant_gong_0065 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陈留公
@@ -12570,6 +12779,7 @@ guanzhi_wj_grant_gong_0066 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0066
 		set_coa = gzw_coa_0066
 	}
 	scope:recipient = {
@@ -12598,7 +12808,7 @@ guanzhi_wj_grant_gong_0066 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东公
@@ -12630,6 +12840,7 @@ guanzhi_wj_grant_gong_0067 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0067
 		set_coa = gzw_coa_0067
 	}
 	scope:recipient = {
@@ -12658,7 +12869,7 @@ guanzhi_wj_grant_gong_0067 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东平公
@@ -12690,6 +12901,7 @@ guanzhi_wj_grant_gong_0068 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0068
 		set_coa = gzw_coa_0068
 	}
 	scope:recipient = {
@@ -12718,7 +12930,7 @@ guanzhi_wj_grant_gong_0068 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封任城公
@@ -12750,6 +12962,7 @@ guanzhi_wj_grant_gong_0069 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0069
 		set_coa = gzw_coa_0069
 	}
 	scope:recipient = {
@@ -12778,7 +12991,7 @@ guanzhi_wj_grant_gong_0069 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封泰山公
@@ -12810,6 +13023,7 @@ guanzhi_wj_grant_gong_0070 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0070
 		set_coa = gzw_coa_0070
 	}
 	scope:recipient = {
@@ -12838,7 +13052,7 @@ guanzhi_wj_grant_gong_0070 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济北公
@@ -12870,6 +13084,7 @@ guanzhi_wj_grant_gong_0071 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0071
 		set_coa = gzw_coa_0071
 	}
 	scope:recipient = {
@@ -12898,7 +13113,7 @@ guanzhi_wj_grant_gong_0071 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封山阳公
@@ -12930,6 +13145,7 @@ guanzhi_wj_grant_gong_0072 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0072
 		set_coa = gzw_coa_0072
 	}
 	scope:recipient = {
@@ -12958,7 +13174,7 @@ guanzhi_wj_grant_gong_0072 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济阴公
@@ -12990,6 +13206,7 @@ guanzhi_wj_grant_gong_0073 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0073
 		set_coa = gzw_coa_0073
 	}
 	scope:recipient = {
@@ -13018,7 +13235,7 @@ guanzhi_wj_grant_gong_0073 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东海公
@@ -13050,6 +13267,7 @@ guanzhi_wj_grant_gong_0074 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0074
 		set_coa = gzw_coa_0074
 	}
 	scope:recipient = {
@@ -13078,7 +13296,7 @@ guanzhi_wj_grant_gong_0074 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封琅邪公
@@ -13110,6 +13328,7 @@ guanzhi_wj_grant_gong_0075 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0075
 		set_coa = gzw_coa_0075
 	}
 	scope:recipient = {
@@ -13138,7 +13357,7 @@ guanzhi_wj_grant_gong_0075 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封彭城公
@@ -13170,6 +13389,7 @@ guanzhi_wj_grant_gong_0076 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0076
 		set_coa = gzw_coa_0076
 	}
 	scope:recipient = {
@@ -13198,7 +13418,7 @@ guanzhi_wj_grant_gong_0076 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广陵公
@@ -13230,6 +13450,7 @@ guanzhi_wj_grant_gong_0077 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0077
 		set_coa = gzw_coa_0077
 	}
 	scope:recipient = {
@@ -13258,7 +13479,7 @@ guanzhi_wj_grant_gong_0077 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封下邳公
@@ -13290,6 +13511,7 @@ guanzhi_wj_grant_gong_0078 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0078
 		set_coa = gzw_coa_0078
 	}
 	scope:recipient = {
@@ -13318,7 +13540,7 @@ guanzhi_wj_grant_gong_0078 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封济南公
@@ -13350,6 +13572,7 @@ guanzhi_wj_grant_gong_0079 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0079
 		set_coa = gzw_coa_0079
 	}
 	scope:recipient = {
@@ -13378,7 +13601,7 @@ guanzhi_wj_grant_gong_0079 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封平原公
@@ -13410,6 +13633,7 @@ guanzhi_wj_grant_gong_0080 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0080
 		set_coa = gzw_coa_0080
 	}
 	scope:recipient = {
@@ -13438,7 +13662,7 @@ guanzhi_wj_grant_gong_0080 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封乐安公
@@ -13470,6 +13694,7 @@ guanzhi_wj_grant_gong_0081 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0081
 		set_coa = gzw_coa_0081
 	}
 	scope:recipient = {
@@ -13498,7 +13723,7 @@ guanzhi_wj_grant_gong_0081 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封北海公
@@ -13530,6 +13755,7 @@ guanzhi_wj_grant_gong_0082 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0082
 		set_coa = gzw_coa_0082
 	}
 	scope:recipient = {
@@ -13558,7 +13784,7 @@ guanzhi_wj_grant_gong_0082 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封东莱公
@@ -13590,6 +13816,7 @@ guanzhi_wj_grant_gong_0083 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0083
 		set_coa = gzw_coa_0083
 	}
 	scope:recipient = {
@@ -13618,7 +13845,7 @@ guanzhi_wj_grant_gong_0083 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封齐公
@@ -13650,6 +13877,7 @@ guanzhi_wj_grant_gong_0084 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0084
 		set_coa = gzw_coa_0084
 	}
 	scope:recipient = {
@@ -13678,7 +13906,7 @@ guanzhi_wj_grant_gong_0084 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南阳公
@@ -13710,6 +13938,7 @@ guanzhi_wj_grant_gong_0085 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0085
 		set_coa = gzw_coa_0085
 	}
 	scope:recipient = {
@@ -13738,7 +13967,7 @@ guanzhi_wj_grant_gong_0085 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南公
@@ -13770,6 +13999,7 @@ guanzhi_wj_grant_gong_0086 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0086
 		set_coa = gzw_coa_0086
 	}
 	scope:recipient = {
@@ -13798,7 +14028,7 @@ guanzhi_wj_grant_gong_0086 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封江夏公
@@ -13830,6 +14060,7 @@ guanzhi_wj_grant_gong_0087 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0087
 		set_coa = gzw_coa_0087
 	}
 	scope:recipient = {
@@ -13858,7 +14089,7 @@ guanzhi_wj_grant_gong_0087 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封零陵公
@@ -13890,6 +14121,7 @@ guanzhi_wj_grant_gong_0088 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0088
 		set_coa = gzw_coa_0088
 	}
 	scope:recipient = {
@@ -13918,7 +14150,7 @@ guanzhi_wj_grant_gong_0088 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封桂阳公
@@ -13950,6 +14182,7 @@ guanzhi_wj_grant_gong_0089 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0089
 		set_coa = gzw_coa_0089
 	}
 	scope:recipient = {
@@ -13978,7 +14211,7 @@ guanzhi_wj_grant_gong_0089 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武陵公
@@ -14010,6 +14243,7 @@ guanzhi_wj_grant_gong_0090 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0090
 		set_coa = gzw_coa_0090
 	}
 	scope:recipient = {
@@ -14038,7 +14272,7 @@ guanzhi_wj_grant_gong_0090 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封长沙公
@@ -14070,6 +14304,7 @@ guanzhi_wj_grant_gong_0091 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0091
 		set_coa = gzw_coa_0091
 	}
 	scope:recipient = {
@@ -14098,7 +14333,7 @@ guanzhi_wj_grant_gong_0091 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封九江公
@@ -14130,6 +14365,7 @@ guanzhi_wj_grant_gong_0092 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0092
 		set_coa = gzw_coa_0092
 	}
 	scope:recipient = {
@@ -14158,7 +14394,7 @@ guanzhi_wj_grant_gong_0092 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封丹阳公
@@ -14190,6 +14426,7 @@ guanzhi_wj_grant_gong_0093 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0093
 		set_coa = gzw_coa_0093
 	}
 	scope:recipient = {
@@ -14218,7 +14455,7 @@ guanzhi_wj_grant_gong_0093 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封庐江公
@@ -14250,6 +14487,7 @@ guanzhi_wj_grant_gong_0094 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0094
 		set_coa = gzw_coa_0094
 	}
 	scope:recipient = {
@@ -14278,7 +14516,7 @@ guanzhi_wj_grant_gong_0094 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封会稽公
@@ -14310,6 +14548,7 @@ guanzhi_wj_grant_gong_0095 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0095
 		set_coa = gzw_coa_0095
 	}
 	scope:recipient = {
@@ -14338,7 +14577,7 @@ guanzhi_wj_grant_gong_0095 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封吴公
@@ -14370,6 +14609,7 @@ guanzhi_wj_grant_gong_0096 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0096
 		set_coa = gzw_coa_0096
 	}
 	scope:recipient = {
@@ -14398,7 +14638,7 @@ guanzhi_wj_grant_gong_0096 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封豫章公
@@ -14430,6 +14670,7 @@ guanzhi_wj_grant_gong_0097 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0097
 		set_coa = gzw_coa_0097
 	}
 	scope:recipient = {
@@ -14458,7 +14699,7 @@ guanzhi_wj_grant_gong_0097 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汉中公
@@ -14490,6 +14731,7 @@ guanzhi_wj_grant_gong_0098 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0098
 		set_coa = gzw_coa_0098
 	}
 	scope:recipient = {
@@ -14518,7 +14760,7 @@ guanzhi_wj_grant_gong_0098 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封巴公
@@ -14550,6 +14792,7 @@ guanzhi_wj_grant_gong_0099 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0099
 		set_coa = gzw_coa_0099
 	}
 	scope:recipient = {
@@ -14578,7 +14821,7 @@ guanzhi_wj_grant_gong_0099 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广汉公
@@ -14610,6 +14853,7 @@ guanzhi_wj_grant_gong_0100 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0100
 		set_coa = gzw_coa_0100
 	}
 	scope:recipient = {
@@ -14638,7 +14882,7 @@ guanzhi_wj_grant_gong_0100 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封蜀公
@@ -14670,6 +14914,7 @@ guanzhi_wj_grant_gong_0101 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0101
 		set_coa = gzw_coa_0101
 	}
 	scope:recipient = {
@@ -14698,7 +14943,7 @@ guanzhi_wj_grant_gong_0101 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封犍为公
@@ -14730,6 +14975,7 @@ guanzhi_wj_grant_gong_0102 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0102
 		set_coa = gzw_coa_0102
 	}
 	scope:recipient = {
@@ -14758,7 +15004,7 @@ guanzhi_wj_grant_gong_0102 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封牂牁公
@@ -14790,6 +15036,7 @@ guanzhi_wj_grant_gong_0103 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0103
 		set_coa = gzw_coa_0103
 	}
 	scope:recipient = {
@@ -14818,7 +15065,7 @@ guanzhi_wj_grant_gong_0103 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封越巂公
@@ -14850,6 +15097,7 @@ guanzhi_wj_grant_gong_0104 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0104
 		set_coa = gzw_coa_0104
 	}
 	scope:recipient = {
@@ -14878,7 +15126,7 @@ guanzhi_wj_grant_gong_0104 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封益州公
@@ -14910,6 +15158,7 @@ guanzhi_wj_grant_gong_0105 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0105
 		set_coa = gzw_coa_0105
 	}
 	scope:recipient = {
@@ -14938,7 +15187,7 @@ guanzhi_wj_grant_gong_0105 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封永昌公
@@ -14970,6 +15219,7 @@ guanzhi_wj_grant_gong_0106 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0106
 		set_coa = gzw_coa_0106
 	}
 	scope:recipient = {
@@ -14998,7 +15248,7 @@ guanzhi_wj_grant_gong_0106 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封陇西公
@@ -15030,6 +15280,7 @@ guanzhi_wj_grant_gong_0107 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0107
 		set_coa = gzw_coa_0107
 	}
 	scope:recipient = {
@@ -15058,7 +15309,7 @@ guanzhi_wj_grant_gong_0107 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封汉阳公
@@ -15090,6 +15341,7 @@ guanzhi_wj_grant_gong_0108 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0108
 		set_coa = gzw_coa_0108
 	}
 	scope:recipient = {
@@ -15118,7 +15370,7 @@ guanzhi_wj_grant_gong_0108 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武都公
@@ -15150,6 +15402,7 @@ guanzhi_wj_grant_gong_0109 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0109
 		set_coa = gzw_coa_0109
 	}
 	scope:recipient = {
@@ -15178,7 +15431,7 @@ guanzhi_wj_grant_gong_0109 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封金城公
@@ -15210,6 +15463,7 @@ guanzhi_wj_grant_gong_0110 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0110
 		set_coa = gzw_coa_0110
 	}
 	scope:recipient = {
@@ -15238,7 +15492,7 @@ guanzhi_wj_grant_gong_0110 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封安定公
@@ -15270,6 +15524,7 @@ guanzhi_wj_grant_gong_0111 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0111
 		set_coa = gzw_coa_0111
 	}
 	scope:recipient = {
@@ -15298,7 +15553,7 @@ guanzhi_wj_grant_gong_0111 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封北地公
@@ -15330,6 +15585,7 @@ guanzhi_wj_grant_gong_0112 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0112
 		set_coa = gzw_coa_0112
 	}
 	scope:recipient = {
@@ -15358,7 +15614,7 @@ guanzhi_wj_grant_gong_0112 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封武威公
@@ -15390,6 +15646,7 @@ guanzhi_wj_grant_gong_0113 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0113
 		set_coa = gzw_coa_0113
 	}
 	scope:recipient = {
@@ -15418,7 +15675,7 @@ guanzhi_wj_grant_gong_0113 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封张掖公
@@ -15450,6 +15707,7 @@ guanzhi_wj_grant_gong_0114 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0114
 		set_coa = gzw_coa_0114
 	}
 	scope:recipient = {
@@ -15478,7 +15736,7 @@ guanzhi_wj_grant_gong_0114 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封酒泉公
@@ -15510,6 +15768,7 @@ guanzhi_wj_grant_gong_0115 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0115
 		set_coa = gzw_coa_0115
 	}
 	scope:recipient = {
@@ -15538,7 +15797,7 @@ guanzhi_wj_grant_gong_0115 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封敦煌公
@@ -15570,6 +15829,7 @@ guanzhi_wj_grant_gong_0116 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0116
 		set_coa = gzw_coa_0116
 	}
 	scope:recipient = {
@@ -15598,7 +15858,7 @@ guanzhi_wj_grant_gong_0116 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上党公
@@ -15630,6 +15890,7 @@ guanzhi_wj_grant_gong_0117 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0117
 		set_coa = gzw_coa_0117
 	}
 	scope:recipient = {
@@ -15658,7 +15919,7 @@ guanzhi_wj_grant_gong_0117 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封太原公
@@ -15690,6 +15951,7 @@ guanzhi_wj_grant_gong_0118 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0118
 		set_coa = gzw_coa_0118
 	}
 	scope:recipient = {
@@ -15718,7 +15980,7 @@ guanzhi_wj_grant_gong_0118 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上公
@@ -15750,6 +16012,7 @@ guanzhi_wj_grant_gong_0119 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0119
 		set_coa = gzw_coa_0119
 	}
 	scope:recipient = {
@@ -15778,7 +16041,7 @@ guanzhi_wj_grant_gong_0119 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封西河公
@@ -15810,6 +16073,7 @@ guanzhi_wj_grant_gong_0120 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0120
 		set_coa = gzw_coa_0120
 	}
 	scope:recipient = {
@@ -15838,7 +16102,7 @@ guanzhi_wj_grant_gong_0120 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封五原公
@@ -15870,6 +16134,7 @@ guanzhi_wj_grant_gong_0121 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0121
 		set_coa = gzw_coa_0121
 	}
 	scope:recipient = {
@@ -15898,7 +16163,7 @@ guanzhi_wj_grant_gong_0121 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封云中公
@@ -15930,6 +16195,7 @@ guanzhi_wj_grant_gong_0122 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0122
 		set_coa = gzw_coa_0122
 	}
 	scope:recipient = {
@@ -15958,7 +16224,7 @@ guanzhi_wj_grant_gong_0122 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封定襄公
@@ -15990,6 +16256,7 @@ guanzhi_wj_grant_gong_0123 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0123
 		set_coa = gzw_coa_0123
 	}
 	scope:recipient = {
@@ -16018,7 +16285,7 @@ guanzhi_wj_grant_gong_0123 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封雁门公
@@ -16050,6 +16317,7 @@ guanzhi_wj_grant_gong_0124 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0124
 		set_coa = gzw_coa_0124
 	}
 	scope:recipient = {
@@ -16078,7 +16346,7 @@ guanzhi_wj_grant_gong_0124 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封朔方公
@@ -16110,6 +16378,7 @@ guanzhi_wj_grant_gong_0125 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0125
 		set_coa = gzw_coa_0125
 	}
 	scope:recipient = {
@@ -16138,7 +16407,7 @@ guanzhi_wj_grant_gong_0125 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封涿公
@@ -16170,6 +16439,7 @@ guanzhi_wj_grant_gong_0126 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0126
 		set_coa = gzw_coa_0126
 	}
 	scope:recipient = {
@@ -16198,7 +16468,7 @@ guanzhi_wj_grant_gong_0126 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封广阳公
@@ -16230,6 +16500,7 @@ guanzhi_wj_grant_gong_0127 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0127
 		set_coa = gzw_coa_0127
 	}
 	scope:recipient = {
@@ -16258,7 +16529,7 @@ guanzhi_wj_grant_gong_0127 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封代公
@@ -16290,6 +16561,7 @@ guanzhi_wj_grant_gong_0128 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0128
 		set_coa = gzw_coa_0128
 	}
 	scope:recipient = {
@@ -16318,7 +16590,7 @@ guanzhi_wj_grant_gong_0128 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封上谷公
@@ -16350,6 +16622,7 @@ guanzhi_wj_grant_gong_0129 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0129
 		set_coa = gzw_coa_0129
 	}
 	scope:recipient = {
@@ -16378,7 +16651,7 @@ guanzhi_wj_grant_gong_0129 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封渔阳公
@@ -16410,6 +16683,7 @@ guanzhi_wj_grant_gong_0130 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0130
 		set_coa = gzw_coa_0130
 	}
 	scope:recipient = {
@@ -16438,7 +16712,7 @@ guanzhi_wj_grant_gong_0130 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封右北平公
@@ -16470,6 +16744,7 @@ guanzhi_wj_grant_gong_0131 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0131
 		set_coa = gzw_coa_0131
 	}
 	scope:recipient = {
@@ -16498,7 +16773,7 @@ guanzhi_wj_grant_gong_0131 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封辽西公
@@ -16530,6 +16805,7 @@ guanzhi_wj_grant_gong_0132 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0132
 		set_coa = gzw_coa_0132
 	}
 	scope:recipient = {
@@ -16558,7 +16834,7 @@ guanzhi_wj_grant_gong_0132 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封辽东公
@@ -16590,6 +16866,7 @@ guanzhi_wj_grant_gong_0133 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0133
 		set_coa = gzw_coa_0133
 	}
 	scope:recipient = {
@@ -16618,7 +16895,7 @@ guanzhi_wj_grant_gong_0133 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封玄菟公
@@ -16650,6 +16927,7 @@ guanzhi_wj_grant_gong_0134 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0134
 		set_coa = gzw_coa_0134
 	}
 	scope:recipient = {
@@ -16678,7 +16956,7 @@ guanzhi_wj_grant_gong_0134 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封乐浪公
@@ -16710,6 +16988,7 @@ guanzhi_wj_grant_gong_0135 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0135
 		set_coa = gzw_coa_0135
 	}
 	scope:recipient = {
@@ -16738,7 +17017,7 @@ guanzhi_wj_grant_gong_0135 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封南海公
@@ -16770,6 +17049,7 @@ guanzhi_wj_grant_gong_0136 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0136
 		set_coa = gzw_coa_0136
 	}
 	scope:recipient = {
@@ -16798,7 +17078,7 @@ guanzhi_wj_grant_gong_0136 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封苍梧公
@@ -16830,6 +17110,7 @@ guanzhi_wj_grant_gong_0137 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0137
 		set_coa = gzw_coa_0137
 	}
 	scope:recipient = {
@@ -16858,7 +17139,7 @@ guanzhi_wj_grant_gong_0137 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封郁林公
@@ -16890,6 +17171,7 @@ guanzhi_wj_grant_gong_0138 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0138
 		set_coa = gzw_coa_0138
 	}
 	scope:recipient = {
@@ -16918,7 +17200,7 @@ guanzhi_wj_grant_gong_0138 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封合浦公
@@ -16950,6 +17232,7 @@ guanzhi_wj_grant_gong_0139 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0139
 		set_coa = gzw_coa_0139
 	}
 	scope:recipient = {
@@ -16978,7 +17261,7 @@ guanzhi_wj_grant_gong_0139 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封交趾公
@@ -17010,6 +17293,7 @@ guanzhi_wj_grant_gong_0140 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0140
 		set_coa = gzw_coa_0140
 	}
 	scope:recipient = {
@@ -17038,7 +17322,7 @@ guanzhi_wj_grant_gong_0140 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封九真公
@@ -17070,6 +17354,7 @@ guanzhi_wj_grant_gong_0141 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0141
 		set_coa = gzw_coa_0141
 	}
 	scope:recipient = {
@@ -17098,7 +17383,7 @@ guanzhi_wj_grant_gong_0141 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }
 
 # 册封日南公
@@ -17130,6 +17415,7 @@ guanzhi_wj_grant_gong_0142 = {
 			holder = scope:recipient
 			change = scope:guanzhi_give_change
 		}
+		set_title_name = gzw_title_gong_0142
 		set_coa = gzw_coa_0142
 	}
 	scope:recipient = {
@@ -17158,5 +17444,5 @@ guanzhi_wj_grant_gong_0142 = {
 		}
 		guanzhi_fix_titleless_nickname_effect = yes
 	}
-	debug_log = "GUANZHI wangjue granted"
+	debug_log = "GUANZHI wangjue granted to [recipient.GetShortUIName]"
 }

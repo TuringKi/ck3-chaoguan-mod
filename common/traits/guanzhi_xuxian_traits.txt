@@ -1,0 +1,971 @@
+# Guanzhi 官制 - 虚衔 traits (州牧/都督/大总管/检校)
+# flag = guanzhi_zm/jie/zgj/jj 供剥夺触发器; 图标颜体
+
+# ---- 虚职州牧 (汉制) ----
+gzzm_00 = { # 司隶校尉
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_01 = { # 豫州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_02 = { # 冀州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_03 = { # 兖州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_04 = { # 徐州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_05 = { # 青州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_06 = { # 荆州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_07 = { # 扬州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_08 = { # 益州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_09 = { # 凉州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_10 = { # 并州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_11 = { # 幽州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+gzzm_12 = { # 交州牧
+	birth = 0
+	random_creation = 0
+	icon = gzzm.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzm_desc
+	monthly_prestige = 0.6
+	flag = guanzhi_zm
+}
+
+# ---- 使持节都督诸州军事 (单 trait + 州旗标多选) ----
+gzjdj = {
+	birth = 0
+	random_creation = 0
+	icon = gzjdj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjdj_desc
+	monthly_prestige = 0.8
+	prowess = 2
+	flag = guanzhi_jie
+}
+
+# ---- 行军大总管 (唐道级) ----
+gzzgj_00 = { # 京畿道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_01 = { # 都畿道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_02 = { # 关内道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_03 = { # 河南道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_04 = { # 河东道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_05 = { # 河北道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_06 = { # 山南东道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_07 = { # 山南西道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_08 = { # 陇右道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_09 = { # 淮南道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_10 = { # 江南东道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_11 = { # 江南西道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_12 = { # 黔中道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_13 = { # 剑南道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+gzzgj_14 = { # 岭南道行军大总管
+	birth = 0
+	random_creation = 0
+	icon = gzzgj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzzgj_desc
+	monthly_prestige = 0.7
+	martial = 2
+	flag = guanzhi_zgj
+}
+
+# ---- 检校官 (唐中后期) ----
+gzjj_t_taishi = { # 检校太师
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taifu = { # 检校太傅
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taibao = { # 检校太保
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taiwei = { # 检校太尉
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_situ = { # 检校司徒
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_sikong = { # 检校司空
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_shangshuling = { # 检校尚书令
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuopuye = { # 检校尚书左仆射
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youpuye = { # 检校尚书右仆射
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zhongshuling = { # 检校中书令
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_shizhong = { # 检校侍中
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_libu = { # 检校吏部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_hubu = { # 检校户部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_libu_rites = { # 检校礼部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_bingbu = { # 检校兵部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_xingbu = { # 检校刑部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_gongbu = { # 检校工部侍郎
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_yushidafu = { # 检校御史大夫
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taichang = { # 检校太常寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_guanglu = { # 检校光禄寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_weiwei_si = { # 检校卫尉寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zongzheng = { # 检校宗正寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taipu = { # 检校太仆寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_dali = { # 检校大理寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_honglu = { # 检校鸿胪寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_sinong = { # 检校司农寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_taifu_si = { # 检校太府寺卿
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_guozi = { # 检校国子监祭酒
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_shaofu_jian = { # 检校少府监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_jiangzuo = { # 检校将作大匠
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_junqi = { # 检校军器监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_dushui = { # 检校都水监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_mishu = { # 检校秘书监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_dianzhong = { # 检校殿中监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_neishi = { # 检校内侍监
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuowei = { # 检校左卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youwei = { # 检校右卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuoxiaowei = { # 检校左骁卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youxiaowei = { # 检校右骁卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuowuwei = { # 检校左武卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youwuwei = { # 检校右武卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuoweiwei = { # 检校左威卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youweiwei = { # 检校右威卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuolingjun = { # 检校左领军卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youlingjun = { # 检校右领军卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuojinwu = { # 检校左金吾卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youjinwu = { # 检校右金吾卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuojianmen = { # 检校左监门卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youjianmen = { # 检校右监门卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_zuoqianniu = { # 检校左千牛卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_t_youqianniu = { # 检校右千牛卫大将军
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_libu = { # 检校吏部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_hubu = { # 检校户部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_libu_rites = { # 检校礼部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_bingbu = { # 检校兵部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_xingbu = { # 检校刑部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+gzjj_s_gongbu = { # 检校工部尚书
+	birth = 0
+	random_creation = 0
+	icon = gzjj.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzjj_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_jj
+}
+
+# ---- 文馆学士 (唐制: 弘文馆/集贤殿/崇文馆/崇玄馆) ----
+gzxs_xs_hongwen_dx = { # 弘文馆大学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.8
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_hongwen = { # 弘文馆学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.5
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_jixian_dx = { # 集贤殿大学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.8
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_jixian = { # 集贤殿学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.5
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_chongwen_dx = { # 崇文馆大学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.8
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_chongwen = { # 崇文馆学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.5
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_chongxuan_dx = { # 崇玄馆大学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.8
+	learning = 2
+	flag = guanzhi_xs
+}
+
+gzxs_xs_chongxuan = { # 崇玄馆学士
+	birth = 0
+	random_creation = 0
+	icon = gzxs.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzxs_desc
+	monthly_prestige = 0.5
+	learning = 2
+	flag = guanzhi_xs
+}

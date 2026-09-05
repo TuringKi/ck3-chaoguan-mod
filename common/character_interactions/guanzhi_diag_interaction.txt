@@ -65,6 +65,39 @@ guanzhi_diag_rank_state_interaction = {
 			debug_log = "GZDIAG san_display=[recipient.Custom('guanzhi_san_display')]"
 			debug_log = "GZDIAG xun_display=[recipient.Custom('guanzhi_xun_display')]"
 			debug_log = "GZDIAG jue_display=[recipient.Custom('guanzhi_jue_display')]"
+			# ---- 虚衔/昵称状态 ----
+			debug_log = "GZDIAG jj_display=[recipient.Custom('guanzhi_jj_display')]"
+			debug_log = "GZDIAG zm_display=[recipient.Custom('guanzhi_zm_display')]"
+			debug_log = "GZDIAG zgj_display=[recipient.Custom('guanzhi_zgj_display')]"
+			debug_log = "GZDIAG jie_suffix=[recipient.Custom('guanzhi_jie_suffix')]"
+			if = {
+				limit = { has_any_nickname = yes }
+				debug_log = "GZDIAG has_any_nickname=YES"
+			}
+			else = { debug_log = "GZDIAG has_any_nickname=NO" }
+			if = { limit = { has_nickname = nick_gz_san } debug_log = "GZDIAG nick=san" }
+			if = { limit = { has_nickname = nick_gz_xun } debug_log = "GZDIAG nick=xun" }
+			if = { limit = { has_nickname = nick_gz_jj } debug_log = "GZDIAG nick=jj" }
+			if = { limit = { has_nickname = nick_gz_tj } debug_log = "GZDIAG nick=tj" }
+			if = { limit = { has_nickname = nick_gz_jue } debug_log = "GZDIAG nick=jue" }
+			if = { limit = { has_nickname = nick_gz_zm } debug_log = "GZDIAG nick=zm" }
+			if = { limit = { has_nickname = nick_gz_jie } debug_log = "GZDIAG nick=jie" }
+			if = { limit = { has_nickname = nick_gz_zgj } debug_log = "GZDIAG nick=zgj" }
+			if = { limit = { has_character_flag = guanzhi_zmholder } debug_log = "GZDIAG flag=zmholder" }
+			if = { limit = { has_character_flag = guanzhi_jieholder } debug_log = "GZDIAG flag=jieholder" }
+			if = { limit = { has_character_flag = guanzhi_zgjholder } debug_log = "GZDIAG flag=zgjholder" }
+			if = { limit = { has_character_flag = guanzhi_jjholder } debug_log = "GZDIAG flag=jjholder" }
+			# 双显排查: 父母为统治者时整合包 child 风味可能叠加昵称
+			if = {
+				limit = { any_parent = { is_ruler = yes } }
+				debug_log = "GZDIAG parent_is_ruler=YES"
+			}
+			else = { debug_log = "GZDIAG parent_is_ruler=NO" }
+			if = {
+				limit = { has_character_flag = mytm_var_house_flavor_child }
+				debug_log = "GZDIAG pack_child_flavor_flag=YES"
+			}
+			else = { debug_log = "GZDIAG pack_child_flavor_flag=NO" }
 		}
 	}
 

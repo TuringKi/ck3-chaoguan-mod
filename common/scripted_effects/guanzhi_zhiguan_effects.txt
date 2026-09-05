@@ -207,6 +207,94 @@ guanzhi_remove_office_trait_effect = {
 		remove_trait = guanzhi_zhiguan_t_youqianniu # 右千牛卫大将军
 	}
 	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_hanlin }
+		remove_trait = guanzhi_zhiguan_t_hanlin # 翰林学士
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shumi }
+		remove_trait = guanzhi_zhiguan_t_shumi # 枢密使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_xuanhui }
+		remove_trait = guanzhi_zhiguan_t_xuanhui # 宣徽使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_yantie }
+		remove_trait = guanzhi_zhiguan_t_yantie # 盐铁使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_duzhi }
+		remove_trait = guanzhi_zhiguan_t_duzhi # 度支使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_hushi }
+		remove_trait = guanzhi_zhiguan_t_hushi # 户部使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zhuanyun }
+		remove_trait = guanzhi_zhiguan_t_zhuanyun # 转运使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zhuqian }
+		remove_trait = guanzhi_zhiguan_t_zhuqian # 铸钱使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_quecha }
+		remove_trait = guanzhi_zhiguan_t_quecha # 榷茶使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_zuyong }
+		remove_trait = guanzhi_zhiguan_t_zuyong # 租庸使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shencezuo }
+		remove_trait = guanzhi_zhiguan_t_shencezuo # 左神策军护军中尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shenceyou }
+		remove_trait = guanzhi_zhiguan_t_shenceyou # 右神策军护军中尉
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_guanjunrong }
+		remove_trait = guanzhi_zhiguan_t_guanjunrong # 观军容使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_hemen }
+		remove_trait = guanzhi_zhiguan_t_hemen # 閤门使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_kesheng }
+		remove_trait = guanzhi_zhiguan_t_kesheng # 客省使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_libin }
+		remove_trait = guanzhi_zhiguan_t_libin # 礼宾使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_neizhuangzhai }
+		remove_trait = guanzhi_zhiguan_t_neizhuangzhai # 内庄宅使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_gongyuan }
+		remove_trait = guanzhi_zhiguan_t_gongyuan # 宫苑使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_feilong }
+		remove_trait = guanzhi_zhiguan_t_feilong # 飞龙使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_jiaofang }
+		remove_trait = guanzhi_zhiguan_t_jiaofang # 教坊使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_wufang }
+		remove_trait = guanzhi_zhiguan_t_wufang # 五坊使
+	}
+	if = {
+		limit = { has_trait = guanzhi_zhiguan_t_shangshi }
+		remove_trait = guanzhi_zhiguan_t_shangshi # 尚食使
+	}
+	if = {
 		limit = { has_trait = guanzhi_zhiguan_h_chengxiang }
 		remove_trait = guanzhi_zhiguan_h_chengxiang # 丞相
 	}

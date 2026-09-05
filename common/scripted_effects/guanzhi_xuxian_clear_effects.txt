@@ -1,0 +1,1837 @@
+# Guanzhi 官制 - 虚衔剥夺效果 (scope: 被剥夺者)
+
+guanzhi_clear_zm_effect = {
+	if = {
+		limit = { has_trait = gzzm_00 }
+		remove_trait = gzzm_00
+	}
+	if = {
+		limit = { has_trait = gzzm_01 }
+		remove_trait = gzzm_01
+	}
+	if = {
+		limit = { has_trait = gzzm_02 }
+		remove_trait = gzzm_02
+	}
+	if = {
+		limit = { has_trait = gzzm_03 }
+		remove_trait = gzzm_03
+	}
+	if = {
+		limit = { has_trait = gzzm_04 }
+		remove_trait = gzzm_04
+	}
+	if = {
+		limit = { has_trait = gzzm_05 }
+		remove_trait = gzzm_05
+	}
+	if = {
+		limit = { has_trait = gzzm_06 }
+		remove_trait = gzzm_06
+	}
+	if = {
+		limit = { has_trait = gzzm_07 }
+		remove_trait = gzzm_07
+	}
+	if = {
+		limit = { has_trait = gzzm_08 }
+		remove_trait = gzzm_08
+	}
+	if = {
+		limit = { has_trait = gzzm_09 }
+		remove_trait = gzzm_09
+	}
+	if = {
+		limit = { has_trait = gzzm_10 }
+		remove_trait = gzzm_10
+	}
+	if = {
+		limit = { has_trait = gzzm_11 }
+		remove_trait = gzzm_11
+	}
+	if = {
+		limit = { has_trait = gzzm_12 }
+		remove_trait = gzzm_12
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_zmholder }
+		remove_character_flag = guanzhi_zmholder
+	}
+	guanzhi_fix_titleless_nickname_effect = yes
+}
+
+guanzhi_clear_jie_effect = {
+	if = {
+		limit = { has_trait = gzjdj }
+		remove_trait = gzjdj
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_000 }
+		remove_character_flag = guanzhi_jie_zhou_000
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_001 }
+		remove_character_flag = guanzhi_jie_zhou_001
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_002 }
+		remove_character_flag = guanzhi_jie_zhou_002
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_003 }
+		remove_character_flag = guanzhi_jie_zhou_003
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_004 }
+		remove_character_flag = guanzhi_jie_zhou_004
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_005 }
+		remove_character_flag = guanzhi_jie_zhou_005
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_006 }
+		remove_character_flag = guanzhi_jie_zhou_006
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_007 }
+		remove_character_flag = guanzhi_jie_zhou_007
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_008 }
+		remove_character_flag = guanzhi_jie_zhou_008
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_009 }
+		remove_character_flag = guanzhi_jie_zhou_009
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_010 }
+		remove_character_flag = guanzhi_jie_zhou_010
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_011 }
+		remove_character_flag = guanzhi_jie_zhou_011
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_012 }
+		remove_character_flag = guanzhi_jie_zhou_012
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_013 }
+		remove_character_flag = guanzhi_jie_zhou_013
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_014 }
+		remove_character_flag = guanzhi_jie_zhou_014
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_015 }
+		remove_character_flag = guanzhi_jie_zhou_015
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_016 }
+		remove_character_flag = guanzhi_jie_zhou_016
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_017 }
+		remove_character_flag = guanzhi_jie_zhou_017
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_018 }
+		remove_character_flag = guanzhi_jie_zhou_018
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_019 }
+		remove_character_flag = guanzhi_jie_zhou_019
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_020 }
+		remove_character_flag = guanzhi_jie_zhou_020
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_021 }
+		remove_character_flag = guanzhi_jie_zhou_021
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_022 }
+		remove_character_flag = guanzhi_jie_zhou_022
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_023 }
+		remove_character_flag = guanzhi_jie_zhou_023
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_024 }
+		remove_character_flag = guanzhi_jie_zhou_024
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_025 }
+		remove_character_flag = guanzhi_jie_zhou_025
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_026 }
+		remove_character_flag = guanzhi_jie_zhou_026
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_027 }
+		remove_character_flag = guanzhi_jie_zhou_027
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_028 }
+		remove_character_flag = guanzhi_jie_zhou_028
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_029 }
+		remove_character_flag = guanzhi_jie_zhou_029
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_030 }
+		remove_character_flag = guanzhi_jie_zhou_030
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_031 }
+		remove_character_flag = guanzhi_jie_zhou_031
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_032 }
+		remove_character_flag = guanzhi_jie_zhou_032
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_033 }
+		remove_character_flag = guanzhi_jie_zhou_033
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_034 }
+		remove_character_flag = guanzhi_jie_zhou_034
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_035 }
+		remove_character_flag = guanzhi_jie_zhou_035
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_036 }
+		remove_character_flag = guanzhi_jie_zhou_036
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_037 }
+		remove_character_flag = guanzhi_jie_zhou_037
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_038 }
+		remove_character_flag = guanzhi_jie_zhou_038
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_039 }
+		remove_character_flag = guanzhi_jie_zhou_039
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_040 }
+		remove_character_flag = guanzhi_jie_zhou_040
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_041 }
+		remove_character_flag = guanzhi_jie_zhou_041
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_042 }
+		remove_character_flag = guanzhi_jie_zhou_042
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_043 }
+		remove_character_flag = guanzhi_jie_zhou_043
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_044 }
+		remove_character_flag = guanzhi_jie_zhou_044
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_045 }
+		remove_character_flag = guanzhi_jie_zhou_045
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_046 }
+		remove_character_flag = guanzhi_jie_zhou_046
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_047 }
+		remove_character_flag = guanzhi_jie_zhou_047
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_048 }
+		remove_character_flag = guanzhi_jie_zhou_048
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_049 }
+		remove_character_flag = guanzhi_jie_zhou_049
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_050 }
+		remove_character_flag = guanzhi_jie_zhou_050
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_051 }
+		remove_character_flag = guanzhi_jie_zhou_051
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_052 }
+		remove_character_flag = guanzhi_jie_zhou_052
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_053 }
+		remove_character_flag = guanzhi_jie_zhou_053
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_054 }
+		remove_character_flag = guanzhi_jie_zhou_054
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_055 }
+		remove_character_flag = guanzhi_jie_zhou_055
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_056 }
+		remove_character_flag = guanzhi_jie_zhou_056
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_057 }
+		remove_character_flag = guanzhi_jie_zhou_057
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_058 }
+		remove_character_flag = guanzhi_jie_zhou_058
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_059 }
+		remove_character_flag = guanzhi_jie_zhou_059
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_060 }
+		remove_character_flag = guanzhi_jie_zhou_060
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_061 }
+		remove_character_flag = guanzhi_jie_zhou_061
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_062 }
+		remove_character_flag = guanzhi_jie_zhou_062
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_063 }
+		remove_character_flag = guanzhi_jie_zhou_063
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_064 }
+		remove_character_flag = guanzhi_jie_zhou_064
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_065 }
+		remove_character_flag = guanzhi_jie_zhou_065
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_066 }
+		remove_character_flag = guanzhi_jie_zhou_066
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_067 }
+		remove_character_flag = guanzhi_jie_zhou_067
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_068 }
+		remove_character_flag = guanzhi_jie_zhou_068
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_069 }
+		remove_character_flag = guanzhi_jie_zhou_069
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_070 }
+		remove_character_flag = guanzhi_jie_zhou_070
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_071 }
+		remove_character_flag = guanzhi_jie_zhou_071
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_072 }
+		remove_character_flag = guanzhi_jie_zhou_072
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_073 }
+		remove_character_flag = guanzhi_jie_zhou_073
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_074 }
+		remove_character_flag = guanzhi_jie_zhou_074
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_075 }
+		remove_character_flag = guanzhi_jie_zhou_075
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_076 }
+		remove_character_flag = guanzhi_jie_zhou_076
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_077 }
+		remove_character_flag = guanzhi_jie_zhou_077
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_078 }
+		remove_character_flag = guanzhi_jie_zhou_078
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_079 }
+		remove_character_flag = guanzhi_jie_zhou_079
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_080 }
+		remove_character_flag = guanzhi_jie_zhou_080
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_081 }
+		remove_character_flag = guanzhi_jie_zhou_081
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_082 }
+		remove_character_flag = guanzhi_jie_zhou_082
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_083 }
+		remove_character_flag = guanzhi_jie_zhou_083
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_084 }
+		remove_character_flag = guanzhi_jie_zhou_084
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_085 }
+		remove_character_flag = guanzhi_jie_zhou_085
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_086 }
+		remove_character_flag = guanzhi_jie_zhou_086
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_087 }
+		remove_character_flag = guanzhi_jie_zhou_087
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_088 }
+		remove_character_flag = guanzhi_jie_zhou_088
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_089 }
+		remove_character_flag = guanzhi_jie_zhou_089
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_090 }
+		remove_character_flag = guanzhi_jie_zhou_090
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_091 }
+		remove_character_flag = guanzhi_jie_zhou_091
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_092 }
+		remove_character_flag = guanzhi_jie_zhou_092
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_093 }
+		remove_character_flag = guanzhi_jie_zhou_093
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_094 }
+		remove_character_flag = guanzhi_jie_zhou_094
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_095 }
+		remove_character_flag = guanzhi_jie_zhou_095
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_096 }
+		remove_character_flag = guanzhi_jie_zhou_096
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_097 }
+		remove_character_flag = guanzhi_jie_zhou_097
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_098 }
+		remove_character_flag = guanzhi_jie_zhou_098
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_099 }
+		remove_character_flag = guanzhi_jie_zhou_099
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_100 }
+		remove_character_flag = guanzhi_jie_zhou_100
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_101 }
+		remove_character_flag = guanzhi_jie_zhou_101
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_102 }
+		remove_character_flag = guanzhi_jie_zhou_102
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_103 }
+		remove_character_flag = guanzhi_jie_zhou_103
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_104 }
+		remove_character_flag = guanzhi_jie_zhou_104
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_105 }
+		remove_character_flag = guanzhi_jie_zhou_105
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_106 }
+		remove_character_flag = guanzhi_jie_zhou_106
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_107 }
+		remove_character_flag = guanzhi_jie_zhou_107
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_108 }
+		remove_character_flag = guanzhi_jie_zhou_108
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_109 }
+		remove_character_flag = guanzhi_jie_zhou_109
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_110 }
+		remove_character_flag = guanzhi_jie_zhou_110
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_111 }
+		remove_character_flag = guanzhi_jie_zhou_111
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_112 }
+		remove_character_flag = guanzhi_jie_zhou_112
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_113 }
+		remove_character_flag = guanzhi_jie_zhou_113
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_114 }
+		remove_character_flag = guanzhi_jie_zhou_114
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_115 }
+		remove_character_flag = guanzhi_jie_zhou_115
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_116 }
+		remove_character_flag = guanzhi_jie_zhou_116
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_117 }
+		remove_character_flag = guanzhi_jie_zhou_117
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_118 }
+		remove_character_flag = guanzhi_jie_zhou_118
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_119 }
+		remove_character_flag = guanzhi_jie_zhou_119
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_120 }
+		remove_character_flag = guanzhi_jie_zhou_120
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_121 }
+		remove_character_flag = guanzhi_jie_zhou_121
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_122 }
+		remove_character_flag = guanzhi_jie_zhou_122
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_123 }
+		remove_character_flag = guanzhi_jie_zhou_123
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_124 }
+		remove_character_flag = guanzhi_jie_zhou_124
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_125 }
+		remove_character_flag = guanzhi_jie_zhou_125
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_126 }
+		remove_character_flag = guanzhi_jie_zhou_126
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_127 }
+		remove_character_flag = guanzhi_jie_zhou_127
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_128 }
+		remove_character_flag = guanzhi_jie_zhou_128
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_129 }
+		remove_character_flag = guanzhi_jie_zhou_129
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_130 }
+		remove_character_flag = guanzhi_jie_zhou_130
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_131 }
+		remove_character_flag = guanzhi_jie_zhou_131
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_132 }
+		remove_character_flag = guanzhi_jie_zhou_132
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_133 }
+		remove_character_flag = guanzhi_jie_zhou_133
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_134 }
+		remove_character_flag = guanzhi_jie_zhou_134
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_135 }
+		remove_character_flag = guanzhi_jie_zhou_135
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_136 }
+		remove_character_flag = guanzhi_jie_zhou_136
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_137 }
+		remove_character_flag = guanzhi_jie_zhou_137
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_138 }
+		remove_character_flag = guanzhi_jie_zhou_138
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_139 }
+		remove_character_flag = guanzhi_jie_zhou_139
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_140 }
+		remove_character_flag = guanzhi_jie_zhou_140
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_141 }
+		remove_character_flag = guanzhi_jie_zhou_141
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_142 }
+		remove_character_flag = guanzhi_jie_zhou_142
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_143 }
+		remove_character_flag = guanzhi_jie_zhou_143
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_144 }
+		remove_character_flag = guanzhi_jie_zhou_144
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_145 }
+		remove_character_flag = guanzhi_jie_zhou_145
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_146 }
+		remove_character_flag = guanzhi_jie_zhou_146
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_147 }
+		remove_character_flag = guanzhi_jie_zhou_147
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_148 }
+		remove_character_flag = guanzhi_jie_zhou_148
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_149 }
+		remove_character_flag = guanzhi_jie_zhou_149
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_150 }
+		remove_character_flag = guanzhi_jie_zhou_150
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_151 }
+		remove_character_flag = guanzhi_jie_zhou_151
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_152 }
+		remove_character_flag = guanzhi_jie_zhou_152
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_153 }
+		remove_character_flag = guanzhi_jie_zhou_153
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_154 }
+		remove_character_flag = guanzhi_jie_zhou_154
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_155 }
+		remove_character_flag = guanzhi_jie_zhou_155
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_156 }
+		remove_character_flag = guanzhi_jie_zhou_156
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_157 }
+		remove_character_flag = guanzhi_jie_zhou_157
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_158 }
+		remove_character_flag = guanzhi_jie_zhou_158
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_159 }
+		remove_character_flag = guanzhi_jie_zhou_159
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_160 }
+		remove_character_flag = guanzhi_jie_zhou_160
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_161 }
+		remove_character_flag = guanzhi_jie_zhou_161
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_162 }
+		remove_character_flag = guanzhi_jie_zhou_162
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_163 }
+		remove_character_flag = guanzhi_jie_zhou_163
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_164 }
+		remove_character_flag = guanzhi_jie_zhou_164
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_165 }
+		remove_character_flag = guanzhi_jie_zhou_165
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_166 }
+		remove_character_flag = guanzhi_jie_zhou_166
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_167 }
+		remove_character_flag = guanzhi_jie_zhou_167
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_168 }
+		remove_character_flag = guanzhi_jie_zhou_168
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_169 }
+		remove_character_flag = guanzhi_jie_zhou_169
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_170 }
+		remove_character_flag = guanzhi_jie_zhou_170
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_171 }
+		remove_character_flag = guanzhi_jie_zhou_171
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_172 }
+		remove_character_flag = guanzhi_jie_zhou_172
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_173 }
+		remove_character_flag = guanzhi_jie_zhou_173
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_174 }
+		remove_character_flag = guanzhi_jie_zhou_174
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_175 }
+		remove_character_flag = guanzhi_jie_zhou_175
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_176 }
+		remove_character_flag = guanzhi_jie_zhou_176
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_177 }
+		remove_character_flag = guanzhi_jie_zhou_177
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_178 }
+		remove_character_flag = guanzhi_jie_zhou_178
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_179 }
+		remove_character_flag = guanzhi_jie_zhou_179
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_180 }
+		remove_character_flag = guanzhi_jie_zhou_180
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_181 }
+		remove_character_flag = guanzhi_jie_zhou_181
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_182 }
+		remove_character_flag = guanzhi_jie_zhou_182
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_183 }
+		remove_character_flag = guanzhi_jie_zhou_183
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_184 }
+		remove_character_flag = guanzhi_jie_zhou_184
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_185 }
+		remove_character_flag = guanzhi_jie_zhou_185
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_186 }
+		remove_character_flag = guanzhi_jie_zhou_186
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_187 }
+		remove_character_flag = guanzhi_jie_zhou_187
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_188 }
+		remove_character_flag = guanzhi_jie_zhou_188
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_189 }
+		remove_character_flag = guanzhi_jie_zhou_189
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_190 }
+		remove_character_flag = guanzhi_jie_zhou_190
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_191 }
+		remove_character_flag = guanzhi_jie_zhou_191
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_192 }
+		remove_character_flag = guanzhi_jie_zhou_192
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_193 }
+		remove_character_flag = guanzhi_jie_zhou_193
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_194 }
+		remove_character_flag = guanzhi_jie_zhou_194
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_195 }
+		remove_character_flag = guanzhi_jie_zhou_195
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_196 }
+		remove_character_flag = guanzhi_jie_zhou_196
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_197 }
+		remove_character_flag = guanzhi_jie_zhou_197
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_198 }
+		remove_character_flag = guanzhi_jie_zhou_198
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_199 }
+		remove_character_flag = guanzhi_jie_zhou_199
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_200 }
+		remove_character_flag = guanzhi_jie_zhou_200
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_201 }
+		remove_character_flag = guanzhi_jie_zhou_201
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_202 }
+		remove_character_flag = guanzhi_jie_zhou_202
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_203 }
+		remove_character_flag = guanzhi_jie_zhou_203
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_204 }
+		remove_character_flag = guanzhi_jie_zhou_204
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_205 }
+		remove_character_flag = guanzhi_jie_zhou_205
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_206 }
+		remove_character_flag = guanzhi_jie_zhou_206
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_207 }
+		remove_character_flag = guanzhi_jie_zhou_207
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_208 }
+		remove_character_flag = guanzhi_jie_zhou_208
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_209 }
+		remove_character_flag = guanzhi_jie_zhou_209
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_210 }
+		remove_character_flag = guanzhi_jie_zhou_210
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_211 }
+		remove_character_flag = guanzhi_jie_zhou_211
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_212 }
+		remove_character_flag = guanzhi_jie_zhou_212
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_213 }
+		remove_character_flag = guanzhi_jie_zhou_213
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_214 }
+		remove_character_flag = guanzhi_jie_zhou_214
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_215 }
+		remove_character_flag = guanzhi_jie_zhou_215
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_216 }
+		remove_character_flag = guanzhi_jie_zhou_216
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_217 }
+		remove_character_flag = guanzhi_jie_zhou_217
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_218 }
+		remove_character_flag = guanzhi_jie_zhou_218
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_219 }
+		remove_character_flag = guanzhi_jie_zhou_219
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_220 }
+		remove_character_flag = guanzhi_jie_zhou_220
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_221 }
+		remove_character_flag = guanzhi_jie_zhou_221
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_222 }
+		remove_character_flag = guanzhi_jie_zhou_222
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_223 }
+		remove_character_flag = guanzhi_jie_zhou_223
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_224 }
+		remove_character_flag = guanzhi_jie_zhou_224
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_225 }
+		remove_character_flag = guanzhi_jie_zhou_225
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_226 }
+		remove_character_flag = guanzhi_jie_zhou_226
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_227 }
+		remove_character_flag = guanzhi_jie_zhou_227
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_228 }
+		remove_character_flag = guanzhi_jie_zhou_228
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_229 }
+		remove_character_flag = guanzhi_jie_zhou_229
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_230 }
+		remove_character_flag = guanzhi_jie_zhou_230
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_231 }
+		remove_character_flag = guanzhi_jie_zhou_231
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_232 }
+		remove_character_flag = guanzhi_jie_zhou_232
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_233 }
+		remove_character_flag = guanzhi_jie_zhou_233
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_234 }
+		remove_character_flag = guanzhi_jie_zhou_234
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_235 }
+		remove_character_flag = guanzhi_jie_zhou_235
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_236 }
+		remove_character_flag = guanzhi_jie_zhou_236
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_237 }
+		remove_character_flag = guanzhi_jie_zhou_237
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_238 }
+		remove_character_flag = guanzhi_jie_zhou_238
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_239 }
+		remove_character_flag = guanzhi_jie_zhou_239
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_240 }
+		remove_character_flag = guanzhi_jie_zhou_240
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_241 }
+		remove_character_flag = guanzhi_jie_zhou_241
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_242 }
+		remove_character_flag = guanzhi_jie_zhou_242
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_243 }
+		remove_character_flag = guanzhi_jie_zhou_243
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_244 }
+		remove_character_flag = guanzhi_jie_zhou_244
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_245 }
+		remove_character_flag = guanzhi_jie_zhou_245
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_246 }
+		remove_character_flag = guanzhi_jie_zhou_246
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_247 }
+		remove_character_flag = guanzhi_jie_zhou_247
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_248 }
+		remove_character_flag = guanzhi_jie_zhou_248
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_249 }
+		remove_character_flag = guanzhi_jie_zhou_249
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_250 }
+		remove_character_flag = guanzhi_jie_zhou_250
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_251 }
+		remove_character_flag = guanzhi_jie_zhou_251
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_252 }
+		remove_character_flag = guanzhi_jie_zhou_252
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_253 }
+		remove_character_flag = guanzhi_jie_zhou_253
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_254 }
+		remove_character_flag = guanzhi_jie_zhou_254
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_255 }
+		remove_character_flag = guanzhi_jie_zhou_255
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_256 }
+		remove_character_flag = guanzhi_jie_zhou_256
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_257 }
+		remove_character_flag = guanzhi_jie_zhou_257
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_258 }
+		remove_character_flag = guanzhi_jie_zhou_258
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_259 }
+		remove_character_flag = guanzhi_jie_zhou_259
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_260 }
+		remove_character_flag = guanzhi_jie_zhou_260
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_261 }
+		remove_character_flag = guanzhi_jie_zhou_261
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_262 }
+		remove_character_flag = guanzhi_jie_zhou_262
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_263 }
+		remove_character_flag = guanzhi_jie_zhou_263
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_264 }
+		remove_character_flag = guanzhi_jie_zhou_264
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_265 }
+		remove_character_flag = guanzhi_jie_zhou_265
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_266 }
+		remove_character_flag = guanzhi_jie_zhou_266
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_267 }
+		remove_character_flag = guanzhi_jie_zhou_267
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_268 }
+		remove_character_flag = guanzhi_jie_zhou_268
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_269 }
+		remove_character_flag = guanzhi_jie_zhou_269
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_270 }
+		remove_character_flag = guanzhi_jie_zhou_270
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_271 }
+		remove_character_flag = guanzhi_jie_zhou_271
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_272 }
+		remove_character_flag = guanzhi_jie_zhou_272
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_273 }
+		remove_character_flag = guanzhi_jie_zhou_273
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_274 }
+		remove_character_flag = guanzhi_jie_zhou_274
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_275 }
+		remove_character_flag = guanzhi_jie_zhou_275
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_276 }
+		remove_character_flag = guanzhi_jie_zhou_276
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_277 }
+		remove_character_flag = guanzhi_jie_zhou_277
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_278 }
+		remove_character_flag = guanzhi_jie_zhou_278
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_279 }
+		remove_character_flag = guanzhi_jie_zhou_279
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_280 }
+		remove_character_flag = guanzhi_jie_zhou_280
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_281 }
+		remove_character_flag = guanzhi_jie_zhou_281
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_282 }
+		remove_character_flag = guanzhi_jie_zhou_282
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_283 }
+		remove_character_flag = guanzhi_jie_zhou_283
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_284 }
+		remove_character_flag = guanzhi_jie_zhou_284
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_285 }
+		remove_character_flag = guanzhi_jie_zhou_285
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_286 }
+		remove_character_flag = guanzhi_jie_zhou_286
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_287 }
+		remove_character_flag = guanzhi_jie_zhou_287
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_288 }
+		remove_character_flag = guanzhi_jie_zhou_288
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_289 }
+		remove_character_flag = guanzhi_jie_zhou_289
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_290 }
+		remove_character_flag = guanzhi_jie_zhou_290
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_291 }
+		remove_character_flag = guanzhi_jie_zhou_291
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_292 }
+		remove_character_flag = guanzhi_jie_zhou_292
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_293 }
+		remove_character_flag = guanzhi_jie_zhou_293
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_294 }
+		remove_character_flag = guanzhi_jie_zhou_294
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_295 }
+		remove_character_flag = guanzhi_jie_zhou_295
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_296 }
+		remove_character_flag = guanzhi_jie_zhou_296
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_297 }
+		remove_character_flag = guanzhi_jie_zhou_297
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_298 }
+		remove_character_flag = guanzhi_jie_zhou_298
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_299 }
+		remove_character_flag = guanzhi_jie_zhou_299
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_300 }
+		remove_character_flag = guanzhi_jie_zhou_300
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_301 }
+		remove_character_flag = guanzhi_jie_zhou_301
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_302 }
+		remove_character_flag = guanzhi_jie_zhou_302
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_303 }
+		remove_character_flag = guanzhi_jie_zhou_303
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_304 }
+		remove_character_flag = guanzhi_jie_zhou_304
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_305 }
+		remove_character_flag = guanzhi_jie_zhou_305
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_306 }
+		remove_character_flag = guanzhi_jie_zhou_306
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_307 }
+		remove_character_flag = guanzhi_jie_zhou_307
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_308 }
+		remove_character_flag = guanzhi_jie_zhou_308
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_309 }
+		remove_character_flag = guanzhi_jie_zhou_309
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_310 }
+		remove_character_flag = guanzhi_jie_zhou_310
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_311 }
+		remove_character_flag = guanzhi_jie_zhou_311
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_312 }
+		remove_character_flag = guanzhi_jie_zhou_312
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_313 }
+		remove_character_flag = guanzhi_jie_zhou_313
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_314 }
+		remove_character_flag = guanzhi_jie_zhou_314
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_315 }
+		remove_character_flag = guanzhi_jie_zhou_315
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_316 }
+		remove_character_flag = guanzhi_jie_zhou_316
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_317 }
+		remove_character_flag = guanzhi_jie_zhou_317
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_318 }
+		remove_character_flag = guanzhi_jie_zhou_318
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_319 }
+		remove_character_flag = guanzhi_jie_zhou_319
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_320 }
+		remove_character_flag = guanzhi_jie_zhou_320
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_321 }
+		remove_character_flag = guanzhi_jie_zhou_321
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_322 }
+		remove_character_flag = guanzhi_jie_zhou_322
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_323 }
+		remove_character_flag = guanzhi_jie_zhou_323
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_324 }
+		remove_character_flag = guanzhi_jie_zhou_324
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_325 }
+		remove_character_flag = guanzhi_jie_zhou_325
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_326 }
+		remove_character_flag = guanzhi_jie_zhou_326
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_327 }
+		remove_character_flag = guanzhi_jie_zhou_327
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_328 }
+		remove_character_flag = guanzhi_jie_zhou_328
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_329 }
+		remove_character_flag = guanzhi_jie_zhou_329
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_330 }
+		remove_character_flag = guanzhi_jie_zhou_330
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_331 }
+		remove_character_flag = guanzhi_jie_zhou_331
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_332 }
+		remove_character_flag = guanzhi_jie_zhou_332
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_333 }
+		remove_character_flag = guanzhi_jie_zhou_333
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_334 }
+		remove_character_flag = guanzhi_jie_zhou_334
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_335 }
+		remove_character_flag = guanzhi_jie_zhou_335
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_336 }
+		remove_character_flag = guanzhi_jie_zhou_336
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_337 }
+		remove_character_flag = guanzhi_jie_zhou_337
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_338 }
+		remove_character_flag = guanzhi_jie_zhou_338
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_339 }
+		remove_character_flag = guanzhi_jie_zhou_339
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_340 }
+		remove_character_flag = guanzhi_jie_zhou_340
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_341 }
+		remove_character_flag = guanzhi_jie_zhou_341
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_342 }
+		remove_character_flag = guanzhi_jie_zhou_342
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_343 }
+		remove_character_flag = guanzhi_jie_zhou_343
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_344 }
+		remove_character_flag = guanzhi_jie_zhou_344
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_345 }
+		remove_character_flag = guanzhi_jie_zhou_345
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_346 }
+		remove_character_flag = guanzhi_jie_zhou_346
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_347 }
+		remove_character_flag = guanzhi_jie_zhou_347
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_348 }
+		remove_character_flag = guanzhi_jie_zhou_348
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_349 }
+		remove_character_flag = guanzhi_jie_zhou_349
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_350 }
+		remove_character_flag = guanzhi_jie_zhou_350
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_351 }
+		remove_character_flag = guanzhi_jie_zhou_351
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_352 }
+		remove_character_flag = guanzhi_jie_zhou_352
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jie_zhou_353 }
+		remove_character_flag = guanzhi_jie_zhou_353
+	}
+	if = {
+		limit = { exists = var:guanzhi_jie_first }
+		remove_variable = guanzhi_jie_first
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jieholder }
+		remove_character_flag = guanzhi_jieholder
+	}
+	guanzhi_fix_titleless_nickname_effect = yes
+}
+
+guanzhi_clear_zgj_effect = {
+	if = {
+		limit = { has_trait = gzzgj_00 }
+		remove_trait = gzzgj_00
+	}
+	if = {
+		limit = { has_trait = gzzgj_01 }
+		remove_trait = gzzgj_01
+	}
+	if = {
+		limit = { has_trait = gzzgj_02 }
+		remove_trait = gzzgj_02
+	}
+	if = {
+		limit = { has_trait = gzzgj_03 }
+		remove_trait = gzzgj_03
+	}
+	if = {
+		limit = { has_trait = gzzgj_04 }
+		remove_trait = gzzgj_04
+	}
+	if = {
+		limit = { has_trait = gzzgj_05 }
+		remove_trait = gzzgj_05
+	}
+	if = {
+		limit = { has_trait = gzzgj_06 }
+		remove_trait = gzzgj_06
+	}
+	if = {
+		limit = { has_trait = gzzgj_07 }
+		remove_trait = gzzgj_07
+	}
+	if = {
+		limit = { has_trait = gzzgj_08 }
+		remove_trait = gzzgj_08
+	}
+	if = {
+		limit = { has_trait = gzzgj_09 }
+		remove_trait = gzzgj_09
+	}
+	if = {
+		limit = { has_trait = gzzgj_10 }
+		remove_trait = gzzgj_10
+	}
+	if = {
+		limit = { has_trait = gzzgj_11 }
+		remove_trait = gzzgj_11
+	}
+	if = {
+		limit = { has_trait = gzzgj_12 }
+		remove_trait = gzzgj_12
+	}
+	if = {
+		limit = { has_trait = gzzgj_13 }
+		remove_trait = gzzgj_13
+	}
+	if = {
+		limit = { has_trait = gzzgj_14 }
+		remove_trait = gzzgj_14
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_zgjholder }
+		remove_character_flag = guanzhi_zgjholder
+	}
+	guanzhi_fix_titleless_nickname_effect = yes
+}
+
+guanzhi_clear_jj_effect = {
+	if = {
+		limit = { has_trait = gzjj_t_taishi }
+		remove_trait = gzjj_t_taishi
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taifu }
+		remove_trait = gzjj_t_taifu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taibao }
+		remove_trait = gzjj_t_taibao
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taiwei }
+		remove_trait = gzjj_t_taiwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_situ }
+		remove_trait = gzjj_t_situ
+	}
+	if = {
+		limit = { has_trait = gzjj_t_sikong }
+		remove_trait = gzjj_t_sikong
+	}
+	if = {
+		limit = { has_trait = gzjj_t_shangshuling }
+		remove_trait = gzjj_t_shangshuling
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuopuye }
+		remove_trait = gzjj_t_zuopuye
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youpuye }
+		remove_trait = gzjj_t_youpuye
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zhongshuling }
+		remove_trait = gzjj_t_zhongshuling
+	}
+	if = {
+		limit = { has_trait = gzjj_t_shizhong }
+		remove_trait = gzjj_t_shizhong
+	}
+	if = {
+		limit = { has_trait = gzjj_t_libu }
+		remove_trait = gzjj_t_libu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_hubu }
+		remove_trait = gzjj_t_hubu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_libu_rites }
+		remove_trait = gzjj_t_libu_rites
+	}
+	if = {
+		limit = { has_trait = gzjj_t_bingbu }
+		remove_trait = gzjj_t_bingbu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_xingbu }
+		remove_trait = gzjj_t_xingbu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_gongbu }
+		remove_trait = gzjj_t_gongbu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_yushidafu }
+		remove_trait = gzjj_t_yushidafu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taichang }
+		remove_trait = gzjj_t_taichang
+	}
+	if = {
+		limit = { has_trait = gzjj_t_guanglu }
+		remove_trait = gzjj_t_guanglu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_weiwei_si }
+		remove_trait = gzjj_t_weiwei_si
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zongzheng }
+		remove_trait = gzjj_t_zongzheng
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taipu }
+		remove_trait = gzjj_t_taipu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_dali }
+		remove_trait = gzjj_t_dali
+	}
+	if = {
+		limit = { has_trait = gzjj_t_honglu }
+		remove_trait = gzjj_t_honglu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_sinong }
+		remove_trait = gzjj_t_sinong
+	}
+	if = {
+		limit = { has_trait = gzjj_t_taifu_si }
+		remove_trait = gzjj_t_taifu_si
+	}
+	if = {
+		limit = { has_trait = gzjj_t_guozi }
+		remove_trait = gzjj_t_guozi
+	}
+	if = {
+		limit = { has_trait = gzjj_t_shaofu_jian }
+		remove_trait = gzjj_t_shaofu_jian
+	}
+	if = {
+		limit = { has_trait = gzjj_t_jiangzuo }
+		remove_trait = gzjj_t_jiangzuo
+	}
+	if = {
+		limit = { has_trait = gzjj_t_junqi }
+		remove_trait = gzjj_t_junqi
+	}
+	if = {
+		limit = { has_trait = gzjj_t_dushui }
+		remove_trait = gzjj_t_dushui
+	}
+	if = {
+		limit = { has_trait = gzjj_t_mishu }
+		remove_trait = gzjj_t_mishu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_dianzhong }
+		remove_trait = gzjj_t_dianzhong
+	}
+	if = {
+		limit = { has_trait = gzjj_t_neishi }
+		remove_trait = gzjj_t_neishi
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuowei }
+		remove_trait = gzjj_t_zuowei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youwei }
+		remove_trait = gzjj_t_youwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuoxiaowei }
+		remove_trait = gzjj_t_zuoxiaowei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youxiaowei }
+		remove_trait = gzjj_t_youxiaowei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuowuwei }
+		remove_trait = gzjj_t_zuowuwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youwuwei }
+		remove_trait = gzjj_t_youwuwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuoweiwei }
+		remove_trait = gzjj_t_zuoweiwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youweiwei }
+		remove_trait = gzjj_t_youweiwei
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuolingjun }
+		remove_trait = gzjj_t_zuolingjun
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youlingjun }
+		remove_trait = gzjj_t_youlingjun
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuojinwu }
+		remove_trait = gzjj_t_zuojinwu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youjinwu }
+		remove_trait = gzjj_t_youjinwu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuojianmen }
+		remove_trait = gzjj_t_zuojianmen
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youjianmen }
+		remove_trait = gzjj_t_youjianmen
+	}
+	if = {
+		limit = { has_trait = gzjj_t_zuoqianniu }
+		remove_trait = gzjj_t_zuoqianniu
+	}
+	if = {
+		limit = { has_trait = gzjj_t_youqianniu }
+		remove_trait = gzjj_t_youqianniu
+	}
+	if = {
+		limit = { has_trait = gzjj_s_libu }
+		remove_trait = gzjj_s_libu
+	}
+	if = {
+		limit = { has_trait = gzjj_s_hubu }
+		remove_trait = gzjj_s_hubu
+	}
+	if = {
+		limit = { has_trait = gzjj_s_libu_rites }
+		remove_trait = gzjj_s_libu_rites
+	}
+	if = {
+		limit = { has_trait = gzjj_s_bingbu }
+		remove_trait = gzjj_s_bingbu
+	}
+	if = {
+		limit = { has_trait = gzjj_s_xingbu }
+		remove_trait = gzjj_s_xingbu
+	}
+	if = {
+		limit = { has_trait = gzjj_s_gongbu }
+		remove_trait = gzjj_s_gongbu
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_jjholder }
+		remove_character_flag = guanzhi_jjholder
+	}
+	guanzhi_fix_titleless_nickname_effect = yes
+}
+
+guanzhi_clear_xs_effect = {
+	if = {
+		limit = { has_trait = gzxs_xs_hongwen_dx }
+		remove_trait = gzxs_xs_hongwen_dx
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_hongwen }
+		remove_trait = gzxs_xs_hongwen
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_jixian_dx }
+		remove_trait = gzxs_xs_jixian_dx
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_jixian }
+		remove_trait = gzxs_xs_jixian
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_chongwen_dx }
+		remove_trait = gzxs_xs_chongwen_dx
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_chongwen }
+		remove_trait = gzxs_xs_chongwen
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_chongxuan_dx }
+		remove_trait = gzxs_xs_chongxuan_dx
+	}
+	if = {
+		limit = { has_trait = gzxs_xs_chongxuan }
+		remove_trait = gzxs_xs_chongxuan
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xsholder }
+		remove_character_flag = guanzhi_xsholder
+	}
+	guanzhi_fix_titleless_nickname_effect = yes
+}

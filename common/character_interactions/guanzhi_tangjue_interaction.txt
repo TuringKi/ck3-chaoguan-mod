@@ -15,6 +15,7 @@ guanzhi_grant_tangjue_interaction = {
 			is_adult = yes
 			# 王公爵与侯爵不共存
 			NOT = { has_trait_with_flag = guanzhi_wangjue }
+			# 领地下所有人皆可授予: 廷臣(无liege链接, 单独判)/封臣/封臣之封臣及其廷臣
 			OR = {
 				is_courtier_of = scope:actor
 				is_vassal_of = scope:actor

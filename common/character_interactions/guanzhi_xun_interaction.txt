@@ -14,6 +14,7 @@ guanzhi_grant_xun_interaction = {
 		scope:recipient = {
 			NOT = { this = scope:actor }
 			is_adult = yes
+			# 领地下所有人皆可授予: 廷臣(无liege链接, 单独判)/封臣/封臣之封臣及其廷臣
 			OR = {
 				is_courtier_of = scope:actor
 				is_vassal_of = scope:actor

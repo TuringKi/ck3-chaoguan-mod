@@ -25,320 +25,918 @@ guanzhi.9501 = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taishi } }
 			save_scope_as = holder_t_taishi
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taishi } }
+			save_scope_as = holder_t_taishi
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taifu } }
+			save_scope_as = holder_t_taifu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taifu } }
 			save_scope_as = holder_t_taifu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taibao } }
 			save_scope_as = holder_t_taibao
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taibao } }
+			save_scope_as = holder_t_taibao
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taiwei } }
+			save_scope_as = holder_t_taiwei
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taiwei } }
 			save_scope_as = holder_t_taiwei
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_situ } }
 			save_scope_as = holder_t_situ
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_situ } }
+			save_scope_as = holder_t_situ
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_sikong } }
+			save_scope_as = holder_t_sikong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_sikong } }
 			save_scope_as = holder_t_sikong
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_shangshuling } }
 			save_scope_as = holder_t_shangshuling
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shangshuling } }
+			save_scope_as = holder_t_shangshuling
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuopuye } }
+			save_scope_as = holder_t_zuopuye
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuopuye } }
 			save_scope_as = holder_t_zuopuye
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youpuye } }
 			save_scope_as = holder_t_youpuye
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youpuye } }
+			save_scope_as = holder_t_youpuye
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zhongshuling } }
+			save_scope_as = holder_t_zhongshuling
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zhongshuling } }
 			save_scope_as = holder_t_zhongshuling
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_shizhong } }
 			save_scope_as = holder_t_shizhong
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shizhong } }
+			save_scope_as = holder_t_shizhong
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_libu } }
+			save_scope_as = holder_t_libu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_libu } }
 			save_scope_as = holder_t_libu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_hubu } }
 			save_scope_as = holder_t_hubu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_hubu } }
+			save_scope_as = holder_t_hubu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_libu_rites } }
+			save_scope_as = holder_t_libu_rites
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_libu_rites } }
 			save_scope_as = holder_t_libu_rites
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_bingbu } }
 			save_scope_as = holder_t_bingbu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_bingbu } }
+			save_scope_as = holder_t_bingbu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_xingbu } }
+			save_scope_as = holder_t_xingbu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_xingbu } }
 			save_scope_as = holder_t_xingbu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_gongbu } }
 			save_scope_as = holder_t_gongbu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_gongbu } }
+			save_scope_as = holder_t_gongbu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_yushidafu } }
+			save_scope_as = holder_t_yushidafu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_yushidafu } }
 			save_scope_as = holder_t_yushidafu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taichang } }
 			save_scope_as = holder_t_taichang
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taichang } }
+			save_scope_as = holder_t_taichang
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_guanglu } }
+			save_scope_as = holder_t_guanglu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_guanglu } }
 			save_scope_as = holder_t_guanglu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_weiwei_si } }
 			save_scope_as = holder_t_weiwei_si
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_weiwei_si } }
+			save_scope_as = holder_t_weiwei_si
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zongzheng } }
+			save_scope_as = holder_t_zongzheng
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zongzheng } }
 			save_scope_as = holder_t_zongzheng
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taipu } }
 			save_scope_as = holder_t_taipu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taipu } }
+			save_scope_as = holder_t_taipu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_dali } }
+			save_scope_as = holder_t_dali
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_dali } }
 			save_scope_as = holder_t_dali
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_honglu } }
 			save_scope_as = holder_t_honglu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_honglu } }
+			save_scope_as = holder_t_honglu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_sinong } }
+			save_scope_as = holder_t_sinong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_sinong } }
 			save_scope_as = holder_t_sinong
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_taifu_si } }
 			save_scope_as = holder_t_taifu_si
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_taifu_si } }
+			save_scope_as = holder_t_taifu_si
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_guozi } }
+			save_scope_as = holder_t_guozi
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_guozi } }
 			save_scope_as = holder_t_guozi
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_shaofu_jian } }
 			save_scope_as = holder_t_shaofu_jian
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shaofu_jian } }
+			save_scope_as = holder_t_shaofu_jian
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_jiangzuo } }
+			save_scope_as = holder_t_jiangzuo
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_jiangzuo } }
 			save_scope_as = holder_t_jiangzuo
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_junqi } }
 			save_scope_as = holder_t_junqi
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_junqi } }
+			save_scope_as = holder_t_junqi
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_dushui } }
+			save_scope_as = holder_t_dushui
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_dushui } }
 			save_scope_as = holder_t_dushui
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_mishu } }
 			save_scope_as = holder_t_mishu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_mishu } }
+			save_scope_as = holder_t_mishu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_dianzhong } }
+			save_scope_as = holder_t_dianzhong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_dianzhong } }
 			save_scope_as = holder_t_dianzhong
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_neishi } }
 			save_scope_as = holder_t_neishi
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_neishi } }
+			save_scope_as = holder_t_neishi
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuowei } }
+			save_scope_as = holder_t_zuowei
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuowei } }
 			save_scope_as = holder_t_zuowei
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youwei } }
 			save_scope_as = holder_t_youwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youwei } }
+			save_scope_as = holder_t_youwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoxiaowei } }
+			save_scope_as = holder_t_zuoxiaowei
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuoxiaowei } }
 			save_scope_as = holder_t_zuoxiaowei
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youxiaowei } }
 			save_scope_as = holder_t_youxiaowei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youxiaowei } }
+			save_scope_as = holder_t_youxiaowei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuowuwei } }
+			save_scope_as = holder_t_zuowuwei
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuowuwei } }
 			save_scope_as = holder_t_zuowuwei
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youwuwei } }
 			save_scope_as = holder_t_youwuwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youwuwei } }
+			save_scope_as = holder_t_youwuwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoweiwei } }
+			save_scope_as = holder_t_zuoweiwei
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuoweiwei } }
 			save_scope_as = holder_t_zuoweiwei
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youweiwei } }
 			save_scope_as = holder_t_youweiwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youweiwei } }
+			save_scope_as = holder_t_youweiwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuolingjun } }
+			save_scope_as = holder_t_zuolingjun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuolingjun } }
 			save_scope_as = holder_t_zuolingjun
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youlingjun } }
 			save_scope_as = holder_t_youlingjun
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youlingjun } }
+			save_scope_as = holder_t_youlingjun
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuojinwu } }
+			save_scope_as = holder_t_zuojinwu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuojinwu } }
 			save_scope_as = holder_t_zuojinwu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youjinwu } }
 			save_scope_as = holder_t_youjinwu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youjinwu } }
+			save_scope_as = holder_t_youjinwu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuojianmen } }
+			save_scope_as = holder_t_zuojianmen
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuojianmen } }
 			save_scope_as = holder_t_zuojianmen
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youjianmen } }
 			save_scope_as = holder_t_youjianmen
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youjianmen } }
+			save_scope_as = holder_t_youjianmen
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_zuoqianniu } }
+			save_scope_as = holder_t_zuoqianniu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuoqianniu } }
 			save_scope_as = holder_t_zuoqianniu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_t_youqianniu } }
 			save_scope_as = holder_t_youqianniu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_youqianniu } }
+			save_scope_as = holder_t_youqianniu
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_hanlin } }
+			save_scope_as = holder_t_hanlin
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_hanlin } }
+			save_scope_as = holder_t_hanlin
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shumi } }
+			save_scope_as = holder_t_shumi
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shumi } }
+			save_scope_as = holder_t_shumi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_xuanhui } }
+			save_scope_as = holder_t_xuanhui
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_xuanhui } }
+			save_scope_as = holder_t_xuanhui
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_yantie } }
+			save_scope_as = holder_t_yantie
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_yantie } }
+			save_scope_as = holder_t_yantie
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_duzhi } }
+			save_scope_as = holder_t_duzhi
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_duzhi } }
+			save_scope_as = holder_t_duzhi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_hushi } }
+			save_scope_as = holder_t_hushi
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_hushi } }
+			save_scope_as = holder_t_hushi
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zhuanyun } }
+			save_scope_as = holder_t_zhuanyun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zhuanyun } }
+			save_scope_as = holder_t_zhuanyun
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zhuqian } }
+			save_scope_as = holder_t_zhuqian
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zhuqian } }
+			save_scope_as = holder_t_zhuqian
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_quecha } }
+			save_scope_as = holder_t_quecha
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_quecha } }
+			save_scope_as = holder_t_quecha
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_zuyong } }
+			save_scope_as = holder_t_zuyong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_zuyong } }
+			save_scope_as = holder_t_zuyong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shencezuo } }
+			save_scope_as = holder_t_shencezuo
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shencezuo } }
+			save_scope_as = holder_t_shencezuo
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shenceyou } }
+			save_scope_as = holder_t_shenceyou
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shenceyou } }
+			save_scope_as = holder_t_shenceyou
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_guanjunrong } }
+			save_scope_as = holder_t_guanjunrong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_guanjunrong } }
+			save_scope_as = holder_t_guanjunrong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_hemen } }
+			save_scope_as = holder_t_hemen
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_hemen } }
+			save_scope_as = holder_t_hemen
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_kesheng } }
+			save_scope_as = holder_t_kesheng
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_kesheng } }
+			save_scope_as = holder_t_kesheng
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_libin } }
+			save_scope_as = holder_t_libin
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_libin } }
+			save_scope_as = holder_t_libin
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_neizhuangzhai } }
+			save_scope_as = holder_t_neizhuangzhai
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_neizhuangzhai } }
+			save_scope_as = holder_t_neizhuangzhai
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_gongyuan } }
+			save_scope_as = holder_t_gongyuan
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_gongyuan } }
+			save_scope_as = holder_t_gongyuan
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_feilong } }
+			save_scope_as = holder_t_feilong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_feilong } }
+			save_scope_as = holder_t_feilong
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_jiaofang } }
+			save_scope_as = holder_t_jiaofang
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_jiaofang } }
+			save_scope_as = holder_t_jiaofang
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_wufang } }
+			save_scope_as = holder_t_wufang
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_wufang } }
+			save_scope_as = holder_t_wufang
+		}
+		every_vassal = {
+			limit = { any_held_title = { has_variable = guanzhi_office_t_shangshi } }
+			save_scope_as = holder_t_shangshi
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_t_shangshi } }
+			save_scope_as = holder_t_shangshi
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_chengxiang } }
+			save_scope_as = holder_h_chengxiang
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_chengxiang } }
 			save_scope_as = holder_h_chengxiang
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_taiwei } }
 			save_scope_as = holder_h_taiwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_taiwei } }
+			save_scope_as = holder_h_taiwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_yushidafu } }
+			save_scope_as = holder_h_yushidafu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_yushidafu } }
 			save_scope_as = holder_h_yushidafu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_taichang } }
 			save_scope_as = holder_h_taichang
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_taichang } }
+			save_scope_as = holder_h_taichang
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_guangluxun } }
+			save_scope_as = holder_h_guangluxun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_guangluxun } }
 			save_scope_as = holder_h_guangluxun
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_weiwei } }
 			save_scope_as = holder_h_weiwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_weiwei } }
+			save_scope_as = holder_h_weiwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_taipu } }
+			save_scope_as = holder_h_taipu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_taipu } }
 			save_scope_as = holder_h_taipu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_tingwei } }
 			save_scope_as = holder_h_tingwei
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_tingwei } }
+			save_scope_as = holder_h_tingwei
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_dahonglu } }
+			save_scope_as = holder_h_dahonglu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_dahonglu } }
 			save_scope_as = holder_h_dahonglu
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_zongzheng } }
 			save_scope_as = holder_h_zongzheng
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_zongzheng } }
+			save_scope_as = holder_h_zongzheng
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_dasinong } }
+			save_scope_as = holder_h_dasinong
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_dasinong } }
 			save_scope_as = holder_h_dasinong
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_shaofu } }
 			save_scope_as = holder_h_shaofu
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_shaofu } }
+			save_scope_as = holder_h_shaofu
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_shangshuling } }
+			save_scope_as = holder_h_shangshuling
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_shangshuling } }
 			save_scope_as = holder_h_shangshuling
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_shangshupuye } }
 			save_scope_as = holder_h_shangshupuye
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_shangshupuye } }
+			save_scope_as = holder_h_shangshupuye
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_licao } }
+			save_scope_as = holder_h_licao
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_licao } }
 			save_scope_as = holder_h_licao
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_erqianshi } }
 			save_scope_as = holder_h_erqianshi
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_erqianshi } }
+			save_scope_as = holder_h_erqianshi
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_mincao } }
+			save_scope_as = holder_h_mincao
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_mincao } }
 			save_scope_as = holder_h_mincao
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_sangongcao } }
 			save_scope_as = holder_h_sangongcao
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_sangongcao } }
+			save_scope_as = holder_h_sangongcao
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_nankecao } }
+			save_scope_as = holder_h_nankecao
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_nankecao } }
 			save_scope_as = holder_h_nankecao
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_beikecao } }
 			save_scope_as = holder_h_beikecao
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_beikecao } }
+			save_scope_as = holder_h_beikecao
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_dajiangjun } }
+			save_scope_as = holder_h_dajiangjun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_dajiangjun } }
 			save_scope_as = holder_h_dajiangjun
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_piaoji } }
 			save_scope_as = holder_h_piaoji
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_piaoji } }
+			save_scope_as = holder_h_piaoji
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_cheji } }
+			save_scope_as = holder_h_cheji
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_cheji } }
 			save_scope_as = holder_h_cheji
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_weijiangjun } }
 			save_scope_as = holder_h_weijiangjun
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_weijiangjun } }
+			save_scope_as = holder_h_weijiangjun
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_qianjiangjun } }
+			save_scope_as = holder_h_qianjiangjun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_qianjiangjun } }
 			save_scope_as = holder_h_qianjiangjun
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_houjiangjun } }
 			save_scope_as = holder_h_houjiangjun
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_houjiangjun } }
+			save_scope_as = holder_h_houjiangjun
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_zuojiangjun } }
+			save_scope_as = holder_h_zuojiangjun
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_zuojiangjun } }
 			save_scope_as = holder_h_zuojiangjun
 		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_youjiangjun } }
 			save_scope_as = holder_h_youjiangjun
 		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_youjiangjun } }
+			save_scope_as = holder_h_youjiangjun
+		}
 		every_vassal = {
 			limit = { any_held_title = { has_variable = guanzhi_office_h_zhijinwu } }
+			save_scope_as = holder_h_zhijinwu
+		}
+		# 空缺: 存 root(君主)兜底, custom loc 据是否真持有官职头衔显示人名或空置
+		if = {
+			limit = { NOT = { exists = scope:holder_h_zhijinwu } }
 			save_scope_as = holder_h_zhijinwu
 		}
 	}

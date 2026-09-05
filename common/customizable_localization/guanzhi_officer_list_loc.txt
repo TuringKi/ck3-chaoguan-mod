@@ -1,0 +1,1327 @@
+# Guanzhi 官制 - 朝官列表: 每官职在任/空置 custom loc
+
+gzol_t_taishi = { # 太师
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taishi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taifu = { # 太傅
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taifu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taibao = { # 太保
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taibao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taiwei = { # 太尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taiwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_situ = { # 司徒
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_situ } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_sikong = { # 司空
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_sikong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shangshuling = { # 尚书令
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shangshuling } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuopuye = { # 尚书左仆射
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuopuye } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youpuye = { # 尚书右仆射
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youpuye } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zhongshuling = { # 中书令
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zhongshuling } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shizhong = { # 侍中
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shizhong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_libu = { # 吏部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_libu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_hubu = { # 户部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_hubu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_libu_rites = { # 礼部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_libu_rites } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_bingbu = { # 兵部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_bingbu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_xingbu = { # 刑部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_xingbu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_gongbu = { # 工部侍郎
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_gongbu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_yushidafu = { # 御史大夫
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_yushidafu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taichang = { # 太常寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taichang } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_guanglu = { # 光禄寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_guanglu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_weiwei_si = { # 卫尉寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_weiwei_si } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zongzheng = { # 宗正寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zongzheng } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taipu = { # 太仆寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taipu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_dali = { # 大理寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_dali } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_honglu = { # 鸿胪寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_honglu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_sinong = { # 司农寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_sinong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_taifu_si = { # 太府寺卿
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_taifu_si } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_guozi = { # 国子监祭酒
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_guozi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shaofu_jian = { # 少府监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shaofu_jian } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_jiangzuo = { # 将作大匠
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_jiangzuo } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_junqi = { # 军器监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_junqi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_dushui = { # 都水监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_dushui } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_mishu = { # 秘书监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_mishu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_dianzhong = { # 殿中监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_dianzhong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_neishi = { # 内侍监
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_neishi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuowei = { # 左卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuowei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youwei = { # 右卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuoxiaowei = { # 左骁卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuoxiaowei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youxiaowei = { # 右骁卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youxiaowei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuowuwei = { # 左武卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuowuwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youwuwei = { # 右武卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youwuwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuoweiwei = { # 左威卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuoweiwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youweiwei = { # 右威卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youweiwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuolingjun = { # 左领军卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuolingjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youlingjun = { # 右领军卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youlingjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuojinwu = { # 左金吾卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuojinwu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youjinwu = { # 右金吾卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youjinwu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuojianmen = { # 左监门卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuojianmen } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youjianmen = { # 右监门卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youjianmen } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuoqianniu = { # 左千牛卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuoqianniu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_youqianniu = { # 右千牛卫大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_youqianniu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_hanlin = { # 翰林学士
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_hanlin } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shumi = { # 枢密使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shumi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_xuanhui = { # 宣徽使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_xuanhui } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_yantie = { # 盐铁使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_yantie } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_duzhi = { # 度支使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_duzhi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_hushi = { # 户部使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_hushi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zhuanyun = { # 转运使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zhuanyun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zhuqian = { # 铸钱使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zhuqian } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_quecha = { # 榷茶使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_quecha } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_zuyong = { # 租庸使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_zuyong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shencezuo = { # 左神策军护军中尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shencezuo } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shenceyou = { # 右神策军护军中尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shenceyou } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_guanjunrong = { # 观军容使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_guanjunrong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_hemen = { # 閤门使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_hemen } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_kesheng = { # 客省使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_kesheng } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_libin = { # 礼宾使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_libin } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_neizhuangzhai = { # 内庄宅使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_neizhuangzhai } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_gongyuan = { # 宫苑使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_gongyuan } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_feilong = { # 飞龙使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_feilong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_jiaofang = { # 教坊使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_jiaofang } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_wufang = { # 五坊使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_wufang } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_t_shangshi = { # 尚食使
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_t_shangshi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_chengxiang = { # 丞相
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_chengxiang } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_taiwei = { # 太尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_taiwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_yushidafu = { # 御史大夫
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_yushidafu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_taichang = { # 太常
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_taichang } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_guangluxun = { # 光禄勋
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_guangluxun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_weiwei = { # 卫尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_weiwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_taipu = { # 太仆
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_taipu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_tingwei = { # 廷尉
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_tingwei } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_dahonglu = { # 大鸿胪
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_dahonglu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_zongzheng = { # 宗正
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_zongzheng } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_dasinong = { # 大司农
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_dasinong } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_shaofu = { # 少府
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_shaofu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_shangshuling = { # 尚书令
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_shangshuling } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_shangshupuye = { # 尚书仆射
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_shangshupuye } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_licao = { # 吏曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_licao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_erqianshi = { # 二千石曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_erqianshi } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_mincao = { # 民曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_mincao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_sangongcao = { # 三公曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_sangongcao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_nankecao = { # 南主客曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_nankecao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_beikecao = { # 北主客曹尚书
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_beikecao } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_dajiangjun = { # 大将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_dajiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_piaoji = { # 骠骑将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_piaoji } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_cheji = { # 车骑将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_cheji } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_weijiangjun = { # 卫将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_weijiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_qianjiangjun = { # 前将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_qianjiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_houjiangjun = { # 后将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_houjiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_zuojiangjun = { # 左将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_zuojiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_youjiangjun = { # 右将军
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_youjiangjun } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
+
+gzol_h_zhijinwu = { # 执金吾
+	type = character
+	text = {
+		# 作用域真持有该官职头衔(真在任者; 兜底存的君主不持有)
+		trigger = { any_held_title = { has_variable = guanzhi_office_h_zhijinwu } }
+		localization_key = gzol_name
+	}
+	text = {
+		fallback = yes
+		localization_key = gzol_vacant
+	}
+}
