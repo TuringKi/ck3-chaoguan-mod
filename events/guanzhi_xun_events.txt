@@ -1,0 +1,82 @@
+namespace = guanzhi
+
+# 授予勋官. root = scope:actor (君主), scope:recipient = 受勋者.
+# 9700 单页十二转菜单, 选项直接授予.
+
+guanzhi.9700 = {
+	type = character_event
+	title = guanzhi.9700.t
+	desc = guanzhi.9700.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	immediate = {
+		debug_log = "GUANZHI 9700 fired"
+	}
+
+	option = {
+		name = gzx_01
+		scope:recipient = { guanzhi_xun_grant_01 = yes }
+	}
+
+	option = {
+		name = gzx_02
+		scope:recipient = { guanzhi_xun_grant_02 = yes }
+	}
+
+	option = {
+		name = gzx_03
+		scope:recipient = { guanzhi_xun_grant_03 = yes }
+	}
+
+	option = {
+		name = gzx_04
+		scope:recipient = { guanzhi_xun_grant_04 = yes }
+	}
+
+	option = {
+		name = gzx_05
+		scope:recipient = { guanzhi_xun_grant_05 = yes }
+	}
+
+	option = {
+		name = gzx_06
+		scope:recipient = { guanzhi_xun_grant_06 = yes }
+	}
+
+	option = {
+		name = gzx_07
+		scope:recipient = { guanzhi_xun_grant_07 = yes }
+	}
+
+	option = {
+		name = gzx_08
+		scope:recipient = { guanzhi_xun_grant_08 = yes }
+	}
+
+	option = {
+		name = gzx_09
+		scope:recipient = { guanzhi_xun_grant_09 = yes }
+	}
+
+	option = {
+		name = gzx_10
+		scope:recipient = { guanzhi_xun_grant_10 = yes }
+	}
+
+	option = {
+		name = gzx_11
+		scope:recipient = { guanzhi_xun_grant_11 = yes }
+	}
+
+	option = {
+		name = gzx_12
+		scope:recipient = { guanzhi_xun_grant_12 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.cancel
+	}
+}
+

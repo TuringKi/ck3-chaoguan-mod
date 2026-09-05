@@ -1,0 +1,71 @@
+# Guanzhi 官制 - 散官(寄禄官)互动 (9500 事件内选文武与阶)
+
+guanzhi_grant_san_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_san_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			has_character_flag = guanzhi_uses_tang_system
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			debug_log = "GUANZHI san interaction accepted"
+			trigger_event = { id = guanzhi.9500 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺散官: 只按 trait 判定, 不限身份(无地头衔持有者不再是廷臣/封臣)
+guanzhi_revoke_san_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_san_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			guanzhi_has_san_trigger = yes
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			debug_log = "GUANZHI revoke san interaction accepted"
+			guanzhi_clear_san_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

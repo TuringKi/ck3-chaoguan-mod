@@ -1,0 +1,20 @@
+# Guanzhi 官制 - 散官季度同步 (CK3 无月度脉冲, quarterly 为最密规则脉冲)
+# root = 各位统治者; 唐制天子每季度给有地封臣同步散阶
+quarterly_playable_pulse = {
+	on_actions = { guanzhi_san_quarterly_sync }
+}
+
+guanzhi_san_quarterly_sync = {
+	effect = {
+		if = {
+			limit = {
+				guanzhi_is_celestial_sovereign_trigger = yes
+				has_character_flag = guanzhi_uses_tang_system
+			}
+			every_vassal_or_below = {
+				limit = { is_landed = yes }
+				guanzhi_san_sync_landed_effect = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+# Guanzhi 官制 - 唐代爵位互动 (9750 选爵级 -> 择地名; 9755 加实封)
+
+guanzhi_grant_tangjue_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_tangjue_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			has_character_flag = guanzhi_uses_tang_system
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			debug_log = "GUANZHI tangjue interaction accepted"
+			trigger_event = { id = guanzhi.9750 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 加食实封: 须已持唐爵 (爵亡则实封自灭)
+guanzhi_shifeng_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_shifeng_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			has_character_flag = guanzhi_uses_tang_system
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			guanzhi_has_tj_trigger = yes
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			debug_log = "GUANZHI shifeng interaction accepted"
+			trigger_event = { id = guanzhi.9755 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺唐爵: 只按 trait 判定, 不限身份
+guanzhi_revoke_tangjue_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_tangjue_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			guanzhi_has_tj_trigger = yes
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			debug_log = "GUANZHI revoke tangjue interaction accepted"
+			guanzhi_clear_tangjue_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

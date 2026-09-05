@@ -1,0 +1,1407 @@
+# Guanzhi 官制 - 散官授予效果. root=受官者; 无地分支在 scope:recipient 的 liege 作用域建头衔
+
+# 授开府仪同三司(从一品)
+guanzhi_san_grant_wen_01 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_01
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_01
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授特进(正二品)
+guanzhi_san_grant_wen_02 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_02
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_02
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授光禄大夫(从二品)
+guanzhi_san_grant_wen_03 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_03
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_03
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授金紫光禄大夫(正三品)
+guanzhi_san_grant_wen_04 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_04
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_04
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授银青光禄大夫(从三品)
+guanzhi_san_grant_wen_05 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_05
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_05
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授正议大夫(正四品上)
+guanzhi_san_grant_wen_06 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_06
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_06
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授通议大夫(正四品下)
+guanzhi_san_grant_wen_07 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_07
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_07
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授太中大夫(从四品上)
+guanzhi_san_grant_wen_08 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_08
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_08
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授中大夫(从四品下)
+guanzhi_san_grant_wen_09 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_09
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_09
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授中散大夫(正五品上)
+guanzhi_san_grant_wen_10 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_10
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_10
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝议大夫(正五品下)
+guanzhi_san_grant_wen_11 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_11
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_11
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝请大夫(从五品上)
+guanzhi_san_grant_wen_12 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_12
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_12
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝散大夫(从五品下)
+guanzhi_san_grant_wen_13 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_13
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_13
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝议郎(正六品上)
+guanzhi_san_grant_wen_14 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_14
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_14
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授承议郎(正六品下)
+guanzhi_san_grant_wen_15 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_15
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_15
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授奉议郎(从六品上)
+guanzhi_san_grant_wen_16 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_16
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_16
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授通直郎(从六品下)
+guanzhi_san_grant_wen_17 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_17
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_17
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝请郎(正七品上)
+guanzhi_san_grant_wen_18 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_18
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_18
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宣德郎(正七品下)
+guanzhi_san_grant_wen_19 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_19
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_19
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授朝散郎(从七品上)
+guanzhi_san_grant_wen_20 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_20
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_20
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宣义郎(从七品下)
+guanzhi_san_grant_wen_21 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_21
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_21
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授给事郎(正八品上)
+guanzhi_san_grant_wen_22 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_22
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_22
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授征事郎(正八品下)
+guanzhi_san_grant_wen_23 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_23
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_23
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授承奉郎(从八品上)
+guanzhi_san_grant_wen_24 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_24
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_24
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授承务郎(从八品下)
+guanzhi_san_grant_wen_25 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_25
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_25
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授儒林郎(正九品上)
+guanzhi_san_grant_wen_26 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_26
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_26
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授登仕郎(正九品下)
+guanzhi_san_grant_wen_27 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_27
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_27
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授文林郎(从九品上)
+guanzhi_san_grant_wen_28 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_28
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_28
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授将仕郎(从九品下)
+guanzhi_san_grant_wen_29 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wen_29
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wen_29
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授骠骑大将军(从一品)
+guanzhi_san_grant_wu_01 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_01
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_01
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授辅国大将军(正二品)
+guanzhi_san_grant_wu_02 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_02
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_02
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授镇军大将军(从二品)
+guanzhi_san_grant_wu_03 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_03
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_03
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授冠军大将军(正三品上)
+guanzhi_san_grant_wu_04 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_04
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_04
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化大将军(正三品上·蕃号)
+guanzhi_san_grant_wu_05 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_05
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_05
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化将军(正三品下·蕃号)
+guanzhi_san_grant_wu_06 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_06
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_06
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授云麾将军(从三品上)
+guanzhi_san_grant_wu_07 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_07
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_07
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德大将军(从三品上·蕃号)
+guanzhi_san_grant_wu_08 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_08
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_08
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德将军(从三品下·蕃号)
+guanzhi_san_grant_wu_09 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_09
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_09
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授忠武将军(正四品上)
+guanzhi_san_grant_wu_10 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_10
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_10
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授壮武将军(正四品下)
+guanzhi_san_grant_wu_11 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_11
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_11
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化中郎将(正四品下·蕃号)
+guanzhi_san_grant_wu_12 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_12
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_12
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宣威将军(从四品上)
+guanzhi_san_grant_wu_13 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_13
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_13
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授明威将军(从四品下)
+guanzhi_san_grant_wu_14 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_14
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_14
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德中郎将(从四品下·蕃号)
+guanzhi_san_grant_wu_15 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_15
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_15
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授定远将军(正五品上)
+guanzhi_san_grant_wu_16 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_16
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_16
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宁远将军(正五品下)
+guanzhi_san_grant_wu_17 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_17
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_17
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化郎将(正五品下·蕃号)
+guanzhi_san_grant_wu_18 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_18
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_18
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授游骑将军(从五品上)
+guanzhi_san_grant_wu_19 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_19
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_19
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授游击将军(从五品下)
+guanzhi_san_grant_wu_20 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_20
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_20
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德郎将(从五品下·蕃号)
+guanzhi_san_grant_wu_21 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_21
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_21
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授昭武校尉(正六品上)
+guanzhi_san_grant_wu_22 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_22
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_22
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授昭武副尉(正六品下)
+guanzhi_san_grant_wu_23 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_23
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_23
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化司阶(正六品下·蕃号)
+guanzhi_san_grant_wu_24 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_24
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_24
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授振威校尉(从六品上)
+guanzhi_san_grant_wu_25 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_25
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_25
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授振威副尉(从六品下)
+guanzhi_san_grant_wu_26 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_26
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_26
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德司阶(从六品下·蕃号)
+guanzhi_san_grant_wu_27 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_27
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_27
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授致果校尉(正七品上)
+guanzhi_san_grant_wu_28 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_28
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_28
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授致果副尉(正七品下)
+guanzhi_san_grant_wu_29 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_29
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_29
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化中候(正七品下·蕃号)
+guanzhi_san_grant_wu_30 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_30
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_30
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授翊麾校尉(从七品上)
+guanzhi_san_grant_wu_31 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_31
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_31
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授翊麾副尉(从七品下)
+guanzhi_san_grant_wu_32 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_32
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_32
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德中候(从七品下·蕃号)
+guanzhi_san_grant_wu_33 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_33
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_33
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宣节校尉(正八品上)
+guanzhi_san_grant_wu_34 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_34
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_34
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授宣节副尉(正八品下)
+guanzhi_san_grant_wu_35 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_35
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_35
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化司戈(正八品下·蕃号)
+guanzhi_san_grant_wu_36 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_36
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_36
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授御侮校尉(从八品上)
+guanzhi_san_grant_wu_37 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_37
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_37
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授御侮副尉(从八品下)
+guanzhi_san_grant_wu_38 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_38
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_38
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德司戈(从八品下·蕃号)
+guanzhi_san_grant_wu_39 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_39
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_39
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授仁勇校尉(正九品上)
+guanzhi_san_grant_wu_40 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_40
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_40
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授仁勇副尉(正九品下)
+guanzhi_san_grant_wu_41 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_41
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_41
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授怀化执戟长上(正九品下·蕃号)
+guanzhi_san_grant_wu_42 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_42
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_42
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授陪戎校尉(从九品上)
+guanzhi_san_grant_wu_43 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_43
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_43
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授陪戎副尉(从九品下)
+guanzhi_san_grant_wu_44 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_44
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_44
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}
+
+# 授归德执戟长上(从九品下·蕃号)
+guanzhi_san_grant_wu_45 = {
+	guanzhi_clear_san_effect = yes
+	# 散官只是品位凭证: 纯 trait+角色旗标, 不建头衔
+	# 显示: 有地者经整合包风味值覆盖挂载(guanzhi_pack_mount_replace),
+	#       无头衔者经昵称显示(风味化需命名头衔, 无头衔者不生效)
+	scope:recipient = {
+		add_trait = gzs_wu_45
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_san_wu_45
+		}
+		add_character_flag = guanzhi_sanholder
+		# 无头衔者: 风味化需要命名头衔, 改用昵称显示(同整合包WJ将军号模式)
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI san granted to [recipient.GetShortUIName]"
+}

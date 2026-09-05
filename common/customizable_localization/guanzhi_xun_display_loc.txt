@@ -1,0 +1,113 @@
+# Guanzhi 官制 - 名字组合: 勋官部分 (按 gzx_* trait)
+guanzhi_xun_display = {
+	type = character
+	text = {
+		trigger = { has_trait = gzx_01 }
+		localization_key = gzxd_01
+	}
+	text = {
+		trigger = { has_trait = gzx_02 }
+		localization_key = gzxd_02
+	}
+	text = {
+		trigger = { has_trait = gzx_03 }
+		localization_key = gzxd_03
+	}
+	text = {
+		trigger = { has_trait = gzx_04 }
+		localization_key = gzxd_04
+	}
+	text = {
+		trigger = { has_trait = gzx_05 }
+		localization_key = gzxd_05
+	}
+	text = {
+		trigger = { has_trait = gzx_06 }
+		localization_key = gzxd_06
+	}
+	text = {
+		trigger = { has_trait = gzx_07 }
+		localization_key = gzxd_07
+	}
+	text = {
+		trigger = { has_trait = gzx_08 }
+		localization_key = gzxd_08
+	}
+	text = {
+		trigger = { has_trait = gzx_09 }
+		localization_key = gzxd_09
+	}
+	text = {
+		trigger = { has_trait = gzx_10 }
+		localization_key = gzxd_10
+	}
+	text = {
+		trigger = { has_trait = gzx_11 }
+		localization_key = gzxd_11
+	}
+	text = {
+		trigger = { has_trait = gzx_12 }
+		localization_key = gzxd_12
+	}
+	text = {
+		fallback = yes
+		localization_key = guanzhi_ling_none
+	}
+}
+
+# 勋官为主头衔时的勋官名(无顿号, 备用)
+guanzhi_xun_first = {
+	type = character
+	text = {
+		trigger = { has_trait = gzx_01 }
+		localization_key = gzxf_01
+	}
+	text = {
+		trigger = { has_trait = gzx_02 }
+		localization_key = gzxf_02
+	}
+	text = {
+		trigger = { has_trait = gzx_03 }
+		localization_key = gzxf_03
+	}
+	text = {
+		trigger = { has_trait = gzx_04 }
+		localization_key = gzxf_04
+	}
+	text = {
+		trigger = { has_trait = gzx_05 }
+		localization_key = gzxf_05
+	}
+	text = {
+		trigger = { has_trait = gzx_06 }
+		localization_key = gzxf_06
+	}
+	text = {
+		trigger = { has_trait = gzx_07 }
+		localization_key = gzxf_07
+	}
+	text = {
+		trigger = { has_trait = gzx_08 }
+		localization_key = gzxf_08
+	}
+	text = {
+		trigger = { has_trait = gzx_09 }
+		localization_key = gzxf_09
+	}
+	text = {
+		trigger = { has_trait = gzx_10 }
+		localization_key = gzxf_10
+	}
+	text = {
+		trigger = { has_trait = gzx_11 }
+		localization_key = gzxf_11
+	}
+	text = {
+		trigger = { has_trait = gzx_12 }
+		localization_key = gzxf_12
+	}
+	text = {
+		fallback = yes
+		localization_key = guanzhi_ling_none
+	}
+}

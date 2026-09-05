@@ -1,0 +1,208 @@
+# Guanzhi 官制 - 唐代爵位 traits: 爵级 + 食邑(虚封) + 食实封 户数纯 trait
+# 爵亡则下列 trait 一并消失 (guanzhi_clear_tangjue_effect 全清)
+
+tj_guogong = { # 国公(从一品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 1.15
+	flag = guanzhi_tj
+}
+
+tj_yi_3000 = { # 食邑三千户(虚封, 随国公自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.3
+	flag = guanzhi_tj_yi
+}
+
+tj_jungong = { # 开国郡公(正二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 1.0
+	flag = guanzhi_tj
+}
+
+tj_yi_2000 = { # 食邑二千户(虚封, 随开国郡公自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.2
+	flag = guanzhi_tj_yi
+}
+
+tj_xiangong = { # 开国县公(从二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 0.85
+	flag = guanzhi_tj
+}
+
+tj_yi_1500 = { # 食邑千五百户(虚封, 随开国县公自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.15
+	flag = guanzhi_tj_yi
+}
+
+tj_xianhou = { # 开国县侯(正三品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 0.7
+	flag = guanzhi_tj
+}
+
+tj_yi_1000 = { # 食邑一千户(虚封, 随开国县侯自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.1
+	flag = guanzhi_tj_yi
+}
+
+tj_xianbo = { # 开国县伯(正四品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 0.55
+	flag = guanzhi_tj
+}
+
+tj_yi_700 = { # 食邑七百户(虚封, 随开国县伯自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.07
+	flag = guanzhi_tj_yi
+}
+
+tj_xianzi = { # 开国县子(正五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 0.4
+	flag = guanzhi_tj
+}
+
+tj_yi_500 = { # 食邑五百户(虚封, 随开国县子自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.05
+	flag = guanzhi_tj_yi
+}
+
+tj_xiannan = { # 开国县男(从五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tj.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_rank_desc
+	monthly_prestige = 0.25
+	flag = guanzhi_tj
+}
+
+tj_yi_300 = { # 食邑三百户(虚封, 随开国县男自动附带)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_yi_desc
+	monthly_prestige = 0.03
+	flag = guanzhi_tj_yi
+}
+
+tj_shi_100 = { # 食实封一百户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.01
+	monthly_income = 0.05
+	flag = guanzhi_tj_shi
+}
+
+tj_shi_200 = { # 食实封二百户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.01
+	monthly_income = 0.1
+	flag = guanzhi_tj_shi
+}
+
+tj_shi_300 = { # 食实封三百户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.01
+	monthly_income = 0.15
+	flag = guanzhi_tj_shi
+}
+
+tj_shi_500 = { # 食实封五百户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.03
+	monthly_income = 0.25
+	flag = guanzhi_tj_shi
+}
+
+tj_shi_700 = { # 食实封七百户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.04
+	monthly_income = 0.35
+	flag = guanzhi_tj_shi
+}
+
+tj_shi_1000 = { # 食实封一千户
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_tjhu.dds
+	shown_in_ruler_designer = no
+	desc = trait_tj_shi_desc
+	monthly_prestige = 0.05
+	monthly_income = 0.5
+	flag = guanzhi_tj_shi
+}

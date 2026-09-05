@@ -1,0 +1,1556 @@
+# Guanzhi 官制 - 散官风味化 (角色[散官名+挂载列侯] / 头衔[散官名], 优先2050)
+
+gzfv_san_wen_01 = { # 开府仪同三司
+	type = character
+	flag = guanzhi_san_wen_01
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_01 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_01
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_02 = { # 特进
+	type = character
+	flag = guanzhi_san_wen_02
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_02 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_02
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_03 = { # 光禄大夫
+	type = character
+	flag = guanzhi_san_wen_03
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_03 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_03
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_04 = { # 金紫光禄大夫
+	type = character
+	flag = guanzhi_san_wen_04
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_04 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_04
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_05 = { # 银青光禄大夫
+	type = character
+	flag = guanzhi_san_wen_05
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_05 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_05
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_06 = { # 正议大夫
+	type = character
+	flag = guanzhi_san_wen_06
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_06 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_06
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_07 = { # 通议大夫
+	type = character
+	flag = guanzhi_san_wen_07
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_07 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_07
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_08 = { # 太中大夫
+	type = character
+	flag = guanzhi_san_wen_08
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_08 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_08
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_09 = { # 中大夫
+	type = character
+	flag = guanzhi_san_wen_09
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_09 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_09
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_10 = { # 中散大夫
+	type = character
+	flag = guanzhi_san_wen_10
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_10 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_10
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_11 = { # 朝议大夫
+	type = character
+	flag = guanzhi_san_wen_11
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_11 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_11
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_12 = { # 朝请大夫
+	type = character
+	flag = guanzhi_san_wen_12
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_12 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_12
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_13 = { # 朝散大夫
+	type = character
+	flag = guanzhi_san_wen_13
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_13 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_13
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_14 = { # 朝议郎
+	type = character
+	flag = guanzhi_san_wen_14
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_14 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_14
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_15 = { # 承议郎
+	type = character
+	flag = guanzhi_san_wen_15
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_15 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_15
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_16 = { # 奉议郎
+	type = character
+	flag = guanzhi_san_wen_16
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_16 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_16
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_17 = { # 通直郎
+	type = character
+	flag = guanzhi_san_wen_17
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_17 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_17
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_18 = { # 朝请郎
+	type = character
+	flag = guanzhi_san_wen_18
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_18 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_18
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_19 = { # 宣德郎
+	type = character
+	flag = guanzhi_san_wen_19
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_19 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_19
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_20 = { # 朝散郎
+	type = character
+	flag = guanzhi_san_wen_20
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_20 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_20
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_21 = { # 宣义郎
+	type = character
+	flag = guanzhi_san_wen_21
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_21 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_21
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_22 = { # 给事郎
+	type = character
+	flag = guanzhi_san_wen_22
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_22 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_22
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_23 = { # 征事郎
+	type = character
+	flag = guanzhi_san_wen_23
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_23 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_23
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_24 = { # 承奉郎
+	type = character
+	flag = guanzhi_san_wen_24
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_24 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_24
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_25 = { # 承务郎
+	type = character
+	flag = guanzhi_san_wen_25
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_25 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_25
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_26 = { # 儒林郎
+	type = character
+	flag = guanzhi_san_wen_26
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_26 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_26
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_27 = { # 登仕郎
+	type = character
+	flag = guanzhi_san_wen_27
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_27 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_27
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_28 = { # 文林郎
+	type = character
+	flag = guanzhi_san_wen_28
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_28 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_28
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wen_29 = { # 将仕郎
+	type = character
+	flag = guanzhi_san_wen_29
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wen_29 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wen_29
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_01 = { # 骠骑大将军
+	type = character
+	flag = guanzhi_san_wu_01
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_01 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_01
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_02 = { # 辅国大将军
+	type = character
+	flag = guanzhi_san_wu_02
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_02 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_02
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_03 = { # 镇军大将军
+	type = character
+	flag = guanzhi_san_wu_03
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_03 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_03
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_04 = { # 冠军大将军
+	type = character
+	flag = guanzhi_san_wu_04
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_04 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_04
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_05 = { # 怀化大将军
+	type = character
+	flag = guanzhi_san_wu_05
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_05 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_05
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_06 = { # 怀化将军
+	type = character
+	flag = guanzhi_san_wu_06
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_06 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_06
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_07 = { # 云麾将军
+	type = character
+	flag = guanzhi_san_wu_07
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_07 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_07
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_08 = { # 归德大将军
+	type = character
+	flag = guanzhi_san_wu_08
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_08 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_08
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_09 = { # 归德将军
+	type = character
+	flag = guanzhi_san_wu_09
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_09 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_09
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_10 = { # 忠武将军
+	type = character
+	flag = guanzhi_san_wu_10
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_10 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_10
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_11 = { # 壮武将军
+	type = character
+	flag = guanzhi_san_wu_11
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_11 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_11
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_12 = { # 怀化中郎将
+	type = character
+	flag = guanzhi_san_wu_12
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_12 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_12
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_13 = { # 宣威将军
+	type = character
+	flag = guanzhi_san_wu_13
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_13 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_13
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_14 = { # 明威将军
+	type = character
+	flag = guanzhi_san_wu_14
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_14 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_14
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_15 = { # 归德中郎将
+	type = character
+	flag = guanzhi_san_wu_15
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_15 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_15
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_16 = { # 定远将军
+	type = character
+	flag = guanzhi_san_wu_16
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_16 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_16
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_17 = { # 宁远将军
+	type = character
+	flag = guanzhi_san_wu_17
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_17 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_17
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_18 = { # 怀化郎将
+	type = character
+	flag = guanzhi_san_wu_18
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_18 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_18
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_19 = { # 游骑将军
+	type = character
+	flag = guanzhi_san_wu_19
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_19 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_19
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_20 = { # 游击将军
+	type = character
+	flag = guanzhi_san_wu_20
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_20 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_20
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_21 = { # 归德郎将
+	type = character
+	flag = guanzhi_san_wu_21
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_21 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_21
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_22 = { # 昭武校尉
+	type = character
+	flag = guanzhi_san_wu_22
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_22 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_22
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_23 = { # 昭武副尉
+	type = character
+	flag = guanzhi_san_wu_23
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_23 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_23
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_24 = { # 怀化司阶
+	type = character
+	flag = guanzhi_san_wu_24
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_24 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_24
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_25 = { # 振威校尉
+	type = character
+	flag = guanzhi_san_wu_25
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_25 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_25
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_26 = { # 振威副尉
+	type = character
+	flag = guanzhi_san_wu_26
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_26 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_26
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_27 = { # 归德司阶
+	type = character
+	flag = guanzhi_san_wu_27
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_27 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_27
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_28 = { # 致果校尉
+	type = character
+	flag = guanzhi_san_wu_28
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_28 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_28
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_29 = { # 致果副尉
+	type = character
+	flag = guanzhi_san_wu_29
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_29 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_29
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_30 = { # 怀化中候
+	type = character
+	flag = guanzhi_san_wu_30
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_30 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_30
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_31 = { # 翊麾校尉
+	type = character
+	flag = guanzhi_san_wu_31
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_31 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_31
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_32 = { # 翊麾副尉
+	type = character
+	flag = guanzhi_san_wu_32
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_32 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_32
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_33 = { # 归德中候
+	type = character
+	flag = guanzhi_san_wu_33
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_33 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_33
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_34 = { # 宣节校尉
+	type = character
+	flag = guanzhi_san_wu_34
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_34 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_34
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_35 = { # 宣节副尉
+	type = character
+	flag = guanzhi_san_wu_35
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_35 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_35
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_36 = { # 怀化司戈
+	type = character
+	flag = guanzhi_san_wu_36
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_36 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_36
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_37 = { # 御侮校尉
+	type = character
+	flag = guanzhi_san_wu_37
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_37 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_37
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_38 = { # 御侮副尉
+	type = character
+	flag = guanzhi_san_wu_38
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_38 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_38
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_39 = { # 归德司戈
+	type = character
+	flag = guanzhi_san_wu_39
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_39 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_39
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_40 = { # 仁勇校尉
+	type = character
+	flag = guanzhi_san_wu_40
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_40 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_40
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_41 = { # 仁勇副尉
+	type = character
+	flag = guanzhi_san_wu_41
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_41 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_41
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_42 = { # 怀化执戟长上
+	type = character
+	flag = guanzhi_san_wu_42
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_42 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_42
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_43 = { # 陪戎校尉
+	type = character
+	flag = guanzhi_san_wu_43
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_43 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_43
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_44 = { # 陪戎副尉
+	type = character
+	flag = guanzhi_san_wu_44
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_44 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_44
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_san_wu_45 = { # 归德执戟长上
+	type = character
+	flag = guanzhi_san_wu_45
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_san_wu_45 = { # 头衔显示
+	type = title
+	flag = guanzhi_san_wu_45
+	priority = 2050
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+

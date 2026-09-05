@@ -67,3 +67,40 @@ guanzhi_arrange_offices_decision = {
 		base = 0
 	}
 }
+
+# 普授散阶勋官: 为全部封臣(含封臣的封臣)按 mapping 同步散官与勋官.
+# 与季度脉冲同一套 sync 效果 (guanzhi_san/xun_sync_landed_effect),
+# 手动授予者优先 (wrapper 内置守卫), 只动无阶者与 auto 阶不符者.
+guanzhi_grant_ranks_all_decision = {
+	title = guanzhi_grant_ranks_all_decision
+	desc = guanzhi_grant_ranks_all_decision_desc
+	selection_tooltip = guanzhi_grant_ranks_all_decision_desc
+	confirm_text = guanzhi_grant_ranks_all_decision_confirm
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/tgp_career.dds"
+	}
+	ai_check_interval = 1
+
+	is_shown = {
+		guanzhi_is_celestial_sovereign_trigger = yes
+		has_character_flag = guanzhi_uses_tang_system
+	}
+	is_valid = {
+		always = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			debug_log = "GUANZHI grant-ranks-all decision taken"
+			every_vassal_or_below = {
+				limit = { is_landed = yes }
+				guanzhi_san_sync_landed_effect = yes
+				guanzhi_xun_sync_landed_effect = yes
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

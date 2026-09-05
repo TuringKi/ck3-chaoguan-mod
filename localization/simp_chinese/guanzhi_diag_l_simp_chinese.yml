@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ # Guanzhi 官制 - 诊断互动 (调试用)
+ guanzhi_diag_rank_state_interaction:0 "诊断官爵状态"
+ guanzhi_diag_rank_state_interaction_desc:0 "把此人物的散官/勋官/爵位相关状态写入 debug.log（搜 GZDIAG）。"

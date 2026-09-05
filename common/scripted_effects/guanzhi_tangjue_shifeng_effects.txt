@@ -1,0 +1,43 @@
+# Guanzhi 官制 - 加食实封效果. root=受封者 (须已持唐爵, 互动保证)
+
+# 加食实封一百户
+guanzhi_tangjue_shifeng_100 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_100
+	debug_log = "GUANZHI shifeng granted"
+}
+
+# 加食实封二百户
+guanzhi_tangjue_shifeng_200 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_200
+	debug_log = "GUANZHI shifeng granted"
+}
+
+# 加食实封三百户
+guanzhi_tangjue_shifeng_300 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_300
+	debug_log = "GUANZHI shifeng granted"
+}
+
+# 加食实封五百户
+guanzhi_tangjue_shifeng_500 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_500
+	debug_log = "GUANZHI shifeng granted"
+}
+
+# 加食实封七百户
+guanzhi_tangjue_shifeng_700 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_700
+	debug_log = "GUANZHI shifeng granted"
+}
+
+# 加食实封一千户
+guanzhi_tangjue_shifeng_1000 = {
+	guanzhi_tangjue_clear_shifeng_effect = yes
+	add_trait = tj_shi_1000
+	debug_log = "GUANZHI shifeng granted"
+}

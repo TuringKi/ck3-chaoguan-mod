@@ -2058,7 +2058,7 @@ gzft_jue_xian_0002 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0003 = { # 荧阳侯
+gzfv_jue_xian_0003 = { # 荥阳侯
 	type = character
 	flag = guanzhi_jue_xian_0003
 	priority = 2000
@@ -2184,7 +2184,7 @@ gzft_jue_xian_0008 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0009 = { # 菀陵侯
+gzfv_jue_xian_0009 = { # 苑陵侯
 	type = character
 	flag = guanzhi_jue_xian_0009
 	priority = 2000
@@ -2226,7 +2226,7 @@ gzft_jue_xian_0010 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0011 = { # 穀城侯
+gzfv_jue_xian_0011 = { # 谷城侯
 	type = character
 	flag = guanzhi_jue_xian_0011
 	priority = 2000
@@ -2688,7 +2688,7 @@ gzft_jue_xian_0032 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0033 = { # 脩武侯
+gzfv_jue_xian_0033 = { # 修武侯
 	type = character
 	flag = guanzhi_jue_xian_0033
 	priority = 2000
@@ -2919,7 +2919,7 @@ gzft_jue_xian_0043 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0044 = { # 蒲板侯
+gzfv_jue_xian_0044 = { # 蒲坂侯
 	type = character
 	flag = guanzhi_jue_xian_0044
 	priority = 2000
@@ -3696,7 +3696,7 @@ gzft_jue_xian_0080 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0081 = { # 礻殳祤侯
+gzfv_jue_xian_0081 = { # 祋祤侯
 	type = character
 	flag = guanzhi_jue_xian_0081
 	priority = 2000
@@ -4011,7 +4011,7 @@ gzft_jue_xian_0095 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0096 = { # 眉阝侯
+gzfv_jue_xian_0096 = { # 郿侯
 	type = character
 	flag = guanzhi_jue_xian_0096
 	priority = 2000
@@ -4095,7 +4095,7 @@ gzft_jue_xian_0099 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0100 = { # 渝麋侯
+gzfv_jue_xian_0100 = { # 隃麋侯
 	type = character
 	flag = guanzhi_jue_xian_0100
 	priority = 2000
@@ -4788,7 +4788,7 @@ gzft_jue_xian_0132 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0133 = { # 灌阳侯
+gzfv_jue_xian_0133 = { # 灈阳侯
 	type = character
 	flag = guanzhi_jue_xian_0133
 	priority = 2000
@@ -4956,7 +4956,7 @@ gzft_jue_xian_0140 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0141 = { # 鮦阳侯
+gzfv_jue_xian_0141 = { # 鲖阳侯
 	type = character
 	flag = guanzhi_jue_xian_0141
 	priority = 2000
@@ -5229,7 +5229,7 @@ gzft_jue_xian_0153 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0154 = { # 襃信侯
+gzfv_jue_xian_0154 = { # 褒信侯
 	type = character
 	flag = guanzhi_jue_xian_0154
 	priority = 2000
@@ -5460,7 +5460,7 @@ gzft_jue_xian_0164 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0165 = { # 穀熟侯
+gzfv_jue_xian_0165 = { # 谷熟侯
 	type = character
 	flag = guanzhi_jue_xian_0165
 	priority = 2000
@@ -5649,7 +5649,7 @@ gzft_jue_xian_0173 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0174 = { # 穀阳侯
+gzfv_jue_xian_0174 = { # 谷阳侯
 	type = character
 	flag = guanzhi_jue_xian_0174
 	priority = 2000
@@ -6174,7 +6174,7 @@ gzft_jue_xian_0198 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0199 = { # 鲁国侯
+gzfv_jue_xian_0199 = { # 鲁侯
 	type = character
 	flag = guanzhi_jue_xian_0199
 	priority = 2000
@@ -6615,7 +6615,7 @@ gzft_jue_xian_0219 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0220 = { # 廮陶侯
+gzfv_jue_xian_0220 = { # 瘿陶侯
 	type = character
 	flag = guanzhi_jue_xian_0220
 	priority = 2000
@@ -6636,7 +6636,7 @@ gzft_jue_xian_0220 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0221 = { # 钜鹿侯
+gzfv_jue_xian_0221 = { # 巨鹿侯
 	type = character
 	flag = guanzhi_jue_xian_0221
 	priority = 2000
@@ -6909,7 +6909,7 @@ gzft_jue_xian_0233 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0234 = { # 南龻侯
+gzfv_jue_xian_0234 = { # 南䜌侯
 	type = character
 	flag = guanzhi_jue_xian_0234
 	priority = 2000
@@ -7350,7 +7350,7 @@ gzft_jue_xian_0254 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0255 = { # 安憙侯
+gzfv_jue_xian_0255 = { # 安喜侯
 	type = character
 	flag = guanzhi_jue_xian_0255
 	priority = 2000
@@ -8379,7 +8379,7 @@ gzft_jue_xian_0303 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0304 = { # 脩侯
+gzfv_jue_xian_0304 = { # 修侯
 	type = character
 	flag = guanzhi_jue_xian_0304
 	priority = 2000
@@ -8547,7 +8547,7 @@ gzft_jue_xian_0311 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0312 = { # 东昬侯
+gzfv_jue_xian_0312 = { # 东昏侯
 	type = character
 	flag = guanzhi_jue_xian_0312
 	priority = 2000
@@ -9324,7 +9324,7 @@ gzft_jue_xian_0348 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0349 = { # 钜平侯
+gzfv_jue_xian_0349 = { # 巨平侯
 	type = character
 	flag = guanzhi_jue_xian_0349
 	priority = 2000
@@ -9660,7 +9660,7 @@ gzft_jue_xian_0364 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0365 = { # 钜野侯
+gzfv_jue_xian_0365 = { # 巨野侯
 	type = character
 	flag = guanzhi_jue_xian_0365
 	priority = 2000
@@ -11256,7 +11256,7 @@ gzft_jue_xian_0440 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0441 = { # 东成侯
+gzfv_jue_xian_0441 = { # 东城侯
 	type = character
 	flag = guanzhi_jue_xian_0441
 	priority = 2000
@@ -11403,7 +11403,7 @@ gzft_jue_xian_0447 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0448 = { # 於陵侯
+gzfv_jue_xian_0448 = { # 于陵侯
 	type = character
 	flag = guanzhi_jue_xian_0448
 	priority = 2000
@@ -11697,7 +11697,7 @@ gzft_jue_xian_0461 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0462 = { # 湿阴侯
+gzfv_jue_xian_0462 = { # 漯阴侯
 	type = character
 	flag = guanzhi_jue_xian_0462
 	priority = 2000
@@ -11802,7 +11802,7 @@ gzft_jue_xian_0466 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0467 = { # 高菀侯
+gzfv_jue_xian_0467 = { # 高宛侯
 	type = character
 	flag = guanzhi_jue_xian_0467
 	priority = 2000
@@ -13818,7 +13818,7 @@ gzft_jue_xian_0562 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0563 = { # 很山侯
+gzfv_jue_xian_0563 = { # 佷山侯
 	type = character
 	flag = guanzhi_jue_xian_0563
 	priority = 2000
@@ -14931,7 +14931,7 @@ gzft_jue_xian_0615 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0616 = { # 荼陵侯
+gzfv_jue_xian_0616 = { # 茶陵侯
 	type = character
 	flag = guanzhi_jue_xian_0616
 	priority = 2000
@@ -14952,7 +14952,7 @@ gzft_jue_xian_0616 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0617 = { # 霝阝侯
+gzfv_jue_xian_0617 = { # 酃侯
 	type = character
 	flag = guanzhi_jue_xian_0617
 	priority = 2000
@@ -15729,7 +15729,7 @@ gzft_jue_xian_0653 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0654 = { # 春穀侯
+gzfv_jue_xian_0654 = { # 春谷侯
 	type = character
 	flag = guanzhi_jue_xian_0654
 	priority = 2000
@@ -16149,7 +16149,7 @@ gzft_jue_xian_0673 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0674 = { # 馀暨侯
+gzfv_jue_xian_0674 = { # 余暨侯
 	type = character
 	flag = guanzhi_jue_xian_0674
 	priority = 2000
@@ -16233,7 +16233,7 @@ gzft_jue_xian_0677 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0678 = { # 馀姚侯
+gzfv_jue_xian_0678 = { # 余姚侯
 	type = character
 	flag = guanzhi_jue_xian_0678
 	priority = 2000
@@ -16359,7 +16359,7 @@ gzft_jue_xian_0683 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0684 = { # 吴侯
+gzfv_jue_xian_0684 = { # 冶侯
 	type = character
 	flag = guanzhi_jue_xian_0684
 	priority = 2000
@@ -16380,7 +16380,7 @@ gzft_jue_xian_0684 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0685 = { # 海盐侯
+gzfv_jue_xian_0685 = { # 吴侯
 	type = character
 	flag = guanzhi_jue_xian_0685
 	priority = 2000
@@ -16401,7 +16401,7 @@ gzft_jue_xian_0685 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0686 = { # 乌程侯
+gzfv_jue_xian_0686 = { # 海盐侯
 	type = character
 	flag = guanzhi_jue_xian_0686
 	priority = 2000
@@ -16422,7 +16422,7 @@ gzft_jue_xian_0686 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0687 = { # 馀杭侯
+gzfv_jue_xian_0687 = { # 乌程侯
 	type = character
 	flag = guanzhi_jue_xian_0687
 	priority = 2000
@@ -16443,7 +16443,7 @@ gzft_jue_xian_0687 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0688 = { # 毗陵侯
+gzfv_jue_xian_0688 = { # 余杭侯
 	type = character
 	flag = guanzhi_jue_xian_0688
 	priority = 2000
@@ -16464,7 +16464,7 @@ gzft_jue_xian_0688 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0689 = { # 丹徒侯
+gzfv_jue_xian_0689 = { # 毗陵侯
 	type = character
 	flag = guanzhi_jue_xian_0689
 	priority = 2000
@@ -16485,7 +16485,7 @@ gzft_jue_xian_0689 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0690 = { # 曲阿侯
+gzfv_jue_xian_0690 = { # 丹徒侯
 	type = character
 	flag = guanzhi_jue_xian_0690
 	priority = 2000
@@ -16506,7 +16506,7 @@ gzft_jue_xian_0690 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0691 = { # 由拳侯
+gzfv_jue_xian_0691 = { # 曲阿侯
 	type = character
 	flag = guanzhi_jue_xian_0691
 	priority = 2000
@@ -16527,7 +16527,7 @@ gzft_jue_xian_0691 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0692 = { # 安侯
+gzfv_jue_xian_0692 = { # 由拳侯
 	type = character
 	flag = guanzhi_jue_xian_0692
 	priority = 2000
@@ -16548,7 +16548,7 @@ gzft_jue_xian_0692 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0693 = { # 富春侯
+gzfv_jue_xian_0693 = { # 安侯
 	type = character
 	flag = guanzhi_jue_xian_0693
 	priority = 2000
@@ -16569,7 +16569,7 @@ gzft_jue_xian_0693 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0694 = { # 阳羡侯
+gzfv_jue_xian_0694 = { # 富春侯
 	type = character
 	flag = guanzhi_jue_xian_0694
 	priority = 2000
@@ -16590,7 +16590,7 @@ gzft_jue_xian_0694 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0695 = { # 无锡侯
+gzfv_jue_xian_0695 = { # 阳羡侯
 	type = character
 	flag = guanzhi_jue_xian_0695
 	priority = 2000
@@ -16611,7 +16611,7 @@ gzft_jue_xian_0695 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0696 = { # 娄侯
+gzfv_jue_xian_0696 = { # 无锡侯
 	type = character
 	flag = guanzhi_jue_xian_0696
 	priority = 2000
@@ -16632,7 +16632,7 @@ gzft_jue_xian_0696 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0697 = { # 南昌侯
+gzfv_jue_xian_0697 = { # 娄侯
 	type = character
 	flag = guanzhi_jue_xian_0697
 	priority = 2000
@@ -16653,7 +16653,7 @@ gzft_jue_xian_0697 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0698 = { # 建城侯
+gzfv_jue_xian_0698 = { # 南昌侯
 	type = character
 	flag = guanzhi_jue_xian_0698
 	priority = 2000
@@ -16674,7 +16674,7 @@ gzft_jue_xian_0698 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0699 = { # 新淦侯
+gzfv_jue_xian_0699 = { # 建城侯
 	type = character
 	flag = guanzhi_jue_xian_0699
 	priority = 2000
@@ -16695,7 +16695,7 @@ gzft_jue_xian_0699 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0700 = { # 宜春侯
+gzfv_jue_xian_0700 = { # 新淦侯
 	type = character
 	flag = guanzhi_jue_xian_0700
 	priority = 2000
@@ -16716,7 +16716,7 @@ gzft_jue_xian_0700 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0701 = { # 庐陵侯
+gzfv_jue_xian_0701 = { # 宜春侯
 	type = character
 	flag = guanzhi_jue_xian_0701
 	priority = 2000
@@ -16737,7 +16737,7 @@ gzft_jue_xian_0701 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0702 = { # 赣侯
+gzfv_jue_xian_0702 = { # 庐陵侯
 	type = character
 	flag = guanzhi_jue_xian_0702
 	priority = 2000
@@ -16758,7 +16758,7 @@ gzft_jue_xian_0702 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0703 = { # 雩都侯
+gzfv_jue_xian_0703 = { # 赣侯
 	type = character
 	flag = guanzhi_jue_xian_0703
 	priority = 2000
@@ -16779,7 +16779,7 @@ gzft_jue_xian_0703 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0704 = { # 南野侯
+gzfv_jue_xian_0704 = { # 雩都侯
 	type = character
 	flag = guanzhi_jue_xian_0704
 	priority = 2000
@@ -16800,7 +16800,7 @@ gzft_jue_xian_0704 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0705 = { # 鄱阳侯
+gzfv_jue_xian_0705 = { # 南野侯
 	type = character
 	flag = guanzhi_jue_xian_0705
 	priority = 2000
@@ -16821,7 +16821,7 @@ gzft_jue_xian_0705 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0706 = { # 历陵侯
+gzfv_jue_xian_0706 = { # 鄱阳侯
 	type = character
 	flag = guanzhi_jue_xian_0706
 	priority = 2000
@@ -16842,7 +16842,7 @@ gzft_jue_xian_0706 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0707 = { # 馀汗侯
+gzfv_jue_xian_0707 = { # 历陵侯
 	type = character
 	flag = guanzhi_jue_xian_0707
 	priority = 2000
@@ -16863,7 +16863,7 @@ gzft_jue_xian_0707 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0708 = { # 鄡阳侯
+gzfv_jue_xian_0708 = { # 余汗侯
 	type = character
 	flag = guanzhi_jue_xian_0708
 	priority = 2000
@@ -16884,7 +16884,7 @@ gzft_jue_xian_0708 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0709 = { # 彭泽侯
+gzfv_jue_xian_0709 = { # 鄡阳侯
 	type = character
 	flag = guanzhi_jue_xian_0709
 	priority = 2000
@@ -16905,7 +16905,7 @@ gzft_jue_xian_0709 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0710 = { # 柴桑侯
+gzfv_jue_xian_0710 = { # 彭泽侯
 	type = character
 	flag = guanzhi_jue_xian_0710
 	priority = 2000
@@ -16926,7 +16926,7 @@ gzft_jue_xian_0710 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0711 = { # 艾侯
+gzfv_jue_xian_0711 = { # 柴桑侯
 	type = character
 	flag = guanzhi_jue_xian_0711
 	priority = 2000
@@ -16947,7 +16947,7 @@ gzft_jue_xian_0711 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0712 = { # 海昬侯
+gzfv_jue_xian_0712 = { # 艾侯
 	type = character
 	flag = guanzhi_jue_xian_0712
 	priority = 2000
@@ -16968,7 +16968,7 @@ gzft_jue_xian_0712 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0713 = { # 平都侯
+gzfv_jue_xian_0713 = { # 海昬侯
 	type = character
 	flag = guanzhi_jue_xian_0713
 	priority = 2000
@@ -16989,7 +16989,7 @@ gzft_jue_xian_0713 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0714 = { # 石阳侯
+gzfv_jue_xian_0714 = { # 平都侯
 	type = character
 	flag = guanzhi_jue_xian_0714
 	priority = 2000
@@ -17010,7 +17010,7 @@ gzft_jue_xian_0714 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0715 = { # 临汝侯
+gzfv_jue_xian_0715 = { # 石阳侯
 	type = character
 	flag = guanzhi_jue_xian_0715
 	priority = 2000
@@ -17031,7 +17031,7 @@ gzft_jue_xian_0715 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0716 = { # 建昌侯
+gzfv_jue_xian_0716 = { # 临汝侯
 	type = character
 	flag = guanzhi_jue_xian_0716
 	priority = 2000
@@ -17052,7 +17052,7 @@ gzft_jue_xian_0716 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0717 = { # 南郑侯
+gzfv_jue_xian_0717 = { # 建昌侯
 	type = character
 	flag = guanzhi_jue_xian_0717
 	priority = 2000
@@ -17073,7 +17073,7 @@ gzft_jue_xian_0717 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0718 = { # 成固侯
+gzfv_jue_xian_0718 = { # 南郑侯
 	type = character
 	flag = guanzhi_jue_xian_0718
 	priority = 2000
@@ -17094,7 +17094,7 @@ gzft_jue_xian_0718 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0719 = { # 西城侯
+gzfv_jue_xian_0719 = { # 成固侯
 	type = character
 	flag = guanzhi_jue_xian_0719
 	priority = 2000
@@ -17115,7 +17115,7 @@ gzft_jue_xian_0719 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0720 = { # 襃中侯
+gzfv_jue_xian_0720 = { # 西城侯
 	type = character
 	flag = guanzhi_jue_xian_0720
 	priority = 2000
@@ -17136,7 +17136,7 @@ gzft_jue_xian_0720 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0721 = { # 沔阳侯
+gzfv_jue_xian_0721 = { # 襃中侯
 	type = character
 	flag = guanzhi_jue_xian_0721
 	priority = 2000
@@ -17157,7 +17157,7 @@ gzft_jue_xian_0721 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0722 = { # 锡侯
+gzfv_jue_xian_0722 = { # 沔阳侯
 	type = character
 	flag = guanzhi_jue_xian_0722
 	priority = 2000
@@ -17178,7 +17178,7 @@ gzft_jue_xian_0722 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0723 = { # 上庸侯
+gzfv_jue_xian_0723 = { # 锡侯
 	type = character
 	flag = guanzhi_jue_xian_0723
 	priority = 2000
@@ -17199,7 +17199,7 @@ gzft_jue_xian_0723 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0724 = { # 房陵侯
+gzfv_jue_xian_0724 = { # 上庸侯
 	type = character
 	flag = guanzhi_jue_xian_0724
 	priority = 2000
@@ -17220,7 +17220,7 @@ gzft_jue_xian_0724 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0725 = { # 江州侯
+gzfv_jue_xian_0725 = { # 房陵侯
 	type = character
 	flag = guanzhi_jue_xian_0725
 	priority = 2000
@@ -17241,7 +17241,7 @@ gzft_jue_xian_0725 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0726 = { # 宕渠侯
+gzfv_jue_xian_0726 = { # 江州侯
 	type = character
 	flag = guanzhi_jue_xian_0726
 	priority = 2000
@@ -17262,7 +17262,7 @@ gzft_jue_xian_0726 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0727 = { # 朐忍侯
+gzfv_jue_xian_0727 = { # 宕渠侯
 	type = character
 	flag = guanzhi_jue_xian_0727
 	priority = 2000
@@ -17283,7 +17283,7 @@ gzft_jue_xian_0727 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0728 = { # 阆中侯
+gzfv_jue_xian_0728 = { # 朐䏰侯
 	type = character
 	flag = guanzhi_jue_xian_0728
 	priority = 2000
@@ -17304,7 +17304,7 @@ gzft_jue_xian_0728 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0729 = { # 鱼复侯
+gzfv_jue_xian_0729 = { # 阆中侯
 	type = character
 	flag = guanzhi_jue_xian_0729
 	priority = 2000
@@ -17325,7 +17325,7 @@ gzft_jue_xian_0729 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0730 = { # 临江侯
+gzfv_jue_xian_0730 = { # 鱼复侯
 	type = character
 	flag = guanzhi_jue_xian_0730
 	priority = 2000
@@ -17346,7 +17346,7 @@ gzft_jue_xian_0730 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0731 = { # 枳侯
+gzfv_jue_xian_0731 = { # 临江侯
 	type = character
 	flag = guanzhi_jue_xian_0731
 	priority = 2000
@@ -17367,7 +17367,7 @@ gzft_jue_xian_0731 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0732 = { # 涪陵侯
+gzfv_jue_xian_0732 = { # 枳侯
 	type = character
 	flag = guanzhi_jue_xian_0732
 	priority = 2000
@@ -17388,7 +17388,7 @@ gzft_jue_xian_0732 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0733 = { # 垫江侯
+gzfv_jue_xian_0733 = { # 涪陵侯
 	type = character
 	flag = guanzhi_jue_xian_0733
 	priority = 2000
@@ -17409,7 +17409,7 @@ gzft_jue_xian_0733 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0734 = { # 安汉侯
+gzfv_jue_xian_0734 = { # 垫江侯
 	type = character
 	flag = guanzhi_jue_xian_0734
 	priority = 2000
@@ -17430,7 +17430,7 @@ gzft_jue_xian_0734 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0735 = { # 充国侯
+gzfv_jue_xian_0735 = { # 安汉侯
 	type = character
 	flag = guanzhi_jue_xian_0735
 	priority = 2000
@@ -17451,7 +17451,7 @@ gzft_jue_xian_0735 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0736 = { # 宣汉侯
+gzfv_jue_xian_0736 = { # 充国侯
 	type = character
 	flag = guanzhi_jue_xian_0736
 	priority = 2000
@@ -17472,7 +17472,7 @@ gzft_jue_xian_0736 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0737 = { # 雒侯
+gzfv_jue_xian_0737 = { # 宣汉侯
 	type = character
 	flag = guanzhi_jue_xian_0737
 	priority = 2000
@@ -17493,7 +17493,7 @@ gzft_jue_xian_0737 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0738 = { # 新都侯
+gzfv_jue_xian_0738 = { # 雒侯
 	type = character
 	flag = guanzhi_jue_xian_0738
 	priority = 2000
@@ -17514,7 +17514,7 @@ gzft_jue_xian_0738 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0739 = { # 绵竹侯
+gzfv_jue_xian_0739 = { # 新都侯
 	type = character
 	flag = guanzhi_jue_xian_0739
 	priority = 2000
@@ -17535,7 +17535,7 @@ gzft_jue_xian_0739 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0740 = { # 什邡侯
+gzfv_jue_xian_0740 = { # 绵竹侯
 	type = character
 	flag = guanzhi_jue_xian_0740
 	priority = 2000
@@ -17556,7 +17556,7 @@ gzft_jue_xian_0740 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0741 = { # 涪侯
+gzfv_jue_xian_0741 = { # 什邡侯
 	type = character
 	flag = guanzhi_jue_xian_0741
 	priority = 2000
@@ -17577,7 +17577,7 @@ gzft_jue_xian_0741 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0742 = { # 梓潼侯
+gzfv_jue_xian_0742 = { # 涪侯
 	type = character
 	flag = guanzhi_jue_xian_0742
 	priority = 2000
@@ -17598,7 +17598,7 @@ gzft_jue_xian_0742 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0743 = { # 白水侯
+gzfv_jue_xian_0743 = { # 梓潼侯
 	type = character
 	flag = guanzhi_jue_xian_0743
 	priority = 2000
@@ -17619,7 +17619,7 @@ gzft_jue_xian_0743 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0744 = { # 葭萌侯
+gzfv_jue_xian_0744 = { # 白水侯
 	type = character
 	flag = guanzhi_jue_xian_0744
 	priority = 2000
@@ -17640,7 +17640,7 @@ gzft_jue_xian_0744 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0745 = { # 郪侯
+gzfv_jue_xian_0745 = { # 葭萌侯
 	type = character
 	flag = guanzhi_jue_xian_0745
 	priority = 2000
@@ -17661,7 +17661,7 @@ gzft_jue_xian_0745 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0746 = { # 广汉侯
+gzfv_jue_xian_0746 = { # 郪侯
 	type = character
 	flag = guanzhi_jue_xian_0746
 	priority = 2000
@@ -17682,7 +17682,7 @@ gzft_jue_xian_0746 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0747 = { # 德阳侯
+gzfv_jue_xian_0747 = { # 广汉侯
 	type = character
 	flag = guanzhi_jue_xian_0747
 	priority = 2000
@@ -17703,7 +17703,7 @@ gzft_jue_xian_0747 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0748 = { # 郫侯
+gzfv_jue_xian_0748 = { # 德阳侯
 	type = character
 	flag = guanzhi_jue_xian_0748
 	priority = 2000
@@ -17724,7 +17724,7 @@ gzft_jue_xian_0748 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0749 = { # 江原侯
+gzfv_jue_xian_0749 = { # 郫侯
 	type = character
 	flag = guanzhi_jue_xian_0749
 	priority = 2000
@@ -17745,7 +17745,7 @@ gzft_jue_xian_0749 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0750 = { # 繁侯
+gzfv_jue_xian_0750 = { # 江原侯
 	type = character
 	flag = guanzhi_jue_xian_0750
 	priority = 2000
@@ -17766,7 +17766,7 @@ gzft_jue_xian_0750 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0751 = { # 广都侯
+gzfv_jue_xian_0751 = { # 繁侯
 	type = character
 	flag = guanzhi_jue_xian_0751
 	priority = 2000
@@ -17787,7 +17787,7 @@ gzft_jue_xian_0751 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0752 = { # 临邛侯
+gzfv_jue_xian_0752 = { # 广都侯
 	type = character
 	flag = guanzhi_jue_xian_0752
 	priority = 2000
@@ -17808,7 +17808,7 @@ gzft_jue_xian_0752 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0753 = { # 湔氐道侯
+gzfv_jue_xian_0753 = { # 临邛侯
 	type = character
 	flag = guanzhi_jue_xian_0753
 	priority = 2000
@@ -17829,7 +17829,7 @@ gzft_jue_xian_0753 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0754 = { # 汶江道侯
+gzfv_jue_xian_0754 = { # 湔氐道侯
 	type = character
 	flag = guanzhi_jue_xian_0754
 	priority = 2000
@@ -17850,7 +17850,7 @@ gzft_jue_xian_0754 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0755 = { # 蚕陵侯
+gzfv_jue_xian_0755 = { # 汶江道侯
 	type = character
 	flag = guanzhi_jue_xian_0755
 	priority = 2000
@@ -17871,7 +17871,7 @@ gzft_jue_xian_0755 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0756 = { # 广柔侯
+gzfv_jue_xian_0756 = { # 蚕陵侯
 	type = character
 	flag = guanzhi_jue_xian_0756
 	priority = 2000
@@ -17892,7 +17892,7 @@ gzft_jue_xian_0756 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0757 = { # 绵虒道侯
+gzfv_jue_xian_0757 = { # 广柔侯
 	type = character
 	flag = guanzhi_jue_xian_0757
 	priority = 2000
@@ -17913,7 +17913,7 @@ gzft_jue_xian_0757 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0758 = { # 武阳侯
+gzfv_jue_xian_0758 = { # 绵虒道侯
 	type = character
 	flag = guanzhi_jue_xian_0758
 	priority = 2000
@@ -17934,7 +17934,7 @@ gzft_jue_xian_0758 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0759 = { # 资中侯
+gzfv_jue_xian_0759 = { # 武阳侯
 	type = character
 	flag = guanzhi_jue_xian_0759
 	priority = 2000
@@ -17955,7 +17955,7 @@ gzft_jue_xian_0759 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0760 = { # 牛鞞侯
+gzfv_jue_xian_0760 = { # 资中侯
 	type = character
 	flag = guanzhi_jue_xian_0760
 	priority = 2000
@@ -17976,7 +17976,7 @@ gzft_jue_xian_0760 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0761 = { # 南安侯
+gzfv_jue_xian_0761 = { # 牛鞞侯
 	type = character
 	flag = guanzhi_jue_xian_0761
 	priority = 2000
@@ -17997,7 +17997,7 @@ gzft_jue_xian_0761 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0762 = { # 僰道侯
+gzfv_jue_xian_0762 = { # 南安侯
 	type = character
 	flag = guanzhi_jue_xian_0762
 	priority = 2000
@@ -18018,7 +18018,7 @@ gzft_jue_xian_0762 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0763 = { # 江阳侯
+gzfv_jue_xian_0763 = { # 僰道侯
 	type = character
 	flag = guanzhi_jue_xian_0763
 	priority = 2000
@@ -18039,7 +18039,7 @@ gzft_jue_xian_0763 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0764 = { # 符节侯
+gzfv_jue_xian_0764 = { # 江阳侯
 	type = character
 	flag = guanzhi_jue_xian_0764
 	priority = 2000
@@ -18060,7 +18060,7 @@ gzft_jue_xian_0764 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0765 = { # 南广侯
+gzfv_jue_xian_0765 = { # 符节侯
 	type = character
 	flag = guanzhi_jue_xian_0765
 	priority = 2000
@@ -18081,7 +18081,7 @@ gzft_jue_xian_0765 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0766 = { # 汉安侯
+gzfv_jue_xian_0766 = { # 南广侯
 	type = character
 	flag = guanzhi_jue_xian_0766
 	priority = 2000
@@ -18102,7 +18102,7 @@ gzft_jue_xian_0766 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0767 = { # 故且兰侯
+gzfv_jue_xian_0767 = { # 汉安侯
 	type = character
 	flag = guanzhi_jue_xian_0767
 	priority = 2000
@@ -18123,7 +18123,7 @@ gzft_jue_xian_0767 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0768 = { # 平夷侯
+gzfv_jue_xian_0768 = { # 故且兰侯
 	type = character
 	flag = guanzhi_jue_xian_0768
 	priority = 2000
@@ -18144,7 +18144,7 @@ gzft_jue_xian_0768 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0769 = { # 鄨侯
+gzfv_jue_xian_0769 = { # 平夷侯
 	type = character
 	flag = guanzhi_jue_xian_0769
 	priority = 2000
@@ -18165,7 +18165,7 @@ gzft_jue_xian_0769 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0770 = { # 毋敛侯
+gzfv_jue_xian_0770 = { # 鄨侯
 	type = character
 	flag = guanzhi_jue_xian_0770
 	priority = 2000
@@ -18186,7 +18186,7 @@ gzft_jue_xian_0770 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0771 = { # 谈指侯
+gzfv_jue_xian_0771 = { # 毋敛侯
 	type = character
 	flag = guanzhi_jue_xian_0771
 	priority = 2000
@@ -18207,7 +18207,7 @@ gzft_jue_xian_0771 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0772 = { # 夜郎侯
+gzfv_jue_xian_0772 = { # 谈指侯
 	type = character
 	flag = guanzhi_jue_xian_0772
 	priority = 2000
@@ -18228,7 +18228,7 @@ gzft_jue_xian_0772 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0773 = { # 同并侯
+gzfv_jue_xian_0773 = { # 夜郎侯
 	type = character
 	flag = guanzhi_jue_xian_0773
 	priority = 2000
@@ -18249,7 +18249,7 @@ gzft_jue_xian_0773 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0774 = { # 谈稾侯
+gzfv_jue_xian_0774 = { # 同并侯
 	type = character
 	flag = guanzhi_jue_xian_0774
 	priority = 2000
@@ -18270,7 +18270,7 @@ gzft_jue_xian_0774 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0775 = { # 漏江侯
+gzfv_jue_xian_0775 = { # 谈稿侯
 	type = character
 	flag = guanzhi_jue_xian_0775
 	priority = 2000
@@ -18291,7 +18291,7 @@ gzft_jue_xian_0775 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0776 = { # 毋单侯
+gzfv_jue_xian_0776 = { # 漏江侯
 	type = character
 	flag = guanzhi_jue_xian_0776
 	priority = 2000
@@ -18312,7 +18312,7 @@ gzft_jue_xian_0776 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0777 = { # 宛温侯
+gzfv_jue_xian_0777 = { # 毋单侯
 	type = character
 	flag = guanzhi_jue_xian_0777
 	priority = 2000
@@ -18333,7 +18333,7 @@ gzft_jue_xian_0777 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0778 = { # 镡封侯
+gzfv_jue_xian_0778 = { # 宛温侯
 	type = character
 	flag = guanzhi_jue_xian_0778
 	priority = 2000
@@ -18354,7 +18354,7 @@ gzft_jue_xian_0778 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0779 = { # 漏卧侯
+gzfv_jue_xian_0779 = { # 镡封侯
 	type = character
 	flag = guanzhi_jue_xian_0779
 	priority = 2000
@@ -18375,7 +18375,7 @@ gzft_jue_xian_0779 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0780 = { # 句町侯
+gzfv_jue_xian_0780 = { # 漏卧侯
 	type = character
 	flag = guanzhi_jue_xian_0780
 	priority = 2000
@@ -18396,7 +18396,7 @@ gzft_jue_xian_0780 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0781 = { # 进乘侯
+gzfv_jue_xian_0781 = { # 句町侯
 	type = character
 	flag = guanzhi_jue_xian_0781
 	priority = 2000
@@ -18417,7 +18417,7 @@ gzft_jue_xian_0781 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0782 = { # 西随侯
+gzfv_jue_xian_0782 = { # 进乘侯
 	type = character
 	flag = guanzhi_jue_xian_0782
 	priority = 2000
@@ -18438,7 +18438,7 @@ gzft_jue_xian_0782 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0783 = { # 邛都侯
+gzfv_jue_xian_0783 = { # 西随侯
 	type = character
 	flag = guanzhi_jue_xian_0783
 	priority = 2000
@@ -18459,7 +18459,7 @@ gzft_jue_xian_0783 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0784 = { # 遂久侯
+gzfv_jue_xian_0784 = { # 邛都侯
 	type = character
 	flag = guanzhi_jue_xian_0784
 	priority = 2000
@@ -18480,7 +18480,7 @@ gzft_jue_xian_0784 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0785 = { # 灵关道侯
+gzfv_jue_xian_0785 = { # 遂久侯
 	type = character
 	flag = guanzhi_jue_xian_0785
 	priority = 2000
@@ -18501,7 +18501,7 @@ gzft_jue_xian_0785 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0786 = { # 台登侯
+gzfv_jue_xian_0786 = { # 灵关道侯
 	type = character
 	flag = guanzhi_jue_xian_0786
 	priority = 2000
@@ -18522,7 +18522,7 @@ gzft_jue_xian_0786 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0787 = { # 青蛉侯
+gzfv_jue_xian_0787 = { # 台登侯
 	type = character
 	flag = guanzhi_jue_xian_0787
 	priority = 2000
@@ -18543,7 +18543,7 @@ gzft_jue_xian_0787 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0788 = { # 卑水侯
+gzfv_jue_xian_0788 = { # 青蛉侯
 	type = character
 	flag = guanzhi_jue_xian_0788
 	priority = 2000
@@ -18564,7 +18564,7 @@ gzft_jue_xian_0788 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0789 = { # 三缝侯
+gzfv_jue_xian_0789 = { # 卑水侯
 	type = character
 	flag = guanzhi_jue_xian_0789
 	priority = 2000
@@ -18585,7 +18585,7 @@ gzft_jue_xian_0789 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0790 = { # 会无侯
+gzfv_jue_xian_0790 = { # 三缝侯
 	type = character
 	flag = guanzhi_jue_xian_0790
 	priority = 2000
@@ -18606,7 +18606,7 @@ gzft_jue_xian_0790 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0791 = { # 定莋侯
+gzfv_jue_xian_0791 = { # 会无侯
 	type = character
 	flag = guanzhi_jue_xian_0791
 	priority = 2000
@@ -18627,7 +18627,7 @@ gzft_jue_xian_0791 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0792 = { # 阐侯
+gzfv_jue_xian_0792 = { # 定莋侯
 	type = character
 	flag = guanzhi_jue_xian_0792
 	priority = 2000
@@ -18648,7 +18648,7 @@ gzft_jue_xian_0792 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0793 = { # 苏示侯
+gzfv_jue_xian_0793 = { # 阐侯
 	type = character
 	flag = guanzhi_jue_xian_0793
 	priority = 2000
@@ -18669,7 +18669,7 @@ gzft_jue_xian_0793 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0794 = { # 大莋侯
+gzfv_jue_xian_0794 = { # 苏示侯
 	type = character
 	flag = guanzhi_jue_xian_0794
 	priority = 2000
@@ -18690,7 +18690,7 @@ gzft_jue_xian_0794 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0795 = { # 莋秦侯
+gzfv_jue_xian_0795 = { # 大莋侯
 	type = character
 	flag = guanzhi_jue_xian_0795
 	priority = 2000
@@ -18711,7 +18711,7 @@ gzft_jue_xian_0795 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0796 = { # 姑复侯
+gzfv_jue_xian_0796 = { # 莋秦侯
 	type = character
 	flag = guanzhi_jue_xian_0796
 	priority = 2000
@@ -18732,7 +18732,7 @@ gzft_jue_xian_0796 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0797 = { # 滇池侯
+gzfv_jue_xian_0797 = { # 姑复侯
 	type = character
 	flag = guanzhi_jue_xian_0797
 	priority = 2000
@@ -18753,7 +18753,7 @@ gzft_jue_xian_0797 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0798 = { # 胜休侯
+gzfv_jue_xian_0798 = { # 滇池侯
 	type = character
 	flag = guanzhi_jue_xian_0798
 	priority = 2000
@@ -18774,7 +18774,7 @@ gzft_jue_xian_0798 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0799 = { # 俞元侯
+gzfv_jue_xian_0799 = { # 胜休侯
 	type = character
 	flag = guanzhi_jue_xian_0799
 	priority = 2000
@@ -18795,7 +18795,7 @@ gzft_jue_xian_0799 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0800 = { # 律高侯
+gzfv_jue_xian_0800 = { # 俞元侯
 	type = character
 	flag = guanzhi_jue_xian_0800
 	priority = 2000
@@ -18816,7 +18816,7 @@ gzft_jue_xian_0800 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0801 = { # 贲古侯
+gzfv_jue_xian_0801 = { # 律高侯
 	type = character
 	flag = guanzhi_jue_xian_0801
 	priority = 2000
@@ -18837,7 +18837,7 @@ gzft_jue_xian_0801 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0802 = { # 毋棳侯
+gzfv_jue_xian_0802 = { # 贲古侯
 	type = character
 	flag = guanzhi_jue_xian_0802
 	priority = 2000
@@ -18858,7 +18858,7 @@ gzft_jue_xian_0802 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0803 = { # 建伶侯
+gzfv_jue_xian_0803 = { # 毋棳侯
 	type = character
 	flag = guanzhi_jue_xian_0803
 	priority = 2000
@@ -18879,7 +18879,7 @@ gzft_jue_xian_0803 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0804 = { # 穀昌侯
+gzfv_jue_xian_0804 = { # 建伶侯
 	type = character
 	flag = guanzhi_jue_xian_0804
 	priority = 2000
@@ -18900,7 +18900,7 @@ gzft_jue_xian_0804 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0805 = { # 牧靡侯
+gzfv_jue_xian_0805 = { # 谷昌侯
 	type = character
 	flag = guanzhi_jue_xian_0805
 	priority = 2000
@@ -18921,7 +18921,7 @@ gzft_jue_xian_0805 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0806 = { # 味侯
+gzfv_jue_xian_0806 = { # 牧靡侯
 	type = character
 	flag = guanzhi_jue_xian_0806
 	priority = 2000
@@ -18942,7 +18942,7 @@ gzft_jue_xian_0806 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0807 = { # 昆泽侯
+gzfv_jue_xian_0807 = { # 味侯
 	type = character
 	flag = guanzhi_jue_xian_0807
 	priority = 2000
@@ -18963,7 +18963,7 @@ gzft_jue_xian_0807 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0808 = { # 同濑侯
+gzfv_jue_xian_0808 = { # 昆泽侯
 	type = character
 	flag = guanzhi_jue_xian_0808
 	priority = 2000
@@ -18984,7 +18984,7 @@ gzft_jue_xian_0808 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0809 = { # 同劳侯
+gzfv_jue_xian_0809 = { # 同濑侯
 	type = character
 	flag = guanzhi_jue_xian_0809
 	priority = 2000
@@ -19005,7 +19005,7 @@ gzft_jue_xian_0809 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0810 = { # 双柏侯
+gzfv_jue_xian_0810 = { # 同劳侯
 	type = character
 	flag = guanzhi_jue_xian_0810
 	priority = 2000
@@ -19026,7 +19026,7 @@ gzft_jue_xian_0810 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0811 = { # 连然侯
+gzfv_jue_xian_0811 = { # 双柏侯
 	type = character
 	flag = guanzhi_jue_xian_0811
 	priority = 2000
@@ -19047,7 +19047,7 @@ gzft_jue_xian_0811 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0812 = { # 梇栋侯
+gzfv_jue_xian_0812 = { # 连然侯
 	type = character
 	flag = guanzhi_jue_xian_0812
 	priority = 2000
@@ -19068,7 +19068,7 @@ gzft_jue_xian_0812 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0813 = { # 秦臧侯
+gzfv_jue_xian_0813 = { # 梇栋侯
 	type = character
 	flag = guanzhi_jue_xian_0813
 	priority = 2000
@@ -19089,7 +19089,7 @@ gzft_jue_xian_0813 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0814 = { # 不韦侯
+gzfv_jue_xian_0814 = { # 秦臧侯
 	type = character
 	flag = guanzhi_jue_xian_0814
 	priority = 2000
@@ -19110,7 +19110,7 @@ gzft_jue_xian_0814 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0815 = { # 巂唐侯
+gzfv_jue_xian_0815 = { # 不韦侯
 	type = character
 	flag = guanzhi_jue_xian_0815
 	priority = 2000
@@ -19131,7 +19131,7 @@ gzft_jue_xian_0815 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0816 = { # 比苏侯
+gzfv_jue_xian_0816 = { # 巂唐侯
 	type = character
 	flag = guanzhi_jue_xian_0816
 	priority = 2000
@@ -19152,7 +19152,7 @@ gzft_jue_xian_0816 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0817 = { # 楪榆侯
+gzfv_jue_xian_0817 = { # 比苏侯
 	type = character
 	flag = guanzhi_jue_xian_0817
 	priority = 2000
@@ -19173,7 +19173,7 @@ gzft_jue_xian_0817 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0818 = { # 邪龙侯
+gzfv_jue_xian_0818 = { # 楪榆侯
 	type = character
 	flag = guanzhi_jue_xian_0818
 	priority = 2000
@@ -19194,7 +19194,7 @@ gzft_jue_xian_0818 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0819 = { # 云南侯
+gzfv_jue_xian_0819 = { # 邪龙侯
 	type = character
 	flag = guanzhi_jue_xian_0819
 	priority = 2000
@@ -19215,7 +19215,7 @@ gzft_jue_xian_0819 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0820 = { # 哀牢侯
+gzfv_jue_xian_0820 = { # 云南侯
 	type = character
 	flag = guanzhi_jue_xian_0820
 	priority = 2000
@@ -19236,7 +19236,7 @@ gzft_jue_xian_0820 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0821 = { # 博南侯
+gzfv_jue_xian_0821 = { # 哀牢侯
 	type = character
 	flag = guanzhi_jue_xian_0821
 	priority = 2000
@@ -19257,7 +19257,7 @@ gzft_jue_xian_0821 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0822 = { # 阴平道侯
+gzfv_jue_xian_0822 = { # 博南侯
 	type = character
 	flag = guanzhi_jue_xian_0822
 	priority = 2000
@@ -19278,7 +19278,7 @@ gzft_jue_xian_0822 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0823 = { # 甸氐道侯
+gzfv_jue_xian_0823 = { # 阴平道侯
 	type = character
 	flag = guanzhi_jue_xian_0823
 	priority = 2000
@@ -19299,7 +19299,7 @@ gzft_jue_xian_0823 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0824 = { # 刚氐道侯
+gzfv_jue_xian_0824 = { # 甸氐道侯
 	type = character
 	flag = guanzhi_jue_xian_0824
 	priority = 2000
@@ -19320,7 +19320,7 @@ gzft_jue_xian_0824 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0825 = { # 汉嘉侯
+gzfv_jue_xian_0825 = { # 刚氐道侯
 	type = character
 	flag = guanzhi_jue_xian_0825
 	priority = 2000
@@ -19341,7 +19341,7 @@ gzft_jue_xian_0825 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0826 = { # 严道侯
+gzfv_jue_xian_0826 = { # 汉嘉侯
 	type = character
 	flag = guanzhi_jue_xian_0826
 	priority = 2000
@@ -19362,7 +19362,7 @@ gzft_jue_xian_0826 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0827 = { # 徙侯
+gzfv_jue_xian_0827 = { # 严道侯
 	type = character
 	flag = guanzhi_jue_xian_0827
 	priority = 2000
@@ -19383,7 +19383,7 @@ gzft_jue_xian_0827 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0828 = { # 旄牛侯
+gzfv_jue_xian_0828 = { # 徙侯
 	type = character
 	flag = guanzhi_jue_xian_0828
 	priority = 2000
@@ -19404,7 +19404,7 @@ gzft_jue_xian_0828 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0829 = { # 朱提侯
+gzfv_jue_xian_0829 = { # 旄牛侯
 	type = character
 	flag = guanzhi_jue_xian_0829
 	priority = 2000
@@ -19425,7 +19425,7 @@ gzft_jue_xian_0829 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0830 = { # 汉阳侯
+gzfv_jue_xian_0830 = { # 朱提侯
 	type = character
 	flag = guanzhi_jue_xian_0830
 	priority = 2000
@@ -19446,7 +19446,7 @@ gzft_jue_xian_0830 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0831 = { # 狄道侯
+gzfv_jue_xian_0831 = { # 汉阳侯
 	type = character
 	flag = guanzhi_jue_xian_0831
 	priority = 2000
@@ -19467,7 +19467,7 @@ gzft_jue_xian_0831 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0832 = { # 安故侯
+gzfv_jue_xian_0832 = { # 狄道侯
 	type = character
 	flag = guanzhi_jue_xian_0832
 	priority = 2000
@@ -19488,7 +19488,7 @@ gzft_jue_xian_0832 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0833 = { # 氐道侯
+gzfv_jue_xian_0833 = { # 安故侯
 	type = character
 	flag = guanzhi_jue_xian_0833
 	priority = 2000
@@ -19509,7 +19509,7 @@ gzft_jue_xian_0833 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0834 = { # 首阳侯
+gzfv_jue_xian_0834 = { # 氐道侯
 	type = character
 	flag = guanzhi_jue_xian_0834
 	priority = 2000
@@ -19530,7 +19530,7 @@ gzft_jue_xian_0834 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0835 = { # 大夏侯
+gzfv_jue_xian_0835 = { # 首阳侯
 	type = character
 	flag = guanzhi_jue_xian_0835
 	priority = 2000
@@ -19551,7 +19551,7 @@ gzft_jue_xian_0835 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0836 = { # 襄武侯
+gzfv_jue_xian_0836 = { # 大夏侯
 	type = character
 	flag = guanzhi_jue_xian_0836
 	priority = 2000
@@ -19572,7 +19572,7 @@ gzft_jue_xian_0836 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0837 = { # 临洮侯
+gzfv_jue_xian_0837 = { # 襄武侯
 	type = character
 	flag = guanzhi_jue_xian_0837
 	priority = 2000
@@ -19593,7 +19593,7 @@ gzft_jue_xian_0837 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0838 = { # 枹罕侯
+gzfv_jue_xian_0838 = { # 临洮侯
 	type = character
 	flag = guanzhi_jue_xian_0838
 	priority = 2000
@@ -19614,7 +19614,7 @@ gzft_jue_xian_0838 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0839 = { # 白石侯
+gzfv_jue_xian_0839 = { # 枹罕侯
 	type = character
 	flag = guanzhi_jue_xian_0839
 	priority = 2000
@@ -19635,7 +19635,7 @@ gzft_jue_xian_0839 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0840 = { # 鄣侯
+gzfv_jue_xian_0840 = { # 白石侯
 	type = character
 	flag = guanzhi_jue_xian_0840
 	priority = 2000
@@ -19656,7 +19656,7 @@ gzft_jue_xian_0840 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0841 = { # 河关侯
+gzfv_jue_xian_0841 = { # 鄣侯
 	type = character
 	flag = guanzhi_jue_xian_0841
 	priority = 2000
@@ -19677,7 +19677,7 @@ gzft_jue_xian_0841 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0842 = { # 冀侯
+gzfv_jue_xian_0842 = { # 河关侯
 	type = character
 	flag = guanzhi_jue_xian_0842
 	priority = 2000
@@ -19698,7 +19698,7 @@ gzft_jue_xian_0842 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0843 = { # 望垣侯
+gzfv_jue_xian_0843 = { # 冀侯
 	type = character
 	flag = guanzhi_jue_xian_0843
 	priority = 2000
@@ -19719,7 +19719,7 @@ gzft_jue_xian_0843 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0844 = { # 阿阳侯
+gzfv_jue_xian_0844 = { # 望垣侯
 	type = character
 	flag = guanzhi_jue_xian_0844
 	priority = 2000
@@ -19740,7 +19740,7 @@ gzft_jue_xian_0844 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0845 = { # 略阳侯
+gzfv_jue_xian_0845 = { # 阿阳侯
 	type = character
 	flag = guanzhi_jue_xian_0845
 	priority = 2000
@@ -19761,7 +19761,7 @@ gzft_jue_xian_0845 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0846 = { # 勇士侯
+gzfv_jue_xian_0846 = { # 略阳侯
 	type = character
 	flag = guanzhi_jue_xian_0846
 	priority = 2000
@@ -19782,7 +19782,7 @@ gzft_jue_xian_0846 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0847 = { # 成纪侯
+gzfv_jue_xian_0847 = { # 勇士侯
 	type = character
 	flag = guanzhi_jue_xian_0847
 	priority = 2000
@@ -19803,7 +19803,7 @@ gzft_jue_xian_0847 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0848 = { # 陇侯
+gzfv_jue_xian_0848 = { # 成纪侯
 	type = character
 	flag = guanzhi_jue_xian_0848
 	priority = 2000
@@ -19824,7 +19824,7 @@ gzft_jue_xian_0848 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0849 = { # 豲道侯
+gzfv_jue_xian_0849 = { # 陇侯
 	type = character
 	flag = guanzhi_jue_xian_0849
 	priority = 2000
@@ -19845,7 +19845,7 @@ gzft_jue_xian_0849 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0850 = { # 兰干侯
+gzfv_jue_xian_0850 = { # 豲道侯
 	type = character
 	flag = guanzhi_jue_xian_0850
 	priority = 2000
@@ -19866,7 +19866,7 @@ gzft_jue_xian_0850 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0851 = { # 平襄侯
+gzfv_jue_xian_0851 = { # 兰干侯
 	type = character
 	flag = guanzhi_jue_xian_0851
 	priority = 2000
@@ -19887,7 +19887,7 @@ gzft_jue_xian_0851 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0852 = { # 显亲侯
+gzfv_jue_xian_0852 = { # 平襄侯
 	type = character
 	flag = guanzhi_jue_xian_0852
 	priority = 2000
@@ -19908,7 +19908,7 @@ gzft_jue_xian_0852 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0853 = { # 上邽侯
+gzfv_jue_xian_0853 = { # 显亲侯
 	type = character
 	flag = guanzhi_jue_xian_0853
 	priority = 2000
@@ -19929,7 +19929,7 @@ gzft_jue_xian_0853 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0854 = { # 西侯
+gzfv_jue_xian_0854 = { # 上邽侯
 	type = character
 	flag = guanzhi_jue_xian_0854
 	priority = 2000
@@ -19950,7 +19950,7 @@ gzft_jue_xian_0854 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0855 = { # 下辨侯
+gzfv_jue_xian_0855 = { # 西侯
 	type = character
 	flag = guanzhi_jue_xian_0855
 	priority = 2000
@@ -19971,7 +19971,7 @@ gzft_jue_xian_0855 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0856 = { # 武都道侯
+gzfv_jue_xian_0856 = { # 下辨侯
 	type = character
 	flag = guanzhi_jue_xian_0856
 	priority = 2000
@@ -19992,7 +19992,7 @@ gzft_jue_xian_0856 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0857 = { # 上禄侯
+gzfv_jue_xian_0857 = { # 武都道侯
 	type = character
 	flag = guanzhi_jue_xian_0857
 	priority = 2000
@@ -20013,7 +20013,7 @@ gzft_jue_xian_0857 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0858 = { # 故道侯
+gzfv_jue_xian_0858 = { # 上禄侯
 	type = character
 	flag = guanzhi_jue_xian_0858
 	priority = 2000
@@ -20034,7 +20034,7 @@ gzft_jue_xian_0858 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0859 = { # 河池侯
+gzfv_jue_xian_0859 = { # 故道侯
 	type = character
 	flag = guanzhi_jue_xian_0859
 	priority = 2000
@@ -20055,7 +20055,7 @@ gzft_jue_xian_0859 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0860 = { # 沮侯
+gzfv_jue_xian_0860 = { # 河池侯
 	type = character
 	flag = guanzhi_jue_xian_0860
 	priority = 2000
@@ -20076,7 +20076,7 @@ gzft_jue_xian_0860 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0861 = { # 羌道侯
+gzfv_jue_xian_0861 = { # 沮侯
 	type = character
 	flag = guanzhi_jue_xian_0861
 	priority = 2000
@@ -20097,7 +20097,7 @@ gzft_jue_xian_0861 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0862 = { # 允吾侯
+gzfv_jue_xian_0862 = { # 羌道侯
 	type = character
 	flag = guanzhi_jue_xian_0862
 	priority = 2000
@@ -20118,7 +20118,7 @@ gzft_jue_xian_0862 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0863 = { # 浩亹侯
+gzfv_jue_xian_0863 = { # 允吾侯
 	type = character
 	flag = guanzhi_jue_xian_0863
 	priority = 2000
@@ -20139,7 +20139,7 @@ gzft_jue_xian_0863 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0864 = { # 令居侯
+gzfv_jue_xian_0864 = { # 浩亹侯
 	type = character
 	flag = guanzhi_jue_xian_0864
 	priority = 2000
@@ -20160,7 +20160,7 @@ gzft_jue_xian_0864 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0865 = { # 枝阳侯
+gzfv_jue_xian_0865 = { # 令居侯
 	type = character
 	flag = guanzhi_jue_xian_0865
 	priority = 2000
@@ -20181,7 +20181,7 @@ gzft_jue_xian_0865 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0866 = { # 金城侯
+gzfv_jue_xian_0866 = { # 枝阳侯
 	type = character
 	flag = guanzhi_jue_xian_0866
 	priority = 2000
@@ -20202,7 +20202,7 @@ gzft_jue_xian_0866 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0867 = { # 榆中侯
+gzfv_jue_xian_0867 = { # 金城侯
 	type = character
 	flag = guanzhi_jue_xian_0867
 	priority = 2000
@@ -20223,7 +20223,7 @@ gzft_jue_xian_0867 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0868 = { # 临羌侯
+gzfv_jue_xian_0868 = { # 榆中侯
 	type = character
 	flag = guanzhi_jue_xian_0868
 	priority = 2000
@@ -20244,7 +20244,7 @@ gzft_jue_xian_0868 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0869 = { # 破羌侯
+gzfv_jue_xian_0869 = { # 临羌侯
 	type = character
 	flag = guanzhi_jue_xian_0869
 	priority = 2000
@@ -20265,7 +20265,7 @@ gzft_jue_xian_0869 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0870 = { # 安夷侯
+gzfv_jue_xian_0870 = { # 破羌侯
 	type = character
 	flag = guanzhi_jue_xian_0870
 	priority = 2000
@@ -20286,7 +20286,7 @@ gzft_jue_xian_0870 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0871 = { # 允街侯
+gzfv_jue_xian_0871 = { # 安夷侯
 	type = character
 	flag = guanzhi_jue_xian_0871
 	priority = 2000
@@ -20307,7 +20307,7 @@ gzft_jue_xian_0871 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0872 = { # 临泾侯
+gzfv_jue_xian_0872 = { # 允街侯
 	type = character
 	flag = guanzhi_jue_xian_0872
 	priority = 2000
@@ -20328,7 +20328,7 @@ gzft_jue_xian_0872 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0873 = { # 朝那侯
+gzfv_jue_xian_0873 = { # 临泾侯
 	type = character
 	flag = guanzhi_jue_xian_0873
 	priority = 2000
@@ -20349,7 +20349,7 @@ gzft_jue_xian_0873 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0874 = { # 乌枝侯
+gzfv_jue_xian_0874 = { # 朝那侯
 	type = character
 	flag = guanzhi_jue_xian_0874
 	priority = 2000
@@ -20370,7 +20370,7 @@ gzft_jue_xian_0874 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0875 = { # 三水侯
+gzfv_jue_xian_0875 = { # 乌枝侯
 	type = character
 	flag = guanzhi_jue_xian_0875
 	priority = 2000
@@ -20391,7 +20391,7 @@ gzft_jue_xian_0875 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0876 = { # 阴盘侯
+gzfv_jue_xian_0876 = { # 三水侯
 	type = character
 	flag = guanzhi_jue_xian_0876
 	priority = 2000
@@ -20412,7 +20412,7 @@ gzft_jue_xian_0876 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0877 = { # 彭阳侯
+gzfv_jue_xian_0877 = { # 阴槃侯
 	type = character
 	flag = guanzhi_jue_xian_0877
 	priority = 2000
@@ -20433,7 +20433,7 @@ gzft_jue_xian_0877 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0878 = { # 鹑觚侯
+gzfv_jue_xian_0878 = { # 彭阳侯
 	type = character
 	flag = guanzhi_jue_xian_0878
 	priority = 2000
@@ -20454,7 +20454,7 @@ gzft_jue_xian_0878 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0879 = { # 富平侯
+gzfv_jue_xian_0879 = { # 鹑觚侯
 	type = character
 	flag = guanzhi_jue_xian_0879
 	priority = 2000
@@ -20475,7 +20475,7 @@ gzft_jue_xian_0879 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0880 = { # 泥阳侯
+gzfv_jue_xian_0880 = { # 富平侯
 	type = character
 	flag = guanzhi_jue_xian_0880
 	priority = 2000
@@ -20496,7 +20496,7 @@ gzft_jue_xian_0880 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0881 = { # 弋居侯
+gzfv_jue_xian_0881 = { # 泥阳侯
 	type = character
 	flag = guanzhi_jue_xian_0881
 	priority = 2000
@@ -20517,7 +20517,7 @@ gzft_jue_xian_0881 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0882 = { # 廉侯
+gzfv_jue_xian_0882 = { # 弋居侯
 	type = character
 	flag = guanzhi_jue_xian_0882
 	priority = 2000
@@ -20538,7 +20538,7 @@ gzft_jue_xian_0882 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0883 = { # 参龻侯
+gzfv_jue_xian_0883 = { # 廉侯
 	type = character
 	flag = guanzhi_jue_xian_0883
 	priority = 2000
@@ -20559,7 +20559,7 @@ gzft_jue_xian_0883 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0884 = { # 灵州侯
+gzfv_jue_xian_0884 = { # 参䜌侯
 	type = character
 	flag = guanzhi_jue_xian_0884
 	priority = 2000
@@ -20580,7 +20580,7 @@ gzft_jue_xian_0884 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0885 = { # 姑臧侯
+gzfv_jue_xian_0885 = { # 灵州侯
 	type = character
 	flag = guanzhi_jue_xian_0885
 	priority = 2000
@@ -20601,7 +20601,7 @@ gzft_jue_xian_0885 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0886 = { # 张掖侯
+gzfv_jue_xian_0886 = { # 姑臧侯
 	type = character
 	flag = guanzhi_jue_xian_0886
 	priority = 2000
@@ -20622,7 +20622,7 @@ gzft_jue_xian_0886 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0887 = { # 武威侯
+gzfv_jue_xian_0887 = { # 张掖侯
 	type = character
 	flag = guanzhi_jue_xian_0887
 	priority = 2000
@@ -20643,7 +20643,7 @@ gzft_jue_xian_0887 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0888 = { # 休屠侯
+gzfv_jue_xian_0888 = { # 武威侯
 	type = character
 	flag = guanzhi_jue_xian_0888
 	priority = 2000
@@ -20664,7 +20664,7 @@ gzft_jue_xian_0888 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0889 = { # 揟次侯
+gzfv_jue_xian_0889 = { # 休屠侯
 	type = character
 	flag = guanzhi_jue_xian_0889
 	priority = 2000
@@ -20685,7 +20685,7 @@ gzft_jue_xian_0889 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0890 = { # 鸾鸟侯
+gzfv_jue_xian_0890 = { # 揟次侯
 	type = character
 	flag = guanzhi_jue_xian_0890
 	priority = 2000
@@ -20706,7 +20706,7 @@ gzft_jue_xian_0890 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0891 = { # 朴𠟼侯
+gzfv_jue_xian_0891 = { # 鸾鸟侯
 	type = character
 	flag = guanzhi_jue_xian_0891
 	priority = 2000
@@ -20727,7 +20727,7 @@ gzft_jue_xian_0891 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0892 = { # 媪围侯
+gzfv_jue_xian_0892 = { # 朴𠟼侯
 	type = character
 	flag = guanzhi_jue_xian_0892
 	priority = 2000
@@ -20748,7 +20748,7 @@ gzft_jue_xian_0892 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0893 = { # 宣威侯
+gzfv_jue_xian_0893 = { # 媪围侯
 	type = character
 	flag = guanzhi_jue_xian_0893
 	priority = 2000
@@ -20769,7 +20769,7 @@ gzft_jue_xian_0893 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0894 = { # 仓松侯
+gzfv_jue_xian_0894 = { # 宣威侯
 	type = character
 	flag = guanzhi_jue_xian_0894
 	priority = 2000
@@ -20790,7 +20790,7 @@ gzft_jue_xian_0894 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0895 = { # 鹯阴侯
+gzfv_jue_xian_0895 = { # 苍松侯
 	type = character
 	flag = guanzhi_jue_xian_0895
 	priority = 2000
@@ -20811,7 +20811,7 @@ gzft_jue_xian_0895 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0896 = { # 袓厉侯
+gzfv_jue_xian_0896 = { # 鹯阴侯
 	type = character
 	flag = guanzhi_jue_xian_0896
 	priority = 2000
@@ -20832,7 +20832,7 @@ gzft_jue_xian_0896 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0897 = { # 显美侯
+gzfv_jue_xian_0897 = { # 祖厉侯
 	type = character
 	flag = guanzhi_jue_xian_0897
 	priority = 2000
@@ -20853,7 +20853,7 @@ gzft_jue_xian_0897 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0898 = { # 左骑侯
+gzfv_jue_xian_0898 = { # 显美侯
 	type = character
 	flag = guanzhi_jue_xian_0898
 	priority = 2000
@@ -20874,7 +20874,7 @@ gzft_jue_xian_0898 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0899 = { # 觻得侯
+gzfv_jue_xian_0899 = { # 左骑侯
 	type = character
 	flag = guanzhi_jue_xian_0899
 	priority = 2000
@@ -20895,7 +20895,7 @@ gzft_jue_xian_0899 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0900 = { # 昭武侯
+gzfv_jue_xian_0900 = { # 觻得侯
 	type = character
 	flag = guanzhi_jue_xian_0900
 	priority = 2000
@@ -20916,7 +20916,7 @@ gzft_jue_xian_0900 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0901 = { # 删丹侯
+gzfv_jue_xian_0901 = { # 昭武侯
 	type = character
 	flag = guanzhi_jue_xian_0901
 	priority = 2000
@@ -20937,7 +20937,7 @@ gzft_jue_xian_0901 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0902 = { # 氐池侯
+gzfv_jue_xian_0902 = { # 删丹侯
 	type = character
 	flag = guanzhi_jue_xian_0902
 	priority = 2000
@@ -20958,7 +20958,7 @@ gzft_jue_xian_0902 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0903 = { # 屋兰侯
+gzfv_jue_xian_0903 = { # 氐池侯
 	type = character
 	flag = guanzhi_jue_xian_0903
 	priority = 2000
@@ -20979,7 +20979,7 @@ gzft_jue_xian_0903 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0904 = { # 日勒侯
+gzfv_jue_xian_0904 = { # 屋兰侯
 	type = character
 	flag = guanzhi_jue_xian_0904
 	priority = 2000
@@ -21000,7 +21000,7 @@ gzft_jue_xian_0904 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0905 = { # 骊靬侯
+gzfv_jue_xian_0905 = { # 日勒侯
 	type = character
 	flag = guanzhi_jue_xian_0905
 	priority = 2000
@@ -21021,7 +21021,7 @@ gzft_jue_xian_0905 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0906 = { # 番和侯
+gzfv_jue_xian_0906 = { # 骊靬侯
 	type = character
 	flag = guanzhi_jue_xian_0906
 	priority = 2000
@@ -21042,7 +21042,7 @@ gzft_jue_xian_0906 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0907 = { # 福禄侯
+gzfv_jue_xian_0907 = { # 番和侯
 	type = character
 	flag = guanzhi_jue_xian_0907
 	priority = 2000
@@ -21063,7 +21063,7 @@ gzft_jue_xian_0907 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0908 = { # 表氏侯
+gzfv_jue_xian_0908 = { # 禄福侯
 	type = character
 	flag = guanzhi_jue_xian_0908
 	priority = 2000
@@ -21084,7 +21084,7 @@ gzft_jue_xian_0908 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0909 = { # 乐涫侯
+gzfv_jue_xian_0909 = { # 表氏侯
 	type = character
 	flag = guanzhi_jue_xian_0909
 	priority = 2000
@@ -21105,7 +21105,7 @@ gzft_jue_xian_0909 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0910 = { # 玉门侯
+gzfv_jue_xian_0910 = { # 乐涫侯
 	type = character
 	flag = guanzhi_jue_xian_0910
 	priority = 2000
@@ -21126,7 +21126,7 @@ gzft_jue_xian_0910 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0911 = { # 会水侯
+gzfv_jue_xian_0911 = { # 玉门侯
 	type = character
 	flag = guanzhi_jue_xian_0911
 	priority = 2000
@@ -21147,7 +21147,7 @@ gzft_jue_xian_0911 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0912 = { # 沙头侯
+gzfv_jue_xian_0912 = { # 会水侯
 	type = character
 	flag = guanzhi_jue_xian_0912
 	priority = 2000
@@ -21168,7 +21168,7 @@ gzft_jue_xian_0912 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0913 = { # 安弥侯
+gzfv_jue_xian_0913 = { # 沙头侯
 	type = character
 	flag = guanzhi_jue_xian_0913
 	priority = 2000
@@ -21189,7 +21189,7 @@ gzft_jue_xian_0913 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0914 = { # 乾齐侯
+gzfv_jue_xian_0914 = { # 安弥侯
 	type = character
 	flag = guanzhi_jue_xian_0914
 	priority = 2000
@@ -21210,7 +21210,7 @@ gzft_jue_xian_0914 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0915 = { # 延寿侯
+gzfv_jue_xian_0915 = { # 干齐侯
 	type = character
 	flag = guanzhi_jue_xian_0915
 	priority = 2000
@@ -21231,7 +21231,7 @@ gzft_jue_xian_0915 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0916 = { # 敦煌侯
+gzfv_jue_xian_0916 = { # 延寿侯
 	type = character
 	flag = guanzhi_jue_xian_0916
 	priority = 2000
@@ -21252,7 +21252,7 @@ gzft_jue_xian_0916 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0917 = { # 冥安侯
+gzfv_jue_xian_0917 = { # 敦煌侯
 	type = character
 	flag = guanzhi_jue_xian_0917
 	priority = 2000
@@ -21273,7 +21273,7 @@ gzft_jue_xian_0917 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0918 = { # 效穀侯
+gzfv_jue_xian_0918 = { # 冥安侯
 	type = character
 	flag = guanzhi_jue_xian_0918
 	priority = 2000
@@ -21294,7 +21294,7 @@ gzft_jue_xian_0918 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0919 = { # 拼泉侯
+gzfv_jue_xian_0919 = { # 效谷侯
 	type = character
 	flag = guanzhi_jue_xian_0919
 	priority = 2000
@@ -21315,7 +21315,7 @@ gzft_jue_xian_0919 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0920 = { # 广至侯
+gzfv_jue_xian_0920 = { # 渊泉侯
 	type = character
 	flag = guanzhi_jue_xian_0920
 	priority = 2000
@@ -21336,7 +21336,7 @@ gzft_jue_xian_0920 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0921 = { # 龙勒侯
+gzfv_jue_xian_0921 = { # 广至侯
 	type = character
 	flag = guanzhi_jue_xian_0921
 	priority = 2000
@@ -21357,7 +21357,7 @@ gzft_jue_xian_0921 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0922 = { # 候官侯
+gzfv_jue_xian_0922 = { # 龙勒侯
 	type = character
 	flag = guanzhi_jue_xian_0922
 	priority = 2000
@@ -21378,7 +21378,7 @@ gzft_jue_xian_0922 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0923 = { # 千人侯
+gzfv_jue_xian_0923 = { # 候官侯
 	type = character
 	flag = guanzhi_jue_xian_0923
 	priority = 2000
@@ -21399,7 +21399,7 @@ gzft_jue_xian_0923 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0924 = { # 司马官侯
+gzfv_jue_xian_0924 = { # 千人侯
 	type = character
 	flag = guanzhi_jue_xian_0924
 	priority = 2000
@@ -21420,7 +21420,7 @@ gzft_jue_xian_0924 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0925 = { # 千人官侯
+gzfv_jue_xian_0925 = { # 司马官侯
 	type = character
 	flag = guanzhi_jue_xian_0925
 	priority = 2000
@@ -21441,7 +21441,7 @@ gzft_jue_xian_0925 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0926 = { # 居延侯
+gzfv_jue_xian_0926 = { # 千人官侯
 	type = character
 	flag = guanzhi_jue_xian_0926
 	priority = 2000
@@ -21462,7 +21462,7 @@ gzft_jue_xian_0926 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0927 = { # 长子侯
+gzfv_jue_xian_0927 = { # 居延侯
 	type = character
 	flag = guanzhi_jue_xian_0927
 	priority = 2000
@@ -21483,7 +21483,7 @@ gzft_jue_xian_0927 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0928 = { # 屯留侯
+gzfv_jue_xian_0928 = { # 长子侯
 	type = character
 	flag = guanzhi_jue_xian_0928
 	priority = 2000
@@ -21504,7 +21504,7 @@ gzft_jue_xian_0928 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0929 = { # 铜鞮侯
+gzfv_jue_xian_0929 = { # 屯留侯
 	type = character
 	flag = guanzhi_jue_xian_0929
 	priority = 2000
@@ -21525,7 +21525,7 @@ gzft_jue_xian_0929 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0930 = { # 沾侯
+gzfv_jue_xian_0930 = { # 铜鞮侯
 	type = character
 	flag = guanzhi_jue_xian_0930
 	priority = 2000
@@ -21546,7 +21546,7 @@ gzft_jue_xian_0930 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0931 = { # 涅侯
+gzfv_jue_xian_0931 = { # 沾侯
 	type = character
 	flag = guanzhi_jue_xian_0931
 	priority = 2000
@@ -21567,7 +21567,7 @@ gzft_jue_xian_0931 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0932 = { # 襄垣侯
+gzfv_jue_xian_0932 = { # 涅侯
 	type = character
 	flag = guanzhi_jue_xian_0932
 	priority = 2000
@@ -21588,7 +21588,7 @@ gzft_jue_xian_0932 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0933 = { # 壶关侯
+gzfv_jue_xian_0933 = { # 襄垣侯
 	type = character
 	flag = guanzhi_jue_xian_0933
 	priority = 2000
@@ -21609,7 +21609,7 @@ gzft_jue_xian_0933 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0934 = { # 泫氏侯
+gzfv_jue_xian_0934 = { # 壶关侯
 	type = character
 	flag = guanzhi_jue_xian_0934
 	priority = 2000
@@ -21630,7 +21630,7 @@ gzft_jue_xian_0934 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0935 = { # 高都侯
+gzfv_jue_xian_0935 = { # 泫氏侯
 	type = character
 	flag = guanzhi_jue_xian_0935
 	priority = 2000
@@ -21651,7 +21651,7 @@ gzft_jue_xian_0935 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0936 = { # 潞侯
+gzfv_jue_xian_0936 = { # 高都侯
 	type = character
 	flag = guanzhi_jue_xian_0936
 	priority = 2000
@@ -21672,7 +21672,7 @@ gzft_jue_xian_0936 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0937 = { # 阳阿侯
+gzfv_jue_xian_0937 = { # 潞侯
 	type = character
 	flag = guanzhi_jue_xian_0937
 	priority = 2000
@@ -21693,7 +21693,7 @@ gzft_jue_xian_0937 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0938 = { # 穀远侯
+gzfv_jue_xian_0938 = { # 陭氏侯
 	type = character
 	flag = guanzhi_jue_xian_0938
 	priority = 2000
@@ -21714,7 +21714,7 @@ gzft_jue_xian_0938 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0939 = { # 晋阳侯
+gzfv_jue_xian_0939 = { # 阳阿侯
 	type = character
 	flag = guanzhi_jue_xian_0939
 	priority = 2000
@@ -21735,7 +21735,7 @@ gzft_jue_xian_0939 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0940 = { # 界休侯
+gzfv_jue_xian_0940 = { # 谷远侯
 	type = character
 	flag = guanzhi_jue_xian_0940
 	priority = 2000
@@ -21756,7 +21756,7 @@ gzft_jue_xian_0940 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0941 = { # 榆次侯
+gzfv_jue_xian_0941 = { # 晋阳侯
 	type = character
 	flag = guanzhi_jue_xian_0941
 	priority = 2000
@@ -21777,7 +21777,7 @@ gzft_jue_xian_0941 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0942 = { # 中都侯
+gzfv_jue_xian_0942 = { # 界休侯
 	type = character
 	flag = guanzhi_jue_xian_0942
 	priority = 2000
@@ -21798,7 +21798,7 @@ gzft_jue_xian_0942 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0943 = { # 于离侯
+gzfv_jue_xian_0943 = { # 榆次侯
 	type = character
 	flag = guanzhi_jue_xian_0943
 	priority = 2000
@@ -21819,7 +21819,7 @@ gzft_jue_xian_0943 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0944 = { # 兹氏侯
+gzfv_jue_xian_0944 = { # 中都侯
 	type = character
 	flag = guanzhi_jue_xian_0944
 	priority = 2000
@@ -21840,7 +21840,7 @@ gzft_jue_xian_0944 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0945 = { # 狼孟侯
+gzfv_jue_xian_0945 = { # 于离侯
 	type = character
 	flag = guanzhi_jue_xian_0945
 	priority = 2000
@@ -21861,7 +21861,7 @@ gzft_jue_xian_0945 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0946 = { # 邬侯
+gzfv_jue_xian_0946 = { # 兹氏侯
 	type = character
 	flag = guanzhi_jue_xian_0946
 	priority = 2000
@@ -21882,7 +21882,7 @@ gzft_jue_xian_0946 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0947 = { # 盂侯
+gzfv_jue_xian_0947 = { # 狼孟侯
 	type = character
 	flag = guanzhi_jue_xian_0947
 	priority = 2000
@@ -21903,7 +21903,7 @@ gzft_jue_xian_0947 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0948 = { # 平陶侯
+gzfv_jue_xian_0948 = { # 邬侯
 	type = character
 	flag = guanzhi_jue_xian_0948
 	priority = 2000
@@ -21924,7 +21924,7 @@ gzft_jue_xian_0948 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0949 = { # 京陵侯
+gzfv_jue_xian_0949 = { # 盂侯
 	type = character
 	flag = guanzhi_jue_xian_0949
 	priority = 2000
@@ -21945,7 +21945,7 @@ gzft_jue_xian_0949 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0950 = { # 阳曲侯
+gzfv_jue_xian_0950 = { # 平陶侯
 	type = character
 	flag = guanzhi_jue_xian_0950
 	priority = 2000
@@ -21966,7 +21966,7 @@ gzft_jue_xian_0950 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0951 = { # 大陵侯
+gzfv_jue_xian_0951 = { # 京陵侯
 	type = character
 	flag = guanzhi_jue_xian_0951
 	priority = 2000
@@ -21987,7 +21987,7 @@ gzft_jue_xian_0951 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0952 = { # 祁侯
+gzfv_jue_xian_0952 = { # 阳曲侯
 	type = character
 	flag = guanzhi_jue_xian_0952
 	priority = 2000
@@ -22008,7 +22008,7 @@ gzft_jue_xian_0952 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0953 = { # 虑虒侯
+gzfv_jue_xian_0953 = { # 大陵侯
 	type = character
 	flag = guanzhi_jue_xian_0953
 	priority = 2000
@@ -22029,7 +22029,7 @@ gzft_jue_xian_0953 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0954 = { # 阳邑侯
+gzfv_jue_xian_0954 = { # 祁侯
 	type = character
 	flag = guanzhi_jue_xian_0954
 	priority = 2000
@@ -22050,7 +22050,7 @@ gzft_jue_xian_0954 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0955 = { # 肤施侯
+gzfv_jue_xian_0955 = { # 虑虒侯
 	type = character
 	flag = guanzhi_jue_xian_0955
 	priority = 2000
@@ -22071,7 +22071,7 @@ gzft_jue_xian_0955 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0956 = { # 白土侯
+gzfv_jue_xian_0956 = { # 阳邑侯
 	type = character
 	flag = guanzhi_jue_xian_0956
 	priority = 2000
@@ -22092,7 +22092,7 @@ gzft_jue_xian_0956 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0957 = { # 漆垣侯
+gzfv_jue_xian_0957 = { # 肤施侯
 	type = character
 	flag = guanzhi_jue_xian_0957
 	priority = 2000
@@ -22113,7 +22113,7 @@ gzft_jue_xian_0957 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0958 = { # 奢延侯
+gzfv_jue_xian_0958 = { # 白土侯
 	type = character
 	flag = guanzhi_jue_xian_0958
 	priority = 2000
@@ -22134,7 +22134,7 @@ gzft_jue_xian_0958 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0959 = { # 雕阴侯
+gzfv_jue_xian_0959 = { # 漆垣侯
 	type = character
 	flag = guanzhi_jue_xian_0959
 	priority = 2000
@@ -22155,7 +22155,7 @@ gzft_jue_xian_0959 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0960 = { # 桢林侯
+gzfv_jue_xian_0960 = { # 奢延侯
 	type = character
 	flag = guanzhi_jue_xian_0960
 	priority = 2000
@@ -22176,7 +22176,7 @@ gzft_jue_xian_0960 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0961 = { # 定阳侯
+gzfv_jue_xian_0961 = { # 雕阴侯
 	type = character
 	flag = guanzhi_jue_xian_0961
 	priority = 2000
@@ -22197,7 +22197,7 @@ gzft_jue_xian_0961 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0962 = { # 高奴侯
+gzfv_jue_xian_0962 = { # 桢林侯
 	type = character
 	flag = guanzhi_jue_xian_0962
 	priority = 2000
@@ -22218,7 +22218,7 @@ gzft_jue_xian_0962 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0963 = { # 龟兹属国侯
+gzfv_jue_xian_0963 = { # 定阳侯
 	type = character
 	flag = guanzhi_jue_xian_0963
 	priority = 2000
@@ -22239,7 +22239,7 @@ gzft_jue_xian_0963 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0964 = { # 离石侯
+gzfv_jue_xian_0964 = { # 高奴侯
 	type = character
 	flag = guanzhi_jue_xian_0964
 	priority = 2000
@@ -22260,7 +22260,7 @@ gzft_jue_xian_0964 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0965 = { # 平定侯
+gzfv_jue_xian_0965 = { # 龟兹侯
 	type = character
 	flag = guanzhi_jue_xian_0965
 	priority = 2000
@@ -22281,7 +22281,7 @@ gzft_jue_xian_0965 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0966 = { # 美稷侯
+gzfv_jue_xian_0966 = { # 离石侯
 	type = character
 	flag = guanzhi_jue_xian_0966
 	priority = 2000
@@ -22302,7 +22302,7 @@ gzft_jue_xian_0966 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0967 = { # 乐街侯
+gzfv_jue_xian_0967 = { # 平定侯
 	type = character
 	flag = guanzhi_jue_xian_0967
 	priority = 2000
@@ -22323,7 +22323,7 @@ gzft_jue_xian_0967 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0968 = { # 中阳侯
+gzfv_jue_xian_0968 = { # 美稷侯
 	type = character
 	flag = guanzhi_jue_xian_0968
 	priority = 2000
@@ -22344,7 +22344,7 @@ gzft_jue_xian_0968 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0969 = { # 皋狼侯
+gzfv_jue_xian_0969 = { # 乐街侯
 	type = character
 	flag = guanzhi_jue_xian_0969
 	priority = 2000
@@ -22365,7 +22365,7 @@ gzft_jue_xian_0969 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0970 = { # 平周侯
+gzfv_jue_xian_0970 = { # 中阳侯
 	type = character
 	flag = guanzhi_jue_xian_0970
 	priority = 2000
@@ -22386,7 +22386,7 @@ gzft_jue_xian_0970 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0971 = { # 平陆侯
+gzfv_jue_xian_0971 = { # 皋狼侯
 	type = character
 	flag = guanzhi_jue_xian_0971
 	priority = 2000
@@ -22407,7 +22407,7 @@ gzft_jue_xian_0971 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0972 = { # 益兰侯
+gzfv_jue_xian_0972 = { # 平周侯
 	type = character
 	flag = guanzhi_jue_xian_0972
 	priority = 2000
@@ -22428,7 +22428,7 @@ gzft_jue_xian_0972 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0973 = { # 圜阴侯
+gzfv_jue_xian_0973 = { # 平陆侯
 	type = character
 	flag = guanzhi_jue_xian_0973
 	priority = 2000
@@ -22449,7 +22449,7 @@ gzft_jue_xian_0973 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0974 = { # 蔺侯
+gzfv_jue_xian_0974 = { # 益兰侯
 	type = character
 	flag = guanzhi_jue_xian_0974
 	priority = 2000
@@ -22470,7 +22470,7 @@ gzft_jue_xian_0974 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0975 = { # 圜阳侯
+gzfv_jue_xian_0975 = { # 圜阴侯
 	type = character
 	flag = guanzhi_jue_xian_0975
 	priority = 2000
@@ -22491,7 +22491,7 @@ gzft_jue_xian_0975 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0976 = { # 广衍侯
+gzfv_jue_xian_0976 = { # 蔺侯
 	type = character
 	flag = guanzhi_jue_xian_0976
 	priority = 2000
@@ -22512,7 +22512,7 @@ gzft_jue_xian_0976 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0977 = { # 九原侯
+gzfv_jue_xian_0977 = { # 圜阳侯
 	type = character
 	flag = guanzhi_jue_xian_0977
 	priority = 2000
@@ -22533,7 +22533,7 @@ gzft_jue_xian_0977 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0978 = { # 五原侯
+gzfv_jue_xian_0978 = { # 广衍侯
 	type = character
 	flag = guanzhi_jue_xian_0978
 	priority = 2000
@@ -22554,7 +22554,7 @@ gzft_jue_xian_0978 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0979 = { # 临沃侯
+gzfv_jue_xian_0979 = { # 九原侯
 	type = character
 	flag = guanzhi_jue_xian_0979
 	priority = 2000
@@ -22575,7 +22575,7 @@ gzft_jue_xian_0979 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0980 = { # 文国侯
+gzfv_jue_xian_0980 = { # 五原侯
 	type = character
 	flag = guanzhi_jue_xian_0980
 	priority = 2000
@@ -22596,7 +22596,7 @@ gzft_jue_xian_0980 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0981 = { # 河阴侯
+gzfv_jue_xian_0981 = { # 临沃侯
 	type = character
 	flag = guanzhi_jue_xian_0981
 	priority = 2000
@@ -22617,7 +22617,7 @@ gzft_jue_xian_0981 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0982 = { # 武都侯
+gzfv_jue_xian_0982 = { # 文国侯
 	type = character
 	flag = guanzhi_jue_xian_0982
 	priority = 2000
@@ -22638,7 +22638,7 @@ gzft_jue_xian_0982 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0983 = { # 宜梁侯
+gzfv_jue_xian_0983 = { # 河阴侯
 	type = character
 	flag = guanzhi_jue_xian_0983
 	priority = 2000
@@ -22659,7 +22659,7 @@ gzft_jue_xian_0983 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0984 = { # 曼柏侯
+gzfv_jue_xian_0984 = { # 武都侯
 	type = character
 	flag = guanzhi_jue_xian_0984
 	priority = 2000
@@ -22680,7 +22680,7 @@ gzft_jue_xian_0984 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0985 = { # 成宜侯
+gzfv_jue_xian_0985 = { # 宜梁侯
 	type = character
 	flag = guanzhi_jue_xian_0985
 	priority = 2000
@@ -22701,7 +22701,7 @@ gzft_jue_xian_0985 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0986 = { # 西安阳侯
+gzfv_jue_xian_0986 = { # 曼柏侯
 	type = character
 	flag = guanzhi_jue_xian_0986
 	priority = 2000
@@ -22722,7 +22722,7 @@ gzft_jue_xian_0986 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0987 = { # 云中侯
+gzfv_jue_xian_0987 = { # 成宜侯
 	type = character
 	flag = guanzhi_jue_xian_0987
 	priority = 2000
@@ -22743,7 +22743,7 @@ gzft_jue_xian_0987 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0988 = { # 咸阳侯
+gzfv_jue_xian_0988 = { # 西安阳侯
 	type = character
 	flag = guanzhi_jue_xian_0988
 	priority = 2000
@@ -22764,7 +22764,7 @@ gzft_jue_xian_0988 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0989 = { # 箕陵侯
+gzfv_jue_xian_0989 = { # 云中侯
 	type = character
 	flag = guanzhi_jue_xian_0989
 	priority = 2000
@@ -22785,7 +22785,7 @@ gzft_jue_xian_0989 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0990 = { # 沙陵侯
+gzfv_jue_xian_0990 = { # 咸阳侯
 	type = character
 	flag = guanzhi_jue_xian_0990
 	priority = 2000
@@ -22806,7 +22806,7 @@ gzft_jue_xian_0990 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0991 = { # 沙南侯
+gzfv_jue_xian_0991 = { # 箕陵侯
 	type = character
 	flag = guanzhi_jue_xian_0991
 	priority = 2000
@@ -22827,7 +22827,7 @@ gzft_jue_xian_0991 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0992 = { # 北舆侯
+gzfv_jue_xian_0992 = { # 沙陵侯
 	type = character
 	flag = guanzhi_jue_xian_0992
 	priority = 2000
@@ -22848,7 +22848,7 @@ gzft_jue_xian_0992 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0993 = { # 武泉侯
+gzfv_jue_xian_0993 = { # 沙南侯
 	type = character
 	flag = guanzhi_jue_xian_0993
 	priority = 2000
@@ -22869,7 +22869,7 @@ gzft_jue_xian_0993 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0994 = { # 原阳侯
+gzfv_jue_xian_0994 = { # 北舆侯
 	type = character
 	flag = guanzhi_jue_xian_0994
 	priority = 2000
@@ -22890,7 +22890,7 @@ gzft_jue_xian_0994 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0995 = { # 定襄侯
+gzfv_jue_xian_0995 = { # 武泉侯
 	type = character
 	flag = guanzhi_jue_xian_0995
 	priority = 2000
@@ -22911,7 +22911,7 @@ gzft_jue_xian_0995 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0996 = { # 成乐侯
+gzfv_jue_xian_0996 = { # 原阳侯
 	type = character
 	flag = guanzhi_jue_xian_0996
 	priority = 2000
@@ -22932,7 +22932,7 @@ gzft_jue_xian_0996 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0997 = { # 武进侯
+gzfv_jue_xian_0997 = { # 定襄侯
 	type = character
 	flag = guanzhi_jue_xian_0997
 	priority = 2000
@@ -22953,7 +22953,7 @@ gzft_jue_xian_0997 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0998 = { # 善无侯
+gzfv_jue_xian_0998 = { # 成乐侯
 	type = character
 	flag = guanzhi_jue_xian_0998
 	priority = 2000
@@ -22974,7 +22974,7 @@ gzft_jue_xian_0998 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_0999 = { # 桐过侯
+gzfv_jue_xian_0999 = { # 武进侯
 	type = character
 	flag = guanzhi_jue_xian_0999
 	priority = 2000
@@ -22995,7 +22995,7 @@ gzft_jue_xian_0999 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1000 = { # 武成侯
+gzfv_jue_xian_1000 = { # 善无侯
 	type = character
 	flag = guanzhi_jue_xian_1000
 	priority = 2000
@@ -23016,7 +23016,7 @@ gzft_jue_xian_1000 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1001 = { # 骆侯
+gzfv_jue_xian_1001 = { # 桐过侯
 	type = character
 	flag = guanzhi_jue_xian_1001
 	priority = 2000
@@ -23037,7 +23037,7 @@ gzft_jue_xian_1001 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1002 = { # 中陵侯
+gzfv_jue_xian_1002 = { # 武成侯
 	type = character
 	flag = guanzhi_jue_xian_1002
 	priority = 2000
@@ -23058,7 +23058,7 @@ gzft_jue_xian_1002 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1003 = { # 阴馆侯
+gzfv_jue_xian_1003 = { # 骆侯
 	type = character
 	flag = guanzhi_jue_xian_1003
 	priority = 2000
@@ -23079,7 +23079,7 @@ gzft_jue_xian_1003 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1004 = { # 繁畤侯
+gzfv_jue_xian_1004 = { # 中陵侯
 	type = character
 	flag = guanzhi_jue_xian_1004
 	priority = 2000
@@ -23100,7 +23100,7 @@ gzft_jue_xian_1004 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1005 = { # 楼烦侯
+gzfv_jue_xian_1005 = { # 阴馆侯
 	type = character
 	flag = guanzhi_jue_xian_1005
 	priority = 2000
@@ -23121,7 +23121,7 @@ gzft_jue_xian_1005 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1006 = { # 武州侯
+gzfv_jue_xian_1006 = { # 繁峙侯
 	type = character
 	flag = guanzhi_jue_xian_1006
 	priority = 2000
@@ -23142,7 +23142,7 @@ gzft_jue_xian_1006 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1007 = { # 汪陶侯
+gzfv_jue_xian_1007 = { # 楼烦侯
 	type = character
 	flag = guanzhi_jue_xian_1007
 	priority = 2000
@@ -23163,7 +23163,7 @@ gzft_jue_xian_1007 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1008 = { # 剧阳侯
+gzfv_jue_xian_1008 = { # 武州侯
 	type = character
 	flag = guanzhi_jue_xian_1008
 	priority = 2000
@@ -23184,7 +23184,7 @@ gzft_jue_xian_1008 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1009 = { # 崞侯
+gzfv_jue_xian_1009 = { # 汪陶侯
 	type = character
 	flag = guanzhi_jue_xian_1009
 	priority = 2000
@@ -23205,7 +23205,7 @@ gzft_jue_xian_1009 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1010 = { # 平城侯
+gzfv_jue_xian_1010 = { # 剧阳侯
 	type = character
 	flag = guanzhi_jue_xian_1010
 	priority = 2000
@@ -23226,7 +23226,7 @@ gzft_jue_xian_1010 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1011 = { # 埒侯
+gzfv_jue_xian_1011 = { # 崞侯
 	type = character
 	flag = guanzhi_jue_xian_1011
 	priority = 2000
@@ -23247,7 +23247,7 @@ gzft_jue_xian_1011 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1012 = { # 马邑侯
+gzfv_jue_xian_1012 = { # 平城侯
 	type = character
 	flag = guanzhi_jue_xian_1012
 	priority = 2000
@@ -23268,7 +23268,7 @@ gzft_jue_xian_1012 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1013 = { # 卤城侯
+gzfv_jue_xian_1013 = { # 埒侯
 	type = character
 	flag = guanzhi_jue_xian_1013
 	priority = 2000
@@ -23289,7 +23289,7 @@ gzft_jue_xian_1013 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1014 = { # 广武侯
+gzfv_jue_xian_1014 = { # 马邑侯
 	type = character
 	flag = guanzhi_jue_xian_1014
 	priority = 2000
@@ -23310,7 +23310,7 @@ gzft_jue_xian_1014 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1015 = { # 原平侯
+gzfv_jue_xian_1015 = { # 卤城侯
 	type = character
 	flag = guanzhi_jue_xian_1015
 	priority = 2000
@@ -23331,7 +23331,7 @@ gzft_jue_xian_1015 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1016 = { # 彊阴侯
+gzfv_jue_xian_1016 = { # 广武侯
 	type = character
 	flag = guanzhi_jue_xian_1016
 	priority = 2000
@@ -23352,7 +23352,7 @@ gzft_jue_xian_1016 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1017 = { # 临戎侯
+gzfv_jue_xian_1017 = { # 原平侯
 	type = character
 	flag = guanzhi_jue_xian_1017
 	priority = 2000
@@ -23373,7 +23373,7 @@ gzft_jue_xian_1017 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1018 = { # 三封侯
+gzfv_jue_xian_1018 = { # 彊阴侯
 	type = character
 	flag = guanzhi_jue_xian_1018
 	priority = 2000
@@ -23394,7 +23394,7 @@ gzft_jue_xian_1018 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1019 = { # 朔方侯
+gzfv_jue_xian_1019 = { # 临戎侯
 	type = character
 	flag = guanzhi_jue_xian_1019
 	priority = 2000
@@ -23415,7 +23415,7 @@ gzft_jue_xian_1019 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1020 = { # 沃野侯
+gzfv_jue_xian_1020 = { # 三封侯
 	type = character
 	flag = guanzhi_jue_xian_1020
 	priority = 2000
@@ -23436,7 +23436,7 @@ gzft_jue_xian_1020 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1021 = { # 广牧侯
+gzfv_jue_xian_1021 = { # 朔方侯
 	type = character
 	flag = guanzhi_jue_xian_1021
 	priority = 2000
@@ -23457,7 +23457,7 @@ gzft_jue_xian_1021 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1022 = { # 大城侯
+gzfv_jue_xian_1022 = { # 沃野侯
 	type = character
 	flag = guanzhi_jue_xian_1022
 	priority = 2000
@@ -23478,7 +23478,7 @@ gzft_jue_xian_1022 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1023 = { # 涿侯
+gzfv_jue_xian_1023 = { # 广牧侯
 	type = character
 	flag = guanzhi_jue_xian_1023
 	priority = 2000
@@ -23499,7 +23499,7 @@ gzft_jue_xian_1023 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1024 = { # 逎侯
+gzfv_jue_xian_1024 = { # 大城侯
 	type = character
 	flag = guanzhi_jue_xian_1024
 	priority = 2000
@@ -23520,7 +23520,7 @@ gzft_jue_xian_1024 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1025 = { # 故安侯
+gzfv_jue_xian_1025 = { # 涿侯
 	type = character
 	flag = guanzhi_jue_xian_1025
 	priority = 2000
@@ -23541,7 +23541,7 @@ gzft_jue_xian_1025 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1026 = { # 范阳侯
+gzfv_jue_xian_1026 = { # 遒侯
 	type = character
 	flag = guanzhi_jue_xian_1026
 	priority = 2000
@@ -23562,7 +23562,7 @@ gzft_jue_xian_1026 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1027 = { # 良乡侯
+gzfv_jue_xian_1027 = { # 故安侯
 	type = character
 	flag = guanzhi_jue_xian_1027
 	priority = 2000
@@ -23583,7 +23583,7 @@ gzft_jue_xian_1027 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1028 = { # 北新城侯
+gzfv_jue_xian_1028 = { # 范阳侯
 	type = character
 	flag = guanzhi_jue_xian_1028
 	priority = 2000
@@ -23604,7 +23604,7 @@ gzft_jue_xian_1028 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1029 = { # 方城侯
+gzfv_jue_xian_1029 = { # 良乡侯
 	type = character
 	flag = guanzhi_jue_xian_1029
 	priority = 2000
@@ -23625,7 +23625,7 @@ gzft_jue_xian_1029 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1030 = { # 蓟侯
+gzfv_jue_xian_1030 = { # 北新城侯
 	type = character
 	flag = guanzhi_jue_xian_1030
 	priority = 2000
@@ -23646,7 +23646,7 @@ gzft_jue_xian_1030 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1031 = { # 广阳侯
+gzfv_jue_xian_1031 = { # 方城侯
 	type = character
 	flag = guanzhi_jue_xian_1031
 	priority = 2000
@@ -23667,7 +23667,7 @@ gzft_jue_xian_1031 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1032 = { # 昌平侯
+gzfv_jue_xian_1032 = { # 蓟侯
 	type = character
 	flag = guanzhi_jue_xian_1032
 	priority = 2000
@@ -23688,7 +23688,7 @@ gzft_jue_xian_1032 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1033 = { # 军都侯
+gzfv_jue_xian_1033 = { # 广阳侯
 	type = character
 	flag = guanzhi_jue_xian_1033
 	priority = 2000
@@ -23709,7 +23709,7 @@ gzft_jue_xian_1033 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1034 = { # 安次侯
+gzfv_jue_xian_1034 = { # 昌平侯
 	type = character
 	flag = guanzhi_jue_xian_1034
 	priority = 2000
@@ -23730,7 +23730,7 @@ gzft_jue_xian_1034 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1035 = { # 高柳侯
+gzfv_jue_xian_1035 = { # 军都侯
 	type = character
 	flag = guanzhi_jue_xian_1035
 	priority = 2000
@@ -23751,7 +23751,7 @@ gzft_jue_xian_1035 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1036 = { # 桑乾侯
+gzfv_jue_xian_1036 = { # 安次侯
 	type = character
 	flag = guanzhi_jue_xian_1036
 	priority = 2000
@@ -23772,7 +23772,7 @@ gzft_jue_xian_1036 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1037 = { # 道人侯
+gzfv_jue_xian_1037 = { # 高柳侯
 	type = character
 	flag = guanzhi_jue_xian_1037
 	priority = 2000
@@ -23793,7 +23793,7 @@ gzft_jue_xian_1037 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1038 = { # 当城侯
+gzfv_jue_xian_1038 = { # 桑干侯
 	type = character
 	flag = guanzhi_jue_xian_1038
 	priority = 2000
@@ -23814,7 +23814,7 @@ gzft_jue_xian_1038 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1039 = { # 马城侯
+gzfv_jue_xian_1039 = { # 道人侯
 	type = character
 	flag = guanzhi_jue_xian_1039
 	priority = 2000
@@ -23835,7 +23835,7 @@ gzft_jue_xian_1039 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1040 = { # 班氏侯
+gzfv_jue_xian_1040 = { # 当城侯
 	type = character
 	flag = guanzhi_jue_xian_1040
 	priority = 2000
@@ -23856,7 +23856,7 @@ gzft_jue_xian_1040 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1041 = { # 狋氏侯
+gzfv_jue_xian_1041 = { # 马城侯
 	type = character
 	flag = guanzhi_jue_xian_1041
 	priority = 2000
@@ -23877,7 +23877,7 @@ gzft_jue_xian_1041 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1042 = { # 北平邑侯
+gzfv_jue_xian_1042 = { # 班氏侯
 	type = character
 	flag = guanzhi_jue_xian_1042
 	priority = 2000
@@ -23898,7 +23898,7 @@ gzft_jue_xian_1042 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1043 = { # 东安阳侯
+gzfv_jue_xian_1043 = { # 狋氏侯
 	type = character
 	flag = guanzhi_jue_xian_1043
 	priority = 2000
@@ -23919,7 +23919,7 @@ gzft_jue_xian_1043 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1044 = { # 平舒侯
+gzfv_jue_xian_1044 = { # 东安阳侯
 	type = character
 	flag = guanzhi_jue_xian_1044
 	priority = 2000
@@ -23940,7 +23940,7 @@ gzft_jue_xian_1044 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1045 = { # 代侯
+gzfv_jue_xian_1045 = { # 平舒侯
 	type = character
 	flag = guanzhi_jue_xian_1045
 	priority = 2000
@@ -23961,7 +23961,7 @@ gzft_jue_xian_1045 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1046 = { # 沮阳侯
+gzfv_jue_xian_1046 = { # 代侯
 	type = character
 	flag = guanzhi_jue_xian_1046
 	priority = 2000
@@ -23982,7 +23982,7 @@ gzft_jue_xian_1046 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1047 = { # 潘侯
+gzfv_jue_xian_1047 = { # 沮阳侯
 	type = character
 	flag = guanzhi_jue_xian_1047
 	priority = 2000
@@ -24003,7 +24003,7 @@ gzft_jue_xian_1047 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1048 = { # 甯侯
+gzfv_jue_xian_1048 = { # 潘侯
 	type = character
 	flag = guanzhi_jue_xian_1048
 	priority = 2000
@@ -24024,7 +24024,7 @@ gzft_jue_xian_1048 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1049 = { # 广甯侯
+gzfv_jue_xian_1049 = { # 宁侯
 	type = character
 	flag = guanzhi_jue_xian_1049
 	priority = 2000
@@ -24045,7 +24045,7 @@ gzft_jue_xian_1049 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1050 = { # 居庸侯
+gzfv_jue_xian_1050 = { # 广宁侯
 	type = character
 	flag = guanzhi_jue_xian_1050
 	priority = 2000
@@ -24066,7 +24066,7 @@ gzft_jue_xian_1050 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1051 = { # 雊瞀侯
+gzfv_jue_xian_1051 = { # 居庸侯
 	type = character
 	flag = guanzhi_jue_xian_1051
 	priority = 2000
@@ -24087,7 +24087,7 @@ gzft_jue_xian_1051 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1052 = { # 涿鹿侯
+gzfv_jue_xian_1052 = { # 雊瞀侯
 	type = character
 	flag = guanzhi_jue_xian_1052
 	priority = 2000
@@ -24108,7 +24108,7 @@ gzft_jue_xian_1052 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1053 = { # 下落侯
+gzfv_jue_xian_1053 = { # 涿鹿侯
 	type = character
 	flag = guanzhi_jue_xian_1053
 	priority = 2000
@@ -24129,7 +24129,7 @@ gzft_jue_xian_1053 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1054 = { # 渔阳侯
+gzfv_jue_xian_1054 = { # 下落侯
 	type = character
 	flag = guanzhi_jue_xian_1054
 	priority = 2000
@@ -24150,7 +24150,7 @@ gzft_jue_xian_1054 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1055 = { # 狐奴侯
+gzfv_jue_xian_1055 = { # 渔阳侯
 	type = character
 	flag = guanzhi_jue_xian_1055
 	priority = 2000
@@ -24171,7 +24171,7 @@ gzft_jue_xian_1055 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1056 = { # 雍奴侯
+gzfv_jue_xian_1056 = { # 狐奴侯
 	type = character
 	flag = guanzhi_jue_xian_1056
 	priority = 2000
@@ -24192,7 +24192,7 @@ gzft_jue_xian_1056 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1057 = { # 泉州侯
+gzfv_jue_xian_1057 = { # 雍奴侯
 	type = character
 	flag = guanzhi_jue_xian_1057
 	priority = 2000
@@ -24213,7 +24213,7 @@ gzft_jue_xian_1057 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1058 = { # 平谷侯
+gzfv_jue_xian_1058 = { # 泉州侯
 	type = character
 	flag = guanzhi_jue_xian_1058
 	priority = 2000
@@ -24234,7 +24234,7 @@ gzft_jue_xian_1058 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1059 = { # 安乐侯
+gzfv_jue_xian_1059 = { # 平谷侯
 	type = character
 	flag = guanzhi_jue_xian_1059
 	priority = 2000
@@ -24255,7 +24255,7 @@ gzft_jue_xian_1059 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1060 = { # 傂奚侯
+gzfv_jue_xian_1060 = { # 安乐侯
 	type = character
 	flag = guanzhi_jue_xian_1060
 	priority = 2000
@@ -24276,7 +24276,7 @@ gzft_jue_xian_1060 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1061 = { # 犷平侯
+gzfv_jue_xian_1061 = { # 厗奚侯
 	type = character
 	flag = guanzhi_jue_xian_1061
 	priority = 2000
@@ -24297,7 +24297,7 @@ gzft_jue_xian_1061 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1062 = { # 土垠侯
+gzfv_jue_xian_1062 = { # 犷平侯
 	type = character
 	flag = guanzhi_jue_xian_1062
 	priority = 2000
@@ -24318,7 +24318,7 @@ gzft_jue_xian_1062 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1063 = { # 徐无侯
+gzfv_jue_xian_1063 = { # 土垠侯
 	type = character
 	flag = guanzhi_jue_xian_1063
 	priority = 2000
@@ -24339,7 +24339,7 @@ gzft_jue_xian_1063 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1064 = { # 俊靡侯
+gzfv_jue_xian_1064 = { # 徐无侯
 	type = character
 	flag = guanzhi_jue_xian_1064
 	priority = 2000
@@ -24360,7 +24360,7 @@ gzft_jue_xian_1064 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1065 = { # 无终侯
+gzfv_jue_xian_1065 = { # 俊靡侯
 	type = character
 	flag = guanzhi_jue_xian_1065
 	priority = 2000
@@ -24381,7 +24381,7 @@ gzft_jue_xian_1065 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1066 = { # 阳乐侯
+gzfv_jue_xian_1066 = { # 无终侯
 	type = character
 	flag = guanzhi_jue_xian_1066
 	priority = 2000
@@ -24402,7 +24402,7 @@ gzft_jue_xian_1066 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1067 = { # 海阳侯
+gzfv_jue_xian_1067 = { # 阳乐侯
 	type = character
 	flag = guanzhi_jue_xian_1067
 	priority = 2000
@@ -24423,7 +24423,7 @@ gzft_jue_xian_1067 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1068 = { # 令支侯
+gzfv_jue_xian_1068 = { # 海阳侯
 	type = character
 	flag = guanzhi_jue_xian_1068
 	priority = 2000
@@ -24444,7 +24444,7 @@ gzft_jue_xian_1068 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1069 = { # 肥如侯
+gzfv_jue_xian_1069 = { # 令支侯
 	type = character
 	flag = guanzhi_jue_xian_1069
 	priority = 2000
@@ -24465,7 +24465,7 @@ gzft_jue_xian_1069 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1070 = { # 临渝侯
+gzfv_jue_xian_1070 = { # 肥如侯
 	type = character
 	flag = guanzhi_jue_xian_1070
 	priority = 2000
@@ -24486,7 +24486,7 @@ gzft_jue_xian_1070 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1071 = { # 襄平侯
+gzfv_jue_xian_1071 = { # 临渝侯
 	type = character
 	flag = guanzhi_jue_xian_1071
 	priority = 2000
@@ -24507,7 +24507,7 @@ gzft_jue_xian_1071 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1072 = { # 新昌侯
+gzfv_jue_xian_1072 = { # 襄平侯
 	type = character
 	flag = guanzhi_jue_xian_1072
 	priority = 2000
@@ -24528,7 +24528,7 @@ gzft_jue_xian_1072 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1073 = { # 无虑侯
+gzfv_jue_xian_1073 = { # 新昌侯
 	type = character
 	flag = guanzhi_jue_xian_1073
 	priority = 2000
@@ -24549,7 +24549,7 @@ gzft_jue_xian_1073 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1074 = { # 望平侯
+gzfv_jue_xian_1074 = { # 无虑侯
 	type = character
 	flag = guanzhi_jue_xian_1074
 	priority = 2000
@@ -24570,7 +24570,7 @@ gzft_jue_xian_1074 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1075 = { # 候城侯
+gzfv_jue_xian_1075 = { # 望平侯
 	type = character
 	flag = guanzhi_jue_xian_1075
 	priority = 2000
@@ -24591,7 +24591,7 @@ gzft_jue_xian_1075 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1076 = { # 安市侯
+gzfv_jue_xian_1076 = { # 辽队侯
 	type = character
 	flag = guanzhi_jue_xian_1076
 	priority = 2000
@@ -24612,7 +24612,7 @@ gzft_jue_xian_1076 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1077 = { # 平郭侯
+gzfv_jue_xian_1077 = { # 安市侯
 	type = character
 	flag = guanzhi_jue_xian_1077
 	priority = 2000
@@ -24633,7 +24633,7 @@ gzft_jue_xian_1077 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1078 = { # 西安平侯
+gzfv_jue_xian_1078 = { # 平郭侯
 	type = character
 	flag = guanzhi_jue_xian_1078
 	priority = 2000
@@ -24654,7 +24654,7 @@ gzft_jue_xian_1078 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1079 = { # 汶侯
+gzfv_jue_xian_1079 = { # 西安平侯
 	type = character
 	flag = guanzhi_jue_xian_1079
 	priority = 2000
@@ -24675,7 +24675,7 @@ gzft_jue_xian_1079 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1080 = { # 番汗侯
+gzfv_jue_xian_1080 = { # 汶侯
 	type = character
 	flag = guanzhi_jue_xian_1080
 	priority = 2000
@@ -24696,7 +24696,7 @@ gzft_jue_xian_1080 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1081 = { # 沓氏侯
+gzfv_jue_xian_1081 = { # 番汗侯
 	type = character
 	flag = guanzhi_jue_xian_1081
 	priority = 2000
@@ -24717,7 +24717,7 @@ gzft_jue_xian_1081 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1082 = { # 高句骊侯
+gzfv_jue_xian_1082 = { # 沓氏侯
 	type = character
 	flag = guanzhi_jue_xian_1082
 	priority = 2000
@@ -24738,7 +24738,7 @@ gzft_jue_xian_1082 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1083 = { # 西盖马侯
+gzfv_jue_xian_1083 = { # 高句骊侯
 	type = character
 	flag = guanzhi_jue_xian_1083
 	priority = 2000
@@ -24759,7 +24759,7 @@ gzft_jue_xian_1083 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1084 = { # 上殷台侯
+gzfv_jue_xian_1084 = { # 西盖马侯
 	type = character
 	flag = guanzhi_jue_xian_1084
 	priority = 2000
@@ -24780,7 +24780,7 @@ gzft_jue_xian_1084 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1085 = { # 高显侯
+gzfv_jue_xian_1085 = { # 上殷台侯
 	type = character
 	flag = guanzhi_jue_xian_1085
 	priority = 2000
@@ -24801,7 +24801,7 @@ gzft_jue_xian_1085 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1086 = { # 辽阳侯
+gzfv_jue_xian_1086 = { # 高显侯
 	type = character
 	flag = guanzhi_jue_xian_1086
 	priority = 2000
@@ -24822,7 +24822,7 @@ gzft_jue_xian_1086 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1087 = { # 朝鲜侯
+gzfv_jue_xian_1087 = { # 候城侯
 	type = character
 	flag = guanzhi_jue_xian_1087
 	priority = 2000
@@ -24843,7 +24843,7 @@ gzft_jue_xian_1087 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1088 = { # 讠冉邯侯
+gzfv_jue_xian_1088 = { # 辽阳侯
 	type = character
 	flag = guanzhi_jue_xian_1088
 	priority = 2000
@@ -24864,7 +24864,7 @@ gzft_jue_xian_1088 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1089 = { # 浿水侯
+gzfv_jue_xian_1089 = { # 朝鲜侯
 	type = character
 	flag = guanzhi_jue_xian_1089
 	priority = 2000
@@ -24885,7 +24885,7 @@ gzft_jue_xian_1089 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1090 = { # 含资侯
+gzfv_jue_xian_1090 = { # 𧦦邯侯
 	type = character
 	flag = guanzhi_jue_xian_1090
 	priority = 2000
@@ -24906,7 +24906,7 @@ gzft_jue_xian_1090 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1091 = { # 占蝉侯
+gzfv_jue_xian_1091 = { # 浿水侯
 	type = character
 	flag = guanzhi_jue_xian_1091
 	priority = 2000
@@ -24927,7 +24927,7 @@ gzft_jue_xian_1091 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1092 = { # 遂城侯
+gzfv_jue_xian_1092 = { # 含资侯
 	type = character
 	flag = guanzhi_jue_xian_1092
 	priority = 2000
@@ -24948,7 +24948,7 @@ gzft_jue_xian_1092 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1093 = { # 增地侯
+gzfv_jue_xian_1093 = { # 占蝉侯
 	type = character
 	flag = guanzhi_jue_xian_1093
 	priority = 2000
@@ -24969,7 +24969,7 @@ gzft_jue_xian_1093 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1094 = { # 带方侯
+gzfv_jue_xian_1094 = { # 遂城侯
 	type = character
 	flag = guanzhi_jue_xian_1094
 	priority = 2000
@@ -24990,7 +24990,7 @@ gzft_jue_xian_1094 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1095 = { # 驷望侯
+gzfv_jue_xian_1095 = { # 增地侯
 	type = character
 	flag = guanzhi_jue_xian_1095
 	priority = 2000
@@ -25011,7 +25011,7 @@ gzft_jue_xian_1095 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1096 = { # 海冥侯
+gzfv_jue_xian_1096 = { # 带方侯
 	type = character
 	flag = guanzhi_jue_xian_1096
 	priority = 2000
@@ -25032,7 +25032,7 @@ gzft_jue_xian_1096 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1097 = { # 列口侯
+gzfv_jue_xian_1097 = { # 驷望侯
 	type = character
 	flag = guanzhi_jue_xian_1097
 	priority = 2000
@@ -25053,7 +25053,7 @@ gzft_jue_xian_1097 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1098 = { # 长岑侯
+gzfv_jue_xian_1098 = { # 海冥侯
 	type = character
 	flag = guanzhi_jue_xian_1098
 	priority = 2000
@@ -25074,7 +25074,7 @@ gzft_jue_xian_1098 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1099 = { # 屯有侯
+gzfv_jue_xian_1099 = { # 列口侯
 	type = character
 	flag = guanzhi_jue_xian_1099
 	priority = 2000
@@ -25095,7 +25095,7 @@ gzft_jue_xian_1099 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1100 = { # 昭明侯
+gzfv_jue_xian_1100 = { # 长岑侯
 	type = character
 	flag = guanzhi_jue_xian_1100
 	priority = 2000
@@ -25116,7 +25116,7 @@ gzft_jue_xian_1100 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1101 = { # 镂方侯
+gzfv_jue_xian_1101 = { # 屯有侯
 	type = character
 	flag = guanzhi_jue_xian_1101
 	priority = 2000
@@ -25137,7 +25137,7 @@ gzft_jue_xian_1101 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1102 = { # 提奚侯
+gzfv_jue_xian_1102 = { # 昭明侯
 	type = character
 	flag = guanzhi_jue_xian_1102
 	priority = 2000
@@ -25158,7 +25158,7 @@ gzft_jue_xian_1102 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1103 = { # 浑弥侯
+gzfv_jue_xian_1103 = { # 镂方侯
 	type = character
 	flag = guanzhi_jue_xian_1103
 	priority = 2000
@@ -25179,7 +25179,7 @@ gzft_jue_xian_1103 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1104 = { # 乐都侯
+gzfv_jue_xian_1104 = { # 提奚侯
 	type = character
 	flag = guanzhi_jue_xian_1104
 	priority = 2000
@@ -25200,7 +25200,7 @@ gzft_jue_xian_1104 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1105 = { # 昌辽侯
+gzfv_jue_xian_1105 = { # 浑弥侯
 	type = character
 	flag = guanzhi_jue_xian_1105
 	priority = 2000
@@ -25221,7 +25221,7 @@ gzft_jue_xian_1105 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1106 = { # 宾徒侯
+gzfv_jue_xian_1106 = { # 乐都侯
 	type = character
 	flag = guanzhi_jue_xian_1106
 	priority = 2000
@@ -25242,7 +25242,7 @@ gzft_jue_xian_1106 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1107 = { # 徒河侯
+gzfv_jue_xian_1107 = { # 昌辽侯
 	type = character
 	flag = guanzhi_jue_xian_1107
 	priority = 2000
@@ -25263,7 +25263,7 @@ gzft_jue_xian_1107 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1108 = { # 险渎侯
+gzfv_jue_xian_1108 = { # 宾徒侯
 	type = character
 	flag = guanzhi_jue_xian_1108
 	priority = 2000
@@ -25284,7 +25284,7 @@ gzft_jue_xian_1108 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1109 = { # 房侯
+gzfv_jue_xian_1109 = { # 徒河侯
 	type = character
 	flag = guanzhi_jue_xian_1109
 	priority = 2000
@@ -25305,7 +25305,7 @@ gzft_jue_xian_1109 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1110 = { # 番禺侯
+gzfv_jue_xian_1110 = { # 扶黎侯
 	type = character
 	flag = guanzhi_jue_xian_1110
 	priority = 2000
@@ -25326,7 +25326,7 @@ gzft_jue_xian_1110 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1111 = { # 博罗侯
+gzfv_jue_xian_1111 = { # 险渎侯
 	type = character
 	flag = guanzhi_jue_xian_1111
 	priority = 2000
@@ -25347,7 +25347,7 @@ gzft_jue_xian_1111 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1112 = { # 中宿侯
+gzfv_jue_xian_1112 = { # 房侯
 	type = character
 	flag = guanzhi_jue_xian_1112
 	priority = 2000
@@ -25368,7 +25368,7 @@ gzft_jue_xian_1112 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1113 = { # 龙川侯
+gzfv_jue_xian_1113 = { # 番禺侯
 	type = character
 	flag = guanzhi_jue_xian_1113
 	priority = 2000
@@ -25389,7 +25389,7 @@ gzft_jue_xian_1113 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1114 = { # 四会侯
+gzfv_jue_xian_1114 = { # 博罗侯
 	type = character
 	flag = guanzhi_jue_xian_1114
 	priority = 2000
@@ -25410,7 +25410,7 @@ gzft_jue_xian_1114 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1115 = { # 揭阳侯
+gzfv_jue_xian_1115 = { # 中宿侯
 	type = character
 	flag = guanzhi_jue_xian_1115
 	priority = 2000
@@ -25431,7 +25431,7 @@ gzft_jue_xian_1115 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1116 = { # 增城侯
+gzfv_jue_xian_1116 = { # 龙川侯
 	type = character
 	flag = guanzhi_jue_xian_1116
 	priority = 2000
@@ -25452,7 +25452,7 @@ gzft_jue_xian_1116 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1117 = { # 广信侯
+gzfv_jue_xian_1117 = { # 四会侯
 	type = character
 	flag = guanzhi_jue_xian_1117
 	priority = 2000
@@ -25473,7 +25473,7 @@ gzft_jue_xian_1117 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1118 = { # 谢沐侯
+gzfv_jue_xian_1118 = { # 揭阳侯
 	type = character
 	flag = guanzhi_jue_xian_1118
 	priority = 2000
@@ -25494,7 +25494,7 @@ gzft_jue_xian_1118 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1119 = { # 高要侯
+gzfv_jue_xian_1119 = { # 增城侯
 	type = character
 	flag = guanzhi_jue_xian_1119
 	priority = 2000
@@ -25515,7 +25515,7 @@ gzft_jue_xian_1119 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1120 = { # 封阳侯
+gzfv_jue_xian_1120 = { # 广信侯
 	type = character
 	flag = guanzhi_jue_xian_1120
 	priority = 2000
@@ -25536,7 +25536,7 @@ gzft_jue_xian_1120 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1121 = { # 临贺侯
+gzfv_jue_xian_1121 = { # 谢沐侯
 	type = character
 	flag = guanzhi_jue_xian_1121
 	priority = 2000
@@ -25557,7 +25557,7 @@ gzft_jue_xian_1121 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1122 = { # 端谿侯
+gzfv_jue_xian_1122 = { # 高要侯
 	type = character
 	flag = guanzhi_jue_xian_1122
 	priority = 2000
@@ -25578,7 +25578,7 @@ gzft_jue_xian_1122 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1123 = { # 冯乘侯
+gzfv_jue_xian_1123 = { # 封阳侯
 	type = character
 	flag = guanzhi_jue_xian_1123
 	priority = 2000
@@ -25599,7 +25599,7 @@ gzft_jue_xian_1123 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1124 = { # 富川侯
+gzfv_jue_xian_1124 = { # 临贺侯
 	type = character
 	flag = guanzhi_jue_xian_1124
 	priority = 2000
@@ -25620,7 +25620,7 @@ gzft_jue_xian_1124 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1125 = { # 荔浦侯
+gzfv_jue_xian_1125 = { # 端谿侯
 	type = character
 	flag = guanzhi_jue_xian_1125
 	priority = 2000
@@ -25641,7 +25641,7 @@ gzft_jue_xian_1125 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1126 = { # 猛陵侯
+gzfv_jue_xian_1126 = { # 冯乘侯
 	type = character
 	flag = guanzhi_jue_xian_1126
 	priority = 2000
@@ -25662,7 +25662,7 @@ gzft_jue_xian_1126 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1127 = { # 鄣平侯
+gzfv_jue_xian_1127 = { # 富川侯
 	type = character
 	flag = guanzhi_jue_xian_1127
 	priority = 2000
@@ -25683,7 +25683,7 @@ gzft_jue_xian_1127 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1128 = { # 布山侯
+gzfv_jue_xian_1128 = { # 荔浦侯
 	type = character
 	flag = guanzhi_jue_xian_1128
 	priority = 2000
@@ -25704,7 +25704,7 @@ gzft_jue_xian_1128 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1129 = { # 安广侯
+gzfv_jue_xian_1129 = { # 猛陵侯
 	type = character
 	flag = guanzhi_jue_xian_1129
 	priority = 2000
@@ -25725,7 +25725,7 @@ gzft_jue_xian_1129 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1130 = { # 阿林侯
+gzfv_jue_xian_1130 = { # 鄣平侯
 	type = character
 	flag = guanzhi_jue_xian_1130
 	priority = 2000
@@ -25746,7 +25746,7 @@ gzft_jue_xian_1130 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1131 = { # 广郁侯
+gzfv_jue_xian_1131 = { # 布山侯
 	type = character
 	flag = guanzhi_jue_xian_1131
 	priority = 2000
@@ -25767,7 +25767,7 @@ gzft_jue_xian_1131 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1132 = { # 中溜侯
+gzfv_jue_xian_1132 = { # 安广侯
 	type = character
 	flag = guanzhi_jue_xian_1132
 	priority = 2000
@@ -25788,7 +25788,7 @@ gzft_jue_xian_1132 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1133 = { # 桂林侯
+gzfv_jue_xian_1133 = { # 阿林侯
 	type = character
 	flag = guanzhi_jue_xian_1133
 	priority = 2000
@@ -25809,7 +25809,7 @@ gzft_jue_xian_1133 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1134 = { # 潭中侯
+gzfv_jue_xian_1134 = { # 广郁侯
 	type = character
 	flag = guanzhi_jue_xian_1134
 	priority = 2000
@@ -25830,7 +25830,7 @@ gzft_jue_xian_1134 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1135 = { # 临尘侯
+gzfv_jue_xian_1135 = { # 中溜侯
 	type = character
 	flag = guanzhi_jue_xian_1135
 	priority = 2000
@@ -25851,7 +25851,7 @@ gzft_jue_xian_1135 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1136 = { # 定周侯
+gzfv_jue_xian_1136 = { # 桂林侯
 	type = character
 	flag = guanzhi_jue_xian_1136
 	priority = 2000
@@ -25872,7 +25872,7 @@ gzft_jue_xian_1136 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1137 = { # 增食侯
+gzfv_jue_xian_1137 = { # 潭中侯
 	type = character
 	flag = guanzhi_jue_xian_1137
 	priority = 2000
@@ -25893,7 +25893,7 @@ gzft_jue_xian_1137 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1138 = { # 领方侯
+gzfv_jue_xian_1138 = { # 临尘侯
 	type = character
 	flag = guanzhi_jue_xian_1138
 	priority = 2000
@@ -25914,7 +25914,7 @@ gzft_jue_xian_1138 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1139 = { # 合浦侯
+gzfv_jue_xian_1139 = { # 定周侯
 	type = character
 	flag = guanzhi_jue_xian_1139
 	priority = 2000
@@ -25935,7 +25935,7 @@ gzft_jue_xian_1139 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1140 = { # 徐闻侯
+gzfv_jue_xian_1140 = { # 增食侯
 	type = character
 	flag = guanzhi_jue_xian_1140
 	priority = 2000
@@ -25956,7 +25956,7 @@ gzft_jue_xian_1140 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1141 = { # 高凉侯
+gzfv_jue_xian_1141 = { # 领方侯
 	type = character
 	flag = guanzhi_jue_xian_1141
 	priority = 2000
@@ -25977,7 +25977,7 @@ gzft_jue_xian_1141 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1142 = { # 临允侯
+gzfv_jue_xian_1142 = { # 合浦侯
 	type = character
 	flag = guanzhi_jue_xian_1142
 	priority = 2000
@@ -25998,7 +25998,7 @@ gzft_jue_xian_1142 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1143 = { # 朱崖侯
+gzfv_jue_xian_1143 = { # 徐闻侯
 	type = character
 	flag = guanzhi_jue_xian_1143
 	priority = 2000
@@ -26019,7 +26019,7 @@ gzft_jue_xian_1143 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1144 = { # 龙编侯
+gzfv_jue_xian_1144 = { # 高凉侯
 	type = character
 	flag = guanzhi_jue_xian_1144
 	priority = 2000
@@ -26040,7 +26040,7 @@ gzft_jue_xian_1144 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1145 = { # 羸𨻻侯
+gzfv_jue_xian_1145 = { # 临允侯
 	type = character
 	flag = guanzhi_jue_xian_1145
 	priority = 2000
@@ -26061,7 +26061,7 @@ gzft_jue_xian_1145 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1146 = { # 安定侯
+gzfv_jue_xian_1146 = { # 朱崖侯
 	type = character
 	flag = guanzhi_jue_xian_1146
 	priority = 2000
@@ -26082,7 +26082,7 @@ gzft_jue_xian_1146 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1147 = { # 苟漏侯
+gzfv_jue_xian_1147 = { # 龙编侯
 	type = character
 	flag = guanzhi_jue_xian_1147
 	priority = 2000
@@ -26103,7 +26103,7 @@ gzft_jue_xian_1147 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1148 = { # 麊泠侯
+gzfv_jue_xian_1148 = { # 羸𨻻侯
 	type = character
 	flag = guanzhi_jue_xian_1148
 	priority = 2000
@@ -26124,7 +26124,7 @@ gzft_jue_xian_1148 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1149 = { # 北带侯
+gzfv_jue_xian_1149 = { # 安定侯
 	type = character
 	flag = guanzhi_jue_xian_1149
 	priority = 2000
@@ -26145,7 +26145,7 @@ gzft_jue_xian_1149 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1150 = { # 稽徐侯
+gzfv_jue_xian_1150 = { # 苟漏侯
 	type = character
 	flag = guanzhi_jue_xian_1150
 	priority = 2000
@@ -26166,7 +26166,7 @@ gzft_jue_xian_1150 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1151 = { # 西于侯
+gzfv_jue_xian_1151 = { # 麋泠侯
 	type = character
 	flag = guanzhi_jue_xian_1151
 	priority = 2000
@@ -26187,7 +26187,7 @@ gzft_jue_xian_1151 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1152 = { # 朱䳒侯
+gzfv_jue_xian_1152 = { # 北带侯
 	type = character
 	flag = guanzhi_jue_xian_1152
 	priority = 2000
@@ -26208,7 +26208,7 @@ gzft_jue_xian_1152 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1153 = { # 封谿侯
+gzfv_jue_xian_1153 = { # 稽徐侯
 	type = character
 	flag = guanzhi_jue_xian_1153
 	priority = 2000
@@ -26229,7 +26229,7 @@ gzft_jue_xian_1153 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1154 = { # 望海侯
+gzfv_jue_xian_1154 = { # 西于侯
 	type = character
 	flag = guanzhi_jue_xian_1154
 	priority = 2000
@@ -26250,7 +26250,7 @@ gzft_jue_xian_1154 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1155 = { # 胥浦侯
+gzfv_jue_xian_1155 = { # 朱䳒侯
 	type = character
 	flag = guanzhi_jue_xian_1155
 	priority = 2000
@@ -26271,7 +26271,7 @@ gzft_jue_xian_1155 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1156 = { # 居风侯
+gzfv_jue_xian_1156 = { # 封谿侯
 	type = character
 	flag = guanzhi_jue_xian_1156
 	priority = 2000
@@ -26292,7 +26292,7 @@ gzft_jue_xian_1156 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1157 = { # 咸懽侯
+gzfv_jue_xian_1157 = { # 望海侯
 	type = character
 	flag = guanzhi_jue_xian_1157
 	priority = 2000
@@ -26313,7 +26313,7 @@ gzft_jue_xian_1157 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1158 = { # 无功侯
+gzfv_jue_xian_1158 = { # 胥浦侯
 	type = character
 	flag = guanzhi_jue_xian_1158
 	priority = 2000
@@ -26334,7 +26334,7 @@ gzft_jue_xian_1158 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1159 = { # 无编侯
+gzfv_jue_xian_1159 = { # 居风侯
 	type = character
 	flag = guanzhi_jue_xian_1159
 	priority = 2000
@@ -26355,7 +26355,7 @@ gzft_jue_xian_1159 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1160 = { # 西卷侯
+gzfv_jue_xian_1160 = { # 咸懽侯
 	type = character
 	flag = guanzhi_jue_xian_1160
 	priority = 2000
@@ -26376,7 +26376,7 @@ gzft_jue_xian_1160 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1161 = { # 朱吾侯
+gzfv_jue_xian_1161 = { # 无功侯
 	type = character
 	flag = guanzhi_jue_xian_1161
 	priority = 2000
@@ -26397,7 +26397,7 @@ gzft_jue_xian_1161 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1162 = { # 卢容侯
+gzfv_jue_xian_1162 = { # 无编侯
 	type = character
 	flag = guanzhi_jue_xian_1162
 	priority = 2000
@@ -26418,7 +26418,7 @@ gzft_jue_xian_1162 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1163 = { # 象林侯
+gzfv_jue_xian_1163 = { # 西卷侯
 	type = character
 	flag = guanzhi_jue_xian_1163
 	priority = 2000
@@ -26439,7 +26439,7 @@ gzft_jue_xian_1163 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xian_1164 = { # 比景侯
+gzfv_jue_xian_1164 = { # 朱吾侯
 	type = character
 	flag = guanzhi_jue_xian_1164
 	priority = 2000
@@ -26460,9 +26460,9 @@ gzft_jue_xian_1164 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xiang_0000 = { # 圉乡侯
+gzfv_jue_xian_1165 = { # 卢容侯
 	type = character
-	flag = guanzhi_jue_xiang_0000
+	flag = guanzhi_jue_xian_1165
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes
@@ -26470,9 +26470,9 @@ gzfv_jue_xiang_0000 = { # 圉乡侯
 		top_liege = no
 	}
 }
-gzft_jue_xiang_0000 = { # 头衔显示
+gzft_jue_xian_1165 = { # 头衔显示
 	type = title
-	flag = guanzhi_jue_xiang_0000
+	flag = guanzhi_jue_xian_1165
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes
@@ -26481,9 +26481,9 @@ gzft_jue_xiang_0000 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xiang_0001 = { # 蒯乡侯
+gzfv_jue_xian_1166 = { # 象林侯
 	type = character
-	flag = guanzhi_jue_xiang_0001
+	flag = guanzhi_jue_xian_1166
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes
@@ -26491,9 +26491,9 @@ gzfv_jue_xiang_0001 = { # 蒯乡侯
 		top_liege = no
 	}
 }
-gzft_jue_xiang_0001 = { # 头衔显示
+gzft_jue_xian_1166 = { # 头衔显示
 	type = title
-	flag = guanzhi_jue_xiang_0001
+	flag = guanzhi_jue_xian_1166
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes
@@ -26502,9 +26502,9 @@ gzft_jue_xiang_0001 = { # 头衔显示
 	}
 }
 
-gzfv_jue_xiang_0002 = { # 尸乡侯
+gzfv_jue_xian_1167 = { # 比景侯
 	type = character
-	flag = guanzhi_jue_xiang_0002
+	flag = guanzhi_jue_xian_1167
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes
@@ -26512,3537 +26512,9 @@ gzfv_jue_xiang_0002 = { # 尸乡侯
 		top_liege = no
 	}
 }
-gzft_jue_xiang_0002 = { # 头衔显示
+gzft_jue_xian_1167 = { # 头衔显示
 	type = title
-	flag = guanzhi_jue_xiang_0002
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0003 = { # 原乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0003
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0003 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0003
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0004 = { # 宁乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0004
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0004 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0004
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0005 = { # 耿乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0005
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0005 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0005
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0006 = { # 务乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0006
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0006 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0006
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0007 = { # 閺乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0007
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0007 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0007
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0008 = { # 芮乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0008
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0008 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0008
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0009 = { # 豳乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0009
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0009 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0009
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0010 = { # 下乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0010
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0010 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0010
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0011 = { # 户牖乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0011
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0011 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0011
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0012 = { # 鄛乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0012
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0012 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0012
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0013 = { # 邟乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0013
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0013 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0013
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0014 = { # 高阳乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0014
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0014 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0014
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0015 = { # 武乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0015
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0015 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0015
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0016 = { # 西乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0016
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0016 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0016
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0017 = { # 都乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0017
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0017 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0017
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0018 = { # 狐宗乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0018
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0018 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0018
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0019 = { # 向乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0019
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0019 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0019
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0020 = { # 应乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0020
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0020 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0020
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0021 = { # 蒋乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0021
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0021 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0021
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0022 = { # 安陵乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0022
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0022 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0022
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0023 = { # 葛乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0023
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0023 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0023
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0024 = { # 大泽乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0024
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0024 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0024
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0025 = { # 赖乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0025
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0025 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0025
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0026 = { # 左人乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0026
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0026 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0026
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0027 = { # 大棘乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0027
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0027 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0027
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0028 = { # 首乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0028
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0028 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0028
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0029 = { # 雍乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0029
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0029 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0029
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0030 = { # 韦乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0030
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0030 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0030
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0031 = { # 遂乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0031
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0031 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0031
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0032 = { # 鹿城乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0032
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0032 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0032
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0033 = { # 伊卢乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0033
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0033 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0033
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0034 = { # 蓝乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0034
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0034 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0034
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0035 = { # 邳乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0035
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0035 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0035
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0036 = { # 密乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0036
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0036 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0036
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0037 = { # 蒌乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0037
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0037 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0037
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0038 = { # 棠乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0038
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0038 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0038
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0039 = { # 过乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0039
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0039 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0039
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0040 = { # 东乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0040
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0040 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0040
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0041 = { # 上唐乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0041
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0041 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0041
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0042 = { # 涉都乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0042
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0042 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0042
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0043 = { # 章密乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0043
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0043 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0043
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0044 = { # 津乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0044
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0044 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0044
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0045 = { # 郧乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0045
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0045 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0045
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0046 = { # 桐乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0046
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0046 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0046
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_xiang_0047 = { # 临乡侯
-	type = character
-	flag = guanzhi_jue_xiang_0047
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_xiang_0047 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_xiang_0047
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0000 = { # 前亭侯
-	type = character
-	flag = guanzhi_jue_ting_0000
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0000 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0000
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0001 = { # 虢亭侯
-	type = character
-	flag = guanzhi_jue_ting_0001
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0001 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0001
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0002 = { # 薄亭侯
-	type = character
-	flag = guanzhi_jue_ting_0002
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0002 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0002
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0003 = { # 敖亭侯
-	type = character
-	flag = guanzhi_jue_ting_0003
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0003 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0003
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0004 = { # 扈城亭侯
-	type = character
-	flag = guanzhi_jue_ting_0004
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0004 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0004
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0005 = { # 蔡亭侯
-	type = character
-	flag = guanzhi_jue_ting_0005
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0005 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0005
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0006 = { # 琐候亭侯
-	type = character
-	flag = guanzhi_jue_ting_0006
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0006 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0006
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0007 = { # 黄亭侯
-	type = character
-	flag = guanzhi_jue_ting_0007
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0007 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0007
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0008 = { # 汎亭侯
-	type = character
-	flag = guanzhi_jue_ting_0008
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0008 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0008
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0009 = { # 高梁亭侯
-	type = character
-	flag = guanzhi_jue_ting_0009
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0009 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0009
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0010 = { # 董亭侯
-	type = character
-	flag = guanzhi_jue_ting_0010
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0010 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0010
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0011 = { # 沙丘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0011
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0011 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0011
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0012 = { # 冀亭侯
-	type = character
-	flag = guanzhi_jue_ting_0012
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0012 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0012
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0013 = { # 稷山亭侯
-	type = character
-	flag = guanzhi_jue_ting_0013
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0013 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0013
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0014 = { # 韩亭侯
-	type = character
-	flag = guanzhi_jue_ting_0014
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0014 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0014
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0015 = { # 壶丘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0015
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0015 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0015
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0016 = { # 邵亭侯
-	type = character
-	flag = guanzhi_jue_ting_0016
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0016 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0016
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0017 = { # 曹阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0017
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0017 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0017
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0018 = { # 枳道亭侯
-	type = character
-	flag = guanzhi_jue_ting_0018
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0018 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0018
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0019 = { # 长门亭侯
-	type = character
-	flag = guanzhi_jue_ting_0019
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0019 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0019
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0020 = { # 鸿门亭侯
-	type = character
-	flag = guanzhi_jue_ting_0020
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0020 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0020
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0021 = { # 戏亭侯
-	type = character
-	flag = guanzhi_jue_ting_0021
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0021 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0021
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0022 = { # 甘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0022
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0022 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0022
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0023 = { # 邰亭侯
-	type = character
-	flag = guanzhi_jue_ting_0023
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0023 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0023
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0024 = { # 乌江亭侯
-	type = character
-	flag = guanzhi_jue_ting_0024
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0024 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0024
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0025 = { # 霸陵亭侯
-	type = character
-	flag = guanzhi_jue_ting_0025
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0025 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0025
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0026 = { # 南昌亭侯
-	type = character
-	flag = guanzhi_jue_ting_0026
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0026 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0026
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0027 = { # 轵道亭侯
-	type = character
-	flag = guanzhi_jue_ting_0027
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0027 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0027
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0028 = { # 杜邮亭侯
-	type = character
-	flag = guanzhi_jue_ting_0028
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0028 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0028
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0029 = { # 丰西泽亭侯
-	type = character
-	flag = guanzhi_jue_ting_0029
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0029 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0029
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0030 = { # 千秋亭侯
-	type = character
-	flag = guanzhi_jue_ting_0030
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0030 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0030
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0031 = { # 龙亭侯
-	type = character
-	flag = guanzhi_jue_ting_0031
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0031 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0031
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0032 = { # 费亭侯
-	type = character
-	flag = guanzhi_jue_ting_0032
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0032 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0032
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0033 = { # 汉寿亭侯
-	type = character
-	flag = guanzhi_jue_ting_0033
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0033 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0033
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0034 = { # 宜城亭侯
-	type = character
-	flag = guanzhi_jue_ting_0034
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0034 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0034
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0035 = { # 永昌亭侯
-	type = character
-	flag = guanzhi_jue_ting_0035
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0035 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0035
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0036 = { # 当阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0036
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0036 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0036
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0037 = { # 阳武亭侯
-	type = character
-	flag = guanzhi_jue_ting_0037
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0037 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0037
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0038 = { # 华亭侯
-	type = character
-	flag = guanzhi_jue_ting_0038
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0038 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0038
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0039 = { # 万岁亭侯
-	type = character
-	flag = guanzhi_jue_ting_0039
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0039 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0039
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0040 = { # 洧阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0040
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0040 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0040
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0041 = { # 陵树亭侯
-	type = character
-	flag = guanzhi_jue_ting_0041
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0041 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0041
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0042 = { # 广昌亭侯
-	type = character
-	flag = guanzhi_jue_ting_0042
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0042 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0042
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0043 = { # 益寿亭侯
-	type = character
-	flag = guanzhi_jue_ting_0043
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0043 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0043
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0044 = { # 延寿亭侯
-	type = character
-	flag = guanzhi_jue_ting_0044
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0044 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0044
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0045 = { # 魏寿亭侯
-	type = character
-	flag = guanzhi_jue_ting_0045
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0045 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0045
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0046 = { # 国明亭侯
-	type = character
-	flag = guanzhi_jue_ting_0046
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0046 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0046
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0047 = { # 安阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0047
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0047 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0047
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0048 = { # 都亭侯
-	type = character
-	flag = guanzhi_jue_ting_0048
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0048 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0048
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0049 = { # 高氏亭侯
-	type = character
-	flag = guanzhi_jue_ting_0049
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0049 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0049
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0050 = { # 岸亭侯
-	type = character
-	flag = guanzhi_jue_ting_0050
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0050 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0050
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0051 = { # 沈亭侯
-	type = character
-	flag = guanzhi_jue_ting_0051
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0051 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0051
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0052 = { # 柏亭侯
-	type = character
-	flag = guanzhi_jue_ting_0052
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0052 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0052
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0053 = { # 道亭侯
-	type = character
-	flag = guanzhi_jue_ting_0053
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0053 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0053
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0054 = { # 武城亭侯
-	type = character
-	flag = guanzhi_jue_ting_0054
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0054 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0054
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0055 = { # 棠谿亭侯
-	type = character
-	flag = guanzhi_jue_ting_0055
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0055 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0055
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0056 = { # 大吕亭侯
-	type = character
-	flag = guanzhi_jue_ting_0056
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0056 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0056
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0057 = { # 江亭侯
-	type = character
-	flag = guanzhi_jue_ting_0057
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0057 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0057
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0058 = { # 陉亭侯
-	type = character
-	flag = guanzhi_jue_ting_0058
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0058 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0058
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0059 = { # 安陵亭侯
-	type = character
-	flag = guanzhi_jue_ting_0059
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0059 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0059
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0060 = { # 繁阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0060
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0060 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0060
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0061 = { # 赖亭侯
-	type = character
-	flag = guanzhi_jue_ting_0061
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0061 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0061
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0062 = { # 卢门亭侯
-	type = character
-	flag = guanzhi_jue_ting_0062
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0062 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0062
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0063 = { # 桐亭侯
-	type = character
-	flag = guanzhi_jue_ting_0063
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0063 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0063
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0064 = { # 邳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0064
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0064 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0064
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0065 = { # 泗水亭侯
-	type = character
-	flag = guanzhi_jue_ting_0065
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0065 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0065
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0066 = { # 辰亭侯
-	type = character
-	flag = guanzhi_jue_ting_0066
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0066 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0066
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0067 = { # 牛首亭侯
-	type = character
-	flag = guanzhi_jue_ting_0067
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0067 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0067
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0068 = { # 沙亭侯
-	type = character
-	flag = guanzhi_jue_ting_0068
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0068 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0068
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0069 = { # 薄落亭侯
-	type = character
-	flag = guanzhi_jue_ting_0069
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0069 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0069
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0070 = { # 昔阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0070
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0070 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0070
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0071 = { # 鲜虞亭侯
-	type = character
-	flag = guanzhi_jue_ting_0071
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0071 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0071
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0072 = { # 中人亭侯
-	type = character
-	flag = guanzhi_jue_ting_0072
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0072 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0072
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0073 = { # 无蒌亭侯
-	type = character
-	flag = guanzhi_jue_ting_0073
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0073 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0073
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0074 = { # 苏人亭侯
-	type = character
-	flag = guanzhi_jue_ting_0074
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0074 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0074
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0075 = { # 鸣雁亭侯
-	type = character
-	flag = guanzhi_jue_ting_0075
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0075 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0075
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0076 = { # 滑亭侯
-	type = character
-	flag = guanzhi_jue_ting_0076
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0076 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0076
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0077 = { # 临济亭侯
-	type = character
-	flag = guanzhi_jue_ting_0077
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0077 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0077
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0078 = { # 黄池亭侯
-	type = character
-	flag = guanzhi_jue_ting_0078
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0078 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0078
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0079 = { # 桐牢亭侯
-	type = character
-	flag = guanzhi_jue_ting_0079
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0079 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0079
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0080 = { # 高阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0080
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0080 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0080
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0081 = { # 平阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0081
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0081 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0081
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0082 = { # 瓦亭侯
-	type = character
-	flag = guanzhi_jue_ting_0082
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0082 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0082
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0083 = { # 清亭侯
-	type = character
-	flag = guanzhi_jue_ting_0083
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0083 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0083
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0084 = { # 秦亭侯
-	type = character
-	flag = guanzhi_jue_ting_0084
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0084 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0084
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0085 = { # 莘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0085
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0085 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0085
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0086 = { # 阚亭侯
-	type = character
-	flag = guanzhi_jue_ting_0086
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0086 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0086
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0087 = { # 堂阳亭侯
-	type = character
-	flag = guanzhi_jue_ting_0087
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0087 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0087
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0088 = { # 阳关亭侯
-	type = character
-	flag = guanzhi_jue_ting_0088
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0088 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0088
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0089 = { # 祊亭侯
-	type = character
-	flag = guanzhi_jue_ting_0089
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0089 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0089
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0090 = { # 台亭侯
-	type = character
-	flag = guanzhi_jue_ting_0090
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0090 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0090
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0091 = { # 下讙亭侯
-	type = character
-	flag = guanzhi_jue_ting_0091
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0091 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0091
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0092 = { # 甲父亭侯
-	type = character
-	flag = guanzhi_jue_ting_0092
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0092 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0092
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0093 = { # 漆亭侯
-	type = character
-	flag = guanzhi_jue_ting_0093
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0093 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0093
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0094 = { # 闾丘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0094
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0094 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0094
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0095 = { # 武唐亭侯
-	type = character
-	flag = guanzhi_jue_ting_0095
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0095 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0095
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0096 = { # 泥母亭侯
-	type = character
-	flag = guanzhi_jue_ting_0096
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0096 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0096
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0097 = { # 三鬷亭侯
-	type = character
-	flag = guanzhi_jue_ting_0097
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0097 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0097
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0098 = { # 垂亭侯
-	type = character
-	flag = guanzhi_jue_ting_0098
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0098 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0098
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0099 = { # 次室亭侯
-	type = character
-	flag = guanzhi_jue_ting_0099
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0099 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0099
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0100 = { # 郓亭侯
-	type = character
-	flag = guanzhi_jue_ting_0100
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0100 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0100
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0101 = { # 丛亭侯
-	type = character
-	flag = guanzhi_jue_ting_0101
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0101 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0101
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0102 = { # 概亭侯
-	type = character
-	flag = guanzhi_jue_ting_0102
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0102 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0102
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0103 = { # 东陵亭侯
-	type = character
-	flag = guanzhi_jue_ting_0103
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0103 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0103
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0104 = { # 楼亭侯
-	type = character
-	flag = guanzhi_jue_ting_0104
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0104 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0104
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0105 = { # 野井亭侯
-	type = character
-	flag = guanzhi_jue_ting_0105
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0105 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0105
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0106 = { # 灌亭侯
-	type = character
-	flag = guanzhi_jue_ting_0106
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0106 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0106
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0107 = { # 纪亭侯
-	type = character
-	flag = guanzhi_jue_ting_0107
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0107 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0107
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0108 = { # 寒亭侯
-	type = character
-	flag = guanzhi_jue_ting_0108
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0108 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0108
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0109 = { # 渠丘亭侯
-	type = character
-	flag = guanzhi_jue_ting_0109
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0109 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0109
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0110 = { # 酅亭侯
-	type = character
-	flag = guanzhi_jue_ting_0110
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0110 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0110
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0111 = { # 介亭侯
-	type = character
-	flag = guanzhi_jue_ting_0111
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0111 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0111
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0112 = { # 尤涉亭侯
-	type = character
-	flag = guanzhi_jue_ting_0112
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0112 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0112
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0113 = { # 棘里亭侯
-	type = character
-	flag = guanzhi_jue_ting_0113
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0113 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0113
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0114 = { # 三亭侯
-	type = character
-	flag = guanzhi_jue_ting_0114
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0114 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0114
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0115 = { # 东武亭侯
-	type = character
-	flag = guanzhi_jue_ting_0115
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0115 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0115
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0116 = { # 牛兰累亭侯
-	type = character
-	flag = guanzhi_jue_ting_0116
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0116 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0116
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0117 = { # 三户亭侯
-	type = character
-	flag = guanzhi_jue_ting_0117
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0117 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0117
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0118 = { # 街泉亭侯
-	type = character
-	flag = guanzhi_jue_ting_0118
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0118 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0118
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0119 = { # 五柞亭侯
-	type = character
-	flag = guanzhi_jue_ting_0119
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0119 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0119
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0120 = { # 黎亭侯
-	type = character
-	flag = guanzhi_jue_ting_0120
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0120 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0120
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0121 = { # 长平亭侯
-	type = character
-	flag = guanzhi_jue_ting_0121
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0121 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0121
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-
-gzfv_jue_ting_0122 = { # 督亢亭侯
-	type = character
-	flag = guanzhi_jue_ting_0122
-	priority = 2000
-	flavourization_rules = {
-		only_holder = yes
-		spouse_takes_title = no
-		top_liege = no
-	}
-}
-gzft_jue_ting_0122 = { # 头衔显示
-	type = title
-	flag = guanzhi_jue_ting_0122
+	flag = guanzhi_jue_xian_1167
 	priority = 2000
 	flavourization_rules = {
 		only_holder = yes

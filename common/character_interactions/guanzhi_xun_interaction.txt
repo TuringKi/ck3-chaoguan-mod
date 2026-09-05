@@ -1,0 +1,72 @@
+# Guanzhi 官制 - 勋官互动 (9700 事件内选转)
+# 手动授予不限文武: 文官亦可授勋
+
+guanzhi_grant_xun_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_grant_xun_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+			has_character_flag = guanzhi_uses_tang_system
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			is_adult = yes
+			OR = {
+				is_courtier_of = scope:actor
+				is_vassal_of = scope:actor
+				liege = scope:actor
+				top_liege = scope:actor
+			}
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:actor = {
+			debug_log = "GUANZHI xun interaction accepted"
+			trigger_event = { id = guanzhi.9700 }
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+# 剥夺勋官: 只按 trait 判定, 不限身份
+guanzhi_revoke_xun_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_revoke_xun_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = {
+			guanzhi_is_celestial_sovereign_trigger = yes
+		}
+		scope:recipient = {
+			NOT = { this = scope:actor }
+			guanzhi_has_xun_trigger = yes
+		}
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			debug_log = "GUANZHI revoke xun interaction accepted"
+			guanzhi_clear_xun_effect = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

@@ -1,0 +1,545 @@
+# Guanzhi 官制 - 散官自动授予/同步效果 (generated)
+# 自动授予额外打 guanzhi_san_auto 旗标: 手动授予(互动)无此旗标, 同步不动它
+
+# 自动授开府仪同三司 (root=受官者)
+guanzhi_san_auto_grant_wen_01 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_01 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_01 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授特进 (root=受官者)
+guanzhi_san_auto_grant_wen_02 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_02 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_02 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授光禄大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_03 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_03 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_03 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授金紫光禄大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_04 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_04 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_04 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授银青光禄大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_05 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_05 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_05 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授正议大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_06 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_06 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_06 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授中散大夫 (root=受官者)
+guanzhi_san_auto_grant_wen_10 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_10 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_10 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授朝请郎 (root=受官者)
+guanzhi_san_auto_grant_wen_18 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_18 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_18 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授辅国大将军 (root=受官者)
+guanzhi_san_auto_grant_wu_02 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_02 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_02 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授冠军大将军 (root=受官者)
+guanzhi_san_auto_grant_wu_04 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_04 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_04 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授怀化大将军 (root=受官者)
+guanzhi_san_auto_grant_wu_05 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_05 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_05 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授怀化将军 (root=受官者)
+guanzhi_san_auto_grant_wu_06 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_06 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_06 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授定远将军 (root=受官者)
+guanzhi_san_auto_grant_wu_16 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_16 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_16 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授怀化郎将 (root=受官者)
+guanzhi_san_auto_grant_wu_18 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_18 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_18 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授致果校尉 (root=受官者)
+guanzhi_san_auto_grant_wu_28 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_28 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_28 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授怀化中候 (root=受官者)
+guanzhi_san_auto_grant_wu_30 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_30 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_30 for [root.GetShortUIName]"
+	}
+}
+
+# 按官职头衔变量分派散阶 (汉制官职不在映射表中, 自然落空)
+guanzhi_san_sync_office_effect = {
+	if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_taishi }
+				scope:title = { has_variable = guanzhi_office_t_taifu }
+				scope:title = { has_variable = guanzhi_office_t_taibao }
+				scope:title = { has_variable = guanzhi_office_t_taiwei }
+				scope:title = { has_variable = guanzhi_office_t_situ }
+				scope:title = { has_variable = guanzhi_office_t_sikong }
+			}
+		}
+		guanzhi_san_auto_grant_wen_01 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_shangshuling }
+			}
+		}
+		guanzhi_san_auto_grant_wen_02 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_zuopuye }
+				scope:title = { has_variable = guanzhi_office_t_youpuye }
+			}
+		}
+		guanzhi_san_auto_grant_wen_03 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_zhongshuling }
+				scope:title = { has_variable = guanzhi_office_t_shizhong }
+				scope:title = { has_variable = guanzhi_office_t_libu }
+				scope:title = { has_variable = guanzhi_office_t_hubu }
+				scope:title = { has_variable = guanzhi_office_t_libu_rites }
+				scope:title = { has_variable = guanzhi_office_t_bingbu }
+				scope:title = { has_variable = guanzhi_office_t_xingbu }
+				scope:title = { has_variable = guanzhi_office_t_gongbu }
+				scope:title = { has_variable = guanzhi_office_t_neishi }
+			}
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_yushidafu }
+				scope:title = { has_variable = guanzhi_office_t_taichang }
+				scope:title = { has_variable = guanzhi_office_t_guanglu }
+				scope:title = { has_variable = guanzhi_office_t_weiwei_si }
+				scope:title = { has_variable = guanzhi_office_t_zongzheng }
+				scope:title = { has_variable = guanzhi_office_t_taipu }
+				scope:title = { has_variable = guanzhi_office_t_dali }
+				scope:title = { has_variable = guanzhi_office_t_honglu }
+				scope:title = { has_variable = guanzhi_office_t_sinong }
+				scope:title = { has_variable = guanzhi_office_t_taifu_si }
+				scope:title = { has_variable = guanzhi_office_t_guozi }
+				scope:title = { has_variable = guanzhi_office_t_mishu }
+				scope:title = { has_variable = guanzhi_office_t_dianzhong }
+				scope:title = { has_variable = guanzhi_office_t_shaofu_jian }
+				scope:title = { has_variable = guanzhi_office_t_jiangzuo }
+			}
+		}
+		guanzhi_san_auto_grant_wen_05 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_junqi }
+			}
+		}
+		guanzhi_san_auto_grant_wen_06 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_dushui }
+			}
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				scope:title = { has_variable = guanzhi_office_t_zuowei }
+				scope:title = { has_variable = guanzhi_office_t_youwei }
+				scope:title = { has_variable = guanzhi_office_t_zuoxiaowei }
+				scope:title = { has_variable = guanzhi_office_t_youxiaowei }
+				scope:title = { has_variable = guanzhi_office_t_zuowuwei }
+				scope:title = { has_variable = guanzhi_office_t_youwuwei }
+				scope:title = { has_variable = guanzhi_office_t_zuoweiwei }
+				scope:title = { has_variable = guanzhi_office_t_youweiwei }
+				scope:title = { has_variable = guanzhi_office_t_zuolingjun }
+				scope:title = { has_variable = guanzhi_office_t_youlingjun }
+				scope:title = { has_variable = guanzhi_office_t_zuojinwu }
+				scope:title = { has_variable = guanzhi_office_t_youjinwu }
+				scope:title = { has_variable = guanzhi_office_t_zuojianmen }
+				scope:title = { has_variable = guanzhi_office_t_youjianmen }
+				scope:title = { has_variable = guanzhi_office_t_zuoqianniu }
+				scope:title = { has_variable = guanzhi_office_t_youqianniu }
+			}
+		}
+		guanzhi_san_auto_grant_wu_04 = yes
+	}
+}
+
+# 按头衔层级授散阶 (military_province 旗标授武散, 否则文散; 蕃将授蕃号; 手动优先由 wrapper 把关)
+guanzhi_san_sync_landed_effect = {
+	if = {
+		limit = {
+			highest_held_title_tier >= tier_kingdom
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_02 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier >= tier_kingdom
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier >= tier_kingdom
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_05 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_duchy
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_duchy
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_04 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_duchy
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_06 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_county
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_county
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_16 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_county
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_18 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_barony
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_18 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_barony
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_28 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_barony
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_30 = yes
+	}
+}

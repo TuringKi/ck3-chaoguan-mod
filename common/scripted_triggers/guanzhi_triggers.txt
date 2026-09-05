@@ -87,10 +87,33 @@ guanzhi_has_chosen_system_trigger = {
 # 新册封的封地 trait 都带 flag = guanzhi_jue; 旧版 4 个等级 trait 兼容旧存档.
 guanzhi_has_jue_trigger = {
 	OR = {
-		has_trait_flag = guanzhi_jue
+		has_trait_with_flag = guanzhi_jue
 		has_trait = guanzhi_jue_wang
 		has_trait = guanzhi_jue_xianhou
 		has_trait = guanzhi_jue_xianghou
 		has_trait = guanzhi_jue_tinghou
 	}
+}
+
+# Does this character hold a Guanzhi 散官 rank (唐代寄禄官)?
+# 散阶 trait 都带 flag = guanzhi_san.
+guanzhi_has_san_trigger = {
+	has_trait_with_flag = guanzhi_san
+}
+
+# Does this character hold a Guanzhi 勋官 rank (唐代十二转)?
+# 勋阶 trait 都带 flag = guanzhi_xun.
+guanzhi_has_xun_trigger = {
+	has_trait_with_flag = guanzhi_xun
+}
+
+# Does this character hold a Guanzhi 唐代爵位 (国公/开国郡公/县公/县侯/县伯/县子/县男)?
+# 爵级 trait 都带 flag = guanzhi_tj.
+guanzhi_has_tj_trigger = {
+	has_trait_with_flag = guanzhi_tj
+}
+
+# 唐爵菜单翻页: 当前页 (照整合包 faction_demand.0227 的 scripted_trigger 参数化模式)
+guanzhi_tj_page_trigger = {
+	var:guanzhi_tj_page = $PAGE$
 }

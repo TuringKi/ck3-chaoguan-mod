@@ -1,0 +1,74 @@
+# Guanzhi 官制 - 官爵状态诊断互动 (调试用, 用完可删)
+# 右键任意人物使用, 状态写入 debug.log (搜 GZDIAG)
+
+guanzhi_diag_rank_state_interaction = {
+	category = interaction_category_vassal
+	desc = guanzhi_diag_rank_state_interaction_desc
+	filter_tags = { guanzhi }
+
+	is_shown = {
+		scope:actor = { always = yes }
+		scope:recipient = { always = yes }
+	}
+	is_valid = {
+		always = yes
+	}
+
+	auto_accept = yes
+	on_accept = {
+		scope:recipient = {
+			debug_log = "GZDIAG ==== [recipient.GetShortUIName] ===="
+			if = {
+				limit = { is_landed = yes }
+				debug_log = "GZDIAG landed=YES"
+			}
+			else = { debug_log = "GZDIAG landed=NO" }
+			if = {
+				limit = { guanzhi_has_san_trigger = yes }
+				debug_log = "GZDIAG has_san_trigger=YES"
+			}
+			else = { debug_log = "GZDIAG has_san_trigger=NO" }
+			if = {
+				limit = { has_trait = gzs_wen_02 }
+				debug_log = "GZDIAG trait wen_02=YES"
+			}
+			if = {
+				limit = { has_trait = gzs_wen_01 }
+				debug_log = "GZDIAG trait wen_01=YES"
+			}
+			if = {
+				limit = { has_character_flag = guanzhi_san_wen_01 }
+				debug_log = "GZDIAG flag wen_01=YES"
+			}
+			else = { debug_log = "GZDIAG flag wen_01=NO" }
+			if = {
+				limit = { has_character_flag = guanzhi_san_wen_02 }
+				debug_log = "GZDIAG flag wen_02=YES"
+			}
+			else = { debug_log = "GZDIAG flag wen_02=NO" }
+			if = {
+				limit = { has_character_flag = guanzhi_sanholder }
+				debug_log = "GZDIAG sanholder=YES"
+			}
+			else = { debug_log = "GZDIAG sanholder=NO" }
+			if = {
+				limit = { any_held_title = { has_variable = guanzhi_is_san } }
+				debug_log = "GZDIAG holds_san_title=YES"
+			}
+			else = { debug_log = "GZDIAG holds_san_title=NO" }
+			if = {
+				limit = { has_nickname = nick_gz_rank_mount }
+				debug_log = "GZDIAG nickname=YES"
+			}
+			else = { debug_log = "GZDIAG nickname=NO" }
+			debug_log = "GZDIAG primary=[recipient.GetPrimaryTitle.GetNameNoTooltip]"
+			debug_log = "GZDIAG san_display=[recipient.Custom('guanzhi_san_display')]"
+			debug_log = "GZDIAG xun_display=[recipient.Custom('guanzhi_xun_display')]"
+			debug_log = "GZDIAG jue_display=[recipient.Custom('guanzhi_jue_display')]"
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

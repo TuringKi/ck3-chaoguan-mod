@@ -1,0 +1,609 @@
+# Guanzhi 官制 - 名字组合: 散官部分 (按 gzs_* trait)
+guanzhi_san_display = {
+	type = character
+	text = {
+		trigger = { has_trait = gzs_wen_01 }
+		localization_key = gzsd_wen_01
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_02 }
+		localization_key = gzsd_wen_02
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_03 }
+		localization_key = gzsd_wen_03
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_04 }
+		localization_key = gzsd_wen_04
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_05 }
+		localization_key = gzsd_wen_05
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_06 }
+		localization_key = gzsd_wen_06
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_07 }
+		localization_key = gzsd_wen_07
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_08 }
+		localization_key = gzsd_wen_08
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_09 }
+		localization_key = gzsd_wen_09
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_10 }
+		localization_key = gzsd_wen_10
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_11 }
+		localization_key = gzsd_wen_11
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_12 }
+		localization_key = gzsd_wen_12
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_13 }
+		localization_key = gzsd_wen_13
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_14 }
+		localization_key = gzsd_wen_14
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_15 }
+		localization_key = gzsd_wen_15
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_16 }
+		localization_key = gzsd_wen_16
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_17 }
+		localization_key = gzsd_wen_17
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_18 }
+		localization_key = gzsd_wen_18
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_19 }
+		localization_key = gzsd_wen_19
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_20 }
+		localization_key = gzsd_wen_20
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_21 }
+		localization_key = gzsd_wen_21
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_22 }
+		localization_key = gzsd_wen_22
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_23 }
+		localization_key = gzsd_wen_23
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_24 }
+		localization_key = gzsd_wen_24
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_25 }
+		localization_key = gzsd_wen_25
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_26 }
+		localization_key = gzsd_wen_26
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_27 }
+		localization_key = gzsd_wen_27
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_28 }
+		localization_key = gzsd_wen_28
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_29 }
+		localization_key = gzsd_wen_29
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_01 }
+		localization_key = gzsd_wu_01
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_02 }
+		localization_key = gzsd_wu_02
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_03 }
+		localization_key = gzsd_wu_03
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_04 }
+		localization_key = gzsd_wu_04
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_05 }
+		localization_key = gzsd_wu_05
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_06 }
+		localization_key = gzsd_wu_06
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_07 }
+		localization_key = gzsd_wu_07
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_08 }
+		localization_key = gzsd_wu_08
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_09 }
+		localization_key = gzsd_wu_09
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_10 }
+		localization_key = gzsd_wu_10
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_11 }
+		localization_key = gzsd_wu_11
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_12 }
+		localization_key = gzsd_wu_12
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_13 }
+		localization_key = gzsd_wu_13
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_14 }
+		localization_key = gzsd_wu_14
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_15 }
+		localization_key = gzsd_wu_15
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_16 }
+		localization_key = gzsd_wu_16
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_17 }
+		localization_key = gzsd_wu_17
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_18 }
+		localization_key = gzsd_wu_18
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_19 }
+		localization_key = gzsd_wu_19
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_20 }
+		localization_key = gzsd_wu_20
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_21 }
+		localization_key = gzsd_wu_21
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_22 }
+		localization_key = gzsd_wu_22
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_23 }
+		localization_key = gzsd_wu_23
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_24 }
+		localization_key = gzsd_wu_24
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_25 }
+		localization_key = gzsd_wu_25
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_26 }
+		localization_key = gzsd_wu_26
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_27 }
+		localization_key = gzsd_wu_27
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_28 }
+		localization_key = gzsd_wu_28
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_29 }
+		localization_key = gzsd_wu_29
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_30 }
+		localization_key = gzsd_wu_30
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_31 }
+		localization_key = gzsd_wu_31
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_32 }
+		localization_key = gzsd_wu_32
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_33 }
+		localization_key = gzsd_wu_33
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_34 }
+		localization_key = gzsd_wu_34
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_35 }
+		localization_key = gzsd_wu_35
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_36 }
+		localization_key = gzsd_wu_36
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_37 }
+		localization_key = gzsd_wu_37
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_38 }
+		localization_key = gzsd_wu_38
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_39 }
+		localization_key = gzsd_wu_39
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_40 }
+		localization_key = gzsd_wu_40
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_41 }
+		localization_key = gzsd_wu_41
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_42 }
+		localization_key = gzsd_wu_42
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_43 }
+		localization_key = gzsd_wu_43
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_44 }
+		localization_key = gzsd_wu_44
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_45 }
+		localization_key = gzsd_wu_45
+	}
+	text = {
+		fallback = yes
+		localization_key = guanzhi_ling_none
+	}
+}
+
+# 散官为主头衔时的散官名(无顿号, 备用)
+guanzhi_san_first = {
+	type = character
+	text = {
+		trigger = { has_trait = gzs_wen_01 }
+		localization_key = gzsf_wen_01
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_02 }
+		localization_key = gzsf_wen_02
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_03 }
+		localization_key = gzsf_wen_03
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_04 }
+		localization_key = gzsf_wen_04
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_05 }
+		localization_key = gzsf_wen_05
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_06 }
+		localization_key = gzsf_wen_06
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_07 }
+		localization_key = gzsf_wen_07
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_08 }
+		localization_key = gzsf_wen_08
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_09 }
+		localization_key = gzsf_wen_09
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_10 }
+		localization_key = gzsf_wen_10
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_11 }
+		localization_key = gzsf_wen_11
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_12 }
+		localization_key = gzsf_wen_12
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_13 }
+		localization_key = gzsf_wen_13
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_14 }
+		localization_key = gzsf_wen_14
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_15 }
+		localization_key = gzsf_wen_15
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_16 }
+		localization_key = gzsf_wen_16
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_17 }
+		localization_key = gzsf_wen_17
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_18 }
+		localization_key = gzsf_wen_18
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_19 }
+		localization_key = gzsf_wen_19
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_20 }
+		localization_key = gzsf_wen_20
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_21 }
+		localization_key = gzsf_wen_21
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_22 }
+		localization_key = gzsf_wen_22
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_23 }
+		localization_key = gzsf_wen_23
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_24 }
+		localization_key = gzsf_wen_24
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_25 }
+		localization_key = gzsf_wen_25
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_26 }
+		localization_key = gzsf_wen_26
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_27 }
+		localization_key = gzsf_wen_27
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_28 }
+		localization_key = gzsf_wen_28
+	}
+	text = {
+		trigger = { has_trait = gzs_wen_29 }
+		localization_key = gzsf_wen_29
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_01 }
+		localization_key = gzsf_wu_01
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_02 }
+		localization_key = gzsf_wu_02
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_03 }
+		localization_key = gzsf_wu_03
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_04 }
+		localization_key = gzsf_wu_04
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_05 }
+		localization_key = gzsf_wu_05
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_06 }
+		localization_key = gzsf_wu_06
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_07 }
+		localization_key = gzsf_wu_07
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_08 }
+		localization_key = gzsf_wu_08
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_09 }
+		localization_key = gzsf_wu_09
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_10 }
+		localization_key = gzsf_wu_10
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_11 }
+		localization_key = gzsf_wu_11
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_12 }
+		localization_key = gzsf_wu_12
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_13 }
+		localization_key = gzsf_wu_13
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_14 }
+		localization_key = gzsf_wu_14
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_15 }
+		localization_key = gzsf_wu_15
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_16 }
+		localization_key = gzsf_wu_16
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_17 }
+		localization_key = gzsf_wu_17
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_18 }
+		localization_key = gzsf_wu_18
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_19 }
+		localization_key = gzsf_wu_19
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_20 }
+		localization_key = gzsf_wu_20
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_21 }
+		localization_key = gzsf_wu_21
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_22 }
+		localization_key = gzsf_wu_22
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_23 }
+		localization_key = gzsf_wu_23
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_24 }
+		localization_key = gzsf_wu_24
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_25 }
+		localization_key = gzsf_wu_25
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_26 }
+		localization_key = gzsf_wu_26
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_27 }
+		localization_key = gzsf_wu_27
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_28 }
+		localization_key = gzsf_wu_28
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_29 }
+		localization_key = gzsf_wu_29
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_30 }
+		localization_key = gzsf_wu_30
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_31 }
+		localization_key = gzsf_wu_31
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_32 }
+		localization_key = gzsf_wu_32
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_33 }
+		localization_key = gzsf_wu_33
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_34 }
+		localization_key = gzsf_wu_34
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_35 }
+		localization_key = gzsf_wu_35
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_36 }
+		localization_key = gzsf_wu_36
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_37 }
+		localization_key = gzsf_wu_37
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_38 }
+		localization_key = gzsf_wu_38
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_39 }
+		localization_key = gzsf_wu_39
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_40 }
+		localization_key = gzsf_wu_40
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_41 }
+		localization_key = gzsf_wu_41
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_42 }
+		localization_key = gzsf_wu_42
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_43 }
+		localization_key = gzsf_wu_43
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_44 }
+		localization_key = gzsf_wu_44
+	}
+	text = {
+		trigger = { has_trait = gzs_wu_45 }
+		localization_key = gzsf_wu_45
+	}
+	text = {
+		fallback = yes
+		localization_key = guanzhi_ling_none
+	}
+}

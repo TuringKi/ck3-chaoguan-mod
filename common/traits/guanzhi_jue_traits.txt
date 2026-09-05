@@ -1115,7 +1115,7 @@ gzj_xian_0002 = { # 梁侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0003 = { # 荧阳侯
+gzj_xian_0003 = { # 荥阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -1181,7 +1181,7 @@ gzj_xian_0008 = { # 开封侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0009 = { # 菀陵侯
+gzj_xian_0009 = { # 苑陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -1203,7 +1203,7 @@ gzj_xian_0010 = { # 平阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0011 = { # 穀城侯
+gzj_xian_0011 = { # 谷城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -1445,7 +1445,7 @@ gzj_xian_0032 = { # 获嘉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0033 = { # 脩武侯
+gzj_xian_0033 = { # 修武侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -1566,7 +1566,7 @@ gzj_xian_0043 = { # 汾阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0044 = { # 蒲板侯
+gzj_xian_0044 = { # 蒲坂侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -1973,7 +1973,7 @@ gzj_xian_0080 = { # 云阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0081 = { # 礻殳祤侯
+gzj_xian_0081 = { # 祋祤侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2138,7 +2138,7 @@ gzj_xian_0095 = { # 鄠侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0096 = { # 眉阝侯
+gzj_xian_0096 = { # 郿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2182,7 +2182,7 @@ gzj_xian_0099 = { # 汧侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0100 = { # 渝麋侯
+gzj_xian_0100 = { # 隃麋侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2545,7 +2545,7 @@ gzj_xian_0132 = { # 㶏强侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0133 = { # 灌阳侯
+gzj_xian_0133 = { # 灈阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2633,7 +2633,7 @@ gzj_xian_0140 = { # 吴房侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0141 = { # 鮦阳侯
+gzj_xian_0141 = { # 鲖阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2776,7 +2776,7 @@ gzj_xian_0153 = { # 宋侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0154 = { # 襃信侯
+gzj_xian_0154 = { # 褒信侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2897,7 +2897,7 @@ gzj_xian_0164 = { # 蒙侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0165 = { # 穀熟侯
+gzj_xian_0165 = { # 谷熟侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -2996,7 +2996,7 @@ gzj_xian_0173 = { # 酂侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0174 = { # 穀阳侯
+gzj_xian_0174 = { # 谷阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -3271,7 +3271,7 @@ gzj_xian_0198 = { # 长平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0199 = { # 鲁国侯
+gzj_xian_0199 = { # 鲁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -3502,7 +3502,7 @@ gzj_xian_0219 = { # 梁期侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0220 = { # 廮陶侯
+gzj_xian_0220 = { # 瘿陶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -3513,7 +3513,7 @@ gzj_xian_0220 = { # 廮陶侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0221 = { # 钜鹿侯
+gzj_xian_0221 = { # 巨鹿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -3656,7 +3656,7 @@ gzj_xian_0233 = { # 平乡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0234 = { # 南龻侯
+gzj_xian_0234 = { # 南䜌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -3887,7 +3887,7 @@ gzj_xian_0254 = { # 安国侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0255 = { # 安憙侯
+gzj_xian_0255 = { # 安喜侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -4426,7 +4426,7 @@ gzj_xian_0303 = { # 阳信侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0304 = { # 脩侯
+gzj_xian_0304 = { # 修侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -4514,7 +4514,7 @@ gzj_xian_0311 = { # 小黄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0312 = { # 东昬侯
+gzj_xian_0312 = { # 东昏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -4921,7 +4921,7 @@ gzj_xian_0348 = { # 梁甫侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0349 = { # 钜平侯
+gzj_xian_0349 = { # 巨平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -5097,7 +5097,7 @@ gzj_xian_0364 = { # 东缗侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0365 = { # 钜野侯
+gzj_xian_0365 = { # 巨野侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -5933,7 +5933,7 @@ gzj_xian_0440 = { # 取虑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0441 = { # 东成侯
+gzj_xian_0441 = { # 东城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -6010,7 +6010,7 @@ gzj_xian_0447 = { # 著侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0448 = { # 於陵侯
+gzj_xian_0448 = { # 于陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -6164,7 +6164,7 @@ gzj_xian_0461 = { # 乐陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0462 = { # 湿阴侯
+gzj_xian_0462 = { # 漯阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -6219,7 +6219,7 @@ gzj_xian_0466 = { # 千乘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0467 = { # 高菀侯
+gzj_xian_0467 = { # 高宛侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -7275,7 +7275,7 @@ gzj_xian_0562 = { # 州陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0563 = { # 很山侯
+gzj_xian_0563 = { # 佷山侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -7858,7 +7858,7 @@ gzj_xian_0615 = { # 攸侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0616 = { # 荼陵侯
+gzj_xian_0616 = { # 茶陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -7869,7 +7869,7 @@ gzj_xian_0616 = { # 荼陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0617 = { # 霝阝侯
+gzj_xian_0617 = { # 酃侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8276,7 +8276,7 @@ gzj_xian_0653 = { # 江乘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0654 = { # 春穀侯
+gzj_xian_0654 = { # 春谷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8496,7 +8496,7 @@ gzj_xian_0673 = { # 诸暨侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0674 = { # 馀暨侯
+gzj_xian_0674 = { # 余暨侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8540,7 +8540,7 @@ gzj_xian_0677 = { # 剡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0678 = { # 馀姚侯
+gzj_xian_0678 = { # 余姚侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8606,7 +8606,7 @@ gzj_xian_0683 = { # 东部侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0684 = { # 吴侯
+gzj_xian_0684 = { # 冶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8617,7 +8617,7 @@ gzj_xian_0684 = { # 吴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0685 = { # 海盐侯
+gzj_xian_0685 = { # 吴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8628,7 +8628,7 @@ gzj_xian_0685 = { # 海盐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0686 = { # 乌程侯
+gzj_xian_0686 = { # 海盐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8639,7 +8639,7 @@ gzj_xian_0686 = { # 乌程侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0687 = { # 馀杭侯
+gzj_xian_0687 = { # 乌程侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8650,7 +8650,7 @@ gzj_xian_0687 = { # 馀杭侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0688 = { # 毗陵侯
+gzj_xian_0688 = { # 余杭侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8661,7 +8661,7 @@ gzj_xian_0688 = { # 毗陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0689 = { # 丹徒侯
+gzj_xian_0689 = { # 毗陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8672,7 +8672,7 @@ gzj_xian_0689 = { # 丹徒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0690 = { # 曲阿侯
+gzj_xian_0690 = { # 丹徒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8683,7 +8683,7 @@ gzj_xian_0690 = { # 曲阿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0691 = { # 由拳侯
+gzj_xian_0691 = { # 曲阿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8694,7 +8694,7 @@ gzj_xian_0691 = { # 由拳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0692 = { # 安侯
+gzj_xian_0692 = { # 由拳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8705,7 +8705,7 @@ gzj_xian_0692 = { # 安侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0693 = { # 富春侯
+gzj_xian_0693 = { # 安侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8716,7 +8716,7 @@ gzj_xian_0693 = { # 富春侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0694 = { # 阳羡侯
+gzj_xian_0694 = { # 富春侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8727,7 +8727,7 @@ gzj_xian_0694 = { # 阳羡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0695 = { # 无锡侯
+gzj_xian_0695 = { # 阳羡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8738,7 +8738,7 @@ gzj_xian_0695 = { # 无锡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0696 = { # 娄侯
+gzj_xian_0696 = { # 无锡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8749,7 +8749,7 @@ gzj_xian_0696 = { # 娄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0697 = { # 南昌侯
+gzj_xian_0697 = { # 娄侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8760,7 +8760,7 @@ gzj_xian_0697 = { # 南昌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0698 = { # 建城侯
+gzj_xian_0698 = { # 南昌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8771,7 +8771,7 @@ gzj_xian_0698 = { # 建城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0699 = { # 新淦侯
+gzj_xian_0699 = { # 建城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8782,7 +8782,7 @@ gzj_xian_0699 = { # 新淦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0700 = { # 宜春侯
+gzj_xian_0700 = { # 新淦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8793,7 +8793,7 @@ gzj_xian_0700 = { # 宜春侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0701 = { # 庐陵侯
+gzj_xian_0701 = { # 宜春侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8804,7 +8804,7 @@ gzj_xian_0701 = { # 庐陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0702 = { # 赣侯
+gzj_xian_0702 = { # 庐陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8815,7 +8815,7 @@ gzj_xian_0702 = { # 赣侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0703 = { # 雩都侯
+gzj_xian_0703 = { # 赣侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8826,7 +8826,7 @@ gzj_xian_0703 = { # 雩都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0704 = { # 南野侯
+gzj_xian_0704 = { # 雩都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8837,7 +8837,7 @@ gzj_xian_0704 = { # 南野侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0705 = { # 鄱阳侯
+gzj_xian_0705 = { # 南野侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8848,7 +8848,7 @@ gzj_xian_0705 = { # 鄱阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0706 = { # 历陵侯
+gzj_xian_0706 = { # 鄱阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8859,7 +8859,7 @@ gzj_xian_0706 = { # 历陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0707 = { # 馀汗侯
+gzj_xian_0707 = { # 历陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8870,7 +8870,7 @@ gzj_xian_0707 = { # 馀汗侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0708 = { # 鄡阳侯
+gzj_xian_0708 = { # 余汗侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8881,7 +8881,7 @@ gzj_xian_0708 = { # 鄡阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0709 = { # 彭泽侯
+gzj_xian_0709 = { # 鄡阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8892,7 +8892,7 @@ gzj_xian_0709 = { # 彭泽侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0710 = { # 柴桑侯
+gzj_xian_0710 = { # 彭泽侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8903,7 +8903,7 @@ gzj_xian_0710 = { # 柴桑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0711 = { # 艾侯
+gzj_xian_0711 = { # 柴桑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8914,7 +8914,7 @@ gzj_xian_0711 = { # 艾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0712 = { # 海昬侯
+gzj_xian_0712 = { # 艾侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8925,7 +8925,7 @@ gzj_xian_0712 = { # 海昬侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0713 = { # 平都侯
+gzj_xian_0713 = { # 海昬侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8936,7 +8936,7 @@ gzj_xian_0713 = { # 平都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0714 = { # 石阳侯
+gzj_xian_0714 = { # 平都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8947,7 +8947,7 @@ gzj_xian_0714 = { # 石阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0715 = { # 临汝侯
+gzj_xian_0715 = { # 石阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8958,7 +8958,7 @@ gzj_xian_0715 = { # 临汝侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0716 = { # 建昌侯
+gzj_xian_0716 = { # 临汝侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8969,7 +8969,7 @@ gzj_xian_0716 = { # 建昌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0717 = { # 南郑侯
+gzj_xian_0717 = { # 建昌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8980,7 +8980,7 @@ gzj_xian_0717 = { # 南郑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0718 = { # 成固侯
+gzj_xian_0718 = { # 南郑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -8991,7 +8991,7 @@ gzj_xian_0718 = { # 成固侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0719 = { # 西城侯
+gzj_xian_0719 = { # 成固侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9002,7 +9002,7 @@ gzj_xian_0719 = { # 西城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0720 = { # 襃中侯
+gzj_xian_0720 = { # 西城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9013,7 +9013,7 @@ gzj_xian_0720 = { # 襃中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0721 = { # 沔阳侯
+gzj_xian_0721 = { # 襃中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9024,7 +9024,7 @@ gzj_xian_0721 = { # 沔阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0722 = { # 锡侯
+gzj_xian_0722 = { # 沔阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9035,7 +9035,7 @@ gzj_xian_0722 = { # 锡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0723 = { # 上庸侯
+gzj_xian_0723 = { # 锡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9046,7 +9046,7 @@ gzj_xian_0723 = { # 上庸侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0724 = { # 房陵侯
+gzj_xian_0724 = { # 上庸侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9057,7 +9057,7 @@ gzj_xian_0724 = { # 房陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0725 = { # 江州侯
+gzj_xian_0725 = { # 房陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9068,7 +9068,7 @@ gzj_xian_0725 = { # 江州侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0726 = { # 宕渠侯
+gzj_xian_0726 = { # 江州侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9079,7 +9079,7 @@ gzj_xian_0726 = { # 宕渠侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0727 = { # 朐忍侯
+gzj_xian_0727 = { # 宕渠侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9090,7 +9090,7 @@ gzj_xian_0727 = { # 朐忍侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0728 = { # 阆中侯
+gzj_xian_0728 = { # 朐䏰侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9101,7 +9101,7 @@ gzj_xian_0728 = { # 阆中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0729 = { # 鱼复侯
+gzj_xian_0729 = { # 阆中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9112,7 +9112,7 @@ gzj_xian_0729 = { # 鱼复侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0730 = { # 临江侯
+gzj_xian_0730 = { # 鱼复侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9123,7 +9123,7 @@ gzj_xian_0730 = { # 临江侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0731 = { # 枳侯
+gzj_xian_0731 = { # 临江侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9134,7 +9134,7 @@ gzj_xian_0731 = { # 枳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0732 = { # 涪陵侯
+gzj_xian_0732 = { # 枳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9145,7 +9145,7 @@ gzj_xian_0732 = { # 涪陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0733 = { # 垫江侯
+gzj_xian_0733 = { # 涪陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9156,7 +9156,7 @@ gzj_xian_0733 = { # 垫江侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0734 = { # 安汉侯
+gzj_xian_0734 = { # 垫江侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9167,7 +9167,7 @@ gzj_xian_0734 = { # 安汉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0735 = { # 充国侯
+gzj_xian_0735 = { # 安汉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9178,7 +9178,7 @@ gzj_xian_0735 = { # 充国侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0736 = { # 宣汉侯
+gzj_xian_0736 = { # 充国侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9189,7 +9189,7 @@ gzj_xian_0736 = { # 宣汉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0737 = { # 雒侯
+gzj_xian_0737 = { # 宣汉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9200,7 +9200,7 @@ gzj_xian_0737 = { # 雒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0738 = { # 新都侯
+gzj_xian_0738 = { # 雒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9211,7 +9211,7 @@ gzj_xian_0738 = { # 新都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0739 = { # 绵竹侯
+gzj_xian_0739 = { # 新都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9222,7 +9222,7 @@ gzj_xian_0739 = { # 绵竹侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0740 = { # 什邡侯
+gzj_xian_0740 = { # 绵竹侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9233,7 +9233,7 @@ gzj_xian_0740 = { # 什邡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0741 = { # 涪侯
+gzj_xian_0741 = { # 什邡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9244,7 +9244,7 @@ gzj_xian_0741 = { # 涪侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0742 = { # 梓潼侯
+gzj_xian_0742 = { # 涪侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9255,7 +9255,7 @@ gzj_xian_0742 = { # 梓潼侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0743 = { # 白水侯
+gzj_xian_0743 = { # 梓潼侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9266,7 +9266,7 @@ gzj_xian_0743 = { # 白水侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0744 = { # 葭萌侯
+gzj_xian_0744 = { # 白水侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9277,7 +9277,7 @@ gzj_xian_0744 = { # 葭萌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0745 = { # 郪侯
+gzj_xian_0745 = { # 葭萌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9288,7 +9288,7 @@ gzj_xian_0745 = { # 郪侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0746 = { # 广汉侯
+gzj_xian_0746 = { # 郪侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9299,7 +9299,7 @@ gzj_xian_0746 = { # 广汉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0747 = { # 德阳侯
+gzj_xian_0747 = { # 广汉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9310,7 +9310,7 @@ gzj_xian_0747 = { # 德阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0748 = { # 郫侯
+gzj_xian_0748 = { # 德阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9321,7 +9321,7 @@ gzj_xian_0748 = { # 郫侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0749 = { # 江原侯
+gzj_xian_0749 = { # 郫侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9332,7 +9332,7 @@ gzj_xian_0749 = { # 江原侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0750 = { # 繁侯
+gzj_xian_0750 = { # 江原侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9343,7 +9343,7 @@ gzj_xian_0750 = { # 繁侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0751 = { # 广都侯
+gzj_xian_0751 = { # 繁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9354,7 +9354,7 @@ gzj_xian_0751 = { # 广都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0752 = { # 临邛侯
+gzj_xian_0752 = { # 广都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9365,7 +9365,7 @@ gzj_xian_0752 = { # 临邛侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0753 = { # 湔氐道侯
+gzj_xian_0753 = { # 临邛侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9376,7 +9376,7 @@ gzj_xian_0753 = { # 湔氐道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0754 = { # 汶江道侯
+gzj_xian_0754 = { # 湔氐道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9387,7 +9387,7 @@ gzj_xian_0754 = { # 汶江道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0755 = { # 蚕陵侯
+gzj_xian_0755 = { # 汶江道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9398,7 +9398,7 @@ gzj_xian_0755 = { # 蚕陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0756 = { # 广柔侯
+gzj_xian_0756 = { # 蚕陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9409,7 +9409,7 @@ gzj_xian_0756 = { # 广柔侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0757 = { # 绵虒道侯
+gzj_xian_0757 = { # 广柔侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9420,7 +9420,7 @@ gzj_xian_0757 = { # 绵虒道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0758 = { # 武阳侯
+gzj_xian_0758 = { # 绵虒道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9431,7 +9431,7 @@ gzj_xian_0758 = { # 武阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0759 = { # 资中侯
+gzj_xian_0759 = { # 武阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9442,7 +9442,7 @@ gzj_xian_0759 = { # 资中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0760 = { # 牛鞞侯
+gzj_xian_0760 = { # 资中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9453,7 +9453,7 @@ gzj_xian_0760 = { # 牛鞞侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0761 = { # 南安侯
+gzj_xian_0761 = { # 牛鞞侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9464,7 +9464,7 @@ gzj_xian_0761 = { # 南安侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0762 = { # 僰道侯
+gzj_xian_0762 = { # 南安侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9475,7 +9475,7 @@ gzj_xian_0762 = { # 僰道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0763 = { # 江阳侯
+gzj_xian_0763 = { # 僰道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9486,7 +9486,7 @@ gzj_xian_0763 = { # 江阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0764 = { # 符节侯
+gzj_xian_0764 = { # 江阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9497,7 +9497,7 @@ gzj_xian_0764 = { # 符节侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0765 = { # 南广侯
+gzj_xian_0765 = { # 符节侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9508,7 +9508,7 @@ gzj_xian_0765 = { # 南广侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0766 = { # 汉安侯
+gzj_xian_0766 = { # 南广侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9519,7 +9519,7 @@ gzj_xian_0766 = { # 汉安侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0767 = { # 故且兰侯
+gzj_xian_0767 = { # 汉安侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9530,7 +9530,7 @@ gzj_xian_0767 = { # 故且兰侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0768 = { # 平夷侯
+gzj_xian_0768 = { # 故且兰侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9541,7 +9541,7 @@ gzj_xian_0768 = { # 平夷侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0769 = { # 鄨侯
+gzj_xian_0769 = { # 平夷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9552,7 +9552,7 @@ gzj_xian_0769 = { # 鄨侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0770 = { # 毋敛侯
+gzj_xian_0770 = { # 鄨侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9563,7 +9563,7 @@ gzj_xian_0770 = { # 毋敛侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0771 = { # 谈指侯
+gzj_xian_0771 = { # 毋敛侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9574,7 +9574,7 @@ gzj_xian_0771 = { # 谈指侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0772 = { # 夜郎侯
+gzj_xian_0772 = { # 谈指侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9585,7 +9585,7 @@ gzj_xian_0772 = { # 夜郎侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0773 = { # 同并侯
+gzj_xian_0773 = { # 夜郎侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9596,7 +9596,7 @@ gzj_xian_0773 = { # 同并侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0774 = { # 谈稾侯
+gzj_xian_0774 = { # 同并侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9607,7 +9607,7 @@ gzj_xian_0774 = { # 谈稾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0775 = { # 漏江侯
+gzj_xian_0775 = { # 谈稿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9618,7 +9618,7 @@ gzj_xian_0775 = { # 漏江侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0776 = { # 毋单侯
+gzj_xian_0776 = { # 漏江侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9629,7 +9629,7 @@ gzj_xian_0776 = { # 毋单侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0777 = { # 宛温侯
+gzj_xian_0777 = { # 毋单侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9640,7 +9640,7 @@ gzj_xian_0777 = { # 宛温侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0778 = { # 镡封侯
+gzj_xian_0778 = { # 宛温侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9651,7 +9651,7 @@ gzj_xian_0778 = { # 镡封侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0779 = { # 漏卧侯
+gzj_xian_0779 = { # 镡封侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9662,7 +9662,7 @@ gzj_xian_0779 = { # 漏卧侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0780 = { # 句町侯
+gzj_xian_0780 = { # 漏卧侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9673,7 +9673,7 @@ gzj_xian_0780 = { # 句町侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0781 = { # 进乘侯
+gzj_xian_0781 = { # 句町侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9684,7 +9684,7 @@ gzj_xian_0781 = { # 进乘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0782 = { # 西随侯
+gzj_xian_0782 = { # 进乘侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9695,7 +9695,7 @@ gzj_xian_0782 = { # 西随侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0783 = { # 邛都侯
+gzj_xian_0783 = { # 西随侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9706,7 +9706,7 @@ gzj_xian_0783 = { # 邛都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0784 = { # 遂久侯
+gzj_xian_0784 = { # 邛都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9717,7 +9717,7 @@ gzj_xian_0784 = { # 遂久侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0785 = { # 灵关道侯
+gzj_xian_0785 = { # 遂久侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9728,7 +9728,7 @@ gzj_xian_0785 = { # 灵关道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0786 = { # 台登侯
+gzj_xian_0786 = { # 灵关道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9739,7 +9739,7 @@ gzj_xian_0786 = { # 台登侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0787 = { # 青蛉侯
+gzj_xian_0787 = { # 台登侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9750,7 +9750,7 @@ gzj_xian_0787 = { # 青蛉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0788 = { # 卑水侯
+gzj_xian_0788 = { # 青蛉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9761,7 +9761,7 @@ gzj_xian_0788 = { # 卑水侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0789 = { # 三缝侯
+gzj_xian_0789 = { # 卑水侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9772,7 +9772,7 @@ gzj_xian_0789 = { # 三缝侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0790 = { # 会无侯
+gzj_xian_0790 = { # 三缝侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9783,7 +9783,7 @@ gzj_xian_0790 = { # 会无侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0791 = { # 定莋侯
+gzj_xian_0791 = { # 会无侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9794,7 +9794,7 @@ gzj_xian_0791 = { # 定莋侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0792 = { # 阐侯
+gzj_xian_0792 = { # 定莋侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9805,7 +9805,7 @@ gzj_xian_0792 = { # 阐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0793 = { # 苏示侯
+gzj_xian_0793 = { # 阐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9816,7 +9816,7 @@ gzj_xian_0793 = { # 苏示侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0794 = { # 大莋侯
+gzj_xian_0794 = { # 苏示侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9827,7 +9827,7 @@ gzj_xian_0794 = { # 大莋侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0795 = { # 莋秦侯
+gzj_xian_0795 = { # 大莋侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9838,7 +9838,7 @@ gzj_xian_0795 = { # 莋秦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0796 = { # 姑复侯
+gzj_xian_0796 = { # 莋秦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9849,7 +9849,7 @@ gzj_xian_0796 = { # 姑复侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0797 = { # 滇池侯
+gzj_xian_0797 = { # 姑复侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9860,7 +9860,7 @@ gzj_xian_0797 = { # 滇池侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0798 = { # 胜休侯
+gzj_xian_0798 = { # 滇池侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9871,7 +9871,7 @@ gzj_xian_0798 = { # 胜休侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0799 = { # 俞元侯
+gzj_xian_0799 = { # 胜休侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9882,7 +9882,7 @@ gzj_xian_0799 = { # 俞元侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0800 = { # 律高侯
+gzj_xian_0800 = { # 俞元侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9893,7 +9893,7 @@ gzj_xian_0800 = { # 律高侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0801 = { # 贲古侯
+gzj_xian_0801 = { # 律高侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9904,7 +9904,7 @@ gzj_xian_0801 = { # 贲古侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0802 = { # 毋棳侯
+gzj_xian_0802 = { # 贲古侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9915,7 +9915,7 @@ gzj_xian_0802 = { # 毋棳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0803 = { # 建伶侯
+gzj_xian_0803 = { # 毋棳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9926,7 +9926,7 @@ gzj_xian_0803 = { # 建伶侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0804 = { # 穀昌侯
+gzj_xian_0804 = { # 建伶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9937,7 +9937,7 @@ gzj_xian_0804 = { # 穀昌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0805 = { # 牧靡侯
+gzj_xian_0805 = { # 谷昌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9948,7 +9948,7 @@ gzj_xian_0805 = { # 牧靡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0806 = { # 味侯
+gzj_xian_0806 = { # 牧靡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9959,7 +9959,7 @@ gzj_xian_0806 = { # 味侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0807 = { # 昆泽侯
+gzj_xian_0807 = { # 味侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9970,7 +9970,7 @@ gzj_xian_0807 = { # 昆泽侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0808 = { # 同濑侯
+gzj_xian_0808 = { # 昆泽侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9981,7 +9981,7 @@ gzj_xian_0808 = { # 同濑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0809 = { # 同劳侯
+gzj_xian_0809 = { # 同濑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -9992,7 +9992,7 @@ gzj_xian_0809 = { # 同劳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0810 = { # 双柏侯
+gzj_xian_0810 = { # 同劳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10003,7 +10003,7 @@ gzj_xian_0810 = { # 双柏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0811 = { # 连然侯
+gzj_xian_0811 = { # 双柏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10014,7 +10014,7 @@ gzj_xian_0811 = { # 连然侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0812 = { # 梇栋侯
+gzj_xian_0812 = { # 连然侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10025,7 +10025,7 @@ gzj_xian_0812 = { # 梇栋侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0813 = { # 秦臧侯
+gzj_xian_0813 = { # 梇栋侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10036,7 +10036,7 @@ gzj_xian_0813 = { # 秦臧侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0814 = { # 不韦侯
+gzj_xian_0814 = { # 秦臧侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10047,7 +10047,7 @@ gzj_xian_0814 = { # 不韦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0815 = { # 巂唐侯
+gzj_xian_0815 = { # 不韦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10058,7 +10058,7 @@ gzj_xian_0815 = { # 巂唐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0816 = { # 比苏侯
+gzj_xian_0816 = { # 巂唐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10069,7 +10069,7 @@ gzj_xian_0816 = { # 比苏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0817 = { # 楪榆侯
+gzj_xian_0817 = { # 比苏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10080,7 +10080,7 @@ gzj_xian_0817 = { # 楪榆侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0818 = { # 邪龙侯
+gzj_xian_0818 = { # 楪榆侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10091,7 +10091,7 @@ gzj_xian_0818 = { # 邪龙侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0819 = { # 云南侯
+gzj_xian_0819 = { # 邪龙侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10102,7 +10102,7 @@ gzj_xian_0819 = { # 云南侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0820 = { # 哀牢侯
+gzj_xian_0820 = { # 云南侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10113,7 +10113,7 @@ gzj_xian_0820 = { # 哀牢侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0821 = { # 博南侯
+gzj_xian_0821 = { # 哀牢侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10124,7 +10124,7 @@ gzj_xian_0821 = { # 博南侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0822 = { # 阴平道侯
+gzj_xian_0822 = { # 博南侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10135,7 +10135,7 @@ gzj_xian_0822 = { # 阴平道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0823 = { # 甸氐道侯
+gzj_xian_0823 = { # 阴平道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10146,7 +10146,7 @@ gzj_xian_0823 = { # 甸氐道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0824 = { # 刚氐道侯
+gzj_xian_0824 = { # 甸氐道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10157,7 +10157,7 @@ gzj_xian_0824 = { # 刚氐道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0825 = { # 汉嘉侯
+gzj_xian_0825 = { # 刚氐道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10168,7 +10168,7 @@ gzj_xian_0825 = { # 汉嘉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0826 = { # 严道侯
+gzj_xian_0826 = { # 汉嘉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10179,7 +10179,7 @@ gzj_xian_0826 = { # 严道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0827 = { # 徙侯
+gzj_xian_0827 = { # 严道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10190,7 +10190,7 @@ gzj_xian_0827 = { # 徙侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0828 = { # 旄牛侯
+gzj_xian_0828 = { # 徙侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10201,7 +10201,7 @@ gzj_xian_0828 = { # 旄牛侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0829 = { # 朱提侯
+gzj_xian_0829 = { # 旄牛侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10212,7 +10212,7 @@ gzj_xian_0829 = { # 朱提侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0830 = { # 汉阳侯
+gzj_xian_0830 = { # 朱提侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10223,7 +10223,7 @@ gzj_xian_0830 = { # 汉阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0831 = { # 狄道侯
+gzj_xian_0831 = { # 汉阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10234,7 +10234,7 @@ gzj_xian_0831 = { # 狄道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0832 = { # 安故侯
+gzj_xian_0832 = { # 狄道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10245,7 +10245,7 @@ gzj_xian_0832 = { # 安故侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0833 = { # 氐道侯
+gzj_xian_0833 = { # 安故侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10256,7 +10256,7 @@ gzj_xian_0833 = { # 氐道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0834 = { # 首阳侯
+gzj_xian_0834 = { # 氐道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10267,7 +10267,7 @@ gzj_xian_0834 = { # 首阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0835 = { # 大夏侯
+gzj_xian_0835 = { # 首阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10278,7 +10278,7 @@ gzj_xian_0835 = { # 大夏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0836 = { # 襄武侯
+gzj_xian_0836 = { # 大夏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10289,7 +10289,7 @@ gzj_xian_0836 = { # 襄武侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0837 = { # 临洮侯
+gzj_xian_0837 = { # 襄武侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10300,7 +10300,7 @@ gzj_xian_0837 = { # 临洮侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0838 = { # 枹罕侯
+gzj_xian_0838 = { # 临洮侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10311,7 +10311,7 @@ gzj_xian_0838 = { # 枹罕侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0839 = { # 白石侯
+gzj_xian_0839 = { # 枹罕侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10322,7 +10322,7 @@ gzj_xian_0839 = { # 白石侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0840 = { # 鄣侯
+gzj_xian_0840 = { # 白石侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10333,7 +10333,7 @@ gzj_xian_0840 = { # 鄣侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0841 = { # 河关侯
+gzj_xian_0841 = { # 鄣侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10344,7 +10344,7 @@ gzj_xian_0841 = { # 河关侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0842 = { # 冀侯
+gzj_xian_0842 = { # 河关侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10355,7 +10355,7 @@ gzj_xian_0842 = { # 冀侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0843 = { # 望垣侯
+gzj_xian_0843 = { # 冀侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10366,7 +10366,7 @@ gzj_xian_0843 = { # 望垣侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0844 = { # 阿阳侯
+gzj_xian_0844 = { # 望垣侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10377,7 +10377,7 @@ gzj_xian_0844 = { # 阿阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0845 = { # 略阳侯
+gzj_xian_0845 = { # 阿阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10388,7 +10388,7 @@ gzj_xian_0845 = { # 略阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0846 = { # 勇士侯
+gzj_xian_0846 = { # 略阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10399,7 +10399,7 @@ gzj_xian_0846 = { # 勇士侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0847 = { # 成纪侯
+gzj_xian_0847 = { # 勇士侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10410,7 +10410,7 @@ gzj_xian_0847 = { # 成纪侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0848 = { # 陇侯
+gzj_xian_0848 = { # 成纪侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10421,7 +10421,7 @@ gzj_xian_0848 = { # 陇侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0849 = { # 豲道侯
+gzj_xian_0849 = { # 陇侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10432,7 +10432,7 @@ gzj_xian_0849 = { # 豲道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0850 = { # 兰干侯
+gzj_xian_0850 = { # 豲道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10443,7 +10443,7 @@ gzj_xian_0850 = { # 兰干侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0851 = { # 平襄侯
+gzj_xian_0851 = { # 兰干侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10454,7 +10454,7 @@ gzj_xian_0851 = { # 平襄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0852 = { # 显亲侯
+gzj_xian_0852 = { # 平襄侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10465,7 +10465,7 @@ gzj_xian_0852 = { # 显亲侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0853 = { # 上邽侯
+gzj_xian_0853 = { # 显亲侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10476,7 +10476,7 @@ gzj_xian_0853 = { # 上邽侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0854 = { # 西侯
+gzj_xian_0854 = { # 上邽侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10487,7 +10487,7 @@ gzj_xian_0854 = { # 西侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0855 = { # 下辨侯
+gzj_xian_0855 = { # 西侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10498,7 +10498,7 @@ gzj_xian_0855 = { # 下辨侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0856 = { # 武都道侯
+gzj_xian_0856 = { # 下辨侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10509,7 +10509,7 @@ gzj_xian_0856 = { # 武都道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0857 = { # 上禄侯
+gzj_xian_0857 = { # 武都道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10520,7 +10520,7 @@ gzj_xian_0857 = { # 上禄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0858 = { # 故道侯
+gzj_xian_0858 = { # 上禄侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10531,7 +10531,7 @@ gzj_xian_0858 = { # 故道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0859 = { # 河池侯
+gzj_xian_0859 = { # 故道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10542,7 +10542,7 @@ gzj_xian_0859 = { # 河池侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0860 = { # 沮侯
+gzj_xian_0860 = { # 河池侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10553,7 +10553,7 @@ gzj_xian_0860 = { # 沮侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0861 = { # 羌道侯
+gzj_xian_0861 = { # 沮侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10564,7 +10564,7 @@ gzj_xian_0861 = { # 羌道侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0862 = { # 允吾侯
+gzj_xian_0862 = { # 羌道侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10575,7 +10575,7 @@ gzj_xian_0862 = { # 允吾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0863 = { # 浩亹侯
+gzj_xian_0863 = { # 允吾侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10586,7 +10586,7 @@ gzj_xian_0863 = { # 浩亹侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0864 = { # 令居侯
+gzj_xian_0864 = { # 浩亹侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10597,7 +10597,7 @@ gzj_xian_0864 = { # 令居侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0865 = { # 枝阳侯
+gzj_xian_0865 = { # 令居侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10608,7 +10608,7 @@ gzj_xian_0865 = { # 枝阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0866 = { # 金城侯
+gzj_xian_0866 = { # 枝阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10619,7 +10619,7 @@ gzj_xian_0866 = { # 金城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0867 = { # 榆中侯
+gzj_xian_0867 = { # 金城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10630,7 +10630,7 @@ gzj_xian_0867 = { # 榆中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0868 = { # 临羌侯
+gzj_xian_0868 = { # 榆中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10641,7 +10641,7 @@ gzj_xian_0868 = { # 临羌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0869 = { # 破羌侯
+gzj_xian_0869 = { # 临羌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10652,7 +10652,7 @@ gzj_xian_0869 = { # 破羌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0870 = { # 安夷侯
+gzj_xian_0870 = { # 破羌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10663,7 +10663,7 @@ gzj_xian_0870 = { # 安夷侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0871 = { # 允街侯
+gzj_xian_0871 = { # 安夷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10674,7 +10674,7 @@ gzj_xian_0871 = { # 允街侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0872 = { # 临泾侯
+gzj_xian_0872 = { # 允街侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10685,7 +10685,7 @@ gzj_xian_0872 = { # 临泾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0873 = { # 朝那侯
+gzj_xian_0873 = { # 临泾侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10696,7 +10696,7 @@ gzj_xian_0873 = { # 朝那侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0874 = { # 乌枝侯
+gzj_xian_0874 = { # 朝那侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10707,7 +10707,7 @@ gzj_xian_0874 = { # 乌枝侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0875 = { # 三水侯
+gzj_xian_0875 = { # 乌枝侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10718,7 +10718,7 @@ gzj_xian_0875 = { # 三水侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0876 = { # 阴盘侯
+gzj_xian_0876 = { # 三水侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10729,7 +10729,7 @@ gzj_xian_0876 = { # 阴盘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0877 = { # 彭阳侯
+gzj_xian_0877 = { # 阴槃侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10740,7 +10740,7 @@ gzj_xian_0877 = { # 彭阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0878 = { # 鹑觚侯
+gzj_xian_0878 = { # 彭阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10751,7 +10751,7 @@ gzj_xian_0878 = { # 鹑觚侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0879 = { # 富平侯
+gzj_xian_0879 = { # 鹑觚侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10762,7 +10762,7 @@ gzj_xian_0879 = { # 富平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0880 = { # 泥阳侯
+gzj_xian_0880 = { # 富平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10773,7 +10773,7 @@ gzj_xian_0880 = { # 泥阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0881 = { # 弋居侯
+gzj_xian_0881 = { # 泥阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10784,7 +10784,7 @@ gzj_xian_0881 = { # 弋居侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0882 = { # 廉侯
+gzj_xian_0882 = { # 弋居侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10795,7 +10795,7 @@ gzj_xian_0882 = { # 廉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0883 = { # 参龻侯
+gzj_xian_0883 = { # 廉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10806,7 +10806,7 @@ gzj_xian_0883 = { # 参龻侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0884 = { # 灵州侯
+gzj_xian_0884 = { # 参䜌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10817,7 +10817,7 @@ gzj_xian_0884 = { # 灵州侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0885 = { # 姑臧侯
+gzj_xian_0885 = { # 灵州侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10828,7 +10828,7 @@ gzj_xian_0885 = { # 姑臧侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0886 = { # 张掖侯
+gzj_xian_0886 = { # 姑臧侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10839,7 +10839,7 @@ gzj_xian_0886 = { # 张掖侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0887 = { # 武威侯
+gzj_xian_0887 = { # 张掖侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10850,7 +10850,7 @@ gzj_xian_0887 = { # 武威侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0888 = { # 休屠侯
+gzj_xian_0888 = { # 武威侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10861,7 +10861,7 @@ gzj_xian_0888 = { # 休屠侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0889 = { # 揟次侯
+gzj_xian_0889 = { # 休屠侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10872,7 +10872,7 @@ gzj_xian_0889 = { # 揟次侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0890 = { # 鸾鸟侯
+gzj_xian_0890 = { # 揟次侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10883,7 +10883,7 @@ gzj_xian_0890 = { # 鸾鸟侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0891 = { # 朴𠟼侯
+gzj_xian_0891 = { # 鸾鸟侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10894,7 +10894,7 @@ gzj_xian_0891 = { # 朴𠟼侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0892 = { # 媪围侯
+gzj_xian_0892 = { # 朴𠟼侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10905,7 +10905,7 @@ gzj_xian_0892 = { # 媪围侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0893 = { # 宣威侯
+gzj_xian_0893 = { # 媪围侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10916,7 +10916,7 @@ gzj_xian_0893 = { # 宣威侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0894 = { # 仓松侯
+gzj_xian_0894 = { # 宣威侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10927,7 +10927,7 @@ gzj_xian_0894 = { # 仓松侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0895 = { # 鹯阴侯
+gzj_xian_0895 = { # 苍松侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10938,7 +10938,7 @@ gzj_xian_0895 = { # 鹯阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0896 = { # 袓厉侯
+gzj_xian_0896 = { # 鹯阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10949,7 +10949,7 @@ gzj_xian_0896 = { # 袓厉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0897 = { # 显美侯
+gzj_xian_0897 = { # 祖厉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10960,7 +10960,7 @@ gzj_xian_0897 = { # 显美侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0898 = { # 左骑侯
+gzj_xian_0898 = { # 显美侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10971,7 +10971,7 @@ gzj_xian_0898 = { # 左骑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0899 = { # 觻得侯
+gzj_xian_0899 = { # 左骑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10982,7 +10982,7 @@ gzj_xian_0899 = { # 觻得侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0900 = { # 昭武侯
+gzj_xian_0900 = { # 觻得侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -10993,7 +10993,7 @@ gzj_xian_0900 = { # 昭武侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0901 = { # 删丹侯
+gzj_xian_0901 = { # 昭武侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11004,7 +11004,7 @@ gzj_xian_0901 = { # 删丹侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0902 = { # 氐池侯
+gzj_xian_0902 = { # 删丹侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11015,7 +11015,7 @@ gzj_xian_0902 = { # 氐池侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0903 = { # 屋兰侯
+gzj_xian_0903 = { # 氐池侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11026,7 +11026,7 @@ gzj_xian_0903 = { # 屋兰侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0904 = { # 日勒侯
+gzj_xian_0904 = { # 屋兰侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11037,7 +11037,7 @@ gzj_xian_0904 = { # 日勒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0905 = { # 骊靬侯
+gzj_xian_0905 = { # 日勒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11048,7 +11048,7 @@ gzj_xian_0905 = { # 骊靬侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0906 = { # 番和侯
+gzj_xian_0906 = { # 骊靬侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11059,7 +11059,7 @@ gzj_xian_0906 = { # 番和侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0907 = { # 福禄侯
+gzj_xian_0907 = { # 番和侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11070,7 +11070,7 @@ gzj_xian_0907 = { # 福禄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0908 = { # 表氏侯
+gzj_xian_0908 = { # 禄福侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11081,7 +11081,7 @@ gzj_xian_0908 = { # 表氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0909 = { # 乐涫侯
+gzj_xian_0909 = { # 表氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11092,7 +11092,7 @@ gzj_xian_0909 = { # 乐涫侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0910 = { # 玉门侯
+gzj_xian_0910 = { # 乐涫侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11103,7 +11103,7 @@ gzj_xian_0910 = { # 玉门侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0911 = { # 会水侯
+gzj_xian_0911 = { # 玉门侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11114,7 +11114,7 @@ gzj_xian_0911 = { # 会水侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0912 = { # 沙头侯
+gzj_xian_0912 = { # 会水侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11125,7 +11125,7 @@ gzj_xian_0912 = { # 沙头侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0913 = { # 安弥侯
+gzj_xian_0913 = { # 沙头侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11136,7 +11136,7 @@ gzj_xian_0913 = { # 安弥侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0914 = { # 乾齐侯
+gzj_xian_0914 = { # 安弥侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11147,7 +11147,7 @@ gzj_xian_0914 = { # 乾齐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0915 = { # 延寿侯
+gzj_xian_0915 = { # 干齐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11158,7 +11158,7 @@ gzj_xian_0915 = { # 延寿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0916 = { # 敦煌侯
+gzj_xian_0916 = { # 延寿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11169,7 +11169,7 @@ gzj_xian_0916 = { # 敦煌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0917 = { # 冥安侯
+gzj_xian_0917 = { # 敦煌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11180,7 +11180,7 @@ gzj_xian_0917 = { # 冥安侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0918 = { # 效穀侯
+gzj_xian_0918 = { # 冥安侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11191,7 +11191,7 @@ gzj_xian_0918 = { # 效穀侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0919 = { # 拼泉侯
+gzj_xian_0919 = { # 效谷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11202,7 +11202,7 @@ gzj_xian_0919 = { # 拼泉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0920 = { # 广至侯
+gzj_xian_0920 = { # 渊泉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11213,7 +11213,7 @@ gzj_xian_0920 = { # 广至侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0921 = { # 龙勒侯
+gzj_xian_0921 = { # 广至侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11224,7 +11224,7 @@ gzj_xian_0921 = { # 龙勒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0922 = { # 候官侯
+gzj_xian_0922 = { # 龙勒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11235,7 +11235,7 @@ gzj_xian_0922 = { # 候官侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0923 = { # 千人侯
+gzj_xian_0923 = { # 候官侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11246,7 +11246,7 @@ gzj_xian_0923 = { # 千人侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0924 = { # 司马官侯
+gzj_xian_0924 = { # 千人侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11257,7 +11257,7 @@ gzj_xian_0924 = { # 司马官侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0925 = { # 千人官侯
+gzj_xian_0925 = { # 司马官侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11268,7 +11268,7 @@ gzj_xian_0925 = { # 千人官侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0926 = { # 居延侯
+gzj_xian_0926 = { # 千人官侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11279,7 +11279,7 @@ gzj_xian_0926 = { # 居延侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0927 = { # 长子侯
+gzj_xian_0927 = { # 居延侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11290,7 +11290,7 @@ gzj_xian_0927 = { # 长子侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0928 = { # 屯留侯
+gzj_xian_0928 = { # 长子侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11301,7 +11301,7 @@ gzj_xian_0928 = { # 屯留侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0929 = { # 铜鞮侯
+gzj_xian_0929 = { # 屯留侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11312,7 +11312,7 @@ gzj_xian_0929 = { # 铜鞮侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0930 = { # 沾侯
+gzj_xian_0930 = { # 铜鞮侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11323,7 +11323,7 @@ gzj_xian_0930 = { # 沾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0931 = { # 涅侯
+gzj_xian_0931 = { # 沾侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11334,7 +11334,7 @@ gzj_xian_0931 = { # 涅侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0932 = { # 襄垣侯
+gzj_xian_0932 = { # 涅侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11345,7 +11345,7 @@ gzj_xian_0932 = { # 襄垣侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0933 = { # 壶关侯
+gzj_xian_0933 = { # 襄垣侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11356,7 +11356,7 @@ gzj_xian_0933 = { # 壶关侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0934 = { # 泫氏侯
+gzj_xian_0934 = { # 壶关侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11367,7 +11367,7 @@ gzj_xian_0934 = { # 泫氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0935 = { # 高都侯
+gzj_xian_0935 = { # 泫氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11378,7 +11378,7 @@ gzj_xian_0935 = { # 高都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0936 = { # 潞侯
+gzj_xian_0936 = { # 高都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11389,7 +11389,7 @@ gzj_xian_0936 = { # 潞侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0937 = { # 阳阿侯
+gzj_xian_0937 = { # 潞侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11400,7 +11400,7 @@ gzj_xian_0937 = { # 阳阿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0938 = { # 穀远侯
+gzj_xian_0938 = { # 陭氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11411,7 +11411,7 @@ gzj_xian_0938 = { # 穀远侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0939 = { # 晋阳侯
+gzj_xian_0939 = { # 阳阿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11422,7 +11422,7 @@ gzj_xian_0939 = { # 晋阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0940 = { # 界休侯
+gzj_xian_0940 = { # 谷远侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11433,7 +11433,7 @@ gzj_xian_0940 = { # 界休侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0941 = { # 榆次侯
+gzj_xian_0941 = { # 晋阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11444,7 +11444,7 @@ gzj_xian_0941 = { # 榆次侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0942 = { # 中都侯
+gzj_xian_0942 = { # 界休侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11455,7 +11455,7 @@ gzj_xian_0942 = { # 中都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0943 = { # 于离侯
+gzj_xian_0943 = { # 榆次侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11466,7 +11466,7 @@ gzj_xian_0943 = { # 于离侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0944 = { # 兹氏侯
+gzj_xian_0944 = { # 中都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11477,7 +11477,7 @@ gzj_xian_0944 = { # 兹氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0945 = { # 狼孟侯
+gzj_xian_0945 = { # 于离侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11488,7 +11488,7 @@ gzj_xian_0945 = { # 狼孟侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0946 = { # 邬侯
+gzj_xian_0946 = { # 兹氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11499,7 +11499,7 @@ gzj_xian_0946 = { # 邬侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0947 = { # 盂侯
+gzj_xian_0947 = { # 狼孟侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11510,7 +11510,7 @@ gzj_xian_0947 = { # 盂侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0948 = { # 平陶侯
+gzj_xian_0948 = { # 邬侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11521,7 +11521,7 @@ gzj_xian_0948 = { # 平陶侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0949 = { # 京陵侯
+gzj_xian_0949 = { # 盂侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11532,7 +11532,7 @@ gzj_xian_0949 = { # 京陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0950 = { # 阳曲侯
+gzj_xian_0950 = { # 平陶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11543,7 +11543,7 @@ gzj_xian_0950 = { # 阳曲侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0951 = { # 大陵侯
+gzj_xian_0951 = { # 京陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11554,7 +11554,7 @@ gzj_xian_0951 = { # 大陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0952 = { # 祁侯
+gzj_xian_0952 = { # 阳曲侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11565,7 +11565,7 @@ gzj_xian_0952 = { # 祁侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0953 = { # 虑虒侯
+gzj_xian_0953 = { # 大陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11576,7 +11576,7 @@ gzj_xian_0953 = { # 虑虒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0954 = { # 阳邑侯
+gzj_xian_0954 = { # 祁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11587,7 +11587,7 @@ gzj_xian_0954 = { # 阳邑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0955 = { # 肤施侯
+gzj_xian_0955 = { # 虑虒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11598,7 +11598,7 @@ gzj_xian_0955 = { # 肤施侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0956 = { # 白土侯
+gzj_xian_0956 = { # 阳邑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11609,7 +11609,7 @@ gzj_xian_0956 = { # 白土侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0957 = { # 漆垣侯
+gzj_xian_0957 = { # 肤施侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11620,7 +11620,7 @@ gzj_xian_0957 = { # 漆垣侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0958 = { # 奢延侯
+gzj_xian_0958 = { # 白土侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11631,7 +11631,7 @@ gzj_xian_0958 = { # 奢延侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0959 = { # 雕阴侯
+gzj_xian_0959 = { # 漆垣侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11642,7 +11642,7 @@ gzj_xian_0959 = { # 雕阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0960 = { # 桢林侯
+gzj_xian_0960 = { # 奢延侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11653,7 +11653,7 @@ gzj_xian_0960 = { # 桢林侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0961 = { # 定阳侯
+gzj_xian_0961 = { # 雕阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11664,7 +11664,7 @@ gzj_xian_0961 = { # 定阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0962 = { # 高奴侯
+gzj_xian_0962 = { # 桢林侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11675,7 +11675,7 @@ gzj_xian_0962 = { # 高奴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0963 = { # 龟兹属国侯
+gzj_xian_0963 = { # 定阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11686,7 +11686,7 @@ gzj_xian_0963 = { # 龟兹属国侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0964 = { # 离石侯
+gzj_xian_0964 = { # 高奴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11697,7 +11697,7 @@ gzj_xian_0964 = { # 离石侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0965 = { # 平定侯
+gzj_xian_0965 = { # 龟兹侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11708,7 +11708,7 @@ gzj_xian_0965 = { # 平定侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0966 = { # 美稷侯
+gzj_xian_0966 = { # 离石侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11719,7 +11719,7 @@ gzj_xian_0966 = { # 美稷侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0967 = { # 乐街侯
+gzj_xian_0967 = { # 平定侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11730,7 +11730,7 @@ gzj_xian_0967 = { # 乐街侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0968 = { # 中阳侯
+gzj_xian_0968 = { # 美稷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11741,7 +11741,7 @@ gzj_xian_0968 = { # 中阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0969 = { # 皋狼侯
+gzj_xian_0969 = { # 乐街侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11752,7 +11752,7 @@ gzj_xian_0969 = { # 皋狼侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0970 = { # 平周侯
+gzj_xian_0970 = { # 中阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11763,7 +11763,7 @@ gzj_xian_0970 = { # 平周侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0971 = { # 平陆侯
+gzj_xian_0971 = { # 皋狼侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11774,7 +11774,7 @@ gzj_xian_0971 = { # 平陆侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0972 = { # 益兰侯
+gzj_xian_0972 = { # 平周侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11785,7 +11785,7 @@ gzj_xian_0972 = { # 益兰侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0973 = { # 圜阴侯
+gzj_xian_0973 = { # 平陆侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11796,7 +11796,7 @@ gzj_xian_0973 = { # 圜阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0974 = { # 蔺侯
+gzj_xian_0974 = { # 益兰侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11807,7 +11807,7 @@ gzj_xian_0974 = { # 蔺侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0975 = { # 圜阳侯
+gzj_xian_0975 = { # 圜阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11818,7 +11818,7 @@ gzj_xian_0975 = { # 圜阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0976 = { # 广衍侯
+gzj_xian_0976 = { # 蔺侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11829,7 +11829,7 @@ gzj_xian_0976 = { # 广衍侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0977 = { # 九原侯
+gzj_xian_0977 = { # 圜阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11840,7 +11840,7 @@ gzj_xian_0977 = { # 九原侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0978 = { # 五原侯
+gzj_xian_0978 = { # 广衍侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11851,7 +11851,7 @@ gzj_xian_0978 = { # 五原侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0979 = { # 临沃侯
+gzj_xian_0979 = { # 九原侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11862,7 +11862,7 @@ gzj_xian_0979 = { # 临沃侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0980 = { # 文国侯
+gzj_xian_0980 = { # 五原侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11873,7 +11873,7 @@ gzj_xian_0980 = { # 文国侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0981 = { # 河阴侯
+gzj_xian_0981 = { # 临沃侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11884,7 +11884,7 @@ gzj_xian_0981 = { # 河阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0982 = { # 武都侯
+gzj_xian_0982 = { # 文国侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11895,7 +11895,7 @@ gzj_xian_0982 = { # 武都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0983 = { # 宜梁侯
+gzj_xian_0983 = { # 河阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11906,7 +11906,7 @@ gzj_xian_0983 = { # 宜梁侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0984 = { # 曼柏侯
+gzj_xian_0984 = { # 武都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11917,7 +11917,7 @@ gzj_xian_0984 = { # 曼柏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0985 = { # 成宜侯
+gzj_xian_0985 = { # 宜梁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11928,7 +11928,7 @@ gzj_xian_0985 = { # 成宜侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0986 = { # 西安阳侯
+gzj_xian_0986 = { # 曼柏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11939,7 +11939,7 @@ gzj_xian_0986 = { # 西安阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0987 = { # 云中侯
+gzj_xian_0987 = { # 成宜侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11950,7 +11950,7 @@ gzj_xian_0987 = { # 云中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0988 = { # 咸阳侯
+gzj_xian_0988 = { # 西安阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11961,7 +11961,7 @@ gzj_xian_0988 = { # 咸阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0989 = { # 箕陵侯
+gzj_xian_0989 = { # 云中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11972,7 +11972,7 @@ gzj_xian_0989 = { # 箕陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0990 = { # 沙陵侯
+gzj_xian_0990 = { # 咸阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11983,7 +11983,7 @@ gzj_xian_0990 = { # 沙陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0991 = { # 沙南侯
+gzj_xian_0991 = { # 箕陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -11994,7 +11994,7 @@ gzj_xian_0991 = { # 沙南侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0992 = { # 北舆侯
+gzj_xian_0992 = { # 沙陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12005,7 +12005,7 @@ gzj_xian_0992 = { # 北舆侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0993 = { # 武泉侯
+gzj_xian_0993 = { # 沙南侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12016,7 +12016,7 @@ gzj_xian_0993 = { # 武泉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0994 = { # 原阳侯
+gzj_xian_0994 = { # 北舆侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12027,7 +12027,7 @@ gzj_xian_0994 = { # 原阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0995 = { # 定襄侯
+gzj_xian_0995 = { # 武泉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12038,7 +12038,7 @@ gzj_xian_0995 = { # 定襄侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0996 = { # 成乐侯
+gzj_xian_0996 = { # 原阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12049,7 +12049,7 @@ gzj_xian_0996 = { # 成乐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0997 = { # 武进侯
+gzj_xian_0997 = { # 定襄侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12060,7 +12060,7 @@ gzj_xian_0997 = { # 武进侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0998 = { # 善无侯
+gzj_xian_0998 = { # 成乐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12071,7 +12071,7 @@ gzj_xian_0998 = { # 善无侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_0999 = { # 桐过侯
+gzj_xian_0999 = { # 武进侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12082,7 +12082,7 @@ gzj_xian_0999 = { # 桐过侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1000 = { # 武成侯
+gzj_xian_1000 = { # 善无侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12093,7 +12093,7 @@ gzj_xian_1000 = { # 武成侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1001 = { # 骆侯
+gzj_xian_1001 = { # 桐过侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12104,7 +12104,7 @@ gzj_xian_1001 = { # 骆侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1002 = { # 中陵侯
+gzj_xian_1002 = { # 武成侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12115,7 +12115,7 @@ gzj_xian_1002 = { # 中陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1003 = { # 阴馆侯
+gzj_xian_1003 = { # 骆侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12126,7 +12126,7 @@ gzj_xian_1003 = { # 阴馆侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1004 = { # 繁畤侯
+gzj_xian_1004 = { # 中陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12137,7 +12137,7 @@ gzj_xian_1004 = { # 繁畤侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1005 = { # 楼烦侯
+gzj_xian_1005 = { # 阴馆侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12148,7 +12148,7 @@ gzj_xian_1005 = { # 楼烦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1006 = { # 武州侯
+gzj_xian_1006 = { # 繁峙侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12159,7 +12159,7 @@ gzj_xian_1006 = { # 武州侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1007 = { # 汪陶侯
+gzj_xian_1007 = { # 楼烦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12170,7 +12170,7 @@ gzj_xian_1007 = { # 汪陶侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1008 = { # 剧阳侯
+gzj_xian_1008 = { # 武州侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12181,7 +12181,7 @@ gzj_xian_1008 = { # 剧阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1009 = { # 崞侯
+gzj_xian_1009 = { # 汪陶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12192,7 +12192,7 @@ gzj_xian_1009 = { # 崞侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1010 = { # 平城侯
+gzj_xian_1010 = { # 剧阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12203,7 +12203,7 @@ gzj_xian_1010 = { # 平城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1011 = { # 埒侯
+gzj_xian_1011 = { # 崞侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12214,7 +12214,7 @@ gzj_xian_1011 = { # 埒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1012 = { # 马邑侯
+gzj_xian_1012 = { # 平城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12225,7 +12225,7 @@ gzj_xian_1012 = { # 马邑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1013 = { # 卤城侯
+gzj_xian_1013 = { # 埒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12236,7 +12236,7 @@ gzj_xian_1013 = { # 卤城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1014 = { # 广武侯
+gzj_xian_1014 = { # 马邑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12247,7 +12247,7 @@ gzj_xian_1014 = { # 广武侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1015 = { # 原平侯
+gzj_xian_1015 = { # 卤城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12258,7 +12258,7 @@ gzj_xian_1015 = { # 原平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1016 = { # 彊阴侯
+gzj_xian_1016 = { # 广武侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12269,7 +12269,7 @@ gzj_xian_1016 = { # 彊阴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1017 = { # 临戎侯
+gzj_xian_1017 = { # 原平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12280,7 +12280,7 @@ gzj_xian_1017 = { # 临戎侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1018 = { # 三封侯
+gzj_xian_1018 = { # 彊阴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12291,7 +12291,7 @@ gzj_xian_1018 = { # 三封侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1019 = { # 朔方侯
+gzj_xian_1019 = { # 临戎侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12302,7 +12302,7 @@ gzj_xian_1019 = { # 朔方侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1020 = { # 沃野侯
+gzj_xian_1020 = { # 三封侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12313,7 +12313,7 @@ gzj_xian_1020 = { # 沃野侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1021 = { # 广牧侯
+gzj_xian_1021 = { # 朔方侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12324,7 +12324,7 @@ gzj_xian_1021 = { # 广牧侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1022 = { # 大城侯
+gzj_xian_1022 = { # 沃野侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12335,7 +12335,7 @@ gzj_xian_1022 = { # 大城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1023 = { # 涿侯
+gzj_xian_1023 = { # 广牧侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12346,7 +12346,7 @@ gzj_xian_1023 = { # 涿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1024 = { # 逎侯
+gzj_xian_1024 = { # 大城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12357,7 +12357,7 @@ gzj_xian_1024 = { # 逎侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1025 = { # 故安侯
+gzj_xian_1025 = { # 涿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12368,7 +12368,7 @@ gzj_xian_1025 = { # 故安侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1026 = { # 范阳侯
+gzj_xian_1026 = { # 遒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12379,7 +12379,7 @@ gzj_xian_1026 = { # 范阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1027 = { # 良乡侯
+gzj_xian_1027 = { # 故安侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12390,7 +12390,7 @@ gzj_xian_1027 = { # 良乡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1028 = { # 北新城侯
+gzj_xian_1028 = { # 范阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12401,7 +12401,7 @@ gzj_xian_1028 = { # 北新城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1029 = { # 方城侯
+gzj_xian_1029 = { # 良乡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12412,7 +12412,7 @@ gzj_xian_1029 = { # 方城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1030 = { # 蓟侯
+gzj_xian_1030 = { # 北新城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12423,7 +12423,7 @@ gzj_xian_1030 = { # 蓟侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1031 = { # 广阳侯
+gzj_xian_1031 = { # 方城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12434,7 +12434,7 @@ gzj_xian_1031 = { # 广阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1032 = { # 昌平侯
+gzj_xian_1032 = { # 蓟侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12445,7 +12445,7 @@ gzj_xian_1032 = { # 昌平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1033 = { # 军都侯
+gzj_xian_1033 = { # 广阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12456,7 +12456,7 @@ gzj_xian_1033 = { # 军都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1034 = { # 安次侯
+gzj_xian_1034 = { # 昌平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12467,7 +12467,7 @@ gzj_xian_1034 = { # 安次侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1035 = { # 高柳侯
+gzj_xian_1035 = { # 军都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12478,7 +12478,7 @@ gzj_xian_1035 = { # 高柳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1036 = { # 桑乾侯
+gzj_xian_1036 = { # 安次侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12489,7 +12489,7 @@ gzj_xian_1036 = { # 桑乾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1037 = { # 道人侯
+gzj_xian_1037 = { # 高柳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12500,7 +12500,7 @@ gzj_xian_1037 = { # 道人侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1038 = { # 当城侯
+gzj_xian_1038 = { # 桑干侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12511,7 +12511,7 @@ gzj_xian_1038 = { # 当城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1039 = { # 马城侯
+gzj_xian_1039 = { # 道人侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12522,7 +12522,7 @@ gzj_xian_1039 = { # 马城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1040 = { # 班氏侯
+gzj_xian_1040 = { # 当城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12533,7 +12533,7 @@ gzj_xian_1040 = { # 班氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1041 = { # 狋氏侯
+gzj_xian_1041 = { # 马城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12544,7 +12544,7 @@ gzj_xian_1041 = { # 狋氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1042 = { # 北平邑侯
+gzj_xian_1042 = { # 班氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12555,7 +12555,7 @@ gzj_xian_1042 = { # 北平邑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1043 = { # 东安阳侯
+gzj_xian_1043 = { # 狋氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12566,7 +12566,7 @@ gzj_xian_1043 = { # 东安阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1044 = { # 平舒侯
+gzj_xian_1044 = { # 东安阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12577,7 +12577,7 @@ gzj_xian_1044 = { # 平舒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1045 = { # 代侯
+gzj_xian_1045 = { # 平舒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12588,7 +12588,7 @@ gzj_xian_1045 = { # 代侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1046 = { # 沮阳侯
+gzj_xian_1046 = { # 代侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12599,7 +12599,7 @@ gzj_xian_1046 = { # 沮阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1047 = { # 潘侯
+gzj_xian_1047 = { # 沮阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12610,7 +12610,7 @@ gzj_xian_1047 = { # 潘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1048 = { # 甯侯
+gzj_xian_1048 = { # 潘侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12621,7 +12621,7 @@ gzj_xian_1048 = { # 甯侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1049 = { # 广甯侯
+gzj_xian_1049 = { # 宁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12632,7 +12632,7 @@ gzj_xian_1049 = { # 广甯侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1050 = { # 居庸侯
+gzj_xian_1050 = { # 广宁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12643,7 +12643,7 @@ gzj_xian_1050 = { # 居庸侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1051 = { # 雊瞀侯
+gzj_xian_1051 = { # 居庸侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12654,7 +12654,7 @@ gzj_xian_1051 = { # 雊瞀侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1052 = { # 涿鹿侯
+gzj_xian_1052 = { # 雊瞀侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12665,7 +12665,7 @@ gzj_xian_1052 = { # 涿鹿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1053 = { # 下落侯
+gzj_xian_1053 = { # 涿鹿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12676,7 +12676,7 @@ gzj_xian_1053 = { # 下落侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1054 = { # 渔阳侯
+gzj_xian_1054 = { # 下落侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12687,7 +12687,7 @@ gzj_xian_1054 = { # 渔阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1055 = { # 狐奴侯
+gzj_xian_1055 = { # 渔阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12698,7 +12698,7 @@ gzj_xian_1055 = { # 狐奴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1056 = { # 雍奴侯
+gzj_xian_1056 = { # 狐奴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12709,7 +12709,7 @@ gzj_xian_1056 = { # 雍奴侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1057 = { # 泉州侯
+gzj_xian_1057 = { # 雍奴侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12720,7 +12720,7 @@ gzj_xian_1057 = { # 泉州侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1058 = { # 平谷侯
+gzj_xian_1058 = { # 泉州侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12731,7 +12731,7 @@ gzj_xian_1058 = { # 平谷侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1059 = { # 安乐侯
+gzj_xian_1059 = { # 平谷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12742,7 +12742,7 @@ gzj_xian_1059 = { # 安乐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1060 = { # 傂奚侯
+gzj_xian_1060 = { # 安乐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12753,7 +12753,7 @@ gzj_xian_1060 = { # 傂奚侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1061 = { # 犷平侯
+gzj_xian_1061 = { # 厗奚侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12764,7 +12764,7 @@ gzj_xian_1061 = { # 犷平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1062 = { # 土垠侯
+gzj_xian_1062 = { # 犷平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12775,7 +12775,7 @@ gzj_xian_1062 = { # 土垠侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1063 = { # 徐无侯
+gzj_xian_1063 = { # 土垠侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12786,7 +12786,7 @@ gzj_xian_1063 = { # 徐无侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1064 = { # 俊靡侯
+gzj_xian_1064 = { # 徐无侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12797,7 +12797,7 @@ gzj_xian_1064 = { # 俊靡侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1065 = { # 无终侯
+gzj_xian_1065 = { # 俊靡侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12808,7 +12808,7 @@ gzj_xian_1065 = { # 无终侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1066 = { # 阳乐侯
+gzj_xian_1066 = { # 无终侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12819,7 +12819,7 @@ gzj_xian_1066 = { # 阳乐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1067 = { # 海阳侯
+gzj_xian_1067 = { # 阳乐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12830,7 +12830,7 @@ gzj_xian_1067 = { # 海阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1068 = { # 令支侯
+gzj_xian_1068 = { # 海阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12841,7 +12841,7 @@ gzj_xian_1068 = { # 令支侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1069 = { # 肥如侯
+gzj_xian_1069 = { # 令支侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12852,7 +12852,7 @@ gzj_xian_1069 = { # 肥如侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1070 = { # 临渝侯
+gzj_xian_1070 = { # 肥如侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12863,7 +12863,7 @@ gzj_xian_1070 = { # 临渝侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1071 = { # 襄平侯
+gzj_xian_1071 = { # 临渝侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12874,7 +12874,7 @@ gzj_xian_1071 = { # 襄平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1072 = { # 新昌侯
+gzj_xian_1072 = { # 襄平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12885,7 +12885,7 @@ gzj_xian_1072 = { # 新昌侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1073 = { # 无虑侯
+gzj_xian_1073 = { # 新昌侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12896,7 +12896,7 @@ gzj_xian_1073 = { # 无虑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1074 = { # 望平侯
+gzj_xian_1074 = { # 无虑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12907,7 +12907,7 @@ gzj_xian_1074 = { # 望平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1075 = { # 候城侯
+gzj_xian_1075 = { # 望平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12918,7 +12918,7 @@ gzj_xian_1075 = { # 候城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1076 = { # 安市侯
+gzj_xian_1076 = { # 辽队侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12929,7 +12929,7 @@ gzj_xian_1076 = { # 安市侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1077 = { # 平郭侯
+gzj_xian_1077 = { # 安市侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12940,7 +12940,7 @@ gzj_xian_1077 = { # 平郭侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1078 = { # 西安平侯
+gzj_xian_1078 = { # 平郭侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12951,7 +12951,7 @@ gzj_xian_1078 = { # 西安平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1079 = { # 汶侯
+gzj_xian_1079 = { # 西安平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12962,7 +12962,7 @@ gzj_xian_1079 = { # 汶侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1080 = { # 番汗侯
+gzj_xian_1080 = { # 汶侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12973,7 +12973,7 @@ gzj_xian_1080 = { # 番汗侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1081 = { # 沓氏侯
+gzj_xian_1081 = { # 番汗侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12984,7 +12984,7 @@ gzj_xian_1081 = { # 沓氏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1082 = { # 高句骊侯
+gzj_xian_1082 = { # 沓氏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -12995,7 +12995,7 @@ gzj_xian_1082 = { # 高句骊侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1083 = { # 西盖马侯
+gzj_xian_1083 = { # 高句骊侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13006,7 +13006,7 @@ gzj_xian_1083 = { # 西盖马侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1084 = { # 上殷台侯
+gzj_xian_1084 = { # 西盖马侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13017,7 +13017,7 @@ gzj_xian_1084 = { # 上殷台侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1085 = { # 高显侯
+gzj_xian_1085 = { # 上殷台侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13028,7 +13028,7 @@ gzj_xian_1085 = { # 高显侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1086 = { # 辽阳侯
+gzj_xian_1086 = { # 高显侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13039,7 +13039,7 @@ gzj_xian_1086 = { # 辽阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1087 = { # 朝鲜侯
+gzj_xian_1087 = { # 候城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13050,7 +13050,7 @@ gzj_xian_1087 = { # 朝鲜侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1088 = { # 讠冉邯侯
+gzj_xian_1088 = { # 辽阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13061,7 +13061,7 @@ gzj_xian_1088 = { # 讠冉邯侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1089 = { # 浿水侯
+gzj_xian_1089 = { # 朝鲜侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13072,7 +13072,7 @@ gzj_xian_1089 = { # 浿水侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1090 = { # 含资侯
+gzj_xian_1090 = { # 𧦦邯侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13083,7 +13083,7 @@ gzj_xian_1090 = { # 含资侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1091 = { # 占蝉侯
+gzj_xian_1091 = { # 浿水侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13094,7 +13094,7 @@ gzj_xian_1091 = { # 占蝉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1092 = { # 遂城侯
+gzj_xian_1092 = { # 含资侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13105,7 +13105,7 @@ gzj_xian_1092 = { # 遂城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1093 = { # 增地侯
+gzj_xian_1093 = { # 占蝉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13116,7 +13116,7 @@ gzj_xian_1093 = { # 增地侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1094 = { # 带方侯
+gzj_xian_1094 = { # 遂城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13127,7 +13127,7 @@ gzj_xian_1094 = { # 带方侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1095 = { # 驷望侯
+gzj_xian_1095 = { # 增地侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13138,7 +13138,7 @@ gzj_xian_1095 = { # 驷望侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1096 = { # 海冥侯
+gzj_xian_1096 = { # 带方侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13149,7 +13149,7 @@ gzj_xian_1096 = { # 海冥侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1097 = { # 列口侯
+gzj_xian_1097 = { # 驷望侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13160,7 +13160,7 @@ gzj_xian_1097 = { # 列口侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1098 = { # 长岑侯
+gzj_xian_1098 = { # 海冥侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13171,7 +13171,7 @@ gzj_xian_1098 = { # 长岑侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1099 = { # 屯有侯
+gzj_xian_1099 = { # 列口侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13182,7 +13182,7 @@ gzj_xian_1099 = { # 屯有侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1100 = { # 昭明侯
+gzj_xian_1100 = { # 长岑侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13193,7 +13193,7 @@ gzj_xian_1100 = { # 昭明侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1101 = { # 镂方侯
+gzj_xian_1101 = { # 屯有侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13204,7 +13204,7 @@ gzj_xian_1101 = { # 镂方侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1102 = { # 提奚侯
+gzj_xian_1102 = { # 昭明侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13215,7 +13215,7 @@ gzj_xian_1102 = { # 提奚侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1103 = { # 浑弥侯
+gzj_xian_1103 = { # 镂方侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13226,7 +13226,7 @@ gzj_xian_1103 = { # 浑弥侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1104 = { # 乐都侯
+gzj_xian_1104 = { # 提奚侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13237,7 +13237,7 @@ gzj_xian_1104 = { # 乐都侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1105 = { # 昌辽侯
+gzj_xian_1105 = { # 浑弥侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13248,7 +13248,7 @@ gzj_xian_1105 = { # 昌辽侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1106 = { # 宾徒侯
+gzj_xian_1106 = { # 乐都侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13259,7 +13259,7 @@ gzj_xian_1106 = { # 宾徒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1107 = { # 徒河侯
+gzj_xian_1107 = { # 昌辽侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13270,7 +13270,7 @@ gzj_xian_1107 = { # 徒河侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1108 = { # 险渎侯
+gzj_xian_1108 = { # 宾徒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13281,7 +13281,7 @@ gzj_xian_1108 = { # 险渎侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1109 = { # 房侯
+gzj_xian_1109 = { # 徒河侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13292,7 +13292,7 @@ gzj_xian_1109 = { # 房侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1110 = { # 番禺侯
+gzj_xian_1110 = { # 扶黎侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13303,7 +13303,7 @@ gzj_xian_1110 = { # 番禺侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1111 = { # 博罗侯
+gzj_xian_1111 = { # 险渎侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13314,7 +13314,7 @@ gzj_xian_1111 = { # 博罗侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1112 = { # 中宿侯
+gzj_xian_1112 = { # 房侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13325,7 +13325,7 @@ gzj_xian_1112 = { # 中宿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1113 = { # 龙川侯
+gzj_xian_1113 = { # 番禺侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13336,7 +13336,7 @@ gzj_xian_1113 = { # 龙川侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1114 = { # 四会侯
+gzj_xian_1114 = { # 博罗侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13347,7 +13347,7 @@ gzj_xian_1114 = { # 四会侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1115 = { # 揭阳侯
+gzj_xian_1115 = { # 中宿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13358,7 +13358,7 @@ gzj_xian_1115 = { # 揭阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1116 = { # 增城侯
+gzj_xian_1116 = { # 龙川侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13369,7 +13369,7 @@ gzj_xian_1116 = { # 增城侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1117 = { # 广信侯
+gzj_xian_1117 = { # 四会侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13380,7 +13380,7 @@ gzj_xian_1117 = { # 广信侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1118 = { # 谢沐侯
+gzj_xian_1118 = { # 揭阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13391,7 +13391,7 @@ gzj_xian_1118 = { # 谢沐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1119 = { # 高要侯
+gzj_xian_1119 = { # 增城侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13402,7 +13402,7 @@ gzj_xian_1119 = { # 高要侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1120 = { # 封阳侯
+gzj_xian_1120 = { # 广信侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13413,7 +13413,7 @@ gzj_xian_1120 = { # 封阳侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1121 = { # 临贺侯
+gzj_xian_1121 = { # 谢沐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13424,7 +13424,7 @@ gzj_xian_1121 = { # 临贺侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1122 = { # 端谿侯
+gzj_xian_1122 = { # 高要侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13435,7 +13435,7 @@ gzj_xian_1122 = { # 端谿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1123 = { # 冯乘侯
+gzj_xian_1123 = { # 封阳侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13446,7 +13446,7 @@ gzj_xian_1123 = { # 冯乘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1124 = { # 富川侯
+gzj_xian_1124 = { # 临贺侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13457,7 +13457,7 @@ gzj_xian_1124 = { # 富川侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1125 = { # 荔浦侯
+gzj_xian_1125 = { # 端谿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13468,7 +13468,7 @@ gzj_xian_1125 = { # 荔浦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1126 = { # 猛陵侯
+gzj_xian_1126 = { # 冯乘侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13479,7 +13479,7 @@ gzj_xian_1126 = { # 猛陵侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1127 = { # 鄣平侯
+gzj_xian_1127 = { # 富川侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13490,7 +13490,7 @@ gzj_xian_1127 = { # 鄣平侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1128 = { # 布山侯
+gzj_xian_1128 = { # 荔浦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13501,7 +13501,7 @@ gzj_xian_1128 = { # 布山侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1129 = { # 安广侯
+gzj_xian_1129 = { # 猛陵侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13512,7 +13512,7 @@ gzj_xian_1129 = { # 安广侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1130 = { # 阿林侯
+gzj_xian_1130 = { # 鄣平侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13523,7 +13523,7 @@ gzj_xian_1130 = { # 阿林侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1131 = { # 广郁侯
+gzj_xian_1131 = { # 布山侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13534,7 +13534,7 @@ gzj_xian_1131 = { # 广郁侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1132 = { # 中溜侯
+gzj_xian_1132 = { # 安广侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13545,7 +13545,7 @@ gzj_xian_1132 = { # 中溜侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1133 = { # 桂林侯
+gzj_xian_1133 = { # 阿林侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13556,7 +13556,7 @@ gzj_xian_1133 = { # 桂林侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1134 = { # 潭中侯
+gzj_xian_1134 = { # 广郁侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13567,7 +13567,7 @@ gzj_xian_1134 = { # 潭中侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1135 = { # 临尘侯
+gzj_xian_1135 = { # 中溜侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13578,7 +13578,7 @@ gzj_xian_1135 = { # 临尘侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1136 = { # 定周侯
+gzj_xian_1136 = { # 桂林侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13589,7 +13589,7 @@ gzj_xian_1136 = { # 定周侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1137 = { # 增食侯
+gzj_xian_1137 = { # 潭中侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13600,7 +13600,7 @@ gzj_xian_1137 = { # 增食侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1138 = { # 领方侯
+gzj_xian_1138 = { # 临尘侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13611,7 +13611,7 @@ gzj_xian_1138 = { # 领方侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1139 = { # 合浦侯
+gzj_xian_1139 = { # 定周侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13622,7 +13622,7 @@ gzj_xian_1139 = { # 合浦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1140 = { # 徐闻侯
+gzj_xian_1140 = { # 增食侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13633,7 +13633,7 @@ gzj_xian_1140 = { # 徐闻侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1141 = { # 高凉侯
+gzj_xian_1141 = { # 领方侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13644,7 +13644,7 @@ gzj_xian_1141 = { # 高凉侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1142 = { # 临允侯
+gzj_xian_1142 = { # 合浦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13655,7 +13655,7 @@ gzj_xian_1142 = { # 临允侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1143 = { # 朱崖侯
+gzj_xian_1143 = { # 徐闻侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13666,7 +13666,7 @@ gzj_xian_1143 = { # 朱崖侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1144 = { # 龙编侯
+gzj_xian_1144 = { # 高凉侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13677,7 +13677,7 @@ gzj_xian_1144 = { # 龙编侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1145 = { # 羸𨻻侯
+gzj_xian_1145 = { # 临允侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13688,7 +13688,7 @@ gzj_xian_1145 = { # 羸𨻻侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1146 = { # 安定侯
+gzj_xian_1146 = { # 朱崖侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13699,7 +13699,7 @@ gzj_xian_1146 = { # 安定侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1147 = { # 苟漏侯
+gzj_xian_1147 = { # 龙编侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13710,7 +13710,7 @@ gzj_xian_1147 = { # 苟漏侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1148 = { # 麊泠侯
+gzj_xian_1148 = { # 羸𨻻侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13721,7 +13721,7 @@ gzj_xian_1148 = { # 麊泠侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1149 = { # 北带侯
+gzj_xian_1149 = { # 安定侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13732,7 +13732,7 @@ gzj_xian_1149 = { # 北带侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1150 = { # 稽徐侯
+gzj_xian_1150 = { # 苟漏侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13743,7 +13743,7 @@ gzj_xian_1150 = { # 稽徐侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1151 = { # 西于侯
+gzj_xian_1151 = { # 麋泠侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13754,7 +13754,7 @@ gzj_xian_1151 = { # 西于侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1152 = { # 朱䳒侯
+gzj_xian_1152 = { # 北带侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13765,7 +13765,7 @@ gzj_xian_1152 = { # 朱䳒侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1153 = { # 封谿侯
+gzj_xian_1153 = { # 稽徐侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13776,7 +13776,7 @@ gzj_xian_1153 = { # 封谿侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1154 = { # 望海侯
+gzj_xian_1154 = { # 西于侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13787,7 +13787,7 @@ gzj_xian_1154 = { # 望海侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1155 = { # 胥浦侯
+gzj_xian_1155 = { # 朱䳒侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13798,7 +13798,7 @@ gzj_xian_1155 = { # 胥浦侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1156 = { # 居风侯
+gzj_xian_1156 = { # 封谿侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13809,7 +13809,7 @@ gzj_xian_1156 = { # 居风侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1157 = { # 咸懽侯
+gzj_xian_1157 = { # 望海侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13820,7 +13820,7 @@ gzj_xian_1157 = { # 咸懽侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1158 = { # 无功侯
+gzj_xian_1158 = { # 胥浦侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13831,7 +13831,7 @@ gzj_xian_1158 = { # 无功侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1159 = { # 无编侯
+gzj_xian_1159 = { # 居风侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13842,7 +13842,7 @@ gzj_xian_1159 = { # 无编侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1160 = { # 西卷侯
+gzj_xian_1160 = { # 咸懽侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13853,7 +13853,7 @@ gzj_xian_1160 = { # 西卷侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1161 = { # 朱吾侯
+gzj_xian_1161 = { # 无功侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13864,7 +13864,7 @@ gzj_xian_1161 = { # 朱吾侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1162 = { # 卢容侯
+gzj_xian_1162 = { # 无编侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13875,7 +13875,7 @@ gzj_xian_1162 = { # 卢容侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1163 = { # 象林侯
+gzj_xian_1163 = { # 西卷侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13886,7 +13886,7 @@ gzj_xian_1163 = { # 象林侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xian_1164 = { # 比景侯
+gzj_xian_1164 = { # 朱吾侯
 	birth = 0
 	random_creation = 0
 	icon = guanzhi_jue_xianhou.dds
@@ -13897,1883 +13897,35 @@ gzj_xian_1164 = { # 比景侯
 	flag = guanzhi_jue_xian
 }
 
-gzj_xiang_0000 = { # 圉乡侯
+gzj_xian_1165 = { # 卢容侯
 	birth = 0
 	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0001 = { # 蒯乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0002 = { # 尸乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0003 = { # 原乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0004 = { # 宁乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0005 = { # 耿乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0006 = { # 务乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0007 = { # 閺乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0008 = { # 芮乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0009 = { # 豳乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0010 = { # 下乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0011 = { # 户牖乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0012 = { # 鄛乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0013 = { # 邟乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0014 = { # 高阳乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0015 = { # 武乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0016 = { # 西乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0017 = { # 都乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0018 = { # 狐宗乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0019 = { # 向乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0020 = { # 应乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0021 = { # 蒋乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0022 = { # 安陵乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0023 = { # 葛乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0024 = { # 大泽乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0025 = { # 赖乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0026 = { # 左人乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0027 = { # 大棘乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0028 = { # 首乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0029 = { # 雍乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0030 = { # 韦乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0031 = { # 遂乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0032 = { # 鹿城乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0033 = { # 伊卢乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0034 = { # 蓝乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0035 = { # 邳乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0036 = { # 密乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0037 = { # 蒌乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0038 = { # 棠乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0039 = { # 过乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0040 = { # 东乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0041 = { # 上唐乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0042 = { # 涉都乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0043 = { # 章密乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0044 = { # 津乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0045 = { # 郧乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0046 = { # 桐乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_xiang_0047 = { # 临乡侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_xianghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_xiang_desc
-	monthly_prestige = 0.3
-	flag = guanzhi_jue
-	flag = guanzhi_jue_xiang
-}
-
-gzj_ting_0000 = { # 前亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0001 = { # 虢亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0002 = { # 薄亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0003 = { # 敖亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0004 = { # 扈城亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0005 = { # 蔡亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0006 = { # 琐候亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0007 = { # 黄亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0008 = { # 汎亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0009 = { # 高梁亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0010 = { # 董亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0011 = { # 沙丘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0012 = { # 冀亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0013 = { # 稷山亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0014 = { # 韩亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0015 = { # 壶丘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0016 = { # 邵亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0017 = { # 曹阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0018 = { # 枳道亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0019 = { # 长门亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0020 = { # 鸿门亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0021 = { # 戏亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0022 = { # 甘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0023 = { # 邰亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0024 = { # 乌江亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0025 = { # 霸陵亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0026 = { # 南昌亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0027 = { # 轵道亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0028 = { # 杜邮亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0029 = { # 丰西泽亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0030 = { # 千秋亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0031 = { # 龙亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0032 = { # 费亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0033 = { # 汉寿亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0034 = { # 宜城亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0035 = { # 永昌亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0036 = { # 当阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0037 = { # 阳武亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0038 = { # 华亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0039 = { # 万岁亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0040 = { # 洧阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0041 = { # 陵树亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0042 = { # 广昌亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0043 = { # 益寿亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0044 = { # 延寿亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0045 = { # 魏寿亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0046 = { # 国明亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0047 = { # 安阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0048 = { # 都亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0049 = { # 高氏亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0050 = { # 岸亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0051 = { # 沈亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0052 = { # 柏亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0053 = { # 道亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0054 = { # 武城亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0055 = { # 棠谿亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0056 = { # 大吕亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0057 = { # 江亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0058 = { # 陉亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0059 = { # 安陵亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0060 = { # 繁阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0061 = { # 赖亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0062 = { # 卢门亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0063 = { # 桐亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0064 = { # 邳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0065 = { # 泗水亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0066 = { # 辰亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0067 = { # 牛首亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0068 = { # 沙亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0069 = { # 薄落亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0070 = { # 昔阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0071 = { # 鲜虞亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0072 = { # 中人亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0073 = { # 无蒌亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0074 = { # 苏人亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0075 = { # 鸣雁亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0076 = { # 滑亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0077 = { # 临济亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0078 = { # 黄池亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0079 = { # 桐牢亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0080 = { # 高阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0081 = { # 平阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0082 = { # 瓦亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0083 = { # 清亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0084 = { # 秦亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0085 = { # 莘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0086 = { # 阚亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0087 = { # 堂阳亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0088 = { # 阳关亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0089 = { # 祊亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0090 = { # 台亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0091 = { # 下讙亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0092 = { # 甲父亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0093 = { # 漆亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0094 = { # 闾丘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0095 = { # 武唐亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0096 = { # 泥母亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0097 = { # 三鬷亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0098 = { # 垂亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0099 = { # 次室亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0100 = { # 郓亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0101 = { # 丛亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0102 = { # 概亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0103 = { # 东陵亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0104 = { # 楼亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0105 = { # 野井亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0106 = { # 灌亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0107 = { # 纪亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0108 = { # 寒亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0109 = { # 渠丘亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0110 = { # 酅亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0111 = { # 介亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0112 = { # 尤涉亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0113 = { # 棘里亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0114 = { # 三亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0115 = { # 东武亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0116 = { # 牛兰累亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0117 = { # 三户亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0118 = { # 街泉亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0119 = { # 五柞亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
-	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
-	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
-}
-
-gzj_ting_0120 = { # 黎亭侯
-	birth = 0
-	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
+	icon = guanzhi_jue_xianhou.dds
 	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
+	desc = trait_gzj_xian_desc
+	monthly_prestige = 0.5
 	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
+	flag = guanzhi_jue_xian
 }
 
-gzj_ting_0121 = { # 长平亭侯
+gzj_xian_1166 = { # 象林侯
 	birth = 0
 	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
+	icon = guanzhi_jue_xianhou.dds
 	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
+	desc = trait_gzj_xian_desc
+	monthly_prestige = 0.5
 	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
+	flag = guanzhi_jue_xian
 }
 
-gzj_ting_0122 = { # 督亢亭侯
+gzj_xian_1167 = { # 比景侯
 	birth = 0
 	random_creation = 0
-	icon = guanzhi_jue_tinghou.dds
+	icon = guanzhi_jue_xianhou.dds
 	shown_in_ruler_designer = no
-	desc = trait_gzj_ting_desc
-	monthly_prestige = 0.2
+	desc = trait_gzj_xian_desc
+	monthly_prestige = 0.5
 	flag = guanzhi_jue
-	flag = guanzhi_jue_ting
+	flag = guanzhi_jue_xian
 }

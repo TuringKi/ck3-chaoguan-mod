@@ -1,0 +1,94 @@
+# Guanzhi 官制 - 勋官自动授予/同步效果 (generated)
+# 自动授予额外打 guanzhi_xun_auto 旗标: 手动授予(互动)无此旗标, 同步不动它
+
+# 自动授上柱国 (root=受勋者)
+guanzhi_xun_auto_grant_01 = {
+	if = {
+		limit = {
+			exists = liege
+			# 勋阶跟人不跟地: 已有勋阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_xun_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_xun } }
+		}
+		save_scope_as = recipient
+		guanzhi_xun_grant_01 = yes
+		add_character_flag = guanzhi_xun_auto
+	}
+}
+
+# 自动授上护军 (root=受勋者)
+guanzhi_xun_auto_grant_03 = {
+	if = {
+		limit = {
+			exists = liege
+			# 勋阶跟人不跟地: 已有勋阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_xun_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_xun } }
+		}
+		save_scope_as = recipient
+		guanzhi_xun_grant_03 = yes
+		add_character_flag = guanzhi_xun_auto
+	}
+}
+
+# 自动授上骑都尉 (root=受勋者)
+guanzhi_xun_auto_grant_07 = {
+	if = {
+		limit = {
+			exists = liege
+			# 勋阶跟人不跟地: 已有勋阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_xun_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_xun } }
+		}
+		save_scope_as = recipient
+		guanzhi_xun_grant_07 = yes
+		add_character_flag = guanzhi_xun_auto
+	}
+}
+
+# 自动授云骑尉 (root=受勋者)
+guanzhi_xun_auto_grant_11 = {
+	if = {
+		limit = {
+			exists = liege
+			# 勋阶跟人不跟地: 已有勋阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_xun_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_xun } }
+		}
+		save_scope_as = recipient
+		guanzhi_xun_grant_11 = yes
+		add_character_flag = guanzhi_xun_auto
+	}
+}
+
+# 有地封臣中带 military_province 旗标者按头衔层级授勋 (手动优先由 wrapper 把关)
+guanzhi_xun_sync_landed_effect = {
+	if = {
+		limit = {
+			highest_held_title_tier >= tier_kingdom
+			has_trait_with_flag = military_province
+		}
+		guanzhi_xun_auto_grant_01 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_duchy
+			has_trait_with_flag = military_province
+		}
+		guanzhi_xun_auto_grant_03 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_county
+			has_trait_with_flag = military_province
+		}
+		guanzhi_xun_auto_grant_07 = yes
+	}
+	if = {
+		limit = {
+			highest_held_title_tier = tier_barony
+			has_trait_with_flag = military_province
+		}
+		guanzhi_xun_auto_grant_11 = yes
+	}
+}

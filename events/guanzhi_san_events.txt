@@ -1,0 +1,550 @@
+namespace = guanzhi
+
+# 授予散官. root = scope:actor (君主), scope:recipient = 受官者.
+# 9500 选文/武 -> 分页散阶菜单, 选项直接授予.
+
+guanzhi.9500 = {
+	type = character_event
+	title = guanzhi.9500.t
+	desc = guanzhi.9500.desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	immediate = {
+		debug_log = "GUANZHI 9500 fired"
+	}
+
+	option = {
+		name = guanzhi_san_wen
+		trigger_event = { id = guanzhi.9510 }
+	}
+
+	option = {
+		name = guanzhi_san_wu
+		trigger_event = { id = guanzhi.9610 }
+	}
+
+	option = {
+		name = guanzhi.option.cancel
+	}
+}
+
+guanzhi.9510 = {
+	type = character_event
+	title = guanzhi_san_wen
+	desc = gzs_pick_wen_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wen_01
+		scope:recipient = { guanzhi_san_grant_wen_01 = yes }
+	}
+
+	option = {
+		name = gzs_wen_02
+		scope:recipient = { guanzhi_san_grant_wen_02 = yes }
+	}
+
+	option = {
+		name = gzs_wen_03
+		scope:recipient = { guanzhi_san_grant_wen_03 = yes }
+	}
+
+	option = {
+		name = gzs_wen_04
+		scope:recipient = { guanzhi_san_grant_wen_04 = yes }
+	}
+
+	option = {
+		name = gzs_wen_05
+		scope:recipient = { guanzhi_san_grant_wen_05 = yes }
+	}
+
+	option = {
+		name = gzs_wen_06
+		scope:recipient = { guanzhi_san_grant_wen_06 = yes }
+	}
+
+	option = {
+		name = gzs_wen_07
+		scope:recipient = { guanzhi_san_grant_wen_07 = yes }
+	}
+
+	option = {
+		name = gzs_wen_08
+		scope:recipient = { guanzhi_san_grant_wen_08 = yes }
+	}
+
+	option = {
+		name = gzs_wen_09
+		scope:recipient = { guanzhi_san_grant_wen_09 = yes }
+	}
+
+	option = {
+		name = gzs_wen_10
+		scope:recipient = { guanzhi_san_grant_wen_10 = yes }
+	}
+
+	option = {
+		name = gzs_wen_11
+		scope:recipient = { guanzhi_san_grant_wen_11 = yes }
+	}
+
+	option = {
+		name = gzs_wen_12
+		scope:recipient = { guanzhi_san_grant_wen_12 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.9511 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9511 = {
+	type = character_event
+	title = guanzhi_san_wen
+	desc = gzs_pick_wen_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wen_13
+		scope:recipient = { guanzhi_san_grant_wen_13 = yes }
+	}
+
+	option = {
+		name = gzs_wen_14
+		scope:recipient = { guanzhi_san_grant_wen_14 = yes }
+	}
+
+	option = {
+		name = gzs_wen_15
+		scope:recipient = { guanzhi_san_grant_wen_15 = yes }
+	}
+
+	option = {
+		name = gzs_wen_16
+		scope:recipient = { guanzhi_san_grant_wen_16 = yes }
+	}
+
+	option = {
+		name = gzs_wen_17
+		scope:recipient = { guanzhi_san_grant_wen_17 = yes }
+	}
+
+	option = {
+		name = gzs_wen_18
+		scope:recipient = { guanzhi_san_grant_wen_18 = yes }
+	}
+
+	option = {
+		name = gzs_wen_19
+		scope:recipient = { guanzhi_san_grant_wen_19 = yes }
+	}
+
+	option = {
+		name = gzs_wen_20
+		scope:recipient = { guanzhi_san_grant_wen_20 = yes }
+	}
+
+	option = {
+		name = gzs_wen_21
+		scope:recipient = { guanzhi_san_grant_wen_21 = yes }
+	}
+
+	option = {
+		name = gzs_wen_22
+		scope:recipient = { guanzhi_san_grant_wen_22 = yes }
+	}
+
+	option = {
+		name = gzs_wen_23
+		scope:recipient = { guanzhi_san_grant_wen_23 = yes }
+	}
+
+	option = {
+		name = gzs_wen_24
+		scope:recipient = { guanzhi_san_grant_wen_24 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.9510 }
+	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.9512 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9512 = {
+	type = character_event
+	title = guanzhi_san_wen
+	desc = gzs_pick_wen_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wen_25
+		scope:recipient = { guanzhi_san_grant_wen_25 = yes }
+	}
+
+	option = {
+		name = gzs_wen_26
+		scope:recipient = { guanzhi_san_grant_wen_26 = yes }
+	}
+
+	option = {
+		name = gzs_wen_27
+		scope:recipient = { guanzhi_san_grant_wen_27 = yes }
+	}
+
+	option = {
+		name = gzs_wen_28
+		scope:recipient = { guanzhi_san_grant_wen_28 = yes }
+	}
+
+	option = {
+		name = gzs_wen_29
+		scope:recipient = { guanzhi_san_grant_wen_29 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.9511 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9610 = {
+	type = character_event
+	title = guanzhi_san_wu
+	desc = gzs_pick_wu_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wu_01
+		scope:recipient = { guanzhi_san_grant_wu_01 = yes }
+	}
+
+	option = {
+		name = gzs_wu_02
+		scope:recipient = { guanzhi_san_grant_wu_02 = yes }
+	}
+
+	option = {
+		name = gzs_wu_03
+		scope:recipient = { guanzhi_san_grant_wu_03 = yes }
+	}
+
+	option = {
+		name = gzs_wu_04
+		scope:recipient = { guanzhi_san_grant_wu_04 = yes }
+	}
+
+	option = {
+		name = gzs_wu_05
+		scope:recipient = { guanzhi_san_grant_wu_05 = yes }
+	}
+
+	option = {
+		name = gzs_wu_06
+		scope:recipient = { guanzhi_san_grant_wu_06 = yes }
+	}
+
+	option = {
+		name = gzs_wu_07
+		scope:recipient = { guanzhi_san_grant_wu_07 = yes }
+	}
+
+	option = {
+		name = gzs_wu_08
+		scope:recipient = { guanzhi_san_grant_wu_08 = yes }
+	}
+
+	option = {
+		name = gzs_wu_09
+		scope:recipient = { guanzhi_san_grant_wu_09 = yes }
+	}
+
+	option = {
+		name = gzs_wu_10
+		scope:recipient = { guanzhi_san_grant_wu_10 = yes }
+	}
+
+	option = {
+		name = gzs_wu_11
+		scope:recipient = { guanzhi_san_grant_wu_11 = yes }
+	}
+
+	option = {
+		name = gzs_wu_12
+		scope:recipient = { guanzhi_san_grant_wu_12 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.9611 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9611 = {
+	type = character_event
+	title = guanzhi_san_wu
+	desc = gzs_pick_wu_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wu_13
+		scope:recipient = { guanzhi_san_grant_wu_13 = yes }
+	}
+
+	option = {
+		name = gzs_wu_14
+		scope:recipient = { guanzhi_san_grant_wu_14 = yes }
+	}
+
+	option = {
+		name = gzs_wu_15
+		scope:recipient = { guanzhi_san_grant_wu_15 = yes }
+	}
+
+	option = {
+		name = gzs_wu_16
+		scope:recipient = { guanzhi_san_grant_wu_16 = yes }
+	}
+
+	option = {
+		name = gzs_wu_17
+		scope:recipient = { guanzhi_san_grant_wu_17 = yes }
+	}
+
+	option = {
+		name = gzs_wu_18
+		scope:recipient = { guanzhi_san_grant_wu_18 = yes }
+	}
+
+	option = {
+		name = gzs_wu_19
+		scope:recipient = { guanzhi_san_grant_wu_19 = yes }
+	}
+
+	option = {
+		name = gzs_wu_20
+		scope:recipient = { guanzhi_san_grant_wu_20 = yes }
+	}
+
+	option = {
+		name = gzs_wu_21
+		scope:recipient = { guanzhi_san_grant_wu_21 = yes }
+	}
+
+	option = {
+		name = gzs_wu_22
+		scope:recipient = { guanzhi_san_grant_wu_22 = yes }
+	}
+
+	option = {
+		name = gzs_wu_23
+		scope:recipient = { guanzhi_san_grant_wu_23 = yes }
+	}
+
+	option = {
+		name = gzs_wu_24
+		scope:recipient = { guanzhi_san_grant_wu_24 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.9610 }
+	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.9612 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9612 = {
+	type = character_event
+	title = guanzhi_san_wu
+	desc = gzs_pick_wu_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wu_25
+		scope:recipient = { guanzhi_san_grant_wu_25 = yes }
+	}
+
+	option = {
+		name = gzs_wu_26
+		scope:recipient = { guanzhi_san_grant_wu_26 = yes }
+	}
+
+	option = {
+		name = gzs_wu_27
+		scope:recipient = { guanzhi_san_grant_wu_27 = yes }
+	}
+
+	option = {
+		name = gzs_wu_28
+		scope:recipient = { guanzhi_san_grant_wu_28 = yes }
+	}
+
+	option = {
+		name = gzs_wu_29
+		scope:recipient = { guanzhi_san_grant_wu_29 = yes }
+	}
+
+	option = {
+		name = gzs_wu_30
+		scope:recipient = { guanzhi_san_grant_wu_30 = yes }
+	}
+
+	option = {
+		name = gzs_wu_31
+		scope:recipient = { guanzhi_san_grant_wu_31 = yes }
+	}
+
+	option = {
+		name = gzs_wu_32
+		scope:recipient = { guanzhi_san_grant_wu_32 = yes }
+	}
+
+	option = {
+		name = gzs_wu_33
+		scope:recipient = { guanzhi_san_grant_wu_33 = yes }
+	}
+
+	option = {
+		name = gzs_wu_34
+		scope:recipient = { guanzhi_san_grant_wu_34 = yes }
+	}
+
+	option = {
+		name = gzs_wu_35
+		scope:recipient = { guanzhi_san_grant_wu_35 = yes }
+	}
+
+	option = {
+		name = gzs_wu_36
+		scope:recipient = { guanzhi_san_grant_wu_36 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.9611 }
+	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.9613 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+
+guanzhi.9613 = {
+	type = character_event
+	title = guanzhi_san_wu
+	desc = gzs_pick_wu_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzs_wu_37
+		scope:recipient = { guanzhi_san_grant_wu_37 = yes }
+	}
+
+	option = {
+		name = gzs_wu_38
+		scope:recipient = { guanzhi_san_grant_wu_38 = yes }
+	}
+
+	option = {
+		name = gzs_wu_39
+		scope:recipient = { guanzhi_san_grant_wu_39 = yes }
+	}
+
+	option = {
+		name = gzs_wu_40
+		scope:recipient = { guanzhi_san_grant_wu_40 = yes }
+	}
+
+	option = {
+		name = gzs_wu_41
+		scope:recipient = { guanzhi_san_grant_wu_41 = yes }
+	}
+
+	option = {
+		name = gzs_wu_42
+		scope:recipient = { guanzhi_san_grant_wu_42 = yes }
+	}
+
+	option = {
+		name = gzs_wu_43
+		scope:recipient = { guanzhi_san_grant_wu_43 = yes }
+	}
+
+	option = {
+		name = gzs_wu_44
+		scope:recipient = { guanzhi_san_grant_wu_44 = yes }
+	}
+
+	option = {
+		name = gzs_wu_45
+		scope:recipient = { guanzhi_san_grant_wu_45 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.9612 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9500 }
+	}
+}
+

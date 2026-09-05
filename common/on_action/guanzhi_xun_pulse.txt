@@ -1,0 +1,22 @@
+# Guanzhi 官制 - 勋官季度同步 (与散官共用 quarterly_playable_pulse, 合并生效)
+quarterly_playable_pulse = {
+	on_actions = { guanzhi_xun_quarterly_sync }
+}
+
+guanzhi_xun_quarterly_sync = {
+	effect = {
+		if = {
+			limit = {
+				guanzhi_is_celestial_sovereign_trigger = yes
+				has_character_flag = guanzhi_uses_tang_system
+			}
+			every_vassal_or_below = {
+				limit = {
+					is_landed = yes
+					has_trait_with_flag = military_province
+				}
+				guanzhi_xun_sync_landed_effect = yes
+			}
+		}
+	}
+}

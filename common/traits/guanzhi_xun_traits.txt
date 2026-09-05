@@ -1,0 +1,122 @@
+# Guanzhi 官制 - 唐代勋官(十二转) traits (每转一个, 名即勋官名)
+# flag = guanzhi_xun 供剥夺触发器; 图标颜体 勋 红底白字
+
+gzx_01 = { # 上柱国(视正二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.84
+	flag = guanzhi_xun
+}
+
+gzx_02 = { # 柱国(视从二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.81
+	flag = guanzhi_xun
+}
+
+gzx_03 = { # 上护军(视正三品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.78
+	flag = guanzhi_xun
+}
+
+gzx_04 = { # 护军(视从三品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.73
+	flag = guanzhi_xun
+}
+
+gzx_05 = { # 上轻车都尉(视正四品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.67
+	flag = guanzhi_xun
+}
+
+gzx_06 = { # 轻车都尉(视从四品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.62
+	flag = guanzhi_xun
+}
+
+gzx_07 = { # 上骑都尉(视正五品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.56
+	flag = guanzhi_xun
+}
+
+gzx_08 = { # 骑都尉(视从五品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.5
+	flag = guanzhi_xun
+}
+
+gzx_09 = { # 骁骑尉(视正六品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.45
+	flag = guanzhi_xun
+}
+
+gzx_10 = { # 飞骑尉(视从六品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.39
+	flag = guanzhi_xun
+}
+
+gzx_11 = { # 云骑尉(视正七品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.34
+	flag = guanzhi_xun
+}
+
+gzx_12 = { # 武骑尉(视从七品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_xun.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzx_desc
+	monthly_prestige = 0.28
+	flag = guanzhi_xun
+}

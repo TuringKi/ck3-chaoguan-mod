@@ -1,0 +1,816 @@
+# Guanzhi 官制 - 唐代寄禄官(散阶) traits (每阶一个, 名即散官名)
+# flag = guanzhi_san 供剥夺触发器; 图标颜体 文=黄底/武=红底
+
+gzs_wen_01 = { # 开府仪同三司(从一品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.99
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_02 = { # 特进(正二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.96
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_03 = { # 光禄大夫(从二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.93
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_04 = { # 金紫光禄大夫(正三品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.9
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_05 = { # 银青光禄大夫(从三品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.83
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_06 = { # 正议大夫(正四品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.77
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_07 = { # 通议大夫(正四品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.74
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_08 = { # 太中大夫(从四品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.7
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_09 = { # 中大夫(从四品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.67
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_10 = { # 中散大夫(正五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.64
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_11 = { # 朝议大夫(正五品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.61
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_12 = { # 朝请大夫(从五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.58
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_13 = { # 朝散大夫(从五品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.54
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_14 = { # 朝议郎(正六品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.51
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_15 = { # 承议郎(正六品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.48
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_16 = { # 奉议郎(从六品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.45
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_17 = { # 通直郎(从六品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.42
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_18 = { # 朝请郎(正七品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.38
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_19 = { # 宣德郎(正七品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.35
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_20 = { # 朝散郎(从七品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.32
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_21 = { # 宣义郎(从七品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.29
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_22 = { # 给事郎(正八品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.26
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_23 = { # 征事郎(正八品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.22
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_24 = { # 承奉郎(从八品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.19
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_25 = { # 承务郎(从八品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.16
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_26 = { # 儒林郎(正九品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.13
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_27 = { # 登仕郎(正九品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.1
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_28 = { # 文林郎(从九品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.06
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wen_29 = { # 将仕郎(从九品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wen.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wen_desc
+	monthly_prestige = 0.03
+	flag = guanzhi_san
+	flag = guanzhi_san_wen
+}
+
+gzs_wu_01 = { # 骠骑大将军(从一品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.99
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_02 = { # 辅国大将军(正二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.96
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_03 = { # 镇军大将军(从二品)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.93
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_04 = { # 冠军大将军(正三品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.9
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_05 = { # 怀化大将军(正三品上·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.9
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_06 = { # 怀化将军(正三品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.86
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_07 = { # 云麾将军(从三品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.83
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_08 = { # 归德大将军(从三品上·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.83
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_09 = { # 归德将军(从三品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.8
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_10 = { # 忠武将军(正四品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.77
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_11 = { # 壮武将军(正四品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.74
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_12 = { # 怀化中郎将(正四品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.74
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_13 = { # 宣威将军(从四品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.7
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_14 = { # 明威将军(从四品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.67
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_15 = { # 归德中郎将(从四品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.67
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_16 = { # 定远将军(正五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.64
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_17 = { # 宁远将军(正五品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.61
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_18 = { # 怀化郎将(正五品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.61
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_19 = { # 游骑将军(从五品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.58
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_20 = { # 游击将军(从五品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.54
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_21 = { # 归德郎将(从五品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.54
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_22 = { # 昭武校尉(正六品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.51
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_23 = { # 昭武副尉(正六品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.48
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_24 = { # 怀化司阶(正六品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.48
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_25 = { # 振威校尉(从六品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.45
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_26 = { # 振威副尉(从六品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.42
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_27 = { # 归德司阶(从六品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.42
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_28 = { # 致果校尉(正七品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.38
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_29 = { # 致果副尉(正七品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.35
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_30 = { # 怀化中候(正七品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.35
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_31 = { # 翊麾校尉(从七品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.32
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_32 = { # 翊麾副尉(从七品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.29
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_33 = { # 归德中候(从七品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.29
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_34 = { # 宣节校尉(正八品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.26
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_35 = { # 宣节副尉(正八品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.22
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_36 = { # 怀化司戈(正八品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.22
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_37 = { # 御侮校尉(从八品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.19
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_38 = { # 御侮副尉(从八品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.16
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_39 = { # 归德司戈(从八品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.16
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_40 = { # 仁勇校尉(正九品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.13
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_41 = { # 仁勇副尉(正九品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.1
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_42 = { # 怀化执戟长上(正九品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.1
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_43 = { # 陪戎校尉(从九品上)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.06
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_44 = { # 陪戎副尉(从九品下)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.03
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}
+
+gzs_wu_45 = { # 归德执戟长上(从九品下·蕃号)
+	birth = 0
+	random_creation = 0
+	icon = guanzhi_san_wu.dds
+	shown_in_ruler_designer = no
+	desc = trait_gzs_wu_desc
+	monthly_prestige = 0.03
+	flag = guanzhi_san
+	flag = guanzhi_san_wu
+}

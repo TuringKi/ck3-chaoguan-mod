@@ -111,120 +111,120 @@ guanzhi_ling_military = {
 guanzhi_ling_civil = {
 	type = character
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_beikecao }
-		localization_key = gzlc_h_beikecao
+		trigger = { has_trait = guanzhi_zhiguan_t_taishi }
+		localization_key = gzlc_t_taishi
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_chengxiang }
-		localization_key = gzlc_h_chengxiang
+		trigger = { has_trait = guanzhi_zhiguan_t_taifu }
+		localization_key = gzlc_t_taifu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_dahonglu }
-		localization_key = gzlc_h_dahonglu
+		trigger = { has_trait = guanzhi_zhiguan_t_taibao }
+		localization_key = gzlc_t_taibao
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_dasinong }
-		localization_key = gzlc_h_dasinong
+		trigger = { has_trait = guanzhi_zhiguan_t_taiwei }
+		localization_key = gzlc_t_taiwei
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_erqianshi }
-		localization_key = gzlc_h_erqianshi
+		trigger = { has_trait = guanzhi_zhiguan_t_situ }
+		localization_key = gzlc_t_situ
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_guangluxun }
-		localization_key = gzlc_h_guangluxun
+		trigger = { has_trait = guanzhi_zhiguan_t_sikong }
+		localization_key = gzlc_t_sikong
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_licao }
-		localization_key = gzlc_h_licao
+		trigger = { has_trait = guanzhi_zhiguan_t_shangshuling }
+		localization_key = gzlc_t_shangshuling
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_mincao }
-		localization_key = gzlc_h_mincao
+		trigger = { has_trait = guanzhi_zhiguan_t_zuopuye }
+		localization_key = gzlc_t_zuopuye
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_nankecao }
-		localization_key = gzlc_h_nankecao
+		trigger = { has_trait = guanzhi_zhiguan_t_youpuye }
+		localization_key = gzlc_t_youpuye
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_sangongcao }
-		localization_key = gzlc_h_sangongcao
+		trigger = { has_trait = guanzhi_zhiguan_t_zhongshuling }
+		localization_key = gzlc_t_zhongshuling
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_shangshuling }
-		localization_key = gzlc_h_shangshuling
+		trigger = { has_trait = guanzhi_zhiguan_t_shizhong }
+		localization_key = gzlc_t_shizhong
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_shangshupuye }
-		localization_key = gzlc_h_shangshupuye
+		trigger = { has_trait = guanzhi_zhiguan_t_libu }
+		localization_key = gzlc_t_libu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_shaofu }
-		localization_key = gzlc_h_shaofu
+		trigger = { has_trait = guanzhi_zhiguan_t_hubu }
+		localization_key = gzlc_t_hubu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_taichang }
-		localization_key = gzlc_h_taichang
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_taipu }
-		localization_key = gzlc_h_taipu
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_taiwei }
-		localization_key = gzlc_h_taiwei
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_tingwei }
-		localization_key = gzlc_h_tingwei
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_weiwei }
-		localization_key = gzlc_h_weiwei
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_yushidafu }
-		localization_key = gzlc_h_yushidafu
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_h_zongzheng }
-		localization_key = gzlc_h_zongzheng
+		trigger = { has_trait = guanzhi_zhiguan_t_libu_rites }
+		localization_key = gzlc_t_libu_rites
 	}
 	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_bingbu }
 		localization_key = gzlc_t_bingbu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_dali }
-		localization_key = gzlc_t_dali
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_dianzhong }
-		localization_key = gzlc_t_dianzhong
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_dushui }
-		localization_key = gzlc_t_dushui
+		trigger = { has_trait = guanzhi_zhiguan_t_xingbu }
+		localization_key = gzlc_t_xingbu
 	}
 	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_gongbu }
 		localization_key = gzlc_t_gongbu
 	}
 	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_yushidafu }
+		localization_key = gzlc_t_yushidafu
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_taichang }
+		localization_key = gzlc_t_taichang
+	}
+	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_guanglu }
 		localization_key = gzlc_t_guanglu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_guozi }
-		localization_key = gzlc_t_guozi
+		trigger = { has_trait = guanzhi_zhiguan_t_weiwei_si }
+		localization_key = gzlc_t_weiwei_si
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_zongzheng }
+		localization_key = gzlc_t_zongzheng
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_taipu }
+		localization_key = gzlc_t_taipu
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_dali }
+		localization_key = gzlc_t_dali
 	}
 	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_honglu }
 		localization_key = gzlc_t_honglu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_hubu }
-		localization_key = gzlc_t_hubu
+		trigger = { has_trait = guanzhi_zhiguan_t_sinong }
+		localization_key = gzlc_t_sinong
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_taifu_si }
+		localization_key = gzlc_t_taifu_si
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_guozi }
+		localization_key = gzlc_t_guozi
+	}
+	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_shaofu_jian }
+		localization_key = gzlc_t_shaofu_jian
 	}
 	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_jiangzuo }
@@ -235,100 +235,100 @@ guanzhi_ling_civil = {
 		localization_key = gzlc_t_junqi
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_libu }
-		localization_key = gzlc_t_libu
-	}
-	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_libu_rites }
-		localization_key = gzlc_t_libu_rites
+		trigger = { has_trait = guanzhi_zhiguan_t_dushui }
+		localization_key = gzlc_t_dushui
 	}
 	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_mishu }
 		localization_key = gzlc_t_mishu
 	}
 	text = {
+		trigger = { has_trait = guanzhi_zhiguan_t_dianzhong }
+		localization_key = gzlc_t_dianzhong
+	}
+	text = {
 		trigger = { has_trait = guanzhi_zhiguan_t_neishi }
 		localization_key = gzlc_t_neishi
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_shangshuling }
-		localization_key = gzlc_t_shangshuling
+		trigger = { has_trait = guanzhi_zhiguan_h_chengxiang }
+		localization_key = gzlc_h_chengxiang
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_shaofu_jian }
-		localization_key = gzlc_t_shaofu_jian
+		trigger = { has_trait = guanzhi_zhiguan_h_taiwei }
+		localization_key = gzlc_h_taiwei
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_shizhong }
-		localization_key = gzlc_t_shizhong
+		trigger = { has_trait = guanzhi_zhiguan_h_yushidafu }
+		localization_key = gzlc_h_yushidafu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_sikong }
-		localization_key = gzlc_t_sikong
+		trigger = { has_trait = guanzhi_zhiguan_h_taichang }
+		localization_key = gzlc_h_taichang
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_sinong }
-		localization_key = gzlc_t_sinong
+		trigger = { has_trait = guanzhi_zhiguan_h_guangluxun }
+		localization_key = gzlc_h_guangluxun
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_situ }
-		localization_key = gzlc_t_situ
+		trigger = { has_trait = guanzhi_zhiguan_h_weiwei }
+		localization_key = gzlc_h_weiwei
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taibao }
-		localization_key = gzlc_t_taibao
+		trigger = { has_trait = guanzhi_zhiguan_h_taipu }
+		localization_key = gzlc_h_taipu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taichang }
-		localization_key = gzlc_t_taichang
+		trigger = { has_trait = guanzhi_zhiguan_h_tingwei }
+		localization_key = gzlc_h_tingwei
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taifu }
-		localization_key = gzlc_t_taifu
+		trigger = { has_trait = guanzhi_zhiguan_h_dahonglu }
+		localization_key = gzlc_h_dahonglu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taifu_si }
-		localization_key = gzlc_t_taifu_si
+		trigger = { has_trait = guanzhi_zhiguan_h_zongzheng }
+		localization_key = gzlc_h_zongzheng
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taipu }
-		localization_key = gzlc_t_taipu
+		trigger = { has_trait = guanzhi_zhiguan_h_dasinong }
+		localization_key = gzlc_h_dasinong
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taishi }
-		localization_key = gzlc_t_taishi
+		trigger = { has_trait = guanzhi_zhiguan_h_shaofu }
+		localization_key = gzlc_h_shaofu
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_taiwei }
-		localization_key = gzlc_t_taiwei
+		trigger = { has_trait = guanzhi_zhiguan_h_shangshuling }
+		localization_key = gzlc_h_shangshuling
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_weiwei_si }
-		localization_key = gzlc_t_weiwei_si
+		trigger = { has_trait = guanzhi_zhiguan_h_shangshupuye }
+		localization_key = gzlc_h_shangshupuye
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_xingbu }
-		localization_key = gzlc_t_xingbu
+		trigger = { has_trait = guanzhi_zhiguan_h_licao }
+		localization_key = gzlc_h_licao
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_youpuye }
-		localization_key = gzlc_t_youpuye
+		trigger = { has_trait = guanzhi_zhiguan_h_erqianshi }
+		localization_key = gzlc_h_erqianshi
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_yushidafu }
-		localization_key = gzlc_t_yushidafu
+		trigger = { has_trait = guanzhi_zhiguan_h_mincao }
+		localization_key = gzlc_h_mincao
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_zhongshuling }
-		localization_key = gzlc_t_zhongshuling
+		trigger = { has_trait = guanzhi_zhiguan_h_sangongcao }
+		localization_key = gzlc_h_sangongcao
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_zongzheng }
-		localization_key = gzlc_t_zongzheng
+		trigger = { has_trait = guanzhi_zhiguan_h_nankecao }
+		localization_key = gzlc_h_nankecao
 	}
 	text = {
-		trigger = { has_trait = guanzhi_zhiguan_t_zuopuye }
-		localization_key = gzlc_t_zuopuye
+		trigger = { has_trait = guanzhi_zhiguan_h_beikecao }
+		localization_key = gzlc_h_beikecao
 	}
 	text = {
 		fallback = yes

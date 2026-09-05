@@ -1,4 +1,4 @@
-﻿# Guanzhi 官制 - 官职名风味化 v3 (角色/头衔双 flavor, 优先2000)
+# Guanzhi 官制 - 官职名风味化 v3 (角色/头衔双 flavor; 文官2200>武官2100>散官2050>列侯2000)
 
 gzfv_t_taishi = { # 太师
 	type = character

@@ -1,0 +1,253 @@
+# Guanzhi 官制 - 勋官风味化 (角色[勋官名+挂载列侯] / 头衔[勋官名], 优先2020)
+
+gzfv_xun_01 = { # 上柱国
+	type = character
+	flag = guanzhi_xun_01
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_01 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_01
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_02 = { # 柱国
+	type = character
+	flag = guanzhi_xun_02
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_02 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_02
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_03 = { # 上护军
+	type = character
+	flag = guanzhi_xun_03
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_03 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_03
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_04 = { # 护军
+	type = character
+	flag = guanzhi_xun_04
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_04 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_04
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_05 = { # 上轻车都尉
+	type = character
+	flag = guanzhi_xun_05
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_05 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_05
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_06 = { # 轻车都尉
+	type = character
+	flag = guanzhi_xun_06
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_06 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_06
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_07 = { # 上骑都尉
+	type = character
+	flag = guanzhi_xun_07
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_07 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_07
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_08 = { # 骑都尉
+	type = character
+	flag = guanzhi_xun_08
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_08 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_08
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_09 = { # 骁骑尉
+	type = character
+	flag = guanzhi_xun_09
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_09 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_09
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_10 = { # 飞骑尉
+	type = character
+	flag = guanzhi_xun_10
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_10 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_10
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_11 = { # 云骑尉
+	type = character
+	flag = guanzhi_xun_11
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_11 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_11
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+
+gzfv_xun_12 = { # 武骑尉
+	type = character
+	flag = guanzhi_xun_12
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}
+gzft_xun_12 = { # 头衔显示
+	type = title
+	flag = guanzhi_xun_12
+	priority = 2020
+	flavourization_rules = {
+		only_holder = yes
+		spouse_takes_title = no
+		top_liege = no
+	}
+}

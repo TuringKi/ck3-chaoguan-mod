@@ -1,0 +1,182 @@
+# Guanzhi 官制 - 勋官授予效果. root=受勋者; 纯 trait+旗标, 不建头衔
+# 显示: 有地者经整合包风味值覆盖挂载, 无头衔者经 gzfv_titleless 风味条目挂载
+
+# 授上柱国(视正二品)
+guanzhi_xun_grant_01 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_01
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_01
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授柱国(视从二品)
+guanzhi_xun_grant_02 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_02
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_02
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授上护军(视正三品)
+guanzhi_xun_grant_03 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_03
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_03
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授护军(视从三品)
+guanzhi_xun_grant_04 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_04
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_04
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授上轻车都尉(视正四品)
+guanzhi_xun_grant_05 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_05
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_05
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授轻车都尉(视从四品)
+guanzhi_xun_grant_06 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_06
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_06
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授上骑都尉(视正五品)
+guanzhi_xun_grant_07 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_07
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_07
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授骑都尉(视从五品)
+guanzhi_xun_grant_08 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_08
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_08
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授骁骑尉(视正六品)
+guanzhi_xun_grant_09 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_09
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_09
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授飞骑尉(视从六品)
+guanzhi_xun_grant_10 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_10
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_10
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授云骑尉(视正七品)
+guanzhi_xun_grant_11 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_11
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_11
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}
+
+# 授武骑尉(视从七品)
+guanzhi_xun_grant_12 = {
+	guanzhi_clear_xun_effect = yes
+	scope:recipient = {
+		add_trait = gzx_12
+		if = {
+			limit = { is_landed = no }
+			add_character_flag = guanzhi_xun_12
+		}
+		add_character_flag = guanzhi_xunholder
+		guanzhi_fix_titleless_nickname_effect = yes
+	}
+	debug_log = "GUANZHI xun granted"
+}

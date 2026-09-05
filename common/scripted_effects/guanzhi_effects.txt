@@ -31,6 +31,34 @@ guanzhi_try_setup_offices_effect = {
 				guanzhi_appoint_chosen_offices_effect = yes
 			}
 		}
+		# 自动散官清理: 带 auto 旗标但已不在唐天子朝廷者, 剥夺散阶(年度)
+		# (手动授予者无 auto 旗标, 不受影响; 朝官即时同步在 on_title_gain,
+		#  有地封臣同步在 quarterly_playable_pulse)
+		every_living_character = {
+			limit = {
+				has_character_flag = guanzhi_san_auto
+				NOT = {
+					top_liege = {
+						guanzhi_is_celestial_sovereign_trigger = yes
+						has_character_flag = guanzhi_uses_tang_system
+					}
+				}
+			}
+			guanzhi_clear_san_effect = yes
+		}
+		# 自动勋官清理: 同上
+		every_living_character = {
+			limit = {
+				has_character_flag = guanzhi_xun_auto
+				NOT = {
+					top_liege = {
+						guanzhi_is_celestial_sovereign_trigger = yes
+						has_character_flag = guanzhi_uses_tang_system
+					}
+				}
+			}
+			guanzhi_clear_xun_effect = yes
+		}
 	}
 }
 
@@ -63,5 +91,68 @@ guanzhi_appoint_chosen_offices_effect = {
 	else_if = {
 		limit = { has_character_flag = guanzhi_uses_han_system }
 		guanzhi_setup_han_offices_effect = yes
+	}
+}
+
+# ============================================================
+# 无头衔者官爵昵称维护 (风味化需要"命名头衔", 完全无头衔者不适用,
+# 故无头衔者改用昵称显示 —— 同整合包 WJ 将军号模式)
+# 有头衔者若挂着我方官爵昵称则移除(防与头衔风味双显)
+# ============================================================
+guanzhi_fix_titleless_nickname_effect = {
+	if = {
+		limit = { exists = primary_title }
+		if = {
+			limit = { has_nickname = nick_gz_san }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_xun }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_tj }
+			remove_nickname = yes
+		}
+		else_if = {
+			limit = { has_nickname = nick_gz_jue }
+			remove_nickname = yes
+		}
+	}
+	else = {
+		if = {
+			limit = { has_character_flag = guanzhi_sanholder }
+			give_nickname = nick_gz_san
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_xunholder }
+			give_nickname = nick_gz_xun
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_tjholder }
+			give_nickname = nick_gz_tj
+		}
+		else_if = {
+			limit = { has_character_flag = guanzhi_jueholder }
+			give_nickname = nick_gz_jue
+		}
+		else = {
+			if = {
+				limit = { has_nickname = nick_gz_san }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_xun }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_tj }
+				remove_nickname = yes
+			}
+			else_if = {
+				limit = { has_nickname = nick_gz_jue }
+				remove_nickname = yes
+			}
+		}
 	}
 }

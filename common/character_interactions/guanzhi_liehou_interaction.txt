@@ -1,4 +1,4 @@
-# Guanzhi 官制 - 授予列侯互动 (send_option 选等级, 事件链选封地)
+# Guanzhi 官制 - 授予列侯互动 (9002 事件内选等级, 事件链选封地)
 
 guanzhi_grant_liehou_interaction = {
 	category = interaction_category_vassal
@@ -38,6 +38,7 @@ guanzhi_grant_liehou_interaction = {
 }
 
 # 剥夺侯爵: 削夺全部列侯爵位与封号
+# 受封后人物是无地头衔持有者, 不再是廷臣/封臣, 故只按 trait 判定, 不限身份
 guanzhi_revoke_liehou_interaction = {
 	category = interaction_category_vassal
 	desc = guanzhi_revoke_liehou_interaction_desc
@@ -50,12 +51,6 @@ guanzhi_revoke_liehou_interaction = {
 		scope:recipient = {
 			NOT = { this = scope:actor }
 			guanzhi_has_jue_trigger = yes
-			OR = {
-				is_courtier_of = scope:actor
-				is_vassal_of = scope:actor
-				liege = scope:actor
-				top_liege = scope:actor
-			}
 		}
 	}
 	is_valid = {
@@ -65,6 +60,7 @@ guanzhi_revoke_liehou_interaction = {
 	auto_accept = yes
 	on_accept = {
 		scope:recipient = {
+			debug_log = "GUANZHI revoke liehou interaction accepted"
 			guanzhi_clear_jue_effect = yes
 		}
 	}

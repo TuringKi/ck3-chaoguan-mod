@@ -1,7 +1,7 @@
 namespace = guanzhi
 
 # 册封列侯. root = scope:actor (君主), scope:recipient = 受封者.
-# 等级由互动的 send_option 旗标传入; 之后 州 -> 郡 -> 县/乡/亭 逐级选择封地.
+# 9002 选等级, 之后 州 -> 郡 -> 县 逐级选择封地.
 
 guanzhi.9002 = {
 	type = character_event
@@ -27,16 +27,6 @@ guanzhi.9002 = {
 	}
 
 	option = {
-		name = guanzhi_rank_xianghou
-		trigger_event = { id = guanzhi.9300 }
-	}
-
-	option = {
-		name = guanzhi_rank_tinghou
-		trigger_event = { id = guanzhi.9400 }
-	}
-
-	option = {
 		name = guanzhi.option.cancel
 	}
 }
@@ -48,10 +38,6 @@ guanzhi.9100 = {
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	immediate = {
-		debug_log = "GUANZHI 9100 zhou picker fired"
-	}
 
 	option = {
 		name = gzj_zhou_0
@@ -130,10 +116,6 @@ guanzhi.9110 = {
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	immediate = {
-		debug_log = "GUANZHI 9110 jun picker fired"
-	}
 
 	option = {
 		name = gzj_wang_0000
@@ -872,37 +854,37 @@ guanzhi.9210 = {
 
 	option = {
 		name = gzj_jun_0
-		trigger_event = { id = guanzhi.10000 }
+		trigger_event = { id = guanzhi.4000 }
 	}
 
 	option = {
 		name = gzj_jun_1
-		trigger_event = { id = guanzhi.10008 }
+		trigger_event = { id = guanzhi.4008 }
 	}
 
 	option = {
 		name = gzj_jun_2
-		trigger_event = { id = guanzhi.10016 }
+		trigger_event = { id = guanzhi.4016 }
 	}
 
 	option = {
 		name = gzj_jun_3
-		trigger_event = { id = guanzhi.10024 }
+		trigger_event = { id = guanzhi.4024 }
 	}
 
 	option = {
 		name = gzj_jun_4
-		trigger_event = { id = guanzhi.10032 }
+		trigger_event = { id = guanzhi.4032 }
 	}
 
 	option = {
 		name = gzj_jun_5
-		trigger_event = { id = guanzhi.10040 }
+		trigger_event = { id = guanzhi.4040 }
 	}
 
 	option = {
 		name = gzj_jun_6
-		trigger_event = { id = guanzhi.10048 }
+		trigger_event = { id = guanzhi.4048 }
 	}
 
 	option = {
@@ -921,32 +903,32 @@ guanzhi.9211 = {
 
 	option = {
 		name = gzj_jun_7
-		trigger_event = { id = guanzhi.10056 }
+		trigger_event = { id = guanzhi.4056 }
 	}
 
 	option = {
 		name = gzj_jun_8
-		trigger_event = { id = guanzhi.10064 }
+		trigger_event = { id = guanzhi.4064 }
 	}
 
 	option = {
 		name = gzj_jun_9
-		trigger_event = { id = guanzhi.10072 }
+		trigger_event = { id = guanzhi.4072 }
 	}
 
 	option = {
 		name = gzj_jun_10
-		trigger_event = { id = guanzhi.10080 }
+		trigger_event = { id = guanzhi.4080 }
 	}
 
 	option = {
 		name = gzj_jun_11
-		trigger_event = { id = guanzhi.10088 }
+		trigger_event = { id = guanzhi.4088 }
 	}
 
 	option = {
 		name = gzj_jun_12
-		trigger_event = { id = guanzhi.10096 }
+		trigger_event = { id = guanzhi.4096 }
 	}
 
 	option = {
@@ -965,47 +947,47 @@ guanzhi.9212 = {
 
 	option = {
 		name = gzj_jun_13
-		trigger_event = { id = guanzhi.10104 }
+		trigger_event = { id = guanzhi.4104 }
 	}
 
 	option = {
 		name = gzj_jun_14
-		trigger_event = { id = guanzhi.10112 }
+		trigger_event = { id = guanzhi.4112 }
 	}
 
 	option = {
 		name = gzj_jun_15
-		trigger_event = { id = guanzhi.10120 }
+		trigger_event = { id = guanzhi.4120 }
 	}
 
 	option = {
 		name = gzj_jun_16
-		trigger_event = { id = guanzhi.10128 }
+		trigger_event = { id = guanzhi.4128 }
 	}
 
 	option = {
 		name = gzj_jun_17
-		trigger_event = { id = guanzhi.10136 }
+		trigger_event = { id = guanzhi.4136 }
 	}
 
 	option = {
 		name = gzj_jun_18
-		trigger_event = { id = guanzhi.10144 }
+		trigger_event = { id = guanzhi.4144 }
 	}
 
 	option = {
 		name = gzj_jun_19
-		trigger_event = { id = guanzhi.10152 }
+		trigger_event = { id = guanzhi.4152 }
 	}
 
 	option = {
 		name = gzj_jun_20
-		trigger_event = { id = guanzhi.10160 }
+		trigger_event = { id = guanzhi.4160 }
 	}
 
 	option = {
 		name = gzj_jun_21
-		trigger_event = { id = guanzhi.10168 }
+		trigger_event = { id = guanzhi.4168 }
 	}
 
 	option = {
@@ -1024,42 +1006,42 @@ guanzhi.9213 = {
 
 	option = {
 		name = gzj_jun_22
-		trigger_event = { id = guanzhi.10176 }
+		trigger_event = { id = guanzhi.4176 }
 	}
 
 	option = {
 		name = gzj_jun_23
-		trigger_event = { id = guanzhi.10184 }
+		trigger_event = { id = guanzhi.4184 }
 	}
 
 	option = {
 		name = gzj_jun_24
-		trigger_event = { id = guanzhi.10192 }
+		trigger_event = { id = guanzhi.4192 }
 	}
 
 	option = {
 		name = gzj_jun_25
-		trigger_event = { id = guanzhi.10200 }
+		trigger_event = { id = guanzhi.4200 }
 	}
 
 	option = {
 		name = gzj_jun_26
-		trigger_event = { id = guanzhi.10208 }
+		trigger_event = { id = guanzhi.4208 }
 	}
 
 	option = {
 		name = gzj_jun_27
-		trigger_event = { id = guanzhi.10216 }
+		trigger_event = { id = guanzhi.4216 }
 	}
 
 	option = {
 		name = gzj_jun_28
-		trigger_event = { id = guanzhi.10224 }
+		trigger_event = { id = guanzhi.4224 }
 	}
 
 	option = {
 		name = gzj_jun_29
-		trigger_event = { id = guanzhi.10232 }
+		trigger_event = { id = guanzhi.4232 }
 	}
 
 	option = {
@@ -1078,27 +1060,27 @@ guanzhi.9214 = {
 
 	option = {
 		name = gzj_jun_30
-		trigger_event = { id = guanzhi.10240 }
+		trigger_event = { id = guanzhi.4240 }
 	}
 
 	option = {
 		name = gzj_jun_31
-		trigger_event = { id = guanzhi.10248 }
+		trigger_event = { id = guanzhi.4248 }
 	}
 
 	option = {
 		name = gzj_jun_32
-		trigger_event = { id = guanzhi.10256 }
+		trigger_event = { id = guanzhi.4256 }
 	}
 
 	option = {
 		name = gzj_jun_33
-		trigger_event = { id = guanzhi.10264 }
+		trigger_event = { id = guanzhi.4264 }
 	}
 
 	option = {
 		name = gzj_jun_34
-		trigger_event = { id = guanzhi.10272 }
+		trigger_event = { id = guanzhi.4272 }
 	}
 
 	option = {
@@ -1117,32 +1099,32 @@ guanzhi.9215 = {
 
 	option = {
 		name = gzj_jun_35
-		trigger_event = { id = guanzhi.10280 }
+		trigger_event = { id = guanzhi.4280 }
 	}
 
 	option = {
 		name = gzj_jun_36
-		trigger_event = { id = guanzhi.10288 }
+		trigger_event = { id = guanzhi.4288 }
 	}
 
 	option = {
 		name = gzj_jun_37
-		trigger_event = { id = guanzhi.10296 }
+		trigger_event = { id = guanzhi.4296 }
 	}
 
 	option = {
 		name = gzj_jun_38
-		trigger_event = { id = guanzhi.10304 }
+		trigger_event = { id = guanzhi.4304 }
 	}
 
 	option = {
 		name = gzj_jun_39
-		trigger_event = { id = guanzhi.10312 }
+		trigger_event = { id = guanzhi.4312 }
 	}
 
 	option = {
 		name = gzj_jun_40
-		trigger_event = { id = guanzhi.10320 }
+		trigger_event = { id = guanzhi.4320 }
 	}
 
 	option = {
@@ -1161,37 +1143,37 @@ guanzhi.9216 = {
 
 	option = {
 		name = gzj_jun_41
-		trigger_event = { id = guanzhi.10328 }
+		trigger_event = { id = guanzhi.4328 }
 	}
 
 	option = {
 		name = gzj_jun_42
-		trigger_event = { id = guanzhi.10336 }
+		trigger_event = { id = guanzhi.4336 }
 	}
 
 	option = {
 		name = gzj_jun_43
-		trigger_event = { id = guanzhi.10344 }
+		trigger_event = { id = guanzhi.4344 }
 	}
 
 	option = {
 		name = gzj_jun_44
-		trigger_event = { id = guanzhi.10352 }
+		trigger_event = { id = guanzhi.4352 }
 	}
 
 	option = {
 		name = gzj_jun_45
-		trigger_event = { id = guanzhi.10360 }
+		trigger_event = { id = guanzhi.4360 }
 	}
 
 	option = {
 		name = gzj_jun_46
-		trigger_event = { id = guanzhi.10368 }
+		trigger_event = { id = guanzhi.4368 }
 	}
 
 	option = {
 		name = gzj_jun_47
-		trigger_event = { id = guanzhi.10376 }
+		trigger_event = { id = guanzhi.4376 }
 	}
 
 	option = {
@@ -1210,32 +1192,32 @@ guanzhi.9217 = {
 
 	option = {
 		name = gzj_jun_48
-		trigger_event = { id = guanzhi.10384 }
+		trigger_event = { id = guanzhi.4384 }
 	}
 
 	option = {
 		name = gzj_jun_49
-		trigger_event = { id = guanzhi.10392 }
+		trigger_event = { id = guanzhi.4392 }
 	}
 
 	option = {
 		name = gzj_jun_50
-		trigger_event = { id = guanzhi.10400 }
+		trigger_event = { id = guanzhi.4400 }
 	}
 
 	option = {
 		name = gzj_jun_51
-		trigger_event = { id = guanzhi.10408 }
+		trigger_event = { id = guanzhi.4408 }
 	}
 
 	option = {
 		name = gzj_jun_52
-		trigger_event = { id = guanzhi.10416 }
+		trigger_event = { id = guanzhi.4416 }
 	}
 
 	option = {
 		name = gzj_jun_53
-		trigger_event = { id = guanzhi.10424 }
+		trigger_event = { id = guanzhi.4424 }
 	}
 
 	option = {
@@ -1254,62 +1236,62 @@ guanzhi.9218 = {
 
 	option = {
 		name = gzj_jun_54
-		trigger_event = { id = guanzhi.10432 }
+		trigger_event = { id = guanzhi.4432 }
 	}
 
 	option = {
 		name = gzj_jun_55
-		trigger_event = { id = guanzhi.10440 }
+		trigger_event = { id = guanzhi.4440 }
 	}
 
 	option = {
 		name = gzj_jun_56
-		trigger_event = { id = guanzhi.10448 }
+		trigger_event = { id = guanzhi.4448 }
 	}
 
 	option = {
 		name = gzj_jun_57
-		trigger_event = { id = guanzhi.10456 }
+		trigger_event = { id = guanzhi.4456 }
 	}
 
 	option = {
 		name = gzj_jun_58
-		trigger_event = { id = guanzhi.10464 }
+		trigger_event = { id = guanzhi.4464 }
 	}
 
 	option = {
 		name = gzj_jun_59
-		trigger_event = { id = guanzhi.10472 }
+		trigger_event = { id = guanzhi.4472 }
 	}
 
 	option = {
 		name = gzj_jun_60
-		trigger_event = { id = guanzhi.10480 }
+		trigger_event = { id = guanzhi.4480 }
 	}
 
 	option = {
 		name = gzj_jun_61
-		trigger_event = { id = guanzhi.10488 }
+		trigger_event = { id = guanzhi.4488 }
 	}
 
 	option = {
 		name = gzj_jun_62
-		trigger_event = { id = guanzhi.10496 }
+		trigger_event = { id = guanzhi.4496 }
 	}
 
 	option = {
 		name = gzj_jun_63
-		trigger_event = { id = guanzhi.10504 }
+		trigger_event = { id = guanzhi.4504 }
 	}
 
 	option = {
 		name = gzj_jun_64
-		trigger_event = { id = guanzhi.10512 }
+		trigger_event = { id = guanzhi.4512 }
 	}
 
 	option = {
 		name = gzj_jun_65
-		trigger_event = { id = guanzhi.10520 }
+		trigger_event = { id = guanzhi.4520 }
 	}
 
 	option = {
@@ -1328,62 +1310,62 @@ guanzhi.9219 = {
 
 	option = {
 		name = gzj_jun_66
-		trigger_event = { id = guanzhi.10528 }
+		trigger_event = { id = guanzhi.4528 }
 	}
 
 	option = {
 		name = gzj_jun_67
-		trigger_event = { id = guanzhi.10536 }
+		trigger_event = { id = guanzhi.4536 }
 	}
 
 	option = {
 		name = gzj_jun_68
-		trigger_event = { id = guanzhi.10544 }
+		trigger_event = { id = guanzhi.4544 }
 	}
 
 	option = {
 		name = gzj_jun_69
-		trigger_event = { id = guanzhi.10552 }
+		trigger_event = { id = guanzhi.4552 }
 	}
 
 	option = {
 		name = gzj_jun_70
-		trigger_event = { id = guanzhi.10560 }
+		trigger_event = { id = guanzhi.4560 }
 	}
 
 	option = {
 		name = gzj_jun_71
-		trigger_event = { id = guanzhi.10568 }
+		trigger_event = { id = guanzhi.4568 }
 	}
 
 	option = {
 		name = gzj_jun_72
-		trigger_event = { id = guanzhi.10576 }
+		trigger_event = { id = guanzhi.4576 }
 	}
 
 	option = {
 		name = gzj_jun_73
-		trigger_event = { id = guanzhi.10584 }
+		trigger_event = { id = guanzhi.4584 }
 	}
 
 	option = {
 		name = gzj_jun_74
-		trigger_event = { id = guanzhi.10592 }
+		trigger_event = { id = guanzhi.4592 }
 	}
 
 	option = {
 		name = gzj_jun_75
-		trigger_event = { id = guanzhi.10600 }
+		trigger_event = { id = guanzhi.4600 }
 	}
 
 	option = {
 		name = gzj_jun_76
-		trigger_event = { id = guanzhi.10608 }
+		trigger_event = { id = guanzhi.4608 }
 	}
 
 	option = {
 		name = gzj_jun_77
-		trigger_event = { id = guanzhi.10616 }
+		trigger_event = { id = guanzhi.4616 }
 	}
 
 	option = {
@@ -1402,47 +1384,47 @@ guanzhi.9220 = {
 
 	option = {
 		name = gzj_jun_78
-		trigger_event = { id = guanzhi.10624 }
+		trigger_event = { id = guanzhi.4624 }
 	}
 
 	option = {
 		name = gzj_jun_79
-		trigger_event = { id = guanzhi.10632 }
+		trigger_event = { id = guanzhi.4632 }
 	}
 
 	option = {
 		name = gzj_jun_80
-		trigger_event = { id = guanzhi.10640 }
+		trigger_event = { id = guanzhi.4640 }
 	}
 
 	option = {
 		name = gzj_jun_81
-		trigger_event = { id = guanzhi.10648 }
+		trigger_event = { id = guanzhi.4648 }
 	}
 
 	option = {
 		name = gzj_jun_82
-		trigger_event = { id = guanzhi.10656 }
+		trigger_event = { id = guanzhi.4656 }
 	}
 
 	option = {
 		name = gzj_jun_83
-		trigger_event = { id = guanzhi.10664 }
+		trigger_event = { id = guanzhi.4664 }
 	}
 
 	option = {
 		name = gzj_jun_84
-		trigger_event = { id = guanzhi.10672 }
+		trigger_event = { id = guanzhi.4672 }
 	}
 
 	option = {
 		name = gzj_jun_85
-		trigger_event = { id = guanzhi.10680 }
+		trigger_event = { id = guanzhi.4680 }
 	}
 
 	option = {
 		name = gzj_jun_86
-		trigger_event = { id = guanzhi.10688 }
+		trigger_event = { id = guanzhi.4688 }
 	}
 
 	option = {
@@ -1461,57 +1443,57 @@ guanzhi.9221 = {
 
 	option = {
 		name = gzj_jun_87
-		trigger_event = { id = guanzhi.10696 }
+		trigger_event = { id = guanzhi.4696 }
 	}
 
 	option = {
 		name = gzj_jun_88
-		trigger_event = { id = guanzhi.10704 }
+		trigger_event = { id = guanzhi.4704 }
 	}
 
 	option = {
 		name = gzj_jun_89
-		trigger_event = { id = guanzhi.10712 }
+		trigger_event = { id = guanzhi.4712 }
 	}
 
 	option = {
 		name = gzj_jun_90
-		trigger_event = { id = guanzhi.10720 }
+		trigger_event = { id = guanzhi.4720 }
 	}
 
 	option = {
 		name = gzj_jun_91
-		trigger_event = { id = guanzhi.10728 }
+		trigger_event = { id = guanzhi.4728 }
 	}
 
 	option = {
 		name = gzj_jun_92
-		trigger_event = { id = guanzhi.10736 }
+		trigger_event = { id = guanzhi.4736 }
 	}
 
 	option = {
 		name = gzj_jun_93
-		trigger_event = { id = guanzhi.10744 }
+		trigger_event = { id = guanzhi.4744 }
 	}
 
 	option = {
 		name = gzj_jun_94
-		trigger_event = { id = guanzhi.10752 }
+		trigger_event = { id = guanzhi.4752 }
 	}
 
 	option = {
 		name = gzj_jun_95
-		trigger_event = { id = guanzhi.10760 }
+		trigger_event = { id = guanzhi.4760 }
 	}
 
 	option = {
 		name = gzj_jun_96
-		trigger_event = { id = guanzhi.10768 }
+		trigger_event = { id = guanzhi.4768 }
 	}
 
 	option = {
 		name = gzj_jun_97
-		trigger_event = { id = guanzhi.10776 }
+		trigger_event = { id = guanzhi.4776 }
 	}
 
 	option = {
@@ -1530,37 +1512,37 @@ guanzhi.9222 = {
 
 	option = {
 		name = gzj_jun_98
-		trigger_event = { id = guanzhi.10784 }
+		trigger_event = { id = guanzhi.4784 }
 	}
 
 	option = {
 		name = gzj_jun_99
-		trigger_event = { id = guanzhi.10792 }
+		trigger_event = { id = guanzhi.4792 }
 	}
 
 	option = {
 		name = gzj_jun_100
-		trigger_event = { id = guanzhi.10800 }
+		trigger_event = { id = guanzhi.4800 }
 	}
 
 	option = {
 		name = gzj_jun_101
-		trigger_event = { id = guanzhi.10808 }
+		trigger_event = { id = guanzhi.4808 }
 	}
 
 	option = {
 		name = gzj_jun_102
-		trigger_event = { id = guanzhi.10816 }
+		trigger_event = { id = guanzhi.4816 }
 	}
 
 	option = {
 		name = gzj_jun_103
-		trigger_event = { id = guanzhi.10824 }
+		trigger_event = { id = guanzhi.4824 }
 	}
 
 	option = {
 		name = gzj_jun_104
-		trigger_event = { id = guanzhi.10832 }
+		trigger_event = { id = guanzhi.4832 }
 	}
 
 	option = {
@@ -1569,7 +1551,7 @@ guanzhi.9222 = {
 	}
 }
 
-guanzhi.10000 = {
+guanzhi.4000 = {
 	type = character_event
 	title = gzj_jun_0
 	desc = gzj_pick_xian_desc
@@ -1639,7 +1621,7 @@ guanzhi.10000 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10001 }
+		trigger_event = { id = guanzhi.4001 }
 	}
 
 	option = {
@@ -1648,7 +1630,7 @@ guanzhi.10000 = {
 	}
 }
 
-guanzhi.10001 = {
+guanzhi.4001 = {
 	type = character_event
 	title = gzj_jun_0
 	desc = gzj_pick_xian_desc
@@ -1703,7 +1685,7 @@ guanzhi.10001 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10000 }
+		trigger_event = { id = guanzhi.4000 }
 	}
 
 	option = {
@@ -1712,7 +1694,7 @@ guanzhi.10001 = {
 	}
 }
 
-guanzhi.10008 = {
+guanzhi.4008 = {
 	type = character_event
 	title = gzj_jun_1
 	desc = gzj_pick_xian_desc
@@ -1782,7 +1764,7 @@ guanzhi.10008 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10009 }
+		trigger_event = { id = guanzhi.4009 }
 	}
 
 	option = {
@@ -1791,7 +1773,7 @@ guanzhi.10008 = {
 	}
 }
 
-guanzhi.10009 = {
+guanzhi.4009 = {
 	type = character_event
 	title = gzj_jun_1
 	desc = gzj_pick_xian_desc
@@ -1831,7 +1813,7 @@ guanzhi.10009 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10008 }
+		trigger_event = { id = guanzhi.4008 }
 	}
 
 	option = {
@@ -1840,7 +1822,7 @@ guanzhi.10009 = {
 	}
 }
 
-guanzhi.10016 = {
+guanzhi.4016 = {
 	type = character_event
 	title = gzj_jun_2
 	desc = gzj_pick_xian_desc
@@ -1910,7 +1892,7 @@ guanzhi.10016 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10017 }
+		trigger_event = { id = guanzhi.4017 }
 	}
 
 	option = {
@@ -1919,7 +1901,7 @@ guanzhi.10016 = {
 	}
 }
 
-guanzhi.10017 = {
+guanzhi.4017 = {
 	type = character_event
 	title = gzj_jun_2
 	desc = gzj_pick_xian_desc
@@ -1969,7 +1951,7 @@ guanzhi.10017 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10016 }
+		trigger_event = { id = guanzhi.4016 }
 	}
 
 	option = {
@@ -1978,7 +1960,7 @@ guanzhi.10017 = {
 	}
 }
 
-guanzhi.10024 = {
+guanzhi.4024 = {
 	type = character_event
 	title = gzj_jun_3
 	desc = gzj_pick_xian_desc
@@ -2037,7 +2019,7 @@ guanzhi.10024 = {
 	}
 }
 
-guanzhi.10032 = {
+guanzhi.4032 = {
 	type = character_event
 	title = gzj_jun_4
 	desc = gzj_pick_xian_desc
@@ -2101,7 +2083,7 @@ guanzhi.10032 = {
 	}
 }
 
-guanzhi.10040 = {
+guanzhi.4040 = {
 	type = character_event
 	title = gzj_jun_5
 	desc = gzj_pick_xian_desc
@@ -2171,7 +2153,7 @@ guanzhi.10040 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10041 }
+		trigger_event = { id = guanzhi.4041 }
 	}
 
 	option = {
@@ -2180,7 +2162,7 @@ guanzhi.10040 = {
 	}
 }
 
-guanzhi.10041 = {
+guanzhi.4041 = {
 	type = character_event
 	title = gzj_jun_5
 	desc = gzj_pick_xian_desc
@@ -2195,7 +2177,7 @@ guanzhi.10041 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10040 }
+		trigger_event = { id = guanzhi.4040 }
 	}
 
 	option = {
@@ -2204,7 +2186,7 @@ guanzhi.10041 = {
 	}
 }
 
-guanzhi.10048 = {
+guanzhi.4048 = {
 	type = character_event
 	title = gzj_jun_6
 	desc = gzj_pick_xian_desc
@@ -2274,7 +2256,7 @@ guanzhi.10048 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10049 }
+		trigger_event = { id = guanzhi.4049 }
 	}
 
 	option = {
@@ -2283,7 +2265,7 @@ guanzhi.10048 = {
 	}
 }
 
-guanzhi.10049 = {
+guanzhi.4049 = {
 	type = character_event
 	title = gzj_jun_6
 	desc = gzj_pick_xian_desc
@@ -2308,7 +2290,7 @@ guanzhi.10049 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10048 }
+		trigger_event = { id = guanzhi.4048 }
 	}
 
 	option = {
@@ -2317,7 +2299,7 @@ guanzhi.10049 = {
 	}
 }
 
-guanzhi.10056 = {
+guanzhi.4056 = {
 	type = character_event
 	title = gzj_jun_7
 	desc = gzj_pick_xian_desc
@@ -2387,7 +2369,7 @@ guanzhi.10056 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10057 }
+		trigger_event = { id = guanzhi.4057 }
 	}
 
 	option = {
@@ -2396,7 +2378,7 @@ guanzhi.10056 = {
 	}
 }
 
-guanzhi.10057 = {
+guanzhi.4057 = {
 	type = character_event
 	title = gzj_jun_7
 	desc = gzj_pick_xian_desc
@@ -2431,7 +2413,7 @@ guanzhi.10057 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10056 }
+		trigger_event = { id = guanzhi.4056 }
 	}
 
 	option = {
@@ -2440,7 +2422,7 @@ guanzhi.10057 = {
 	}
 }
 
-guanzhi.10064 = {
+guanzhi.4064 = {
 	type = character_event
 	title = gzj_jun_8
 	desc = gzj_pick_xian_desc
@@ -2510,7 +2492,7 @@ guanzhi.10064 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10065 }
+		trigger_event = { id = guanzhi.4065 }
 	}
 
 	option = {
@@ -2519,7 +2501,7 @@ guanzhi.10064 = {
 	}
 }
 
-guanzhi.10065 = {
+guanzhi.4065 = {
 	type = character_event
 	title = gzj_jun_8
 	desc = gzj_pick_xian_desc
@@ -2589,12 +2571,12 @@ guanzhi.10065 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10064 }
+		trigger_event = { id = guanzhi.4064 }
 	}
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10066 }
+		trigger_event = { id = guanzhi.4066 }
 	}
 
 	option = {
@@ -2603,7 +2585,7 @@ guanzhi.10065 = {
 	}
 }
 
-guanzhi.10066 = {
+guanzhi.4066 = {
 	type = character_event
 	title = gzj_jun_8
 	desc = gzj_pick_xian_desc
@@ -2673,12 +2655,12 @@ guanzhi.10066 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10065 }
+		trigger_event = { id = guanzhi.4065 }
 	}
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10067 }
+		trigger_event = { id = guanzhi.4067 }
 	}
 
 	option = {
@@ -2687,7 +2669,7 @@ guanzhi.10066 = {
 	}
 }
 
-guanzhi.10067 = {
+guanzhi.4067 = {
 	type = character_event
 	title = gzj_jun_8
 	desc = gzj_pick_xian_desc
@@ -2702,7 +2684,7 @@ guanzhi.10067 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10066 }
+		trigger_event = { id = guanzhi.4066 }
 	}
 
 	option = {
@@ -2711,7 +2693,7 @@ guanzhi.10067 = {
 	}
 }
 
-guanzhi.10072 = {
+guanzhi.4072 = {
 	type = character_event
 	title = gzj_jun_9
 	desc = gzj_pick_xian_desc
@@ -2770,7 +2752,7 @@ guanzhi.10072 = {
 	}
 }
 
-guanzhi.10080 = {
+guanzhi.4080 = {
 	type = character_event
 	title = gzj_jun_10
 	desc = gzj_pick_xian_desc
@@ -2840,7 +2822,7 @@ guanzhi.10080 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10081 }
+		trigger_event = { id = guanzhi.4081 }
 	}
 
 	option = {
@@ -2849,7 +2831,7 @@ guanzhi.10080 = {
 	}
 }
 
-guanzhi.10081 = {
+guanzhi.4081 = {
 	type = character_event
 	title = gzj_jun_10
 	desc = gzj_pick_xian_desc
@@ -2904,7 +2886,7 @@ guanzhi.10081 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10080 }
+		trigger_event = { id = guanzhi.4080 }
 	}
 
 	option = {
@@ -2913,7 +2895,7 @@ guanzhi.10081 = {
 	}
 }
 
-guanzhi.10088 = {
+guanzhi.4088 = {
 	type = character_event
 	title = gzj_jun_11
 	desc = gzj_pick_xian_desc
@@ -2972,7 +2954,7 @@ guanzhi.10088 = {
 	}
 }
 
-guanzhi.10096 = {
+guanzhi.4096 = {
 	type = character_event
 	title = gzj_jun_12
 	desc = gzj_pick_xian_desc
@@ -3016,7 +2998,7 @@ guanzhi.10096 = {
 	}
 }
 
-guanzhi.10104 = {
+guanzhi.4104 = {
 	type = character_event
 	title = gzj_jun_13
 	desc = gzj_pick_xian_desc
@@ -3086,7 +3068,7 @@ guanzhi.10104 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10105 }
+		trigger_event = { id = guanzhi.4105 }
 	}
 
 	option = {
@@ -3095,7 +3077,7 @@ guanzhi.10104 = {
 	}
 }
 
-guanzhi.10105 = {
+guanzhi.4105 = {
 	type = character_event
 	title = gzj_jun_13
 	desc = gzj_pick_xian_desc
@@ -3120,7 +3102,7 @@ guanzhi.10105 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10104 }
+		trigger_event = { id = guanzhi.4104 }
 	}
 
 	option = {
@@ -3129,7 +3111,7 @@ guanzhi.10105 = {
 	}
 }
 
-guanzhi.10112 = {
+guanzhi.4112 = {
 	type = character_event
 	title = gzj_jun_14
 	desc = gzj_pick_xian_desc
@@ -3199,7 +3181,7 @@ guanzhi.10112 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10113 }
+		trigger_event = { id = guanzhi.4113 }
 	}
 
 	option = {
@@ -3208,7 +3190,7 @@ guanzhi.10112 = {
 	}
 }
 
-guanzhi.10113 = {
+guanzhi.4113 = {
 	type = character_event
 	title = gzj_jun_14
 	desc = gzj_pick_xian_desc
@@ -3233,7 +3215,7 @@ guanzhi.10113 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10112 }
+		trigger_event = { id = guanzhi.4112 }
 	}
 
 	option = {
@@ -3242,7 +3224,7 @@ guanzhi.10113 = {
 	}
 }
 
-guanzhi.10120 = {
+guanzhi.4120 = {
 	type = character_event
 	title = gzj_jun_15
 	desc = gzj_pick_xian_desc
@@ -3312,7 +3294,7 @@ guanzhi.10120 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10121 }
+		trigger_event = { id = guanzhi.4121 }
 	}
 
 	option = {
@@ -3321,7 +3303,7 @@ guanzhi.10120 = {
 	}
 }
 
-guanzhi.10121 = {
+guanzhi.4121 = {
 	type = character_event
 	title = gzj_jun_15
 	desc = gzj_pick_xian_desc
@@ -3336,7 +3318,7 @@ guanzhi.10121 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10120 }
+		trigger_event = { id = guanzhi.4120 }
 	}
 
 	option = {
@@ -3345,7 +3327,7 @@ guanzhi.10121 = {
 	}
 }
 
-guanzhi.10128 = {
+guanzhi.4128 = {
 	type = character_event
 	title = gzj_jun_16
 	desc = gzj_pick_xian_desc
@@ -3415,7 +3397,7 @@ guanzhi.10128 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10129 }
+		trigger_event = { id = guanzhi.4129 }
 	}
 
 	option = {
@@ -3424,7 +3406,7 @@ guanzhi.10128 = {
 	}
 }
 
-guanzhi.10129 = {
+guanzhi.4129 = {
 	type = character_event
 	title = gzj_jun_16
 	desc = gzj_pick_xian_desc
@@ -3439,7 +3421,7 @@ guanzhi.10129 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10128 }
+		trigger_event = { id = guanzhi.4128 }
 	}
 
 	option = {
@@ -3448,7 +3430,7 @@ guanzhi.10129 = {
 	}
 }
 
-guanzhi.10136 = {
+guanzhi.4136 = {
 	type = character_event
 	title = gzj_jun_17
 	desc = gzj_pick_xian_desc
@@ -3518,7 +3500,7 @@ guanzhi.10136 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10137 }
+		trigger_event = { id = guanzhi.4137 }
 	}
 
 	option = {
@@ -3527,7 +3509,7 @@ guanzhi.10136 = {
 	}
 }
 
-guanzhi.10137 = {
+guanzhi.4137 = {
 	type = character_event
 	title = gzj_jun_17
 	desc = gzj_pick_xian_desc
@@ -3542,7 +3524,7 @@ guanzhi.10137 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10136 }
+		trigger_event = { id = guanzhi.4136 }
 	}
 
 	option = {
@@ -3551,7 +3533,7 @@ guanzhi.10137 = {
 	}
 }
 
-guanzhi.10144 = {
+guanzhi.4144 = {
 	type = character_event
 	title = gzj_jun_18
 	desc = gzj_pick_xian_desc
@@ -3620,7 +3602,7 @@ guanzhi.10144 = {
 	}
 }
 
-guanzhi.10152 = {
+guanzhi.4152 = {
 	type = character_event
 	title = gzj_jun_19
 	desc = gzj_pick_xian_desc
@@ -3669,7 +3651,7 @@ guanzhi.10152 = {
 	}
 }
 
-guanzhi.10160 = {
+guanzhi.4160 = {
 	type = character_event
 	title = gzj_jun_20
 	desc = gzj_pick_xian_desc
@@ -3708,7 +3690,7 @@ guanzhi.10160 = {
 	}
 }
 
-guanzhi.10168 = {
+guanzhi.4168 = {
 	type = character_event
 	title = gzj_jun_21
 	desc = gzj_pick_xian_desc
@@ -3762,7 +3744,7 @@ guanzhi.10168 = {
 	}
 }
 
-guanzhi.10176 = {
+guanzhi.4176 = {
 	type = character_event
 	title = gzj_jun_22
 	desc = gzj_pick_xian_desc
@@ -3832,7 +3814,7 @@ guanzhi.10176 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10177 }
+		trigger_event = { id = guanzhi.4177 }
 	}
 
 	option = {
@@ -3841,7 +3823,7 @@ guanzhi.10176 = {
 	}
 }
 
-guanzhi.10177 = {
+guanzhi.4177 = {
 	type = character_event
 	title = gzj_jun_22
 	desc = gzj_pick_xian_desc
@@ -3876,7 +3858,7 @@ guanzhi.10177 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10176 }
+		trigger_event = { id = guanzhi.4176 }
 	}
 
 	option = {
@@ -3885,7 +3867,7 @@ guanzhi.10177 = {
 	}
 }
 
-guanzhi.10184 = {
+guanzhi.4184 = {
 	type = character_event
 	title = gzj_jun_23
 	desc = gzj_pick_xian_desc
@@ -3955,7 +3937,7 @@ guanzhi.10184 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10185 }
+		trigger_event = { id = guanzhi.4185 }
 	}
 
 	option = {
@@ -3964,7 +3946,7 @@ guanzhi.10184 = {
 	}
 }
 
-guanzhi.10185 = {
+guanzhi.4185 = {
 	type = character_event
 	title = gzj_jun_23
 	desc = gzj_pick_xian_desc
@@ -3989,7 +3971,7 @@ guanzhi.10185 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10184 }
+		trigger_event = { id = guanzhi.4184 }
 	}
 
 	option = {
@@ -3998,7 +3980,7 @@ guanzhi.10185 = {
 	}
 }
 
-guanzhi.10192 = {
+guanzhi.4192 = {
 	type = character_event
 	title = gzj_jun_24
 	desc = gzj_pick_xian_desc
@@ -4047,7 +4029,7 @@ guanzhi.10192 = {
 	}
 }
 
-guanzhi.10200 = {
+guanzhi.4200 = {
 	type = character_event
 	title = gzj_jun_25
 	desc = gzj_pick_xian_desc
@@ -4076,7 +4058,7 @@ guanzhi.10200 = {
 	}
 }
 
-guanzhi.10208 = {
+guanzhi.4208 = {
 	type = character_event
 	title = gzj_jun_26
 	desc = gzj_pick_xian_desc
@@ -4150,7 +4132,7 @@ guanzhi.10208 = {
 	}
 }
 
-guanzhi.10216 = {
+guanzhi.4216 = {
 	type = character_event
 	title = gzj_jun_27
 	desc = gzj_pick_xian_desc
@@ -4189,7 +4171,7 @@ guanzhi.10216 = {
 	}
 }
 
-guanzhi.10224 = {
+guanzhi.4224 = {
 	type = character_event
 	title = gzj_jun_28
 	desc = gzj_pick_xian_desc
@@ -4253,7 +4235,7 @@ guanzhi.10224 = {
 	}
 }
 
-guanzhi.10232 = {
+guanzhi.4232 = {
 	type = character_event
 	title = gzj_jun_29
 	desc = gzj_pick_xian_desc
@@ -4322,7 +4304,7 @@ guanzhi.10232 = {
 	}
 }
 
-guanzhi.10240 = {
+guanzhi.4240 = {
 	type = character_event
 	title = gzj_jun_30
 	desc = gzj_pick_xian_desc
@@ -4392,7 +4374,7 @@ guanzhi.10240 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10241 }
+		trigger_event = { id = guanzhi.4241 }
 	}
 
 	option = {
@@ -4401,7 +4383,7 @@ guanzhi.10240 = {
 	}
 }
 
-guanzhi.10241 = {
+guanzhi.4241 = {
 	type = character_event
 	title = gzj_jun_30
 	desc = gzj_pick_xian_desc
@@ -4416,7 +4398,7 @@ guanzhi.10241 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10240 }
+		trigger_event = { id = guanzhi.4240 }
 	}
 
 	option = {
@@ -4425,7 +4407,7 @@ guanzhi.10241 = {
 	}
 }
 
-guanzhi.10248 = {
+guanzhi.4248 = {
 	type = character_event
 	title = gzj_jun_31
 	desc = gzj_pick_xian_desc
@@ -4495,7 +4477,7 @@ guanzhi.10248 = {
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10249 }
+		trigger_event = { id = guanzhi.4249 }
 	}
 
 	option = {
@@ -4504,7 +4486,7 @@ guanzhi.10248 = {
 	}
 }
 
-guanzhi.10249 = {
+guanzhi.4249 = {
 	type = character_event
 	title = gzj_jun_31
 	desc = gzj_pick_xian_desc
@@ -4519,7 +4501,7 @@ guanzhi.10249 = {
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10248 }
+		trigger_event = { id = guanzhi.4248 }
 	}
 
 	option = {
@@ -4528,7 +4510,7 @@ guanzhi.10249 = {
 	}
 }
 
-guanzhi.10256 = {
+guanzhi.4256 = {
 	type = character_event
 	title = gzj_jun_32
 	desc = gzj_pick_xian_desc
@@ -4582,7 +4564,7 @@ guanzhi.10256 = {
 	}
 }
 
-guanzhi.10264 = {
+guanzhi.4264 = {
 	type = character_event
 	title = gzj_jun_33
 	desc = gzj_pick_xian_desc
@@ -4646,23 +4628,23 @@ guanzhi.10264 = {
 	}
 
 	option = {
-		name = gzj_xian_0429
-		scope:recipient = { guanzhi_jue_grant_xian_0429 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9214 }
 	}
 }
 
-guanzhi.10272 = {
+guanzhi.4272 = {
 	type = character_event
 	title = gzj_jun_34
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0429
+		scope:recipient = { guanzhi_jue_grant_xian_0429 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0430
@@ -4720,13 +4702,8 @@ guanzhi.10272 = {
 	}
 
 	option = {
-		name = gzj_xian_0441
-		scope:recipient = { guanzhi_jue_grant_xian_0441 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10273 }
+		trigger_event = { id = guanzhi.4273 }
 	}
 
 	option = {
@@ -4735,13 +4712,18 @@ guanzhi.10272 = {
 	}
 }
 
-guanzhi.10273 = {
+guanzhi.4273 = {
 	type = character_event
 	title = gzj_jun_34
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0441
+		scope:recipient = { guanzhi_jue_grant_xian_0441 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0442
@@ -4764,13 +4746,8 @@ guanzhi.10273 = {
 	}
 
 	option = {
-		name = gzj_xian_0446
-		scope:recipient = { guanzhi_jue_grant_xian_0446 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10272 }
+		trigger_event = { id = guanzhi.4272 }
 	}
 
 	option = {
@@ -4779,13 +4756,18 @@ guanzhi.10273 = {
 	}
 }
 
-guanzhi.10280 = {
+guanzhi.4280 = {
 	type = character_event
 	title = gzj_jun_35
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0446
+		scope:recipient = { guanzhi_jue_grant_xian_0446 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0447
@@ -4833,23 +4815,23 @@ guanzhi.10280 = {
 	}
 
 	option = {
-		name = gzj_xian_0456
-		scope:recipient = { guanzhi_jue_grant_xian_0456 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9215 }
 	}
 }
 
-guanzhi.10288 = {
+guanzhi.4288 = {
 	type = character_event
 	title = gzj_jun_36
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0456
+		scope:recipient = { guanzhi_jue_grant_xian_0456 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0457
@@ -4892,23 +4874,23 @@ guanzhi.10288 = {
 	}
 
 	option = {
-		name = gzj_xian_0465
-		scope:recipient = { guanzhi_jue_grant_xian_0465 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9215 }
 	}
 }
 
-guanzhi.10296 = {
+guanzhi.4296 = {
 	type = character_event
 	title = gzj_jun_37
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0465
+		scope:recipient = { guanzhi_jue_grant_xian_0465 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0466
@@ -4951,23 +4933,23 @@ guanzhi.10296 = {
 	}
 
 	option = {
-		name = gzj_xian_0474
-		scope:recipient = { guanzhi_jue_grant_xian_0474 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9215 }
 	}
 }
 
-guanzhi.10304 = {
+guanzhi.4304 = {
 	type = character_event
 	title = gzj_jun_38
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0474
+		scope:recipient = { guanzhi_jue_grant_xian_0474 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0475
@@ -5025,13 +5007,8 @@ guanzhi.10304 = {
 	}
 
 	option = {
-		name = gzj_xian_0486
-		scope:recipient = { guanzhi_jue_grant_xian_0486 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10305 }
+		trigger_event = { id = guanzhi.4305 }
 	}
 
 	option = {
@@ -5040,13 +5017,18 @@ guanzhi.10304 = {
 	}
 }
 
-guanzhi.10305 = {
+guanzhi.4305 = {
 	type = character_event
 	title = gzj_jun_38
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0486
+		scope:recipient = { guanzhi_jue_grant_xian_0486 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0487
@@ -5074,13 +5056,8 @@ guanzhi.10305 = {
 	}
 
 	option = {
-		name = gzj_xian_0492
-		scope:recipient = { guanzhi_jue_grant_xian_0492 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10304 }
+		trigger_event = { id = guanzhi.4304 }
 	}
 
 	option = {
@@ -5089,13 +5066,18 @@ guanzhi.10305 = {
 	}
 }
 
-guanzhi.10312 = {
+guanzhi.4312 = {
 	type = character_event
 	title = gzj_jun_39
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0492
+		scope:recipient = { guanzhi_jue_grant_xian_0492 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0493
@@ -5153,13 +5135,8 @@ guanzhi.10312 = {
 	}
 
 	option = {
-		name = gzj_xian_0504
-		scope:recipient = { guanzhi_jue_grant_xian_0504 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10313 }
+		trigger_event = { id = guanzhi.4313 }
 	}
 
 	option = {
@@ -5168,9 +5145,33 @@ guanzhi.10312 = {
 	}
 }
 
-guanzhi.10313 = {
+guanzhi.4313 = {
 	type = character_event
 	title = gzj_jun_39
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0504
+		scope:recipient = { guanzhi_jue_grant_xian_0504 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4312 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9215 }
+	}
+}
+
+guanzhi.4320 = {
+	type = character_event
+	title = gzj_jun_40
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -5180,25 +5181,6 @@ guanzhi.10313 = {
 		name = gzj_xian_0505
 		scope:recipient = { guanzhi_jue_grant_xian_0505 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10312 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9215 }
-	}
-}
-
-guanzhi.10320 = {
-	type = character_event
-	title = gzj_jun_40
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0506
@@ -5226,23 +5208,23 @@ guanzhi.10320 = {
 	}
 
 	option = {
-		name = gzj_xian_0511
-		scope:recipient = { guanzhi_jue_grant_xian_0511 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9215 }
 	}
 }
 
-guanzhi.10328 = {
+guanzhi.4328 = {
 	type = character_event
 	title = gzj_jun_41
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0511
+		scope:recipient = { guanzhi_jue_grant_xian_0511 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0512
@@ -5300,13 +5282,8 @@ guanzhi.10328 = {
 	}
 
 	option = {
-		name = gzj_xian_0523
-		scope:recipient = { guanzhi_jue_grant_xian_0523 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10329 }
+		trigger_event = { id = guanzhi.4329 }
 	}
 
 	option = {
@@ -5315,13 +5292,18 @@ guanzhi.10328 = {
 	}
 }
 
-guanzhi.10329 = {
+guanzhi.4329 = {
 	type = character_event
 	title = gzj_jun_41
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0523
+		scope:recipient = { guanzhi_jue_grant_xian_0523 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0524
@@ -5379,18 +5361,13 @@ guanzhi.10329 = {
 	}
 
 	option = {
-		name = gzj_xian_0534
-		scope:recipient = { guanzhi_jue_grant_xian_0534 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10328 }
+		trigger_event = { id = guanzhi.4328 }
 	}
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10330 }
+		trigger_event = { id = guanzhi.4330 }
 	}
 
 	option = {
@@ -5399,13 +5376,18 @@ guanzhi.10329 = {
 	}
 }
 
-guanzhi.10330 = {
+guanzhi.4330 = {
 	type = character_event
 	title = gzj_jun_41
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0534
+		scope:recipient = { guanzhi_jue_grant_xian_0534 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0535
@@ -5463,18 +5445,13 @@ guanzhi.10330 = {
 	}
 
 	option = {
-		name = gzj_xian_0546
-		scope:recipient = { guanzhi_jue_grant_xian_0546 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10329 }
+		trigger_event = { id = guanzhi.4329 }
 	}
 
 	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10331 }
+		trigger_event = { id = guanzhi.4331 }
 	}
 
 	option = {
@@ -5483,9 +5460,33 @@ guanzhi.10330 = {
 	}
 }
 
-guanzhi.10331 = {
+guanzhi.4331 = {
 	type = character_event
 	title = gzj_jun_41
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0546
+		scope:recipient = { guanzhi_jue_grant_xian_0546 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4330 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9216 }
+	}
+}
+
+guanzhi.4336 = {
+	type = character_event
+	title = gzj_jun_42
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -5495,25 +5496,6 @@ guanzhi.10331 = {
 		name = gzj_xian_0547
 		scope:recipient = { guanzhi_jue_grant_xian_0547 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10330 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9216 }
-	}
-}
-
-guanzhi.10336 = {
-	type = character_event
-	title = gzj_jun_42
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0548
@@ -5571,13 +5553,8 @@ guanzhi.10336 = {
 	}
 
 	option = {
-		name = gzj_xian_0559
-		scope:recipient = { guanzhi_jue_grant_xian_0559 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10337 }
+		trigger_event = { id = guanzhi.4337 }
 	}
 
 	option = {
@@ -5586,13 +5563,18 @@ guanzhi.10336 = {
 	}
 }
 
-guanzhi.10337 = {
+guanzhi.4337 = {
 	type = character_event
 	title = gzj_jun_42
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0559
+		scope:recipient = { guanzhi_jue_grant_xian_0559 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0560
@@ -5615,13 +5597,8 @@ guanzhi.10337 = {
 	}
 
 	option = {
-		name = gzj_xian_0564
-		scope:recipient = { guanzhi_jue_grant_xian_0564 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10336 }
+		trigger_event = { id = guanzhi.4336 }
 	}
 
 	option = {
@@ -5630,13 +5607,18 @@ guanzhi.10337 = {
 	}
 }
 
-guanzhi.10344 = {
+guanzhi.4344 = {
 	type = character_event
 	title = gzj_jun_43
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0564
+		scope:recipient = { guanzhi_jue_grant_xian_0564 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0565
@@ -5694,13 +5676,8 @@ guanzhi.10344 = {
 	}
 
 	option = {
-		name = gzj_xian_0576
-		scope:recipient = { guanzhi_jue_grant_xian_0576 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10345 }
+		trigger_event = { id = guanzhi.4345 }
 	}
 
 	option = {
@@ -5709,7 +5686,7 @@ guanzhi.10344 = {
 	}
 }
 
-guanzhi.10345 = {
+guanzhi.4345 = {
 	type = character_event
 	title = gzj_jun_43
 	desc = gzj_pick_xian_desc
@@ -5718,18 +5695,18 @@ guanzhi.10345 = {
 	right_portrait = { character = root }
 
 	option = {
+		name = gzj_xian_0576
+		scope:recipient = { guanzhi_jue_grant_xian_0576 = yes }
+	}
+
+	option = {
 		name = gzj_xian_0577
 		scope:recipient = { guanzhi_jue_grant_xian_0577 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0578
-		scope:recipient = { guanzhi_jue_grant_xian_0578 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10344 }
+		trigger_event = { id = guanzhi.4344 }
 	}
 
 	option = {
@@ -5738,13 +5715,18 @@ guanzhi.10345 = {
 	}
 }
 
-guanzhi.10352 = {
+guanzhi.4352 = {
 	type = character_event
 	title = gzj_jun_44
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0578
+		scope:recipient = { guanzhi_jue_grant_xian_0578 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0579
@@ -5802,13 +5784,8 @@ guanzhi.10352 = {
 	}
 
 	option = {
-		name = gzj_xian_0590
-		scope:recipient = { guanzhi_jue_grant_xian_0590 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10353 }
+		trigger_event = { id = guanzhi.4353 }
 	}
 
 	option = {
@@ -5817,9 +5794,33 @@ guanzhi.10352 = {
 	}
 }
 
-guanzhi.10353 = {
+guanzhi.4353 = {
 	type = character_event
 	title = gzj_jun_44
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0590
+		scope:recipient = { guanzhi_jue_grant_xian_0590 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4352 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9216 }
+	}
+}
+
+guanzhi.4360 = {
+	type = character_event
+	title = gzj_jun_45
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -5829,25 +5830,6 @@ guanzhi.10353 = {
 		name = gzj_xian_0591
 		scope:recipient = { guanzhi_jue_grant_xian_0591 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10352 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9216 }
-	}
-}
-
-guanzhi.10360 = {
-	type = character_event
-	title = gzj_jun_45
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0592
@@ -5900,23 +5882,23 @@ guanzhi.10360 = {
 	}
 
 	option = {
-		name = gzj_xian_0602
-		scope:recipient = { guanzhi_jue_grant_xian_0602 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9216 }
 	}
 }
 
-guanzhi.10368 = {
+guanzhi.4368 = {
 	type = character_event
 	title = gzj_jun_46
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0602
+		scope:recipient = { guanzhi_jue_grant_xian_0602 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0603
@@ -5974,23 +5956,23 @@ guanzhi.10368 = {
 	}
 
 	option = {
-		name = gzj_xian_0614
-		scope:recipient = { guanzhi_jue_grant_xian_0614 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9216 }
 	}
 }
 
-guanzhi.10376 = {
+guanzhi.4376 = {
 	type = character_event
 	title = gzj_jun_47
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0614
+		scope:recipient = { guanzhi_jue_grant_xian_0614 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0615
@@ -6048,13 +6030,8 @@ guanzhi.10376 = {
 	}
 
 	option = {
-		name = gzj_xian_0625
-		scope:recipient = { guanzhi_jue_grant_xian_0625 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10377 }
+		trigger_event = { id = guanzhi.4377 }
 	}
 
 	option = {
@@ -6063,9 +6040,33 @@ guanzhi.10376 = {
 	}
 }
 
-guanzhi.10377 = {
+guanzhi.4377 = {
 	type = character_event
 	title = gzj_jun_47
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0625
+		scope:recipient = { guanzhi_jue_grant_xian_0625 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4376 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9216 }
+	}
+}
+
+guanzhi.4384 = {
+	type = character_event
+	title = gzj_jun_48
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -6075,25 +6076,6 @@ guanzhi.10377 = {
 		name = gzj_xian_0626
 		scope:recipient = { guanzhi_jue_grant_xian_0626 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10376 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9216 }
-	}
-}
-
-guanzhi.10384 = {
-	type = character_event
-	title = gzj_jun_48
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0627
@@ -6151,13 +6133,8 @@ guanzhi.10384 = {
 	}
 
 	option = {
-		name = gzj_xian_0638
-		scope:recipient = { guanzhi_jue_grant_xian_0638 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10385 }
+		trigger_event = { id = guanzhi.4385 }
 	}
 
 	option = {
@@ -6166,7 +6143,7 @@ guanzhi.10384 = {
 	}
 }
 
-guanzhi.10385 = {
+guanzhi.4385 = {
 	type = character_event
 	title = gzj_jun_48
 	desc = gzj_pick_xian_desc
@@ -6175,18 +6152,18 @@ guanzhi.10385 = {
 	right_portrait = { character = root }
 
 	option = {
+		name = gzj_xian_0638
+		scope:recipient = { guanzhi_jue_grant_xian_0638 = yes }
+	}
+
+	option = {
 		name = gzj_xian_0639
 		scope:recipient = { guanzhi_jue_grant_xian_0639 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0640
-		scope:recipient = { guanzhi_jue_grant_xian_0640 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10384 }
+		trigger_event = { id = guanzhi.4384 }
 	}
 
 	option = {
@@ -6195,13 +6172,18 @@ guanzhi.10385 = {
 	}
 }
 
-guanzhi.10392 = {
+guanzhi.4392 = {
 	type = character_event
 	title = gzj_jun_49
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0640
+		scope:recipient = { guanzhi_jue_grant_xian_0640 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0641
@@ -6259,13 +6241,8 @@ guanzhi.10392 = {
 	}
 
 	option = {
-		name = gzj_xian_0652
-		scope:recipient = { guanzhi_jue_grant_xian_0652 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10393 }
+		trigger_event = { id = guanzhi.4393 }
 	}
 
 	option = {
@@ -6274,13 +6251,18 @@ guanzhi.10392 = {
 	}
 }
 
-guanzhi.10393 = {
+guanzhi.4393 = {
 	type = character_event
 	title = gzj_jun_49
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0652
+		scope:recipient = { guanzhi_jue_grant_xian_0652 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0653
@@ -6298,13 +6280,8 @@ guanzhi.10393 = {
 	}
 
 	option = {
-		name = gzj_xian_0656
-		scope:recipient = { guanzhi_jue_grant_xian_0656 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10392 }
+		trigger_event = { id = guanzhi.4392 }
 	}
 
 	option = {
@@ -6313,13 +6290,18 @@ guanzhi.10393 = {
 	}
 }
 
-guanzhi.10400 = {
+guanzhi.4400 = {
 	type = character_event
 	title = gzj_jun_50
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0656
+		scope:recipient = { guanzhi_jue_grant_xian_0656 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0657
@@ -6377,13 +6359,8 @@ guanzhi.10400 = {
 	}
 
 	option = {
-		name = gzj_xian_0668
-		scope:recipient = { guanzhi_jue_grant_xian_0668 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10401 }
+		trigger_event = { id = guanzhi.4401 }
 	}
 
 	option = {
@@ -6392,7 +6369,7 @@ guanzhi.10400 = {
 	}
 }
 
-guanzhi.10401 = {
+guanzhi.4401 = {
 	type = character_event
 	title = gzj_jun_50
 	desc = gzj_pick_xian_desc
@@ -6401,18 +6378,18 @@ guanzhi.10401 = {
 	right_portrait = { character = root }
 
 	option = {
+		name = gzj_xian_0668
+		scope:recipient = { guanzhi_jue_grant_xian_0668 = yes }
+	}
+
+	option = {
 		name = gzj_xian_0669
 		scope:recipient = { guanzhi_jue_grant_xian_0669 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0670
-		scope:recipient = { guanzhi_jue_grant_xian_0670 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10400 }
+		trigger_event = { id = guanzhi.4400 }
 	}
 
 	option = {
@@ -6421,13 +6398,18 @@ guanzhi.10401 = {
 	}
 }
 
-guanzhi.10408 = {
+guanzhi.4408 = {
 	type = character_event
 	title = gzj_jun_51
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0670
+		scope:recipient = { guanzhi_jue_grant_xian_0670 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0671
@@ -6485,13 +6467,8 @@ guanzhi.10408 = {
 	}
 
 	option = {
-		name = gzj_xian_0682
-		scope:recipient = { guanzhi_jue_grant_xian_0682 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10409 }
+		trigger_event = { id = guanzhi.4409 }
 	}
 
 	option = {
@@ -6500,13 +6477,18 @@ guanzhi.10408 = {
 	}
 }
 
-guanzhi.10409 = {
+guanzhi.4409 = {
 	type = character_event
 	title = gzj_jun_51
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0682
+		scope:recipient = { guanzhi_jue_grant_xian_0682 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0683
@@ -6519,13 +6501,8 @@ guanzhi.10409 = {
 	}
 
 	option = {
-		name = gzj_xian_0685
-		scope:recipient = { guanzhi_jue_grant_xian_0685 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10408 }
+		trigger_event = { id = guanzhi.4408 }
 	}
 
 	option = {
@@ -6534,13 +6511,18 @@ guanzhi.10409 = {
 	}
 }
 
-guanzhi.10416 = {
+guanzhi.4416 = {
 	type = character_event
 	title = gzj_jun_52
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0685
+		scope:recipient = { guanzhi_jue_grant_xian_0685 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0686
@@ -6598,13 +6580,8 @@ guanzhi.10416 = {
 	}
 
 	option = {
-		name = gzj_xian_0697
-		scope:recipient = { guanzhi_jue_grant_xian_0697 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10417 }
+		trigger_event = { id = guanzhi.4417 }
 	}
 
 	option = {
@@ -6613,9 +6590,33 @@ guanzhi.10416 = {
 	}
 }
 
-guanzhi.10417 = {
+guanzhi.4417 = {
 	type = character_event
 	title = gzj_jun_52
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0697
+		scope:recipient = { guanzhi_jue_grant_xian_0697 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4416 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9217 }
+	}
+}
+
+guanzhi.4424 = {
+	type = character_event
+	title = gzj_jun_53
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -6625,25 +6626,6 @@ guanzhi.10417 = {
 		name = gzj_xian_0698
 		scope:recipient = { guanzhi_jue_grant_xian_0698 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10416 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9217 }
-	}
-}
-
-guanzhi.10424 = {
-	type = character_event
-	title = gzj_jun_53
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0699
@@ -6676,13 +6658,13 @@ guanzhi.10424 = {
 	}
 
 	option = {
-		name = gzj_xian_0355
-		scope:recipient = { guanzhi_jue_grant_xian_0355 = yes }
+		name = gzj_xian_0705
+		scope:recipient = { guanzhi_jue_grant_xian_0705 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0705
-		scope:recipient = { guanzhi_jue_grant_xian_0705 = yes }
+		name = gzj_xian_0355
+		scope:recipient = { guanzhi_jue_grant_xian_0355 = yes }
 	}
 
 	option = {
@@ -6701,13 +6683,8 @@ guanzhi.10424 = {
 	}
 
 	option = {
-		name = gzj_xian_0709
-		scope:recipient = { guanzhi_jue_grant_xian_0709 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10425 }
+		trigger_event = { id = guanzhi.4425 }
 	}
 
 	option = {
@@ -6716,13 +6693,18 @@ guanzhi.10424 = {
 	}
 }
 
-guanzhi.10425 = {
+guanzhi.4425 = {
 	type = character_event
 	title = gzj_jun_53
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0709
+		scope:recipient = { guanzhi_jue_grant_xian_0709 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0710
@@ -6765,13 +6747,8 @@ guanzhi.10425 = {
 	}
 
 	option = {
-		name = gzj_xian_0718
-		scope:recipient = { guanzhi_jue_grant_xian_0718 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10424 }
+		trigger_event = { id = guanzhi.4424 }
 	}
 
 	option = {
@@ -6780,13 +6757,18 @@ guanzhi.10425 = {
 	}
 }
 
-guanzhi.10432 = {
+guanzhi.4432 = {
 	type = character_event
 	title = gzj_jun_54
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0718
+		scope:recipient = { guanzhi_jue_grant_xian_0718 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0719
@@ -6804,13 +6786,13 @@ guanzhi.10432 = {
 	}
 
 	option = {
-		name = gzj_xian_0145
-		scope:recipient = { guanzhi_jue_grant_xian_0145 = yes }
+		name = gzj_xian_0722
+		scope:recipient = { guanzhi_jue_grant_xian_0722 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0722
-		scope:recipient = { guanzhi_jue_grant_xian_0722 = yes }
+		name = gzj_xian_0145
+		scope:recipient = { guanzhi_jue_grant_xian_0145 = yes }
 	}
 
 	option = {
@@ -6829,23 +6811,23 @@ guanzhi.10432 = {
 	}
 
 	option = {
-		name = gzj_xian_0726
-		scope:recipient = { guanzhi_jue_grant_xian_0726 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10440 = {
+guanzhi.4440 = {
 	type = character_event
 	title = gzj_jun_55
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0726
+		scope:recipient = { guanzhi_jue_grant_xian_0726 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0727
@@ -6888,13 +6870,13 @@ guanzhi.10440 = {
 	}
 
 	option = {
-		name = gzj_xian_0713
-		scope:recipient = { guanzhi_jue_grant_xian_0713 = yes }
+		name = gzj_xian_0735
+		scope:recipient = { guanzhi_jue_grant_xian_0735 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0735
-		scope:recipient = { guanzhi_jue_grant_xian_0735 = yes }
+		name = gzj_xian_0714
+		scope:recipient = { guanzhi_jue_grant_xian_0714 = yes }
 	}
 
 	option = {
@@ -6903,13 +6885,8 @@ guanzhi.10440 = {
 	}
 
 	option = {
-		name = gzj_xian_0256
-		scope:recipient = { guanzhi_jue_grant_xian_0256 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10441 }
+		trigger_event = { id = guanzhi.4441 }
 	}
 
 	option = {
@@ -6918,7 +6895,7 @@ guanzhi.10440 = {
 	}
 }
 
-guanzhi.10441 = {
+guanzhi.4441 = {
 	type = character_event
 	title = gzj_jun_55
 	desc = gzj_pick_xian_desc
@@ -6932,13 +6909,13 @@ guanzhi.10441 = {
 	}
 
 	option = {
-		name = gzj_xian_0738
-		scope:recipient = { guanzhi_jue_grant_xian_0738 = yes }
+		name = gzj_xian_0256
+		scope:recipient = { guanzhi_jue_grant_xian_0256 = yes }
 	}
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10440 }
+		trigger_event = { id = guanzhi.4440 }
 	}
 
 	option = {
@@ -6947,13 +6924,18 @@ guanzhi.10441 = {
 	}
 }
 
-guanzhi.10448 = {
+guanzhi.4448 = {
 	type = character_event
 	title = gzj_jun_56
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0738
+		scope:recipient = { guanzhi_jue_grant_xian_0738 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0739
@@ -7001,11 +6983,6 @@ guanzhi.10448 = {
 	}
 
 	option = {
-		name = gzj_xian_0542
-		scope:recipient = { guanzhi_jue_grant_xian_0542 = yes }
-	}
-
-	option = {
 		name = gzj_xian_0748
 		scope:recipient = { guanzhi_jue_grant_xian_0748 = yes }
 	}
@@ -7016,13 +6993,18 @@ guanzhi.10448 = {
 	}
 }
 
-guanzhi.10456 = {
+guanzhi.4456 = {
 	type = character_event
 	title = gzj_jun_57
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0542
+		scope:recipient = { guanzhi_jue_grant_xian_0542 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0749
@@ -7075,23 +7057,23 @@ guanzhi.10456 = {
 	}
 
 	option = {
-		name = gzj_xian_0759
-		scope:recipient = { guanzhi_jue_grant_xian_0759 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10464 = {
+guanzhi.4464 = {
 	type = character_event
 	title = gzj_jun_58
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0759
+		scope:recipient = { guanzhi_jue_grant_xian_0759 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0760
@@ -7134,23 +7116,23 @@ guanzhi.10464 = {
 	}
 
 	option = {
-		name = gzj_xian_0768
-		scope:recipient = { guanzhi_jue_grant_xian_0768 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10472 = {
+guanzhi.4472 = {
 	type = character_event
 	title = gzj_jun_59
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0768
+		scope:recipient = { guanzhi_jue_grant_xian_0768 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0769
@@ -7208,13 +7190,8 @@ guanzhi.10472 = {
 	}
 
 	option = {
-		name = gzj_xian_0780
-		scope:recipient = { guanzhi_jue_grant_xian_0780 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10473 }
+		trigger_event = { id = guanzhi.4473 }
 	}
 
 	option = {
@@ -7223,13 +7200,18 @@ guanzhi.10472 = {
 	}
 }
 
-guanzhi.10473 = {
+guanzhi.4473 = {
 	type = character_event
 	title = gzj_jun_59
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0780
+		scope:recipient = { guanzhi_jue_grant_xian_0780 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0781
@@ -7247,13 +7229,8 @@ guanzhi.10473 = {
 	}
 
 	option = {
-		name = gzj_xian_0784
-		scope:recipient = { guanzhi_jue_grant_xian_0784 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10472 }
+		trigger_event = { id = guanzhi.4472 }
 	}
 
 	option = {
@@ -7262,13 +7239,18 @@ guanzhi.10473 = {
 	}
 }
 
-guanzhi.10480 = {
+guanzhi.4480 = {
 	type = character_event
 	title = gzj_jun_60
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0784
+		scope:recipient = { guanzhi_jue_grant_xian_0784 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0785
@@ -7326,13 +7308,8 @@ guanzhi.10480 = {
 	}
 
 	option = {
-		name = gzj_xian_0796
-		scope:recipient = { guanzhi_jue_grant_xian_0796 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10481 }
+		trigger_event = { id = guanzhi.4481 }
 	}
 
 	option = {
@@ -7341,7 +7318,7 @@ guanzhi.10480 = {
 	}
 }
 
-guanzhi.10481 = {
+guanzhi.4481 = {
 	type = character_event
 	title = gzj_jun_60
 	desc = gzj_pick_xian_desc
@@ -7350,18 +7327,18 @@ guanzhi.10481 = {
 	right_portrait = { character = root }
 
 	option = {
+		name = gzj_xian_0796
+		scope:recipient = { guanzhi_jue_grant_xian_0796 = yes }
+	}
+
+	option = {
 		name = gzj_xian_0797
 		scope:recipient = { guanzhi_jue_grant_xian_0797 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0798
-		scope:recipient = { guanzhi_jue_grant_xian_0798 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10480 }
+		trigger_event = { id = guanzhi.4480 }
 	}
 
 	option = {
@@ -7370,13 +7347,18 @@ guanzhi.10481 = {
 	}
 }
 
-guanzhi.10488 = {
+guanzhi.4488 = {
 	type = character_event
 	title = gzj_jun_61
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0798
+		scope:recipient = { guanzhi_jue_grant_xian_0798 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0799
@@ -7434,13 +7416,8 @@ guanzhi.10488 = {
 	}
 
 	option = {
-		name = gzj_xian_0810
-		scope:recipient = { guanzhi_jue_grant_xian_0810 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10489 }
+		trigger_event = { id = guanzhi.4489 }
 	}
 
 	option = {
@@ -7449,13 +7426,18 @@ guanzhi.10488 = {
 	}
 }
 
-guanzhi.10489 = {
+guanzhi.4489 = {
 	type = character_event
 	title = gzj_jun_61
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0810
+		scope:recipient = { guanzhi_jue_grant_xian_0810 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0811
@@ -7478,13 +7460,8 @@ guanzhi.10489 = {
 	}
 
 	option = {
-		name = gzj_xian_0815
-		scope:recipient = { guanzhi_jue_grant_xian_0815 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10488 }
+		trigger_event = { id = guanzhi.4488 }
 	}
 
 	option = {
@@ -7493,13 +7470,18 @@ guanzhi.10489 = {
 	}
 }
 
-guanzhi.10496 = {
+guanzhi.4496 = {
 	type = character_event
 	title = gzj_jun_62
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0815
+		scope:recipient = { guanzhi_jue_grant_xian_0815 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0816
@@ -7537,23 +7519,23 @@ guanzhi.10496 = {
 	}
 
 	option = {
-		name = gzj_xian_0823
-		scope:recipient = { guanzhi_jue_grant_xian_0823 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10504 = {
+guanzhi.4504 = {
 	type = character_event
 	title = gzj_jun_63
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0823
+		scope:recipient = { guanzhi_jue_grant_xian_0823 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0824
@@ -7566,23 +7548,23 @@ guanzhi.10504 = {
 	}
 
 	option = {
-		name = gzj_xian_0826
-		scope:recipient = { guanzhi_jue_grant_xian_0826 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10512 = {
+guanzhi.4512 = {
 	type = character_event
 	title = gzj_jun_64
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0826
+		scope:recipient = { guanzhi_jue_grant_xian_0826 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0827
@@ -7600,17 +7582,12 @@ guanzhi.10512 = {
 	}
 
 	option = {
-		name = gzj_xian_0830
-		scope:recipient = { guanzhi_jue_grant_xian_0830 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9218 }
 	}
 }
 
-guanzhi.10520 = {
+guanzhi.4520 = {
 	type = character_event
 	title = gzj_jun_65
 	desc = gzj_pick_xian_desc
@@ -7619,13 +7596,13 @@ guanzhi.10520 = {
 	right_portrait = { character = root }
 
 	option = {
-		name = gzj_xian_0831
-		scope:recipient = { guanzhi_jue_grant_xian_0831 = yes }
+		name = gzj_xian_0830
+		scope:recipient = { guanzhi_jue_grant_xian_0830 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0832
-		scope:recipient = { guanzhi_jue_grant_xian_0832 = yes }
+		name = gzj_xian_0831
+		scope:recipient = { guanzhi_jue_grant_xian_0831 = yes }
 	}
 
 	option = {
@@ -7634,13 +7611,18 @@ guanzhi.10520 = {
 	}
 }
 
-guanzhi.10528 = {
+guanzhi.4528 = {
 	type = character_event
 	title = gzj_jun_66
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0832
+		scope:recipient = { guanzhi_jue_grant_xian_0832 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0833
@@ -7693,23 +7675,23 @@ guanzhi.10528 = {
 	}
 
 	option = {
-		name = gzj_xian_0843
-		scope:recipient = { guanzhi_jue_grant_xian_0843 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9219 }
 	}
 }
 
-guanzhi.10536 = {
+guanzhi.4536 = {
 	type = character_event
 	title = gzj_jun_67
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0843
+		scope:recipient = { guanzhi_jue_grant_xian_0843 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0844
@@ -7767,13 +7749,8 @@ guanzhi.10536 = {
 	}
 
 	option = {
-		name = gzj_xian_0855
-		scope:recipient = { guanzhi_jue_grant_xian_0855 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10537 }
+		trigger_event = { id = guanzhi.4537 }
 	}
 
 	option = {
@@ -7782,9 +7759,33 @@ guanzhi.10536 = {
 	}
 }
 
-guanzhi.10537 = {
+guanzhi.4537 = {
 	type = character_event
 	title = gzj_jun_67
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0855
+		scope:recipient = { guanzhi_jue_grant_xian_0855 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4536 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9219 }
+	}
+}
+
+guanzhi.4544 = {
+	type = character_event
+	title = gzj_jun_68
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -7794,25 +7795,6 @@ guanzhi.10537 = {
 		name = gzj_xian_0856
 		scope:recipient = { guanzhi_jue_grant_xian_0856 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10536 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9219 }
-	}
-}
-
-guanzhi.10544 = {
-	type = character_event
-	title = gzj_jun_68
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0857
@@ -7845,23 +7827,23 @@ guanzhi.10544 = {
 	}
 
 	option = {
-		name = gzj_xian_0863
-		scope:recipient = { guanzhi_jue_grant_xian_0863 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9219 }
 	}
 }
 
-guanzhi.10552 = {
+guanzhi.4552 = {
 	type = character_event
 	title = gzj_jun_69
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0863
+		scope:recipient = { guanzhi_jue_grant_xian_0863 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0864
@@ -7909,17 +7891,12 @@ guanzhi.10552 = {
 	}
 
 	option = {
-		name = gzj_xian_0366
-		scope:recipient = { guanzhi_jue_grant_xian_0366 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9219 }
 	}
 }
 
-guanzhi.10560 = {
+guanzhi.4560 = {
 	type = character_event
 	title = gzj_jun_70
 	desc = gzj_pick_xian_desc
@@ -7930,6 +7907,11 @@ guanzhi.10560 = {
 	option = {
 		name = gzj_xian_0873
 		scope:recipient = { guanzhi_jue_grant_xian_0873 = yes }
+	}
+
+	option = {
+		name = gzj_xian_0366
+		scope:recipient = { guanzhi_jue_grant_xian_0366 = yes }
 	}
 
 	option = {
@@ -7963,23 +7945,23 @@ guanzhi.10560 = {
 	}
 
 	option = {
-		name = gzj_xian_0880
-		scope:recipient = { guanzhi_jue_grant_xian_0880 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9219 }
 	}
 }
 
-guanzhi.10568 = {
+guanzhi.4568 = {
 	type = character_event
 	title = gzj_jun_71
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0880
+		scope:recipient = { guanzhi_jue_grant_xian_0880 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0881
@@ -8007,23 +7989,23 @@ guanzhi.10568 = {
 	}
 
 	option = {
-		name = gzj_xian_0886
-		scope:recipient = { guanzhi_jue_grant_xian_0886 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9219 }
 	}
 }
 
-guanzhi.10576 = {
+guanzhi.4576 = {
 	type = character_event
 	title = gzj_jun_72
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_0886
+		scope:recipient = { guanzhi_jue_grant_xian_0886 = yes }
+	}
 
 	option = {
 		name = gzj_xian_0887
@@ -8081,13 +8063,8 @@ guanzhi.10576 = {
 	}
 
 	option = {
-		name = gzj_xian_0898
-		scope:recipient = { guanzhi_jue_grant_xian_0898 = yes }
-	}
-
-	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10577 }
+		trigger_event = { id = guanzhi.4577 }
 	}
 
 	option = {
@@ -8096,7 +8073,7 @@ guanzhi.10576 = {
 	}
 }
 
-guanzhi.10577 = {
+guanzhi.4577 = {
 	type = character_event
 	title = gzj_jun_72
 	desc = gzj_pick_xian_desc
@@ -8105,13 +8082,18 @@ guanzhi.10577 = {
 	right_portrait = { character = root }
 
 	option = {
+		name = gzj_xian_0898
+		scope:recipient = { guanzhi_jue_grant_xian_0898 = yes }
+	}
+
+	option = {
 		name = gzj_xian_0899
 		scope:recipient = { guanzhi_jue_grant_xian_0899 = yes }
 	}
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10576 }
+		trigger_event = { id = guanzhi.4576 }
 	}
 
 	option = {
@@ -8120,7 +8102,7 @@ guanzhi.10577 = {
 	}
 }
 
-guanzhi.10584 = {
+guanzhi.4584 = {
 	type = character_event
 	title = gzj_jun_73
 	desc = gzj_pick_xian_desc
@@ -8174,7 +8156,7 @@ guanzhi.10584 = {
 	}
 }
 
-guanzhi.10592 = {
+guanzhi.4592 = {
 	type = character_event
 	title = gzj_jun_74
 	desc = gzj_pick_xian_desc
@@ -8233,7 +8215,7 @@ guanzhi.10592 = {
 	}
 }
 
-guanzhi.10600 = {
+guanzhi.4600 = {
 	type = character_event
 	title = gzj_jun_75
 	desc = gzj_pick_xian_desc
@@ -8277,7 +8259,7 @@ guanzhi.10600 = {
 	}
 }
 
-guanzhi.10608 = {
+guanzhi.4608 = {
 	type = character_event
 	title = gzj_jun_76
 	desc = gzj_pick_xian_desc
@@ -8286,13 +8268,13 @@ guanzhi.10608 = {
 	right_portrait = { character = root }
 
 	option = {
-		name = gzj_xian_0898
-		scope:recipient = { guanzhi_jue_grant_xian_0898 = yes }
+		name = gzj_xian_0923
+		scope:recipient = { guanzhi_jue_grant_xian_0923 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0923
-		scope:recipient = { guanzhi_jue_grant_xian_0923 = yes }
+		name = gzj_xian_0899
+		scope:recipient = { guanzhi_jue_grant_xian_0899 = yes }
 	}
 
 	option = {
@@ -8306,20 +8288,6 @@ guanzhi.10608 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9219 }
-	}
-}
-
-guanzhi.10616 = {
-	type = character_event
-	title = gzj_jun_77
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0926
 		scope:recipient = { guanzhi_jue_grant_xian_0926 = yes }
 	}
@@ -8330,9 +8298,9 @@ guanzhi.10616 = {
 	}
 }
 
-guanzhi.10624 = {
+guanzhi.4616 = {
 	type = character_event
-	title = gzj_jun_78
+	title = gzj_jun_77
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -8342,6 +8310,20 @@ guanzhi.10624 = {
 		name = gzj_xian_0927
 		scope:recipient = { guanzhi_jue_grant_xian_0927 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9219 }
+	}
+}
+
+guanzhi.4624 = {
+	type = character_event
+	title = gzj_jun_78
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0928
@@ -8389,18 +8371,23 @@ guanzhi.10624 = {
 	}
 
 	option = {
-		name = gzj_xian_0052
-		scope:recipient = { guanzhi_jue_grant_xian_0052 = yes }
-	}
-
-	option = {
 		name = gzj_xian_0937
 		scope:recipient = { guanzhi_jue_grant_xian_0937 = yes }
 	}
 
 	option = {
+		name = gzj_xian_0938
+		scope:recipient = { guanzhi_jue_grant_xian_0938 = yes }
+	}
+
+	option = {
+		name = gzj_xian_0939
+		scope:recipient = { guanzhi_jue_grant_xian_0939 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10625 }
+		trigger_event = { id = guanzhi.4625 }
 	}
 
 	option = {
@@ -8409,7 +8396,7 @@ guanzhi.10624 = {
 	}
 }
 
-guanzhi.10625 = {
+guanzhi.4625 = {
 	type = character_event
 	title = gzj_jun_78
 	desc = gzj_pick_xian_desc
@@ -8418,13 +8405,13 @@ guanzhi.10625 = {
 	right_portrait = { character = root }
 
 	option = {
-		name = gzj_xian_0938
-		scope:recipient = { guanzhi_jue_grant_xian_0938 = yes }
+		name = gzj_xian_0940
+		scope:recipient = { guanzhi_jue_grant_xian_0940 = yes }
 	}
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10624 }
+		trigger_event = { id = guanzhi.4624 }
 	}
 
 	option = {
@@ -8433,23 +8420,13 @@ guanzhi.10625 = {
 	}
 }
 
-guanzhi.10632 = {
+guanzhi.4632 = {
 	type = character_event
 	title = gzj_jun_79
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_0939
-		scope:recipient = { guanzhi_jue_grant_xian_0939 = yes }
-	}
-
-	option = {
-		name = gzj_xian_0940
-		scope:recipient = { guanzhi_jue_grant_xian_0940 = yes }
-	}
 
 	option = {
 		name = gzj_xian_0941
@@ -8502,25 +8479,6 @@ guanzhi.10632 = {
 	}
 
 	option = {
-		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10633 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10633 = {
-	type = character_event
-	title = gzj_jun_79
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0951
 		scope:recipient = { guanzhi_jue_grant_xian_0951 = yes }
 	}
@@ -8529,6 +8487,25 @@ guanzhi.10633 = {
 		name = gzj_xian_0952
 		scope:recipient = { guanzhi_jue_grant_xian_0952 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.4633 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4633 = {
+	type = character_event
+	title = gzj_jun_79
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0953
@@ -8541,25 +8518,6 @@ guanzhi.10633 = {
 	}
 
 	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10632 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10640 = {
-	type = character_event
-	title = gzj_jun_80
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0955
 		scope:recipient = { guanzhi_jue_grant_xian_0955 = yes }
 	}
@@ -8568,6 +8526,25 @@ guanzhi.10640 = {
 		name = gzj_xian_0956
 		scope:recipient = { guanzhi_jue_grant_xian_0956 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4632 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4640 = {
+	type = character_event
+	title = gzj_jun_80
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0957
@@ -8605,25 +8582,6 @@ guanzhi.10640 = {
 	}
 
 	option = {
-		name = gzj_xian_0922
-		scope:recipient = { guanzhi_jue_grant_xian_0922 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10648 = {
-	type = character_event
-	title = gzj_jun_81
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0964
 		scope:recipient = { guanzhi_jue_grant_xian_0964 = yes }
 	}
@@ -8632,6 +8590,25 @@ guanzhi.10648 = {
 		name = gzj_xian_0965
 		scope:recipient = { guanzhi_jue_grant_xian_0965 = yes }
 	}
+
+	option = {
+		name = gzj_xian_0923
+		scope:recipient = { guanzhi_jue_grant_xian_0923 = yes }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4648 = {
+	type = character_event
+	title = gzj_jun_81
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0966
@@ -8684,8 +8661,18 @@ guanzhi.10648 = {
 	}
 
 	option = {
+		name = gzj_xian_0976
+		scope:recipient = { guanzhi_jue_grant_xian_0976 = yes }
+	}
+
+	option = {
+		name = gzj_xian_0977
+		scope:recipient = { guanzhi_jue_grant_xian_0977 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10649 }
+		trigger_event = { id = guanzhi.4649 }
 	}
 
 	option = {
@@ -8694,7 +8681,7 @@ guanzhi.10648 = {
 	}
 }
 
-guanzhi.10649 = {
+guanzhi.4649 = {
 	type = character_event
 	title = gzj_jun_81
 	desc = gzj_pick_xian_desc
@@ -8703,13 +8690,13 @@ guanzhi.10649 = {
 	right_portrait = { character = root }
 
 	option = {
-		name = gzj_xian_0976
-		scope:recipient = { guanzhi_jue_grant_xian_0976 = yes }
+		name = gzj_xian_0978
+		scope:recipient = { guanzhi_jue_grant_xian_0978 = yes }
 	}
 
 	option = {
 		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10648 }
+		trigger_event = { id = guanzhi.4648 }
 	}
 
 	option = {
@@ -8718,23 +8705,13 @@ guanzhi.10649 = {
 	}
 }
 
-guanzhi.10656 = {
+guanzhi.4656 = {
 	type = character_event
 	title = gzj_jun_82
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_0977
-		scope:recipient = { guanzhi_jue_grant_xian_0977 = yes }
-	}
-
-	option = {
-		name = gzj_xian_0978
-		scope:recipient = { guanzhi_jue_grant_xian_0978 = yes }
-	}
 
 	option = {
 		name = gzj_xian_0979
@@ -8777,20 +8754,6 @@ guanzhi.10656 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10664 = {
-	type = character_event
-	title = gzj_jun_83
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0987
 		scope:recipient = { guanzhi_jue_grant_xian_0987 = yes }
 	}
@@ -8799,6 +8762,20 @@ guanzhi.10664 = {
 		name = gzj_xian_0988
 		scope:recipient = { guanzhi_jue_grant_xian_0988 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4664 = {
+	type = character_event
+	title = gzj_jun_83
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_0989
@@ -8846,20 +8823,6 @@ guanzhi.10664 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10672 = {
-	type = character_event
-	title = gzj_jun_84
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_0998
 		scope:recipient = { guanzhi_jue_grant_xian_0998 = yes }
 	}
@@ -8868,6 +8831,20 @@ guanzhi.10672 = {
 		name = gzj_xian_0999
 		scope:recipient = { guanzhi_jue_grant_xian_0999 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4672 = {
+	type = character_event
+	title = gzj_jun_84
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1000
@@ -8885,20 +8862,6 @@ guanzhi.10672 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10680 = {
-	type = character_event
-	title = gzj_jun_85
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1003
 		scope:recipient = { guanzhi_jue_grant_xian_1003 = yes }
 	}
@@ -8907,6 +8870,20 @@ guanzhi.10680 = {
 		name = gzj_xian_1004
 		scope:recipient = { guanzhi_jue_grant_xian_1004 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4680 = {
+	type = character_event
+	title = gzj_jun_85
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1005
@@ -8959,25 +8936,6 @@ guanzhi.10680 = {
 	}
 
 	option = {
-		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10681 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10681 = {
-	type = character_event
-	title = gzj_jun_85
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1015
 		scope:recipient = { guanzhi_jue_grant_xian_1015 = yes }
 	}
@@ -8988,8 +8946,8 @@ guanzhi.10681 = {
 	}
 
 	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10680 }
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.4681 }
 	}
 
 	option = {
@@ -8998,9 +8956,9 @@ guanzhi.10681 = {
 	}
 }
 
-guanzhi.10688 = {
+guanzhi.4681 = {
 	type = character_event
-	title = gzj_jun_86
+	title = gzj_jun_85
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
@@ -9015,6 +8973,25 @@ guanzhi.10688 = {
 		name = gzj_xian_1018
 		scope:recipient = { guanzhi_jue_grant_xian_1018 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4680 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4688 = {
+	type = character_event
+	title = gzj_jun_86
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1019
@@ -9037,20 +9014,6 @@ guanzhi.10688 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9220 }
-	}
-}
-
-guanzhi.10696 = {
-	type = character_event
-	title = gzj_jun_87
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1023
 		scope:recipient = { guanzhi_jue_grant_xian_1023 = yes }
 	}
@@ -9059,6 +9022,20 @@ guanzhi.10696 = {
 		name = gzj_xian_1024
 		scope:recipient = { guanzhi_jue_grant_xian_1024 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9220 }
+	}
+}
+
+guanzhi.4696 = {
+	type = character_event
+	title = gzj_jun_87
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1025
@@ -9086,20 +9063,6 @@ guanzhi.10696 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10704 = {
-	type = character_event
-	title = gzj_jun_88
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1030
 		scope:recipient = { guanzhi_jue_grant_xian_1030 = yes }
 	}
@@ -9108,6 +9071,20 @@ guanzhi.10704 = {
 		name = gzj_xian_1031
 		scope:recipient = { guanzhi_jue_grant_xian_1031 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4704 = {
+	type = character_event
+	title = gzj_jun_88
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1032
@@ -9125,20 +9102,6 @@ guanzhi.10704 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10712 = {
-	type = character_event
-	title = gzj_jun_89
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1035
 		scope:recipient = { guanzhi_jue_grant_xian_1035 = yes }
 	}
@@ -9147,6 +9110,20 @@ guanzhi.10712 = {
 		name = gzj_xian_1036
 		scope:recipient = { guanzhi_jue_grant_xian_1036 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4712 = {
+	type = character_event
+	title = gzj_jun_89
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1037
@@ -9184,6 +9161,11 @@ guanzhi.10712 = {
 	}
 
 	option = {
+		name = gzj_xian_0249
+		scope:recipient = { guanzhi_jue_grant_xian_0249 = yes }
+	}
+
+	option = {
 		name = gzj_xian_1044
 		scope:recipient = { guanzhi_jue_grant_xian_1044 = yes }
 	}
@@ -9194,23 +9176,23 @@ guanzhi.10712 = {
 	}
 
 	option = {
+		name = gzj_xian_1046
+		scope:recipient = { guanzhi_jue_grant_xian_1046 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10720 = {
+guanzhi.4720 = {
 	type = character_event
 	title = gzj_jun_90
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_1046
-		scope:recipient = { guanzhi_jue_grant_xian_1046 = yes }
-	}
 
 	option = {
 		name = gzj_xian_1047
@@ -9248,12 +9230,17 @@ guanzhi.10720 = {
 	}
 
 	option = {
+		name = gzj_xian_1054
+		scope:recipient = { guanzhi_jue_grant_xian_1054 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10728 = {
+guanzhi.4728 = {
 	type = character_event
 	title = gzj_jun_91
 	desc = gzj_pick_xian_desc
@@ -9262,23 +9249,18 @@ guanzhi.10728 = {
 	right_portrait = { character = root }
 
 	option = {
-		name = gzj_xian_1054
-		scope:recipient = { guanzhi_jue_grant_xian_1054 = yes }
-	}
-
-	option = {
 		name = gzj_xian_1055
 		scope:recipient = { guanzhi_jue_grant_xian_1055 = yes }
 	}
 
 	option = {
-		name = gzj_xian_0936
-		scope:recipient = { guanzhi_jue_grant_xian_0936 = yes }
+		name = gzj_xian_1056
+		scope:recipient = { guanzhi_jue_grant_xian_1056 = yes }
 	}
 
 	option = {
-		name = gzj_xian_1056
-		scope:recipient = { guanzhi_jue_grant_xian_1056 = yes }
+		name = gzj_xian_0937
+		scope:recipient = { guanzhi_jue_grant_xian_0937 = yes }
 	}
 
 	option = {
@@ -9307,23 +9289,23 @@ guanzhi.10728 = {
 	}
 
 	option = {
+		name = gzj_xian_1062
+		scope:recipient = { guanzhi_jue_grant_xian_1062 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10736 = {
+guanzhi.4736 = {
 	type = character_event
 	title = gzj_jun_92
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_1062
-		scope:recipient = { guanzhi_jue_grant_xian_1062 = yes }
-	}
 
 	option = {
 		name = gzj_xian_1063
@@ -9341,23 +9323,23 @@ guanzhi.10736 = {
 	}
 
 	option = {
+		name = gzj_xian_1066
+		scope:recipient = { guanzhi_jue_grant_xian_1066 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10744 = {
+guanzhi.4744 = {
 	type = character_event
 	title = gzj_jun_93
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_1066
-		scope:recipient = { guanzhi_jue_grant_xian_1066 = yes }
-	}
 
 	option = {
 		name = gzj_xian_1067
@@ -9380,23 +9362,23 @@ guanzhi.10744 = {
 	}
 
 	option = {
+		name = gzj_xian_1071
+		scope:recipient = { guanzhi_jue_grant_xian_1071 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10752 = {
+guanzhi.4752 = {
 	type = character_event
 	title = gzj_jun_94
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_1071
-		scope:recipient = { guanzhi_jue_grant_xian_1071 = yes }
-	}
 
 	option = {
 		name = gzj_xian_1072
@@ -9449,23 +9431,23 @@ guanzhi.10752 = {
 	}
 
 	option = {
+		name = gzj_xian_1082
+		scope:recipient = { guanzhi_jue_grant_xian_1082 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9221 }
 	}
 }
 
-guanzhi.10760 = {
+guanzhi.4760 = {
 	type = character_event
 	title = gzj_jun_95
 	desc = gzj_pick_xian_desc
 	theme = court
 	left_portrait = { character = scope:recipient }
 	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xian_1082
-		scope:recipient = { guanzhi_jue_grant_xian_1082 = yes }
-	}
 
 	option = {
 		name = gzj_xian_1083
@@ -9483,28 +9465,9 @@ guanzhi.10760 = {
 	}
 
 	option = {
-		name = gzj_xian_1075
-		scope:recipient = { guanzhi_jue_grant_xian_1075 = yes }
-	}
-
-	option = {
 		name = gzj_xian_1086
 		scope:recipient = { guanzhi_jue_grant_xian_1086 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10768 = {
-	type = character_event
-	title = gzj_jun_96
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1087
@@ -9515,6 +9478,20 @@ guanzhi.10768 = {
 		name = gzj_xian_1088
 		scope:recipient = { guanzhi_jue_grant_xian_1088 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4768 = {
+	type = character_event
+	title = gzj_jun_96
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1089
@@ -9567,25 +9544,6 @@ guanzhi.10768 = {
 	}
 
 	option = {
-		name = guanzhi.option.next
-		trigger_event = { id = guanzhi.10769 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10769 = {
-	type = character_event
-	title = gzj_jun_96
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1099
 		scope:recipient = { guanzhi_jue_grant_xian_1099 = yes }
 	}
@@ -9594,6 +9552,25 @@ guanzhi.10769 = {
 		name = gzj_xian_1100
 		scope:recipient = { guanzhi_jue_grant_xian_1100 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.next
+		trigger_event = { id = guanzhi.4769 }
+	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4769 = {
+	type = character_event
+	title = gzj_jun_96
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1101
@@ -9616,25 +9593,6 @@ guanzhi.10769 = {
 	}
 
 	option = {
-		name = guanzhi.option.prev
-		trigger_event = { id = guanzhi.10768 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10776 = {
-	type = character_event
-	title = gzj_jun_97
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1105
 		scope:recipient = { guanzhi_jue_grant_xian_1105 = yes }
 	}
@@ -9645,13 +9603,27 @@ guanzhi.10776 = {
 	}
 
 	option = {
-		name = gzj_xian_1107
-		scope:recipient = { guanzhi_jue_grant_xian_1107 = yes }
+		name = guanzhi.option.prev
+		trigger_event = { id = guanzhi.4768 }
 	}
 
 	option = {
-		name = gzj_xian_1073
-		scope:recipient = { guanzhi_jue_grant_xian_1073 = yes }
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4776 = {
+	type = character_event
+	title = gzj_jun_97
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
+		name = gzj_xian_1107
+		scope:recipient = { guanzhi_jue_grant_xian_1107 = yes }
 	}
 
 	option = {
@@ -9663,20 +9635,6 @@ guanzhi.10776 = {
 		name = gzj_xian_1109
 		scope:recipient = { guanzhi_jue_grant_xian_1109 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9221 }
-	}
-}
-
-guanzhi.10784 = {
-	type = character_event
-	title = gzj_jun_98
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1110
@@ -9692,6 +9650,20 @@ guanzhi.10784 = {
 		name = gzj_xian_1112
 		scope:recipient = { guanzhi_jue_grant_xian_1112 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9221 }
+	}
+}
+
+guanzhi.4784 = {
+	type = character_event
+	title = gzj_jun_98
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1113
@@ -9714,20 +9686,6 @@ guanzhi.10784 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10792 = {
-	type = character_event
-	title = gzj_jun_99
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1117
 		scope:recipient = { guanzhi_jue_grant_xian_1117 = yes }
 	}
@@ -9741,6 +9699,20 @@ guanzhi.10792 = {
 		name = gzj_xian_1119
 		scope:recipient = { guanzhi_jue_grant_xian_1119 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4792 = {
+	type = character_event
+	title = gzj_jun_99
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1120
@@ -9783,20 +9755,6 @@ guanzhi.10792 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10800 = {
-	type = character_event
-	title = gzj_jun_100
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1128
 		scope:recipient = { guanzhi_jue_grant_xian_1128 = yes }
 	}
@@ -9810,6 +9768,20 @@ guanzhi.10800 = {
 		name = gzj_xian_1130
 		scope:recipient = { guanzhi_jue_grant_xian_1130 = yes }
 	}
+
+	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4800 = {
+	type = character_event
+	title = gzj_jun_100
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1131
@@ -9852,20 +9824,6 @@ guanzhi.10800 = {
 	}
 
 	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10808 = {
-	type = character_event
-	title = gzj_jun_101
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
 		name = gzj_xian_1139
 		scope:recipient = { guanzhi_jue_grant_xian_1139 = yes }
 	}
@@ -9881,6 +9839,20 @@ guanzhi.10808 = {
 	}
 
 	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4808 = {
+	type = character_event
+	title = gzj_jun_101
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
 		name = gzj_xian_1142
 		scope:recipient = { guanzhi_jue_grant_xian_1142 = yes }
 	}
@@ -9889,20 +9861,6 @@ guanzhi.10808 = {
 		name = gzj_xian_1143
 		scope:recipient = { guanzhi_jue_grant_xian_1143 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10816 = {
-	type = character_event
-	title = gzj_jun_102
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1144
@@ -9920,6 +9878,20 @@ guanzhi.10816 = {
 	}
 
 	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4816 = {
+	type = character_event
+	title = gzj_jun_102
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
 		name = gzj_xian_1147
 		scope:recipient = { guanzhi_jue_grant_xian_1147 = yes }
 	}
@@ -9927,11 +9899,6 @@ guanzhi.10816 = {
 	option = {
 		name = gzj_xian_1148
 		scope:recipient = { guanzhi_jue_grant_xian_1148 = yes }
-	}
-
-	option = {
-		name = gzj_xian_0442
-		scope:recipient = { guanzhi_jue_grant_xian_0442 = yes }
 	}
 
 	option = {
@@ -9950,6 +9917,11 @@ guanzhi.10816 = {
 	}
 
 	option = {
+		name = gzj_xian_0442
+		scope:recipient = { guanzhi_jue_grant_xian_0442 = yes }
+	}
+
+	option = {
 		name = gzj_xian_1152
 		scope:recipient = { guanzhi_jue_grant_xian_1152 = yes }
 	}
@@ -9963,20 +9935,6 @@ guanzhi.10816 = {
 		name = gzj_xian_1154
 		scope:recipient = { guanzhi_jue_grant_xian_1154 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10824 = {
-	type = character_event
-	title = gzj_jun_103
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1155
@@ -9994,6 +9952,20 @@ guanzhi.10824 = {
 	}
 
 	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4824 = {
+	type = character_event
+	title = gzj_jun_103
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
 		name = gzj_xian_1158
 		scope:recipient = { guanzhi_jue_grant_xian_1158 = yes }
 	}
@@ -10002,20 +9974,6 @@ guanzhi.10824 = {
 		name = gzj_xian_1159
 		scope:recipient = { guanzhi_jue_grant_xian_1159 = yes }
 	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.10832 = {
-	type = character_event
-	title = gzj_jun_104
-	desc = gzj_pick_xian_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
 
 	option = {
 		name = gzj_xian_1160
@@ -10033,6 +9991,20 @@ guanzhi.10832 = {
 	}
 
 	option = {
+		name = guanzhi.option.back
+		trigger_event = { id = guanzhi.9222 }
+	}
+}
+
+guanzhi.4832 = {
+	type = character_event
+	title = gzj_jun_104
+	desc = gzj_pick_xian_desc
+	theme = court
+	left_portrait = { character = scope:recipient }
+	right_portrait = { character = root }
+
+	option = {
 		name = gzj_xian_1163
 		scope:recipient = { guanzhi_jue_grant_xian_1163 = yes }
 	}
@@ -10043,2428 +10015,23 @@ guanzhi.10832 = {
 	}
 
 	option = {
+		name = gzj_xian_1165
+		scope:recipient = { guanzhi_jue_grant_xian_1165 = yes }
+	}
+
+	option = {
+		name = gzj_xian_1166
+		scope:recipient = { guanzhi_jue_grant_xian_1166 = yes }
+	}
+
+	option = {
+		name = gzj_xian_1167
+		scope:recipient = { guanzhi_jue_grant_xian_1167 = yes }
+	}
+
+	option = {
 		name = guanzhi.option.back
 		trigger_event = { id = guanzhi.9222 }
-	}
-}
-
-guanzhi.9300 = {
-	type = character_event
-	title = gzj_pick_zhou_xiang
-	desc = gzj_pick_zhou_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_zhou_0
-		trigger_event = { id = guanzhi.9310 }
-	}
-
-	option = {
-		name = gzj_zhou_1
-		trigger_event = { id = guanzhi.9311 }
-	}
-
-	option = {
-		name = gzj_zhou_2
-		trigger_event = { id = guanzhi.9312 }
-	}
-
-	option = {
-		name = gzj_zhou_3
-		trigger_event = { id = guanzhi.9313 }
-	}
-
-	option = {
-		name = gzj_zhou_4
-		trigger_event = { id = guanzhi.9314 }
-	}
-
-	option = {
-		name = gzj_zhou_5
-		trigger_event = { id = guanzhi.9315 }
-	}
-
-	option = {
-		name = gzj_zhou_6
-		trigger_event = { id = guanzhi.9316 }
-	}
-
-	option = {
-		name = gzj_zhou_7
-		trigger_event = { id = guanzhi.9317 }
-	}
-
-	option = {
-		name = gzj_zhou_11
-		trigger_event = { id = guanzhi.9321 }
-	}
-
-	option = {
-		name = gzj_misc
-		trigger_event = { id = guanzhi.9330 }
-	}
-
-	option = {
-		name = guanzhi.option.cancel
-	}
-}
-
-guanzhi.9310 = {
-	type = character_event
-	title = gzj_zhou_0
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_0
-		trigger_event = { id = guanzhi.11000 }
-	}
-
-	option = {
-		name = gzj_jun_1
-		trigger_event = { id = guanzhi.11001 }
-	}
-
-	option = {
-		name = gzj_jun_2
-		trigger_event = { id = guanzhi.11002 }
-	}
-
-	option = {
-		name = gzj_jun_3
-		trigger_event = { id = guanzhi.11003 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9311 = {
-	type = character_event
-	title = gzj_zhou_1
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_7
-		trigger_event = { id = guanzhi.11005 }
-	}
-
-	option = {
-		name = gzj_jun_8
-		trigger_event = { id = guanzhi.11006 }
-	}
-
-	option = {
-		name = gzj_jun_9
-		trigger_event = { id = guanzhi.11007 }
-	}
-
-	option = {
-		name = gzj_jun_10
-		trigger_event = { id = guanzhi.11008 }
-	}
-
-	option = {
-		name = gzj_jun_11
-		trigger_event = { id = guanzhi.11009 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9312 = {
-	type = character_event
-	title = gzj_zhou_2
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_16
-		trigger_event = { id = guanzhi.11010 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9313 = {
-	type = character_event
-	title = gzj_zhou_3
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_22
-		trigger_event = { id = guanzhi.11011 }
-	}
-
-	option = {
-		name = gzj_jun_23
-		trigger_event = { id = guanzhi.11012 }
-	}
-
-	option = {
-		name = gzj_jun_27
-		trigger_event = { id = guanzhi.11013 }
-	}
-
-	option = {
-		name = gzj_jun_29
-		trigger_event = { id = guanzhi.11014 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9314 = {
-	type = character_event
-	title = gzj_zhou_4
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_30
-		trigger_event = { id = guanzhi.11015 }
-	}
-
-	option = {
-		name = gzj_jun_31
-		trigger_event = { id = guanzhi.11016 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9315 = {
-	type = character_event
-	title = gzj_zhou_5
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_38
-		trigger_event = { id = guanzhi.11017 }
-	}
-
-	option = {
-		name = gzj_jun_39
-		trigger_event = { id = guanzhi.11018 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9316 = {
-	type = character_event
-	title = gzj_zhou_6
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_41
-		trigger_event = { id = guanzhi.11019 }
-	}
-
-	option = {
-		name = gzj_jun_42
-		trigger_event = { id = guanzhi.11020 }
-	}
-
-	option = {
-		name = gzj_jun_43
-		trigger_event = { id = guanzhi.11021 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9317 = {
-	type = character_event
-	title = gzj_zhou_7
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_50
-		trigger_event = { id = guanzhi.11022 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9321 = {
-	type = character_event
-	title = gzj_zhou_11
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_87
-		trigger_event = { id = guanzhi.11023 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.9330 = {
-	type = character_event
-	title = gzj_misc
-	desc = gzj_pick_jun_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0008
-		scope:recipient = { guanzhi_jue_grant_xiang_0008 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0009
-		scope:recipient = { guanzhi_jue_grant_xiang_0009 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0010
-		scope:recipient = { guanzhi_jue_grant_xiang_0010 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0011
-		scope:recipient = { guanzhi_jue_grant_xiang_0011 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0012
-		scope:recipient = { guanzhi_jue_grant_xiang_0012 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0013
-		scope:recipient = { guanzhi_jue_grant_xiang_0013 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0014
-		scope:recipient = { guanzhi_jue_grant_xiang_0014 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0015
-		scope:recipient = { guanzhi_jue_grant_xiang_0015 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0016
-		scope:recipient = { guanzhi_jue_grant_xiang_0016 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0017
-		scope:recipient = { guanzhi_jue_grant_xiang_0017 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9300 }
-	}
-}
-
-guanzhi.11000 = {
-	type = character_event
-	title = gzj_jun_0
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0000
-		scope:recipient = { guanzhi_jue_grant_xiang_0000 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0001
-		scope:recipient = { guanzhi_jue_grant_xiang_0001 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0002
-		scope:recipient = { guanzhi_jue_grant_xiang_0002 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9310 }
-	}
-}
-
-guanzhi.11001 = {
-	type = character_event
-	title = gzj_jun_1
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0003
-		scope:recipient = { guanzhi_jue_grant_xiang_0003 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0004
-		scope:recipient = { guanzhi_jue_grant_xiang_0004 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9310 }
-	}
-}
-
-guanzhi.11002 = {
-	type = character_event
-	title = gzj_jun_2
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0005
-		scope:recipient = { guanzhi_jue_grant_xiang_0005 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9310 }
-	}
-}
-
-guanzhi.11003 = {
-	type = character_event
-	title = gzj_jun_3
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0006
-		scope:recipient = { guanzhi_jue_grant_xiang_0006 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0007
-		scope:recipient = { guanzhi_jue_grant_xiang_0007 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9310 }
-	}
-}
-
-guanzhi.11005 = {
-	type = character_event
-	title = gzj_jun_7
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0018
-		scope:recipient = { guanzhi_jue_grant_xiang_0018 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0019
-		scope:recipient = { guanzhi_jue_grant_xiang_0019 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0020
-		scope:recipient = { guanzhi_jue_grant_xiang_0020 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9311 }
-	}
-}
-
-guanzhi.11006 = {
-	type = character_event
-	title = gzj_jun_8
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0021
-		scope:recipient = { guanzhi_jue_grant_xiang_0021 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0022
-		scope:recipient = { guanzhi_jue_grant_xiang_0022 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9311 }
-	}
-}
-
-guanzhi.11007 = {
-	type = character_event
-	title = gzj_jun_9
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0023
-		scope:recipient = { guanzhi_jue_grant_xiang_0023 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9311 }
-	}
-}
-
-guanzhi.11008 = {
-	type = character_event
-	title = gzj_jun_10
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0024
-		scope:recipient = { guanzhi_jue_grant_xiang_0024 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9311 }
-	}
-}
-
-guanzhi.11009 = {
-	type = character_event
-	title = gzj_jun_11
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0025
-		scope:recipient = { guanzhi_jue_grant_xiang_0025 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9311 }
-	}
-}
-
-guanzhi.11010 = {
-	type = character_event
-	title = gzj_jun_16
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0026
-		scope:recipient = { guanzhi_jue_grant_xiang_0026 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9312 }
-	}
-}
-
-guanzhi.11011 = {
-	type = character_event
-	title = gzj_jun_22
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0027
-		scope:recipient = { guanzhi_jue_grant_xiang_0027 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0028
-		scope:recipient = { guanzhi_jue_grant_xiang_0028 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9313 }
-	}
-}
-
-guanzhi.11012 = {
-	type = character_event
-	title = gzj_jun_23
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0029
-		scope:recipient = { guanzhi_jue_grant_xiang_0029 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0030
-		scope:recipient = { guanzhi_jue_grant_xiang_0030 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9313 }
-	}
-}
-
-guanzhi.11013 = {
-	type = character_event
-	title = gzj_jun_27
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0031
-		scope:recipient = { guanzhi_jue_grant_xiang_0031 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9313 }
-	}
-}
-
-guanzhi.11014 = {
-	type = character_event
-	title = gzj_jun_29
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0032
-		scope:recipient = { guanzhi_jue_grant_xiang_0032 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9313 }
-	}
-}
-
-guanzhi.11015 = {
-	type = character_event
-	title = gzj_jun_30
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0033
-		scope:recipient = { guanzhi_jue_grant_xiang_0033 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0034
-		scope:recipient = { guanzhi_jue_grant_xiang_0034 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9314 }
-	}
-}
-
-guanzhi.11016 = {
-	type = character_event
-	title = gzj_jun_31
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0035
-		scope:recipient = { guanzhi_jue_grant_xiang_0035 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9314 }
-	}
-}
-
-guanzhi.11017 = {
-	type = character_event
-	title = gzj_jun_38
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0036
-		scope:recipient = { guanzhi_jue_grant_xiang_0036 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0037
-		scope:recipient = { guanzhi_jue_grant_xiang_0037 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0038
-		scope:recipient = { guanzhi_jue_grant_xiang_0038 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9315 }
-	}
-}
-
-guanzhi.11018 = {
-	type = character_event
-	title = gzj_jun_39
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0039
-		scope:recipient = { guanzhi_jue_grant_xiang_0039 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9315 }
-	}
-}
-
-guanzhi.11019 = {
-	type = character_event
-	title = gzj_jun_41
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0040
-		scope:recipient = { guanzhi_jue_grant_xiang_0040 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0041
-		scope:recipient = { guanzhi_jue_grant_xiang_0041 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0042
-		scope:recipient = { guanzhi_jue_grant_xiang_0042 = yes }
-	}
-
-	option = {
-		name = gzj_xiang_0043
-		scope:recipient = { guanzhi_jue_grant_xiang_0043 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9316 }
-	}
-}
-
-guanzhi.11020 = {
-	type = character_event
-	title = gzj_jun_42
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0044
-		scope:recipient = { guanzhi_jue_grant_xiang_0044 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9316 }
-	}
-}
-
-guanzhi.11021 = {
-	type = character_event
-	title = gzj_jun_43
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0045
-		scope:recipient = { guanzhi_jue_grant_xiang_0045 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9316 }
-	}
-}
-
-guanzhi.11022 = {
-	type = character_event
-	title = gzj_jun_50
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0046
-		scope:recipient = { guanzhi_jue_grant_xiang_0046 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9317 }
-	}
-}
-
-guanzhi.11023 = {
-	type = character_event
-	title = gzj_jun_87
-	desc = gzj_pick_xiang_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_xiang_0047
-		scope:recipient = { guanzhi_jue_grant_xiang_0047 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9321 }
-	}
-}
-
-guanzhi.9400 = {
-	type = character_event
-	title = gzj_pick_zhou_ting
-	desc = gzj_pick_zhou_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_zhou_0
-		trigger_event = { id = guanzhi.9410 }
-	}
-
-	option = {
-		name = gzj_zhou_1
-		trigger_event = { id = guanzhi.9411 }
-	}
-
-	option = {
-		name = gzj_zhou_2
-		trigger_event = { id = guanzhi.9412 }
-	}
-
-	option = {
-		name = gzj_zhou_3
-		trigger_event = { id = guanzhi.9413 }
-	}
-
-	option = {
-		name = gzj_zhou_4
-		trigger_event = { id = guanzhi.9414 }
-	}
-
-	option = {
-		name = gzj_zhou_5
-		trigger_event = { id = guanzhi.9415 }
-	}
-
-	option = {
-		name = gzj_zhou_6
-		trigger_event = { id = guanzhi.9416 }
-	}
-
-	option = {
-		name = gzj_zhou_9
-		trigger_event = { id = guanzhi.9419 }
-	}
-
-	option = {
-		name = gzj_zhou_10
-		trigger_event = { id = guanzhi.9420 }
-	}
-
-	option = {
-		name = gzj_zhou_11
-		trigger_event = { id = guanzhi.9421 }
-	}
-
-	option = {
-		name = gzj_misc
-		trigger_event = { id = guanzhi.9430 }
-	}
-
-	option = {
-		name = guanzhi.option.cancel
-	}
-}
-
-guanzhi.9410 = {
-	type = character_event
-	title = gzj_zhou_0
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_0
-		trigger_event = { id = guanzhi.12000 }
-	}
-
-	option = {
-		name = gzj_jun_1
-		trigger_event = { id = guanzhi.12001 }
-	}
-
-	option = {
-		name = gzj_jun_2
-		trigger_event = { id = guanzhi.12002 }
-	}
-
-	option = {
-		name = gzj_jun_3
-		trigger_event = { id = guanzhi.12003 }
-	}
-
-	option = {
-		name = gzj_jun_4
-		trigger_event = { id = guanzhi.12004 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9411 = {
-	type = character_event
-	title = gzj_zhou_1
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_7
-		trigger_event = { id = guanzhi.12006 }
-	}
-
-	option = {
-		name = gzj_jun_8
-		trigger_event = { id = guanzhi.12007 }
-	}
-
-	option = {
-		name = gzj_jun_9
-		trigger_event = { id = guanzhi.12008 }
-	}
-
-	option = {
-		name = gzj_jun_10
-		trigger_event = { id = guanzhi.12009 }
-	}
-
-	option = {
-		name = gzj_jun_11
-		trigger_event = { id = guanzhi.12010 }
-	}
-
-	option = {
-		name = gzj_jun_12
-		trigger_event = { id = guanzhi.12011 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9412 = {
-	type = character_event
-	title = gzj_zhou_2
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_13
-		trigger_event = { id = guanzhi.12012 }
-	}
-
-	option = {
-		name = gzj_jun_14
-		trigger_event = { id = guanzhi.12013 }
-	}
-
-	option = {
-		name = gzj_jun_16
-		trigger_event = { id = guanzhi.12014 }
-	}
-
-	option = {
-		name = gzj_jun_17
-		trigger_event = { id = guanzhi.12015 }
-	}
-
-	option = {
-		name = gzj_jun_20
-		trigger_event = { id = guanzhi.12016 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9413 = {
-	type = character_event
-	title = gzj_zhou_3
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_22
-		trigger_event = { id = guanzhi.12017 }
-	}
-
-	option = {
-		name = gzj_jun_23
-		trigger_event = { id = guanzhi.12018 }
-	}
-
-	option = {
-		name = gzj_jun_24
-		trigger_event = { id = guanzhi.12019 }
-	}
-
-	option = {
-		name = gzj_jun_26
-		trigger_event = { id = guanzhi.12020 }
-	}
-
-	option = {
-		name = gzj_jun_27
-		trigger_event = { id = guanzhi.12021 }
-	}
-
-	option = {
-		name = gzj_jun_28
-		trigger_event = { id = guanzhi.12022 }
-	}
-
-	option = {
-		name = gzj_jun_29
-		trigger_event = { id = guanzhi.12023 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9414 = {
-	type = character_event
-	title = gzj_zhou_4
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_30
-		trigger_event = { id = guanzhi.12024 }
-	}
-
-	option = {
-		name = gzj_jun_31
-		trigger_event = { id = guanzhi.12025 }
-	}
-
-	option = {
-		name = gzj_jun_33
-		trigger_event = { id = guanzhi.12026 }
-	}
-
-	option = {
-		name = gzj_jun_34
-		trigger_event = { id = guanzhi.12027 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9415 = {
-	type = character_event
-	title = gzj_zhou_5
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_36
-		trigger_event = { id = guanzhi.12028 }
-	}
-
-	option = {
-		name = gzj_jun_37
-		trigger_event = { id = guanzhi.12029 }
-	}
-
-	option = {
-		name = gzj_jun_38
-		trigger_event = { id = guanzhi.12030 }
-	}
-
-	option = {
-		name = gzj_jun_39
-		trigger_event = { id = guanzhi.12031 }
-	}
-
-	option = {
-		name = gzj_jun_40
-		trigger_event = { id = guanzhi.12032 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9416 = {
-	type = character_event
-	title = gzj_zhou_6
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_41
-		trigger_event = { id = guanzhi.12033 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9419 = {
-	type = character_event
-	title = gzj_zhou_9
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_67
-		trigger_event = { id = guanzhi.12034 }
-	}
-
-	option = {
-		name = gzj_jun_71
-		trigger_event = { id = guanzhi.12035 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9420 = {
-	type = character_event
-	title = gzj_zhou_10
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_78
-		trigger_event = { id = guanzhi.12036 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9421 = {
-	type = character_event
-	title = gzj_zhou_11
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_jun_87
-		trigger_event = { id = guanzhi.12037 }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.9430 = {
-	type = character_event
-	title = gzj_misc
-	desc = gzj_pick_jun_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0022
-		scope:recipient = { guanzhi_jue_grant_ting_0022 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0023
-		scope:recipient = { guanzhi_jue_grant_ting_0023 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0024
-		scope:recipient = { guanzhi_jue_grant_ting_0024 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0025
-		scope:recipient = { guanzhi_jue_grant_ting_0025 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0026
-		scope:recipient = { guanzhi_jue_grant_ting_0026 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0027
-		scope:recipient = { guanzhi_jue_grant_ting_0027 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0028
-		scope:recipient = { guanzhi_jue_grant_ting_0028 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0029
-		scope:recipient = { guanzhi_jue_grant_ting_0029 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0030
-		scope:recipient = { guanzhi_jue_grant_ting_0030 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0031
-		scope:recipient = { guanzhi_jue_grant_ting_0031 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0032
-		scope:recipient = { guanzhi_jue_grant_ting_0032 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0033
-		scope:recipient = { guanzhi_jue_grant_ting_0033 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0034
-		scope:recipient = { guanzhi_jue_grant_ting_0034 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0035
-		scope:recipient = { guanzhi_jue_grant_ting_0035 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0036
-		scope:recipient = { guanzhi_jue_grant_ting_0036 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0037
-		scope:recipient = { guanzhi_jue_grant_ting_0037 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0038
-		scope:recipient = { guanzhi_jue_grant_ting_0038 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0039
-		scope:recipient = { guanzhi_jue_grant_ting_0039 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0040
-		scope:recipient = { guanzhi_jue_grant_ting_0040 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0041
-		scope:recipient = { guanzhi_jue_grant_ting_0041 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0042
-		scope:recipient = { guanzhi_jue_grant_ting_0042 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0043
-		scope:recipient = { guanzhi_jue_grant_ting_0043 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0044
-		scope:recipient = { guanzhi_jue_grant_ting_0044 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0045
-		scope:recipient = { guanzhi_jue_grant_ting_0045 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0046
-		scope:recipient = { guanzhi_jue_grant_ting_0046 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0047
-		scope:recipient = { guanzhi_jue_grant_ting_0047 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0048
-		scope:recipient = { guanzhi_jue_grant_ting_0048 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9400 }
-	}
-}
-
-guanzhi.12000 = {
-	type = character_event
-	title = gzj_jun_0
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0000
-		scope:recipient = { guanzhi_jue_grant_ting_0000 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0001
-		scope:recipient = { guanzhi_jue_grant_ting_0001 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0002
-		scope:recipient = { guanzhi_jue_grant_ting_0002 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0003
-		scope:recipient = { guanzhi_jue_grant_ting_0003 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0004
-		scope:recipient = { guanzhi_jue_grant_ting_0004 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0005
-		scope:recipient = { guanzhi_jue_grant_ting_0005 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0006
-		scope:recipient = { guanzhi_jue_grant_ting_0006 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0007
-		scope:recipient = { guanzhi_jue_grant_ting_0007 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9410 }
-	}
-}
-
-guanzhi.12001 = {
-	type = character_event
-	title = gzj_jun_1
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0008
-		scope:recipient = { guanzhi_jue_grant_ting_0008 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9410 }
-	}
-}
-
-guanzhi.12002 = {
-	type = character_event
-	title = gzj_jun_2
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0009
-		scope:recipient = { guanzhi_jue_grant_ting_0009 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0010
-		scope:recipient = { guanzhi_jue_grant_ting_0010 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0011
-		scope:recipient = { guanzhi_jue_grant_ting_0011 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0012
-		scope:recipient = { guanzhi_jue_grant_ting_0012 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0013
-		scope:recipient = { guanzhi_jue_grant_ting_0013 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0014
-		scope:recipient = { guanzhi_jue_grant_ting_0014 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0015
-		scope:recipient = { guanzhi_jue_grant_ting_0015 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0016
-		scope:recipient = { guanzhi_jue_grant_ting_0016 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9410 }
-	}
-}
-
-guanzhi.12003 = {
-	type = character_event
-	title = gzj_jun_3
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0017
-		scope:recipient = { guanzhi_jue_grant_ting_0017 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9410 }
-	}
-}
-
-guanzhi.12004 = {
-	type = character_event
-	title = gzj_jun_4
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0018
-		scope:recipient = { guanzhi_jue_grant_ting_0018 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0019
-		scope:recipient = { guanzhi_jue_grant_ting_0019 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0020
-		scope:recipient = { guanzhi_jue_grant_ting_0020 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0021
-		scope:recipient = { guanzhi_jue_grant_ting_0021 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9410 }
-	}
-}
-
-guanzhi.12006 = {
-	type = character_event
-	title = gzj_jun_7
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0049
-		scope:recipient = { guanzhi_jue_grant_ting_0049 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0050
-		scope:recipient = { guanzhi_jue_grant_ting_0050 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12007 = {
-	type = character_event
-	title = gzj_jun_8
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0051
-		scope:recipient = { guanzhi_jue_grant_ting_0051 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0052
-		scope:recipient = { guanzhi_jue_grant_ting_0052 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0053
-		scope:recipient = { guanzhi_jue_grant_ting_0053 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0054
-		scope:recipient = { guanzhi_jue_grant_ting_0054 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0055
-		scope:recipient = { guanzhi_jue_grant_ting_0055 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0056
-		scope:recipient = { guanzhi_jue_grant_ting_0056 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0057
-		scope:recipient = { guanzhi_jue_grant_ting_0057 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0058
-		scope:recipient = { guanzhi_jue_grant_ting_0058 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0059
-		scope:recipient = { guanzhi_jue_grant_ting_0059 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0060
-		scope:recipient = { guanzhi_jue_grant_ting_0060 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0061
-		scope:recipient = { guanzhi_jue_grant_ting_0061 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12008 = {
-	type = character_event
-	title = gzj_jun_9
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0062
-		scope:recipient = { guanzhi_jue_grant_ting_0062 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0063
-		scope:recipient = { guanzhi_jue_grant_ting_0063 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0064
-		scope:recipient = { guanzhi_jue_grant_ting_0064 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12009 = {
-	type = character_event
-	title = gzj_jun_10
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0065
-		scope:recipient = { guanzhi_jue_grant_ting_0065 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12010 = {
-	type = character_event
-	title = gzj_jun_11
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0066
-		scope:recipient = { guanzhi_jue_grant_ting_0066 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12011 = {
-	type = character_event
-	title = gzj_jun_12
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0067
-		scope:recipient = { guanzhi_jue_grant_ting_0067 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9411 }
-	}
-}
-
-guanzhi.12012 = {
-	type = character_event
-	title = gzj_jun_13
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0068
-		scope:recipient = { guanzhi_jue_grant_ting_0068 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9412 }
-	}
-}
-
-guanzhi.12013 = {
-	type = character_event
-	title = gzj_jun_14
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0069
-		scope:recipient = { guanzhi_jue_grant_ting_0069 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0070
-		scope:recipient = { guanzhi_jue_grant_ting_0070 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9412 }
-	}
-}
-
-guanzhi.12014 = {
-	type = character_event
-	title = gzj_jun_16
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0071
-		scope:recipient = { guanzhi_jue_grant_ting_0071 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0072
-		scope:recipient = { guanzhi_jue_grant_ting_0072 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9412 }
-	}
-}
-
-guanzhi.12015 = {
-	type = character_event
-	title = gzj_jun_17
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0073
-		scope:recipient = { guanzhi_jue_grant_ting_0073 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9412 }
-	}
-}
-
-guanzhi.12016 = {
-	type = character_event
-	title = gzj_jun_20
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0074
-		scope:recipient = { guanzhi_jue_grant_ting_0074 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9412 }
-	}
-}
-
-guanzhi.12017 = {
-	type = character_event
-	title = gzj_jun_22
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0075
-		scope:recipient = { guanzhi_jue_grant_ting_0075 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0076
-		scope:recipient = { guanzhi_jue_grant_ting_0076 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0077
-		scope:recipient = { guanzhi_jue_grant_ting_0077 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0078
-		scope:recipient = { guanzhi_jue_grant_ting_0078 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0079
-		scope:recipient = { guanzhi_jue_grant_ting_0079 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0080
-		scope:recipient = { guanzhi_jue_grant_ting_0080 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12018 = {
-	type = character_event
-	title = gzj_jun_23
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0081
-		scope:recipient = { guanzhi_jue_grant_ting_0081 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0082
-		scope:recipient = { guanzhi_jue_grant_ting_0082 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0083
-		scope:recipient = { guanzhi_jue_grant_ting_0083 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0084
-		scope:recipient = { guanzhi_jue_grant_ting_0084 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0085
-		scope:recipient = { guanzhi_jue_grant_ting_0085 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12019 = {
-	type = character_event
-	title = gzj_jun_24
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0086
-		scope:recipient = { guanzhi_jue_grant_ting_0086 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0087
-		scope:recipient = { guanzhi_jue_grant_ting_0087 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12020 = {
-	type = character_event
-	title = gzj_jun_26
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0088
-		scope:recipient = { guanzhi_jue_grant_ting_0088 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0089
-		scope:recipient = { guanzhi_jue_grant_ting_0089 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0090
-		scope:recipient = { guanzhi_jue_grant_ting_0090 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12021 = {
-	type = character_event
-	title = gzj_jun_27
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0091
-		scope:recipient = { guanzhi_jue_grant_ting_0091 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12022 = {
-	type = character_event
-	title = gzj_jun_28
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0092
-		scope:recipient = { guanzhi_jue_grant_ting_0092 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0093
-		scope:recipient = { guanzhi_jue_grant_ting_0093 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0094
-		scope:recipient = { guanzhi_jue_grant_ting_0094 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0095
-		scope:recipient = { guanzhi_jue_grant_ting_0095 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0096
-		scope:recipient = { guanzhi_jue_grant_ting_0096 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12023 = {
-	type = character_event
-	title = gzj_jun_29
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0097
-		scope:recipient = { guanzhi_jue_grant_ting_0097 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0098
-		scope:recipient = { guanzhi_jue_grant_ting_0098 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9413 }
-	}
-}
-
-guanzhi.12024 = {
-	type = character_event
-	title = gzj_jun_30
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0099
-		scope:recipient = { guanzhi_jue_grant_ting_0099 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9414 }
-	}
-}
-
-guanzhi.12025 = {
-	type = character_event
-	title = gzj_jun_31
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0100
-		scope:recipient = { guanzhi_jue_grant_ting_0100 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0101
-		scope:recipient = { guanzhi_jue_grant_ting_0101 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0102
-		scope:recipient = { guanzhi_jue_grant_ting_0102 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9414 }
-	}
-}
-
-guanzhi.12026 = {
-	type = character_event
-	title = gzj_jun_33
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0103
-		scope:recipient = { guanzhi_jue_grant_ting_0103 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9414 }
-	}
-}
-
-guanzhi.12027 = {
-	type = character_event
-	title = gzj_jun_34
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0104
-		scope:recipient = { guanzhi_jue_grant_ting_0104 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9414 }
-	}
-}
-
-guanzhi.12028 = {
-	type = character_event
-	title = gzj_jun_36
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0105
-		scope:recipient = { guanzhi_jue_grant_ting_0105 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9415 }
-	}
-}
-
-guanzhi.12029 = {
-	type = character_event
-	title = gzj_jun_37
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0106
-		scope:recipient = { guanzhi_jue_grant_ting_0106 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9415 }
-	}
-}
-
-guanzhi.12030 = {
-	type = character_event
-	title = gzj_jun_38
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0107
-		scope:recipient = { guanzhi_jue_grant_ting_0107 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0108
-		scope:recipient = { guanzhi_jue_grant_ting_0108 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0109
-		scope:recipient = { guanzhi_jue_grant_ting_0109 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0110
-		scope:recipient = { guanzhi_jue_grant_ting_0110 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9415 }
-	}
-}
-
-guanzhi.12031 = {
-	type = character_event
-	title = gzj_jun_39
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0111
-		scope:recipient = { guanzhi_jue_grant_ting_0111 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0112
-		scope:recipient = { guanzhi_jue_grant_ting_0112 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9415 }
-	}
-}
-
-guanzhi.12032 = {
-	type = character_event
-	title = gzj_jun_40
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0113
-		scope:recipient = { guanzhi_jue_grant_ting_0113 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0114
-		scope:recipient = { guanzhi_jue_grant_ting_0114 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9415 }
-	}
-}
-
-guanzhi.12033 = {
-	type = character_event
-	title = gzj_jun_41
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0115
-		scope:recipient = { guanzhi_jue_grant_ting_0115 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0116
-		scope:recipient = { guanzhi_jue_grant_ting_0116 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0117
-		scope:recipient = { guanzhi_jue_grant_ting_0117 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9416 }
-	}
-}
-
-guanzhi.12034 = {
-	type = character_event
-	title = gzj_jun_67
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0118
-		scope:recipient = { guanzhi_jue_grant_ting_0118 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9419 }
-	}
-}
-
-guanzhi.12035 = {
-	type = character_event
-	title = gzj_jun_71
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0119
-		scope:recipient = { guanzhi_jue_grant_ting_0119 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9419 }
-	}
-}
-
-guanzhi.12036 = {
-	type = character_event
-	title = gzj_jun_78
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0120
-		scope:recipient = { guanzhi_jue_grant_ting_0120 = yes }
-	}
-
-	option = {
-		name = gzj_ting_0121
-		scope:recipient = { guanzhi_jue_grant_ting_0121 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9420 }
-	}
-}
-
-guanzhi.12037 = {
-	type = character_event
-	title = gzj_jun_87
-	desc = gzj_pick_ting_desc
-	theme = court
-	left_portrait = { character = scope:recipient }
-	right_portrait = { character = root }
-
-	option = {
-		name = gzj_ting_0122
-		scope:recipient = { guanzhi_jue_grant_ting_0122 = yes }
-	}
-
-	option = {
-		name = guanzhi.option.back
-		trigger_event = { id = guanzhi.9421 }
 	}
 }
 

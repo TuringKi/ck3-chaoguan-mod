@@ -1,0 +1,133 @@
+# Guanzhi 官制 - 剥夺勋官效果 (scope: 被剥夺者)
+guanzhi_clear_xun_effect = {
+	debug_log = "GUANZHI clear xun entered"
+	# 主头衔若是勋官头衔且另有他衔, 先换回普通头衔再销毁(销毁主头衔会失败)
+	if = {
+		limit = {
+			primary_title = { has_variable = guanzhi_is_xun }
+			any_held_title = { NOT = { has_variable = guanzhi_is_xun } }
+		}
+		random_held_title = {
+			limit = { NOT = { has_variable = guanzhi_is_xun } }
+			save_scope_as = guanzhi_old_title
+		}
+		set_primary_title_to = scope:guanzhi_old_title
+	}
+	every_held_title = {
+		limit = { has_variable = guanzhi_is_xun }
+		destroy_title = this
+	}
+	if = {
+		limit = { has_trait = gzx_01 }
+		remove_trait = gzx_01
+	}
+	if = {
+		limit = { has_trait = gzx_02 }
+		remove_trait = gzx_02
+	}
+	if = {
+		limit = { has_trait = gzx_03 }
+		remove_trait = gzx_03
+	}
+	if = {
+		limit = { has_trait = gzx_04 }
+		remove_trait = gzx_04
+	}
+	if = {
+		limit = { has_trait = gzx_05 }
+		remove_trait = gzx_05
+	}
+	if = {
+		limit = { has_trait = gzx_06 }
+		remove_trait = gzx_06
+	}
+	if = {
+		limit = { has_trait = gzx_07 }
+		remove_trait = gzx_07
+	}
+	if = {
+		limit = { has_trait = gzx_08 }
+		remove_trait = gzx_08
+	}
+	if = {
+		limit = { has_trait = gzx_09 }
+		remove_trait = gzx_09
+	}
+	if = {
+		limit = { has_trait = gzx_10 }
+		remove_trait = gzx_10
+	}
+	if = {
+		limit = { has_trait = gzx_11 }
+		remove_trait = gzx_11
+	}
+	if = {
+		limit = { has_trait = gzx_12 }
+		remove_trait = gzx_12
+	}
+	guanzhi_clear_xun_flags_effect = yes
+	guanzhi_fix_titleless_nickname_effect = yes
+	debug_log = "GUANZHI clear xun done"
+}
+
+# Guanzhi 官制 - 清除勋官角色旗标 (scope: 被剥夺者)
+guanzhi_clear_xun_flags_effect = {
+	if = {
+		limit = { has_character_flag = guanzhi_xun_01 }
+		remove_character_flag = guanzhi_xun_01
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_02 }
+		remove_character_flag = guanzhi_xun_02
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_03 }
+		remove_character_flag = guanzhi_xun_03
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_04 }
+		remove_character_flag = guanzhi_xun_04
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_05 }
+		remove_character_flag = guanzhi_xun_05
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_06 }
+		remove_character_flag = guanzhi_xun_06
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_07 }
+		remove_character_flag = guanzhi_xun_07
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_08 }
+		remove_character_flag = guanzhi_xun_08
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_09 }
+		remove_character_flag = guanzhi_xun_09
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_10 }
+		remove_character_flag = guanzhi_xun_10
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_11 }
+		remove_character_flag = guanzhi_xun_11
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xun_12 }
+		remove_character_flag = guanzhi_xun_12
+	}
+	if = {
+		limit = { has_character_flag = guanzhi_xunholder }
+		remove_character_flag = guanzhi_xunholder
+	}
+	# auto 旗标也必须清除: 手动挤掉自动勋阶后, 残留的 auto 旗标会让
+	# 下次同步把手动阶顶回去; 清除后同步视其为手动授予(不动), 离境清理也不波及
+	if = {
+		limit = { has_character_flag = guanzhi_xun_auto }
+		remove_character_flag = guanzhi_xun_auto
+	}
+}

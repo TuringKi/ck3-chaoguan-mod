@@ -8,8 +8,13 @@ on_title_lost = {
 }
 
 # root = the character gaining the office title, scope:title = the office
+# 注意: 不要在这里调 guanzhi_san_sync_office_effect —— 授官效果已直接调
+# 散阶 wrapper; 在头衔变动回调里再授散阶会造成 create_title->on_title_gain
+# ->再授->再变动 的同步递归(实测刷屏 90+ 重复头衔)
 guanzhi_on_title_gain = {
 	effect = {
+		# 获得任何头衔后: 若挂着我们的官爵昵称(无头衔期授予的)则移除, 防与头衔风味双显
+		guanzhi_fix_titleless_nickname_effect = yes
 		if = {
 			limit = { scope:title = { guanzhi_is_office_title_trigger = yes } }
 			add_trait = guanzhi_chaoguan

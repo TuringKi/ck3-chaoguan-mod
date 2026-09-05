@@ -1,0 +1,65 @@
+# Guanzhi 官制 - 散官/勋官/唐爵 头衔印章模板 (授予效果 set_coa 引用)
+
+gzs_coa_wen = { # 散
+	pattern = "pattern_solid.dds"
+	color1 = yellow
+	color2 = black
+	color3 = yellow
+
+	colored_emblem = {
+		color1 = black
+		texture = "ce_gz_san_wen.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+gzs_coa_wu = { # 散
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_san_wu.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+gzx_coa = { # 勳
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_xun.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+gztj_coa = { # 爵
+	pattern = "pattern_solid.dds"
+	color1 = red
+	color2 = white
+	color3 = red
+
+	colored_emblem = {
+		color1 = white
+		texture = "ce_gz_tj.dds"
+		instance = {
+			position = { 0.5 0.5 }
+			scale = { 0.75 0.75 }
+		}
+	}
+}
