@@ -6498,7 +6498,7 @@ guanzhi_grant_office_t_zuowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -6595,7 +6595,7 @@ guanzhi_appoint_office_t_zuowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -6687,7 +6687,7 @@ guanzhi_grant_office_t_youwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -6784,7 +6784,7 @@ guanzhi_appoint_office_t_youwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -6876,7 +6876,7 @@ guanzhi_grant_office_t_zuoxiaowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -6973,7 +6973,7 @@ guanzhi_appoint_office_t_zuoxiaowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7065,7 +7065,7 @@ guanzhi_grant_office_t_youxiaowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7162,7 +7162,7 @@ guanzhi_appoint_office_t_youxiaowei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7254,7 +7254,7 @@ guanzhi_grant_office_t_zuowuwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7351,7 +7351,7 @@ guanzhi_appoint_office_t_zuowuwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7443,7 +7443,7 @@ guanzhi_grant_office_t_youwuwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7540,7 +7540,7 @@ guanzhi_appoint_office_t_youwuwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7632,7 +7632,7 @@ guanzhi_grant_office_t_zuoweiwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7729,7 +7729,7 @@ guanzhi_appoint_office_t_zuoweiwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7821,7 +7821,7 @@ guanzhi_grant_office_t_youweiwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -7918,7 +7918,7 @@ guanzhi_appoint_office_t_youweiwei_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8010,7 +8010,7 @@ guanzhi_grant_office_t_zuolingjun_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8107,7 +8107,7 @@ guanzhi_appoint_office_t_zuolingjun_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8199,7 +8199,7 @@ guanzhi_grant_office_t_youlingjun_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8296,7 +8296,7 @@ guanzhi_appoint_office_t_youlingjun_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8388,7 +8388,7 @@ guanzhi_grant_office_t_zuojinwu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8485,7 +8485,7 @@ guanzhi_appoint_office_t_zuojinwu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8577,7 +8577,7 @@ guanzhi_grant_office_t_youjinwu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8674,7 +8674,7 @@ guanzhi_appoint_office_t_youjinwu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8766,7 +8766,7 @@ guanzhi_grant_office_t_zuojianmen_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8863,7 +8863,7 @@ guanzhi_appoint_office_t_zuojianmen_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -8955,7 +8955,7 @@ guanzhi_grant_office_t_youjianmen_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -9052,7 +9052,7 @@ guanzhi_appoint_office_t_youjianmen_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -9144,7 +9144,7 @@ guanzhi_grant_office_t_zuoqianniu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -9241,7 +9241,7 @@ guanzhi_appoint_office_t_zuoqianniu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -9333,7 +9333,7 @@ guanzhi_grant_office_t_youqianniu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"
@@ -9430,7 +9430,7 @@ guanzhi_appoint_office_t_youqianniu_effect = {
 			name = guanzhi_office_military_title
 			value = scope:new_title
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 		guanzhi_xun_auto_grant_03 = yes
 	}
 	debug_log = "GUANZHI office granted"

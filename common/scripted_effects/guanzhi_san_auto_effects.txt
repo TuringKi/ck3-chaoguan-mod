@@ -145,6 +145,24 @@ guanzhi_san_auto_grant_wen_18 = {
 	}
 }
 
+# 自动授承奉郎 (root=受官者)
+guanzhi_san_auto_grant_wen_24 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wen_24 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wen_24 for [root.GetShortUIName]"
+	}
+}
+
 # 自动授辅国大将军 (root=受官者)
 guanzhi_san_auto_grant_wu_02 = {
 	if = {
@@ -289,6 +307,42 @@ guanzhi_san_auto_grant_wu_30 = {
 	}
 }
 
+# 自动授御侮校尉 (root=受官者)
+guanzhi_san_auto_grant_wu_37 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_37 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_37 for [root.GetShortUIName]"
+	}
+}
+
+# 自动授怀化执戟长上 (root=受官者)
+guanzhi_san_auto_grant_wu_42 = {
+	if = {
+		limit = {
+			exists = liege
+			# 散阶跟人不跟地: 已有散阶(任何来源)一律不动; 调整请手动授予
+			NOT = { guanzhi_has_san_trigger = yes }
+			NOT = { any_held_title = { has_variable = guanzhi_is_san } }
+		}
+		save_scope_as = recipient
+		guanzhi_san_grant_wu_42 = yes
+		add_character_flag = guanzhi_san_auto
+	}
+	else = {
+		debug_log = "GUANZHI san auto SKIP wu_42 for [root.GetShortUIName]"
+	}
+}
+
 # 按官职头衔变量分派散阶 (汉制官职不在映射表中, 自然落空)
 guanzhi_san_sync_office_effect = {
 	if = {
@@ -396,22 +450,24 @@ guanzhi_san_sync_office_effect = {
 				scope:title = { has_variable = guanzhi_office_t_youqianniu }
 			}
 		}
-		guanzhi_san_auto_grant_wu_04 = yes
+		guanzhi_san_auto_grant_wu_02 = yes
 	}
 }
 
-# 按头衔层级授散阶 (military_province 旗标授武散, 否则文散; 蕃将授蕃号; 手动优先由 wrapper 把关)
+# 按与最高领主的相对头衔层级授散阶 (霸权/帝国逐档下调; military_province 旗标授武散, 否则文散; 蕃将授蕃号; 手动优先由 wrapper 把关)
 guanzhi_san_sync_landed_effect = {
 	if = {
 		limit = {
-			highest_held_title_tier >= tier_kingdom
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_empire
 			NOT = { has_trait_with_flag = military_province }
 		}
 		guanzhi_san_auto_grant_wen_02 = yes
 	}
 	if = {
 		limit = {
-			highest_held_title_tier >= tier_kingdom
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_empire
 			has_trait_with_flag = military_province
 			NOT = { OR = {
 				government_has_flag = government_is_tribal
@@ -425,7 +481,8 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
-			highest_held_title_tier >= tier_kingdom
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_empire
 			has_trait_with_flag = military_province
 			OR = {
 				government_has_flag = government_is_tribal
@@ -439,6 +496,197 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_kingdom
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_04 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_kingdom
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_04 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_kingdom
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_06 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_duchy
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_10 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_duchy
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_16 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_duchy
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_18 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_county
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_18 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_county
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_28 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_county
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_30 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_barony
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_24 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_barony
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_37 = yes
+	}
+	if = {
+		limit = {
+			top_liege = { highest_held_title_tier >= tier_hegemony }
+			highest_held_title_tier = tier_barony
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_42 = yes
+	}
+	if = {
+		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
+			highest_held_title_tier = tier_kingdom
+			NOT = { has_trait_with_flag = military_province }
+		}
+		guanzhi_san_auto_grant_wen_02 = yes
+	}
+	if = {
+		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
+			highest_held_title_tier = tier_kingdom
+			has_trait_with_flag = military_province
+			NOT = { OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			} }
+		}
+		guanzhi_san_auto_grant_wu_02 = yes
+	}
+	if = {
+		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
+			highest_held_title_tier = tier_kingdom
+			has_trait_with_flag = military_province
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_clan
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_herder
+				government_has_flag = government_is_wanua
+			}
+		}
+		guanzhi_san_auto_grant_wu_05 = yes
+	}
+	if = {
+		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_duchy
 			NOT = { has_trait_with_flag = military_province }
 		}
@@ -446,6 +694,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_duchy
 			has_trait_with_flag = military_province
 			NOT = { OR = {
@@ -460,6 +709,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_duchy
 			has_trait_with_flag = military_province
 			OR = {
@@ -474,6 +724,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_county
 			NOT = { has_trait_with_flag = military_province }
 		}
@@ -481,6 +732,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_county
 			has_trait_with_flag = military_province
 			NOT = { OR = {
@@ -495,6 +747,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_county
 			has_trait_with_flag = military_province
 			OR = {
@@ -509,6 +762,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_barony
 			NOT = { has_trait_with_flag = military_province }
 		}
@@ -516,6 +770,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_barony
 			has_trait_with_flag = military_province
 			NOT = { OR = {
@@ -530,6 +785,7 @@ guanzhi_san_sync_landed_effect = {
 	}
 	if = {
 		limit = {
+			NOT = { top_liege = { highest_held_title_tier >= tier_hegemony } }
 			highest_held_title_tier = tier_barony
 			has_trait_with_flag = military_province
 			OR = {
